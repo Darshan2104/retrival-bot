@@ -1,0 +1,195 @@
+>>Claudia Toma	00:00
+Sure. Oh, yeah, no problem with it. Yeah, since you're the admin you might have to share the screen just giving a heads up Yeah, of course. I haven't seen the link come through. Did you email it or chat it? Oh, you put it in chatting you bear with me. Yeah, he's in in the chat here You go to share the screen
+
+>>IT Support	01:19
+Sure So I've added company name and default currency a financial year April Claudia or January January
+
+>>Claudia Toma	01:29
+I Stay yesterday January.
+
+>>Claudia Toma	01:44
+Okay.
+
+>>IT Support	01:45
+I assume we're gonna go straight in the book
+
+>>Radheshwar S Modi	01:48
+Yes, you might have not in a pop -up store for me.
+
+>>Claudia Toma	02:36
+Okay.
+
+>>IT Support	02:37
+Does this matter in particular? Is this relevant to your application?
+
+>>Radheshwar S Modi	02:41
+I mean, that's fine. It's up to you Yeah for the sake of testing would play that as easy. Yeah. Yep. We can go ahead and click Next For now, we can go ahead and skip this because I don't think we'll be connecting to any of the Finance apps.
+
+>>Claudia Toma	03:12
+There you go.
+
+>>Radheshwar S Modi	03:13
+If you can click on sources, please the left -hand side browse catalog Yep, you can search for your other apps here.
+
+>>Radheshwar S Modi	03:36
+So you know, what has an admin people? Next Connect
+
+>>Radheshwar S Modi	04:06
+Okay Next So I mean what would the other apps that we were going to connect? Yeah, you can connect to slack Yes
+
+>>IT Support	04:25
+Yeah Good question whether it's this
+
+>>Radheshwar S Modi	04:28
+Or this I'm assuming we can go ahead with slack first right now. That's fine
+
+>>Avirup Banerjee	04:33
+Yeah, then we can proceed to Atlassian.
+
+>>IT Support	04:35
+Maybe we just did that one You know, right
+
+>>Avirup Banerjee	04:39
+Yeah, Okay
+
+>>IT Support	04:59
+I think the other one we're going to do is Adobe, isn't it?
+
+>>Radheshwar S Modi	05:02
+I mean, Adobe, you can connect to V2.
+
+>>IT Support	05:07
+Good question. Should we try it? Yeah.
+
+>>Radheshwar S Modi	05:10
+So, click connect. You need your API key.
+
+>>IT Support	05:15
+This might be the tricky bit. I'm not sure if we've got that set up right now. We can have a look. I think that has to be done through the developer console, doesn't it, for the API key?
+
+>>Radheshwar S Modi	05:29
+Yes.
+
+>>IT Support	05:30
+Yeah, we haven't got that set up yet. I wonder if there's another one we can perhaps do.
+
+>>Radheshwar S Modi	05:41
+Do you have Zoom?
+
+>>IT Support	05:43
+No, we can't use Zoom. Can we do Smartsheet?
+
+>>Claudia Toma	05:50
+Yeah, Smartsheet was on the list anyway.
+
+>>IT Support	05:52
+Can we do Smartsheet?
+
+>>Radheshwar S Modi	05:53
+Yeah, we can do Smartsheet, yeah.
+
+>>Radheshwar S Modi	08:33
+Anthony, I'm assuming you're trying to get the API key?
+
+>>IT Support	08:36
+I am, yeah.
+
+>>Radheshwar S Modi	08:38
+Yeah, let's check.
+
+>>IT Support	12:05
+Smartstreets doesn't seem to want to let me create another API key, which is a bit frustrating.
+
+>>Claudia Toma	12:12
+So are you looking at the account apps and integration and then generate a new access token?
+
+>>IT Support	12:20
+Yes. But if I go generate a new access token, it wants me to upgrade, which it didn't do when I did the last one.
+
+>>IT Support	12:55
+It's a little bit odd. It let me do the last one, but it won't let me do it this time.
+
+>>Radheshwar S Modi	13:00
+I mean, I think it's fine. You can do this offline as well. I mean, everything is pretty straightforward here. I don't think you'll take a lot much of effort to connect to apps. I mean, once you figure it out, you'll be able to do it on your own.
+
+>>IT Support	13:13
+Ok, brilliant. So how many apps are we allowed to connect to this? Because there is a limit.
+
+>>Radheshwar S Modi	13:18
+Yeah. On a Poc, it's usually five. Ok, if you yeah, if you would want to increase them, that's something that we will have to go through an approval to get it done.
+
+>>IT Support	13:27
+No, that's fine. I mean, we just wanted to get a few of the core apps in there. So we've got Workspace here and we've got Atlassian in. We've got Slack on there now. So we'll probably do another one or two then. I suppose the only other thing is the deployment of the agent. We wanted to push that to perhaps Claudia on Ispc to see how well it picks up local applications. So is that just deployed from from where in here? Yeah.
+
+>>Radheshwar S Modi	13:57
+So for that, let's wait until the first thing gets done.
+
+>>IT Support	14:01
+Yeah.
+
+>>Radheshwar S Modi	14:02
+Yeah. And also that I mean, agents is usually not allowed in the Poc. Like I said, I got an approval. I have raised a ticket for us to get it enabled. So allow us some time, but it will be enabled by our next call. We can set up our next call on Monday. By then, all the data will also come through so that we can do a data validation. And then also I will help you install the agents as well. So that shouldn't be an issue.
+
+>>IT Support	14:29
+Yeah, that sounds like a plan. So we'll let that synchronize. Then we'll reconvene on Monday. Sure.
+
+>>Radheshwar S Modi	14:34
+Done. Claudia, I do remember that on your email you mentioned if the agent can be used to discover all the applications. We can do it, but it's something that we don't usually do because you'll start getting a lot of noise.
+
+>>Radheshwar S Modi	14:56
+Your services all your default applications and in the browser you start getting unwanted URLs as well So that's some of the reason why we gatekeep and we don't push all the apps into the UI
+
+>>Claudia Toma	15:10
+So is this only for the Poc setup or that will be for general after that?
+
+>>Radheshwar S Modi	15:17
+I mean, it's up to you, Claudia Yeah, if you want then we'll have to put in a request and get it enabled So for Poc, like you said we can Test the usage for the apps that you want But let's say if you want to track everything then then that would be a totally different effort on production Which will go through an approval the reason being you will get a lot of noise and on the needs review tab You will see thousands of applications because even let's say they go visit a website or a URL that will keep getting recorded
+
+>>Claudia Toma	15:50
+So then in in real life how this is going to work are we going to only deploy the agent on the specific apps that we want to track or It's up to you Claudia, so if you if you're okay with the noise We'll enable it But if you don't want the unwanted information to creep in then we can restrict it to apps and the usage How would you prefer Anthony to this one to be done Which app sorry The agent if you would prefer to have it enabled to pick up everything or We can deploy it to pick up the usage of specific apps I'd like to see both options really I think there's a bit of a benefit
+
+>>IT Support	16:42
+So right we only want to push it to make two maybe three laptops in the organization I don't know. Are we able to to use two different methods? Are we able to have maybe discover everything calm one laptop and targeted on perhaps two others?
+
+>>Radheshwar S Modi	16:57
+I Mean see that's the case right we'll be able to discover everything. It's just that a wheeler I mean Whatever you've discovered on one laptop will work across It's just that if you let us know what you actually want to track then we focus on it And it's a much easier and a faster process that way if it's everything then we need to take time because we'll have to Get that approval and start ingesting data accordingly
+
+>>IT Support	17:22
+Okay, let's target it then Yeah, let's
+
+>>Radheshwar S Modi	17:26
+Yeah target approach would be the best so on Monday You can let us know what are the apps that you would like to target And then we can take it from there Sounds like a plan.
+
+>>IT Support	17:34
+Perfect.
+
+>>Radheshwar S Modi	17:35
+Yep
+
+>>Claudia Toma	17:36
+And are we going to be able to use the platform from Monday onwards or do we yes, Okay fine
+
+>>Radheshwar S Modi	17:44
+Yeah, so once you can use Yeah, exactly.
+
+>>Avirup Banerjee	17:49
+So it takes about 24 hours for the data to connect it and I sent you and Anthony both slack Invites, please join in on the channel. It will be pretty seamless for us to you know coordinate over slack Okay, and will I receive an invite to to the app as well or Yeah, once the you know, the data is synced in what we will do is that we'll get on a call Anthony will send you an invite and you can you will have your own login potentials and you will also be a user
+
+>>Claudia Toma	18:22
+Okay, fine. Okay, then. No, we'll chat more on Monday Perfect.
+
+>>Avirup Banerjee	18:28
+Perfect. Absolutely guys, please join on the slack channel and have a great day Weekend amazing you too.
+
+>>Claudia Toma	18:33
+Thanks.
+
+>>IT Support	18:33
+Okay.
+
+>>Claudia Toma	18:34
+Thank you. Bye Thanks team.
+
+>>Avirup Banerjee	18:36
+Bye
+

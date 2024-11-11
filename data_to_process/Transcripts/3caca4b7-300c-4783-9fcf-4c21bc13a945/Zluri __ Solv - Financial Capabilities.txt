@@ -1,0 +1,393 @@
+>>Jake Frese	00:00
+Hey, y 'all.
+
+>>Jake Tessier	00:00
+Hey, Jake. Good afternoon. Hey, Chris. Hello. I know.
+
+>>Anugraha R	00:08
+Hey, everyone. Happy Friday.
+
+>>Jake Tessier	00:11
+Happy Friday. Well, let's get rocking and rolling here. So, Anu, I'll let you share your screen and we can talk about the contracts piece, the renewals, calendar, and all the other aspects of the financial pieces, Lurie. Sure.
+
+>>Anugraha R	00:33
+We have not mapped any contract. Oh, we have. We have mapped a few. So, I can show you. I think there's a sample contract that I uploaded and then I think you've uploaded something, Jake.
+
+>>Jake Frese	00:44
+Yeah, I tried to, like, enter a contract, but I couldn't, like, get it to associate the year usage correctly. Yeah, I think it's that top option.
+
+>>Anugraha R	00:58
+Yeah, you've done it correctly. So, you've not added the owners, but we can do that now.
+
+>>Jake Frese	01:05
+Okay.
+
+>>Anugraha R	01:06
+So, you can click on edit. I can go back. There are three dots. Just click on edit. Typically, it takes you into the contract itself. You can add your primary owners. I'm just going to say it's going to be you, Jake.
+
+>>Jake Frese	01:19
+Yeah.
+
+>>Anugraha R	01:20
+So, you can add the other owners, like the finance owner, IT owner, the negotiation owner. The terms are correct, right? I can go ahead and click on next. If you have any documents that you want to attach, you can click on add document and attach them here so that it's centralized. You have a central repository here. And right here, you can go ahead and edit on the splits. So, this is the enterprise plus. So, it's 28 .5 per year. Is it per year or per month? I'm not sure if it's per year.
+
+>>Jake Frese	01:51
+So, it's 28 .50 per license.
+
+>>Anugraha R	01:58
+Per license per month, usually. Per year, this is a very, very low quantity.
+
+>>Jake Frese	02:04
+Yeah, no, it's not per year. So, monthly cost is 38 .76. 38 .76, is it? Yeah.
+
+>>Anugraha R	02:14
+Okay, 38 .76, right? So, per month. And do you have 136 in quantity or do you have more?
+
+>>Jake Frese	02:23
+Yeah, there's 136 total. Okay.
+
+>>Anugraha R	02:26
+So, the terms also look correct. So, I'm going to go ahead and click on save. And that's it. You have it all, right? Automatically, the calculation changes based on 38 .76 per month, 136.
+
+>>Jake Frese	02:40
+I think this was my confusion, is that the math doesn't add up when you do it like this. Because the total should only be 46 ,000. 46 ,000?
+
+>>Anugraha R	02:55
+Do you have any discounts in the plan that you have?
+
+>>Jake Frese	03:00
+Any discounts in the contract? Well, it says there's a 5 % discount applied. That's why.
+
+>>Anugraha R	03:07
+So, I go ahead and add a 5%. Let's see how the calculation changes. Now, still, it's only 60.
+
+>>Jake Frese	03:14
+Yeah.
+
+>>Anugraha R	03:14
+There's not much change, I think. Can you share the contract with me, Jake? I would want to take a look at it, see if we are missing something and accordingly have this updated. Because if I use the calculator, it's 136 into 38 .76, right? That's 5 ,271 per month into 12. That's 63. Sorry, 63K. 63 ,256 .32. The numbers are adding up correctly unless you're paying it with water. For example, you only paid four times, then it's only 20K, right? Yeah, I'm just like playing around with the numbers because I'm not sure how it's only 40K, right?
+
+>>Jake Frese	04:06
+Well, it should be 38 .76 a month. Like, I'm sorry, 3 ,876.
+
+>>Anugraha R	04:17
+3 ,876 per month, is it?
+
+>>Jake Frese	04:19
+Per month, yeah.
+
+>>Anugraha R	04:21
+Yeah, so per month, which is divided by 136, 3 ,876.
+
+>>Anugraha R	04:29
+3876 divided by 136. That's 28 .5. Right. Yeah, that's 44 .44 K. Does this number match?
+
+>>Jake Frese	04:45
+Um, it should be 46 512 or 6512.
+
+>>Anugraha R	04:51
+We have a 5 % discount, I can remove that to see if there's yeah, 46 512. Okay.
+
+>>Jake Frese	04:58
+Yeah, there we go.
+
+>>Anugraha R	04:59
+We added a 5 % discount, which which which does not matter here. Right. Right. So now the number looks correct. I can go ahead. Yes. They now it makes sense. Right?
+
+>>Jake Frese	05:12
+Yeah, actually.
+
+>>Anugraha R	05:15
+Awesome. Awesome. So once this is done, you can go ahead set up your reminders right here. So you could have a by default, Lurie sends you a 30 6090 reminder. But if you want to have a 45 day reminder to come to you, right, you can set up like this. Okay.
+
+>>Jake Frese	05:33
+Um, what was I gonna ask you? So, if you could scroll up just a little bit, what I was trying to do was I was trying to get like, total number of licenses used versus total available. Yes. Yeah. Yeah.
+
+>>Anugraha R	05:57
+So that's why I asked you if it was 136. And you said it was 136. But in case your contract says you have 200 licenses, right? You'll have to mention the correct quantity. How much did you procure? Jake?
+
+>>Jake Frese	06:10
+Yes.
+
+>>Anugraha R	06:11
+Quantity, how much is there in your contract?
+
+>>Jake Frese	06:15
+136.
+
+>>Anugraha R	06:16
+That's so which means you've already assigned 136. I don't see any additional licenses at all.
+
+>>Jake Frese	06:25
+Oh, sorry. So you're saying then we're out of licenses?
+
+>>Anugraha R	06:31
+Yeah, you have 136. In your Google Workspace, you don't have any additional licenses to add further. If you have one basics, but if your contract says you have 200 licenses or 150 licenses, we can accordingly make changes here.
+
+>>Jake Frese	06:46
+Yeah, see, that's the thing is it should have. We are not tapped out on Google licensing right now. But we our last contract, which I uploaded in the Slack channel, you should see you can see there's 136 total seats. What I was trying to do was get blurry to report the total used right now versus the total available. Because we're not capacity license wise at the moment.
+
+>>Anugraha R	07:18
+Right, so is Lurie will never know what did you totally procure? What was the total quantity you procure? Right? From the API's, we know that there are licenses assigned and how many of those licenses are assigned. Right? So so that you've mapped this twice. And maybe that's why this is happening. So I think I should move this here. So I'm going to go ahead and merge this.
+
+>>Anugraha R	07:52
+So both were added on the same day. Let us rename one of the contracts only then it will make sense.
+
+>>Anugraha R	08:12
+I just it was added twice. So I'm just making a small change. Jake, okay. Okay, just a quick minute. So like I was saying, we will never know what is the total quantity of licenses you procure, we will always know what is the total quantity of licenses you have. So typically, you have 135 licenses, I think there's only one more that is that is not assigned yet. Am I right?
+
+>>Jake Frese	08:39
+Ah, that I don't know.
+
+>>Anugraha R	08:43
+Does the admin portal not tell you that? Google's admin portal?
+
+>>Jake Frese	08:49
+Hold on, let me let me take a look here. Oh, yeah, no, you're right. So there's 136 total licenses, there's 135 used assigned, right? Yeah, so one available.
+
+>>Anugraha R	09:03
+Okay, let's, let's go ahead make this change here. You have 136. It's 28 .5 per month. And we call this enterprise plus and save and I'm gonna delete this. Okay, why is it's also not from here.
+
+>>Anugraha R	09:25
+Now the numbers should match, I'm going to delete this one, right and click on next. We should just have one contract for now. Yeah. Do you see this? $136 is the total quantity, $135 consumed and $1 unassigned.
+
+>>Jake Frese	09:52
+That's what I was looking at. I was trying to get to this point the whole time, yeah. Yeah.
+
+>>Anugraha R	09:57
+Since we created a new contract separately, we were in and we didn't merge them together. That's why this happened. Now that I've combined them together, you just have one line item of the enterprise plus license, the total quantity, the consumed quantity, and the unassigned. We can also go ahead and create the same contract for another application like Zoom. You have two licenses. You just have to click on add subscription or a contract from here, right here. Basically you can select all the different licenses you want to enter in the same contract. So I just added Pro here. I'd go here and click on add a contract, click on continue the same steps that we did. Zoom here, we're going to make you the primary owner, right? We can give a start date. Do you know the start date for your Zoom contract, Jake?
+
+>>Jake Frese	10:46
+It's probably like October 1st of last year, because it's coming up for renewal pretty soon too. We can just call it that.
+
+>>Anugraha R	10:53
+Okay. Okay. So, okay. Then this, this typically means the contract expired. Yeah. Right. Okay. Yep. So I'm going to go ahead and say the contract ends on October 10th, which is five days from now. Right. I can say cancel by 30 payment terms, right? Attach documents if I have. Now I have both my line items or the SQUs, the basic and the Pro. So basic is usually free. So I'm not going to make any changes. I'm just going to go ahead and save it. Right. And then for the Pro, do you know how much you're paying for the Zoom Pro license?
+
+>>Jake Frese	11:34
+I'll tell you right now. And I know I can switch it later, but Yeah. It's not going to tell me, is it? 1666 per license.
+
+>>Anugraha R	11:51
+1666. That is per year?
+
+>>Jake Frese	11:53
+That's per license.
+
+>>Anugraha R	11:55
+Per license per year or per month?
+
+>>Jake Frese	12:00
+Per month. Per month. Per license per month. Yeah.
+
+>>Anugraha R	12:05
+That's a lot. 16. Oh, is it 16 .66? Yeah.
+
+>>Jake Frese	12:10
+Okay.
+
+>>Anugraha R	12:11
+Because I thought it was like 16K.
+
+>>Jake Frese	12:15
+Oh, that would be pretty crazy. Yeah.
+
+>>Anugraha R	12:19
+Right. Yeah.
+
+>>Jake Frese	12:22
+And there's 105 licenses. 105.
+
+>>Anugraha R	12:26
+Awesome. Right. I'd like to save this. And I hope the numbers add up correctly here. That looks very small. What did I?
+
+>>Jake Frese	12:39
+It doesn't look like the right currency. Yeah. Yeah.
+
+>>Jake Tessier	12:45
+I don't think that's Eu here in the US. Usd. Yeah. All the way at the bottom. Wow. That's a lot of currencies. Yeah.
+
+>>Anugraha R	12:54
+There it is.
+
+>>Jake Tessier	12:56
+Yeah.
+
+>>Anugraha R	12:56
+I don't know. How did the currency change? It's all in dollars here. It's suddenly. Yeah. It changed. But again, I just want to check if the numbers are adding up correctly.
+
+>>Anugraha R	13:14
+It should be 20. I'm not sure why. I think there's a small bug that I'm seeing. It's adding up way less. It's per month. Okay. I see what's wrong. I think the contract period did not get calculated correctly. It's from 2024, October 1st to 2010th of October. Just 10 days. It's taking up just 10 days.
+
+>>Jake Frese	13:41
+No. Yeah. You got to switch that.
+
+>>Anugraha R	13:43
+Yeah. So that's from October 1st of last year.
+
+>>Jake Frese	13:47
+There you go.
+
+>>Anugraha R	13:49
+Now the numbers should add up correctly. Right. Is this your contract value close to the value?
+
+>>Jake Frese	13:56
+It's close enough. Yeah. Okay.
+
+>>Anugraha R	13:59
+You can always come back and make your changes here, Jake, and save it. And once you save it, it will start reflecting here. So you can see all the details. The contract period just have another five days left. And like similarly, you can set up your reminders. Zuri also sends you reminders. And based on these contracts uploaded, you will have a renewal calendar coming up. Right. So just added one. Thank you. Thank you.
+
+>>Anugraha R	14:24
+Take some time to reflect for Zoom, but you already see the renewal for Google Workspace showing up here. It's just a cache. After some time, the other one we deleted will go away and you will see the correct one reflecting.
+
+>>Jake Frese	14:37
+Nice, okay.
+
+>>Anugraha R	14:40
+Any questions on the contract piece, Jake?
+
+>>Jake Frese	14:47
+Is it safe to say that like for Google Workspace, for example, when I add one more inbox to total out our licensing, will Zlery auto -update the capacity? Okay, all right.
+
+>>Anugraha R	15:03
+Yes, it's based on this specific field that's called Discovered On, right?
+
+>>Jake Frese	15:07
+All these users, it's just not discovered on. On 20th September is when we kick -started the Poc, but post that, if you go ahead and add any user, right, you will see that as well.
+
+>>Anugraha R	15:19
+Okay. This specific account, report service account, was discovered on 28th September, whereas Louisa Farber was discovered on 26th.
+
+>>Jake Frese	15:29
+Yeah, okay, that makes sense. All right, cool, yeah. All right, so I was just about there. I think I just had the, I was confused when it came to totaling up the license quantity dollar -wise. So yeah, that wasn't difficult at all.
+
+>>Anugraha R	15:46
+Nice, nice. I also, there's also one other piece that we want to show you, which is the spends. Now we've added the contracts and the reflecting here, the cost of the contract. There's also the other piece called the spends. Right, we have not, do you have a sample that I can upload, Jake? Or do you want me to upload some dummy transactions to give you that visibility?
+
+>>Jake Frese	16:08
+What kind of transaction is it, like a - That spends that you currently have.
+
+>>Anugraha R	16:13
+It could be in your Netsuite, it could be in your, I believe it's in your Paylocity, right?
+
+>>Jake Frese	16:18
+No, Paylocity is HR. So we use ramp .com for expenses, credit cards. And then I believe bill .com for, yeah, the one on the left there.
+
+>>Anugraha R	16:36
+Right, got it.
+
+>>Jake Frese	16:38
+And then bill .com for like big purchases with partners and whatnot, vendors.
+
+>>Anugraha R	16:45
+Yeah, we do not have an existing integration with bill .com, but if you could share an export from that, last six months of your SaaS expenses specifically, we can upload it. So there's a CSV format that you can get, or you can just share the export with me. I can clean it up into the format and push it in. And automatically you will see your SaaS transactions for the current year, right? For this year, if you share last year's spends, you can also see it across years, right? It goes for you to look into the spends. So this gives you an admin perspective of what's happening with respect to spends, and you can compare it with the contracts that you have. And within every application itself, you have this comparison that you can do. So you have the actual spend versus computed cost. So you might have planned to spend 100K, but you might have exceeded to 150K, right? Now, 50K could have been an ad hoc expense that you didn't plan for. You might have had a bunch of interns for whom you had to shed some licenses, or some of the employees left, but you didn't recover licenses and you had to procure more. So this specific page, and you also have a detailed spend section. So it tells you what's happening in your organization from the finance perspective, like how much did you plan to spend and how much are you actually spending?
+
+>>Jake Frese	18:14
+Yeah, this one would be hard to do, I think, without like a bill .com Feed or integration or some sort of type thing, you know, because I don't know, that's cool. I can figure that out later.
+
+>>Anugraha R	18:31
+Yeah, it could even be a monthly export jig, right? After every, you can just share an export with the customer success team because you will have a dedicated onboarding person and post onboarding, you'll have a dedicated account manager as well as a customer success manager, right?
+
+>>Jake Frese	18:48
+So they can work with you and they can help you out with this.
+
+>>Anugraha R	18:52
+So that shouldn't be a problem.
+
+>>Jake Frese	18:54
+Okay, good deal.
+
+>>Anugraha R	18:57
+Any other questions? Because we wanted to have a detailed optimization call to show you how much of like amount you can save based on your utilization pattern.
+
+>>Jake Frese	19:09
+So we want to have that call next, Jake. Yeah, it's hard to say without having like, you know, a handful of other resources added here.
+
+>>Anugraha R	19:20
+For example, like our Adobe account or a Figma.
+
+>>Jake Frese	19:23
+Sigma account, some of these other ones that fluctuate a bit more than like Google Workspace or you know, like 1Password, Zoom, some of them were basically like on yearly agreements. I think if I was to be able to, and I'm not asking to do it, but if I was to be able to connect like five more resources and then configure the costs for those, that's I think where the most benefit would be, but I would agree with you that we will give you a sample of how much you can say with whatever apps you've already connected.
+
+>>Anugraha R	20:04
+You don't have to disconnect Atlassian, I've increased your integration count, which means you can directly connect to linear and dry. So we can do that for the number of apps you've connected so far, but I completely agree the first Qbr that you have with us, you will have a quarterly meeting with the Cs team and by that time you will have all your apps connected based on the catalog. And the first quarterly meeting that you have, they will give you the optimization numbers based on all the apps connected. Now we give you like a quick feel of what Zuluri offers from all the different modules, but later when you come on board with us, you get a full -fledged detailed benefits or detailed ROI every quarter as part of the solution. And we also have the SDK option with respect to build .com, right? So we don't have to worry, there is no integration jig. So the SDK is automatically pull information. You don't have to manually upload these transactions for any other applications as well. If you don't find them in the catalog, SDKs will always come in handy. And I believe we shared with you the SDK documents, Jake, did we? Yep. Okay. So in that case, that's going to be the alternate and our teams will be there to support you to configure them. At the Max, it'll take you two hours, but we will be there in each and every step of it.
+
+>>Jake Frese	21:37
+Okay. So probably a silly question, but is it possible for Zuluri to, like say, if I upload a group Google workspace contract, is it possible for Zuluri to automate all the licensing and number information or is it still, is it just manual for now, but you can attach like a contract as a document?
+
+>>Anugraha R	21:59
+There are two things that we can do. We have a contract concierge team, which means you share all the contracts with us. Our team uploads it automatically, right? You don't have to do anything, the team does it. It's part of the solution that we offer. There's also the contracts AI that's in beta, we can enable it for you. You can upload the contract, it automatically goes through the contract and uploads the details. If there are any line items or anything that the Ai is not able to configure, the team configures it for you. So there's always a two check that happens, like a two time check that happens before the contract is uploaded. Okay.
+
+>>Jake Frese	22:39
+And what was the name of that again?
+
+>>Anugraha R	22:41
+It's the contracts AI. Some companies are okay with the AI, but some companies say, no, we do not want any AI to go through our contracts. So that's the reason why we've not enabled it by default. If somebody asks for it, we go ahead and enable it. Otherwise it's not part of the solution.
+
+>>Jake Frese	23:01
+Yeah, yeah, Yeah. No, I understand that. Okay. Good deal. That's good to know. Yeah.
+
+>>Anugraha R	23:09
+Okay.
+
+>>Jake Frese	23:09
+Very cool. Sure.
+
+>>Anugraha R	23:12
+Jake, so can we have the optimization call sometime next week, like Tuesday? You can share your spends from build .com. If not, I can push some dummy numbers just to give you that visibility on the platform.
+
+>>Jake Frese	23:26
+I don't know if I'll be able to get access to build .com by then. Let's just go with some dummy info. I have my sales pitch to my CTO on Tuesday. Right.
+
+>>Anugraha R	23:39
+Do you want to do it before that, like Monday? Because we'll give you the numbers. We put in a presentation that you could use. Would you want to do it? Yeah. Monday?
+
+>>Jake Frese	23:50
+Let me look at my Monday really quick, actually. Oh boy. Yeah. What time works on Monday? Ideally the afternoon for me, anytime after 1pm Mountain for me. Yeah.
+
+>>Anugraha R	24:17
+Works for me 1pm. Jake, how about you?
+
+>>Jake Frese	24:20
+Chris? Mhm.
+
+>>Jake Frese	24:23
+Is that a yes?
+
+>>Christine Sublett	24:25
+Oh, yeah. Sorry.
+
+>>Jake Frese	24:26
+Okay. It was a yes. Thought it was a hmm?
+
+>>Christine Sublett	24:30
+It was a me!
+
+>>Jake Frese	24:32
+Yeah. It was the end of the week agreement.
+
+>>Jake Tessier	24:36
+That's right. We're all just fighting through these last couple hours and get out. I can't do that, but I'm not vital in that conversation. So, Anu, if you want to schedule that, the invites to Jake and Chris, you guys can go through the optimization summary on that call.
+
+>>Anugraha R	24:56
+Yep.
+
+>>Jake Frese	24:57
+Cool. Done.
+
+>>Jake Tessier	24:58
+All right. Anything else for today, Jake?
+
+>>Jake Frese	25:04
+I don't think so. I'm going to have to do some testing this weekend, which is fine, but I don't think so. I think Anu clarified the putting in, inputting the license numbers for me. So that no longer feels like rocket science. But yeah, no, I think we're in a good spot. I think I'll get the test going, get that chunky data in there on Monday, and then we should be good. Cool. Ready to roll on Tuesday. Yeah. All right.
+
+>>Jake Tessier	25:39
+Awesome. Well, as always, if you have any questions, let us know. Anu, anything else you need?
+
+>>Anugraha R	25:45
+No, no, I'm good. I'm just sharing the invite with all of us. Awesome.
+
+>>Jake Tessier	25:50
+Have a great weekend, everybody. We'll talk next week.
+
+>>Jake Frese	25:53
+Thanks for the time. Enjoy the weekend. Absolutely.
+

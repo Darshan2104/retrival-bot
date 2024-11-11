@@ -1,0 +1,585 @@
+>>Ciaran	00:00
+Hey, Kiran. Hey, Ken. Hey, Ken, you've got a nice background out there. Yeah, a creepy one for the spooky. Yeah, Halloween. For Halloween. I'm going to get me one myself, yeah. You usually have something fancy. Yeah, I found one there. Good stuff.
+
+>>Ken OToole	00:20
+Perfect, perfect. Vinny's just having technical issues. Just helping.
+
+>>Radheshwar S Modi	00:25
+That's fine. Yeah, we're also waiting for one other person from our end, his name is Arun. He's joining us in a couple of minutes. So just to give a brief introduction. So he's joined. So let me just quickly introduce Arun to you. Arun is our head of integrations here at Zuluri. So he's And we also have Shashank who works along with Arun. He's also from the integrations team. So they've together built the Azure on -prem integration. So today's call, hi Arun, thanks for joining in. So let me just quickly set the agenda. Arun, today's call is for us to primarily understand the setup and the infrastructure that we have here at ESW. So Ken and his team will be taking us through. So if you have any questions regarding the on -prem connection, the capabilities, et cetera. So that's the gist of the call today. So anything you want to add, Ken, Kirin?
+
+>>Ken OToole	01:41
+Um, Vinny is getting an error when he's trying to sign in.
+
+>>Avirup Banerjee	01:47
+Um, can you see me okay?
+
+>>Ciaran	01:57
+So I think my connection just dropped.
+
+>>Ken OToole	02:00
+You're there. Sorry. Sorry.
+
+>>Ciaran	02:02
+My apologies. As I said, my connection just dropped. Um, Grant, I think we're just, we're just waiting on Vinny. But if you want, um, Ken, I guess we'll just wait for him.
+
+>>Ken OToole	02:13
+Yeah, we've given him two minutes. He's just saying he's getting email errors.
+
+>>Avirup Banerjee	02:22
+Yeah, that works. Not a problem at all. Also, in case you guys want to share this call, this is also recorded. Yeah.
+
+>>Ken OToole	02:30
+Um, we could probably go without him.
+
+>>Ciaran	02:43
+But if it's recorded, Ken, and then we can just fill him in. Yeah.
+
+>>Ken OToole	02:46
+Okay.
+
+>>Ciaran	02:47
+If that's, it's.
+
+>>Ken OToole	02:49
+Yeah, we can start moving. I'll, I'll answer questions. Yeah.
+
+>>Ciaran	02:53
+Carry on with them, lads. And then he'll join there shortly.
+
+>>Radheshwar S Modi	02:58
+There you go.
+
+>>Ken OToole	03:04
+Yeah.
+
+>>Avirup Banerjee	03:04
+Gene, Vinny is here. Perfect. Okay. Hey, Vinny.
+
+>>Vinny Curley	03:11
+Just unmute if you're speaking.
+
+>>Vinny Curley	03:21
+Hey, Vinny. Go on. How are you, my good friend?
+
+>>Ciaran	03:26
+Yeah, good, good.
+
+>>Ken OToole	03:27
+So quick, quick intro. Uh, Vinny is one of our senior infrastructure engineers. So he knows, um, the inner workings of how our AD, Aad environment works. He'll answer any of the questions.
+
+>>Vinny Curley	03:44
+Um, Any pressure on you there, Vinny? Yeah, it's good. Thanks. Arun, over to you.
+
+>>Radheshwar S Modi	03:56
+Quick introduction again. Arun is our head of integration. So over to you, Arun.
+
+>>Vinny Curley	04:02
+Sure.
+
+>>Arunkumar Mohan	04:03
+Thanks, Ravi. Hi, Vinny. Uh, Vinny, before we start, right. Can you just give us an overview of, uh, uh, the on -prem AD setup that we have?
+
+>>Vinny Curley	04:14
+Yeah, sure. Um, so we have a classic hybrid environment and we have an on -premise active directory called etherworld .com. We have two subdomains, uh, coming off that, um, our production subdomain and our dev subdomain. Um, we then, uh, we don't have any computers in that, in on AD. We only store users, um, sorry, users, groups, uh, and servers. There's no actual endpoints or Windows laptops. Um, that's then connected to Azure AD, uh, via Ad Connect. Um, we sync everything in our, our, our,
+
+>>Vinny Curley	04:58
+Our main domain, Eshopworld .com, is synced to Aad, and we sync some computer OUs in the other domains in dev and production for specific reasons, because we need to have them hyperjoined to Azure AD in order to target them with specific policies and Windows Defender and stuff. So that's pretty much it. Okay. Got it. Got it.
+
+>>Arunkumar Mohan	05:30
+And so it's basically two subdomains is what you would have, right?
+
+>>Vinny Curley	05:36
+Yes. We have one forest, one domain and two subdomains. Yeah. Sorry, Ken.
+
+>>Ken OToole	05:40
+We don't need to scan the subdomains, so we're only concentrating on our primary forest. So for the purpose of this exercise, you can note that we have two subdomains there, but we don't need to worry about anything that's inside them.
+
+>>Vinny Curley	05:57
+Okay.
+
+>>Arunkumar Mohan	05:57
+Got it. And what is the version of Windows that it's running on?
+
+>>Ken OToole	06:02
+We're all running on server 2022.
+
+>>Arunkumar Mohan	06:05
+Server 2022. Okay.
+
+>>Ken OToole	06:07
+But our forest level is 2016, is it? 2016.
+
+>>Vinny Curley	06:12
+The functional domain level is 16. Okay. Perfect.
+
+>>Arunkumar Mohan	06:20
+Rati, one question to you. So basically with this AD, right, what is the exact use case here? On the load, yeah.
+
+>>Radheshwar S Modi	06:32
+Understood. So, I mean, Avi can add in more, but the, I mean, we've given an overall demo as well. The reason why they're actually looking for the AD right now is to make sure that the user data is synced and correct because their Azure AD does not give that information. I mean, Avi, in case if you want to add anything else.
+
+>>Ken OToole	06:53
+So all...
+
+>>Vinny Curley	06:53
+Yeah.
+
+>>Avirup Banerjee	06:53
+I mean, Yeah, please Ken.
+
+>>Ken OToole	06:55
+Please go ahead. So when you sign in, we have passed through authentication through Aad into AD and one of the domain controllers on the AD will sign you in and give you your token and your session token comes from AD, not from Aad.
+
+>>Vinny Curley	07:14
+Understood.
+
+>>Radheshwar S Modi	07:15
+Arun, also to give you context on Zuluri, it's mainly for cost optimization and I mean, SMP is the main use case here.
+
+>>Vinny Curley	07:25
+Okay.
+
+>>Avirup Banerjee	07:26
+Right. Right. Possibly identifying redundant applications, cost optimization. Correct me if I'm wrong, Ken, Kiran.
+
+>>Vinny Curley	07:37
+Yeah.
+
+>>Ken OToole	07:37
+It's cost optimization here is the pure focus exercise.
+
+>>Arunkumar Mohan	07:43
+Cool. And what is the approximate user count that we have on this one from AD server?
+
+>>Vinny Curley	07:50
+900.
+
+>>Arunkumar Mohan	07:52
+Both active and inactive users put together or it's only... I didn't quite catch that.
+
+>>Vinny Curley	07:59
+Sorry? I didn't quite catch that. Could you say that again?
+
+>>Arunkumar Mohan	08:03
+Is it a combination of both active and inactive users or 900 count or is it only...
+
+>>Vinny Curley	08:07
+No, the active account would be 9, Ken.
+
+>>Ken OToole	08:12
+Possibly a little bit higher with consultants. But yeah, it's probably hovering around active accounts, probably hovering around the thousands. There is a lot more disabled accounts. So when a user leaves, we don't delete their account. We move to a disabled Ou and the account is left there.
+
+>>Arunkumar Mohan	08:32
+Got it. So, but still, Zuluri can ideally fetch. Okay. So before moving there, right? What we ideally do is we sort of fetch the users and groups information from Ad. On from AD. So these are the two data points that we fetch right now. So irrespective of whether a user's account is active or inactive, we ideally go and fetch these details. Okay. We also have an option where you can specify, is there any custom fields that you guys have configured on users and groups? That's something that you want Zuluri to pull in. So that configuration is also available with us.
+
+>>Ken OToole	09:11
+We do have a number of custom fields, but I don't see any reason to pull them. Can you clear on?
+
+>>Ciaran	09:19
+I don't think so. One of them is this start date.
+
+>>Arunkumar Mohan	09:21
+I don't know.
+
+>>Ciaran	09:24
+Maybe, but for now, I would say no.
+
+>>Radheshwar S Modi	09:30
+So it would be ideally the user detail and the actual status from Ad, just to ensure that everything is accurate. I mean, the user employment status is coming in accurately from Azure. Yeah.
+
+>>Ken OToole	09:45
+If we have a user in the disabled Ou, they shouldn't have any licenses associated with them. So it would be beneficial if there was no additional cost.
+
+>>Ken OToole	09:57
+Scan and find out if there was a license associated. But as far as I know, we'd be confident. Now, we could have missed a few because it's a manual process, but all of the users that are disabled should have no licenses.
+
+>>Vinny Curley	10:10
+Understood, Ken.
+
+>>Radheshwar S Modi	10:11
+So this is a question I'm taking internally. Arun, so if, I mean, all the license information either ways comes from Azure, the Sas version, right?
+
+>>Arunkumar Mohan	10:23
+Azure Admin.
+
+>>Radheshwar S Modi	10:24
+Correct. Yeah, so we can keep the source of truth of the employment status on the Azure on -prem and still compare the license content information against The Azure Admin, right? That should be fine. Yeah. Yeah, so in this case, Ken, so what we'll be doing is the employment status will be coming in from on -prem, but the license information, whatever the pool will be coming in from directly from the applications and also Azure Admin in this case.
+
+>>Ken OToole	10:58
+Yeah, okay, yeah.
+
+>>Radheshwar S Modi	11:05
+Understood, so Arun, do we have any other questions in understanding the infrastructure for us? Because the next steps from here would be proposing a timeline when we would be able to connect, I mean, set up a POC. I did mention to Ken and team that, you know, this might take some effort from our end and data validation, et cetera. So, I mean, we can discuss this internally, but if you have any other questions regarding the infrastructure, we can - Just one last question.
+
+>>Arunkumar Mohan	11:35
+So, basically for the Poc part, would you be connecting the production instance or do we have a sandbox instance that we can connect?
+
+>>Ken OToole	11:43
+We don't have a sandbox environment, sandbox AD environment.
+
+>>Vinny Curley	11:47
+No, got it, sure.
+
+>>Ken OToole	11:53
+But this is purely read -only, is it? There's no writing?
+
+>>Arunkumar Mohan	11:59
+It's purely read -only. There's no writing for now, yes.
+
+>>Ken OToole	12:02
+Okay, so there's no risk involved.
+
+>>Arunkumar Mohan	12:05
+Yeah, yeah, correct. But we would ideally recommend if there is a sandbox available, let's connect the sandbox first and then move on to the production instance. But no worries, it should be fine.
+
+>>Ken OToole	12:16
+If you needed to test, we could spin up an offline AD and you could scan that. It'd be a bit of work for us, but it's something we could do if you wanted to. But if there's no risk involved and it's read -only, then that's it.
+
+>>Vinny Curley	12:36
+If it's purely read -only, then I don't see the need for that, yeah.
+
+>>Arunkumar Mohan	12:42
+Sure, no, it's purely read -only, so it shouldn't be an issue here. That's fine. So, Rajeev, what we can do is we can share the documentation on how they can go about connecting to this AD and also the configurations that they need to set up.
+
+>>Vinny Curley	13:00
+Understood.
+
+>>Radheshwar S Modi	13:01
+Sure, Arun, I think we can discuss this as well, and maybe give them, I mean, I'll share the documentations as well. Arun, just a question for me from my end. Would we need to connect The Azure Ad first and to the instance, or would you recommend us connecting to the online Azure and then the rest of the apps and then connect this at the end?
+
+>>Arunkumar Mohan	13:24
+No, the order doesn't matter, but let's connect to the Saas ones first And then we can connect to those in the end, yeah.
+
+>>Vinny Curley	13:32
+Sure, Arun, so - What's involved with connecting to our on -premise AD?
+
+>>Arunkumar Mohan	13:38
+Sorry, Arun, I didn't get you.
+
+>>Vinny Curley	13:40
+Yeah, what's involved in connecting to our on -premise Active Directory?
+
+>>Arunkumar Mohan	13:45
+Correct, so there is a sequence of steps. I'll just walk you through the steps now. Once and also in the end, we will share a documentation on how do we go about doing this. Just sharing my screen.
+
+>>Avirup Banerjee	14:00
+Meanwhile, while the screen is being up, Ken, Kiran, just wanted to know that we can also schedule a call next week so that we can connect the cloud version of AD as well as the rest of the application so that at least your instance is up and we can start seeing some results in the pilot. What do you reckon?
+
+>>Ciaran	14:18
+Okay, sounds good, yeah, It's for us.
+
+>>Arunkumar Mohan	14:22
+Okay, so basically it's basically a five -step process including an installation, right? So if you look at it, I think we need to have an AD server up and running, a network access, and then administrative permissions for us to read the data. And then there is a configuration file that we would share it with you. This configuration file contains a list of parameters. Let me just go below with respect to this. This is how ideally a configuration file would look like. Couple of information which you don't have to worry about. It's something that Lurie will provide to you
+
+>>Arunkumar Mohan	14:56
+And the Cron schedule is something that we need to take. This is nothing but how often do you want as Lurie to pull the data from your on -prem meeting.
+
+>>Vinny Curley	15:05
+Could I stop you for a very quick second? Apologies. Can you go back up to the top, please? Just a pre -requisite, the third point there, permissions. Do you need a global administrator and account service account for this?
+
+>>Arunkumar Mohan	15:24
+Yeah, there are two options. If a service account is available, if a service account is not available, you can provide us the username and password as a part of the config file.
+
+>>Vinny Curley	15:34
+Ok, we'll need to get that approved, Ken.
+
+>>Ken OToole	15:37
+Yeah.
+
+>>Ciaran	15:38
+I think I said read and write there, though, didn't I? For the permissions. Permissions will be installed in Sbc to read and write to The Active Directory. So I think that's pretty important to flag.
+
+>>Ken OToole	15:49
+Yeah, pre -requisites, the third point there is read and write.
+
+>>Ciaran	15:55
+So you do need write to The Active Directory, then?
+
+>>Arunkumar Mohan	16:01
+Write, not right now, but if you're planning to take any actions on Active Directory. Let's say if you want to add a user on Active Directory to Lurie.
+
+>>Ciaran	16:08
+Yeah, or to remove a user from a group or something like that.
+
+>>Vinny Curley	16:12
+Yeah, but for the sake of the talk, we'll just create an account with read. It's a valid point here. Yeah, that's fine. Go ahead.
+
+>>Ciaran	16:22
+Thanks.
+
+>>Vinny Curley	16:22
+Sure.
+
+>>Arunkumar Mohan	16:23
+So now, it depends on either you have a service account or not. This example 1 and example 2 basically means that if you don't have a service account, all it changes is you need to give a username and password here. If not, it will automatically pick. That's the example 1. And the one point to notice, the Cron schedule. Ideally, what frequency do you want Lurie to pull in the data from AD? So this ideally means once in every 15 minutes, Lurie will pull the data.
+
+>>Vinny Curley	16:52
+I presume it's going to be, this is all straightforward. I presume there's a connector that needs to be installed on the domain controller?
+
+>>Arunkumar Mohan	17:00
+Yes.
+
+>>Vinny Curley	17:01
+Ok, can you hop down to that and just let's have a quick look?
+
+>>Arunkumar Mohan	17:08
+Sure, and apart from this, you also have options in the sense, do you want us to fetch any specific groups? If you don't specify, if you don't include this, we sort of go and query all groups, pull in all groups. So as you can have an option to specify this. Along with this, you also have an option to specify any custom fields that you would want us to pull in. Let's say telephone number or anything else that you guys have configured from your end. So this is mostly the configuration that we would share it with you. So basically, the steps looks pretty simple here. All we have to do is create a new folder and paste in this configuration file, and then we'll give you an exe file for you to run.
+
+>>Vinny Curley	17:52
+Ok, the data that you guys are going to soak up from our AD and Aad, where is that stored? That's stored with you guys in your cloud?
+
+>>Arunkumar Mohan	18:05
+The data that we are fetching, yes. The data that we are fetching is stored in our cloud, and it's also available inside this folder, and it will be persisted for 24 hours.
+
+>>Vinny Curley	18:14
+Ok, and what happens after the Poc on the data?
+
+>>Arunkumar Mohan	18:18
+Sorry, I didn't hear you. What happens?
+
+>>Vinny Curley	18:20
+What happens after the Poc is complete? What happens to the data that you soaked up?
+
+>>Arunkumar Mohan	18:25
+Ok, so what we do in our end is once the data is stored in our S3 bucket, it gets auto -purged to once in every seven days. So once the data is processed, it stays in our system for seven days, and after that, it gets deleted. Whereas the data that's stored in Lurie Ad gets removed, that is inside your instance, gets removed once in 24 hours.
+
+>>Vinny Curley	18:51
+Ok, that's fine.
+
+>>Arunkumar Mohan	18:55
+Cool. On the whole, this is how it looks like just to give an example, right? So this is one of the instances where you add. Sorry, Rajeev, are you telling something?
+
+>>Radheshwar S Modi	19:12
+No, I'm sorry. I think we're on mute.
+
+>>Arunkumar Mohan	19:17
+So this is how sort of inside your program data, your Lurie Ad looks like. And then you have something called the archives wherein we store in the users and groups that we actually fetch from here. So here, if you look at it, the Cron runs every one minute. So that's why you're seeing a lot of folders. And this is a sample data that we already have in our system wherein this is basically user information with respect to email address, login name, and member of what all groups, and so on. So all this information is being fetched. Similarly, you have group -related information here.
+
+>>Vinny Curley	19:55
+What kind of encryption is used when you're extracting the data?
+
+>>Arunkumar Mohan	20:02
+So ideally, what happens is it's ideally pushed through an S3 bucket where we sort of use the AWS SDK to do that, to push the data to our S3 server. And then in our S3 bucket, we sort of have a gamers key set up. So one, your data cannot be accessed by anybody else.
+
+>>Ken OToole	20:25
+Yeah, you can see it in the JSON file there, Vinny. It looks like there's a secret. So it's
+
+>>Vinny Curley	20:29
+A - Yeah, so it's using Amazon kind of key vault. Yeah. Cool. This is ideally the vault key, yes. I presume that folder can't really grow too large because it gets deleted every day, isn't it?
+
+>>Arunkumar Mohan	20:43
+No, this is, again, a configuration that you can set up as a part of this config by when would you want to delete this data. It should ideally be a higher number than the Cron schedule.
+
+>>Vinny Curley	20:53
+Yeah, no, I got you. I got you. Yeah, it's not going to be a large amount of data. I'd just be worried about some of the domain controllers have not a ton of space.
+
+>>Arunkumar Mohan	21:03
+Cool, apart from this, we also store logs, which gets pushed to our system on an hourly basis. And this gets deleted. Again, this hourly basis, again, a configuration that we can configure, but it needs to be done every five minutes on an hourly basis. This is something for us to ideally debug if something goes wrong within the system.
+
+>>Vinny Curley	21:29
+Ok.
+
+>>Arunkumar Mohan	21:31
+Again, this is, again, an option, part of the config. The client can choose either to send the debug logs or only the error logs.
+
+>>Vinny Curley	21:44
+Yeah, that's why it makes sense.
+
+>>Arunkumar Mohan	21:50
+This is mostly, I'm happy to answer any questions.
+
+>>Ken OToole	21:55
+So first question for me is, if we don't set up the AD connector, and we just do a read -only scan of our synced users from our Aad, will that give us enough data to start working to just look at our license count and not look at the other features of Zori, so it'll just be for our license?
+
+>>Arunkumar Mohan	22:22
+Or would we need to set up our AD?
+
+>>Radheshwar S Modi	22:24
+So Ken, two parts to this. Please correct me if I'm wrong as well. So the on -prem AD is actually only giving us the employment status of your users. But the license information usually comes from Azure Admin, which you'll have to connect. So all the license detail, what all you hold, everything comes in from Azure's Admin Console. So in that case, you'll have to connect Azure Admin Console as well.
+
+>>Ken OToole	22:49
+Ok, so if we only connect our Azure Admin Console, for the Poc, we'd be selecting three applications. If we were to, for Poc purposes, we just connect our Azure Admin Console. We pick our three enterprise apps. Will that be enough to run and scan and give us the data we're looking for, or do we need to? Yes.
+
+>>Radheshwar S Modi	23:11
+Yeah. Yeah. So the only thing, if you don't connect your on -prem AD, is like you mentioned, your employment status might not be accurate because you said it's not always synced in that case. So that's how it'll be. So if you connect your on -prem AD with the accurate user employment status, you can set that as your source of truth.
+
+>>Ken OToole	23:34
+Ok. So our next steps, if we're building out the Poc, for the Poc purposes, and only to get the software analysis done, we won't connect the AD. We'll just run it with the Aad, and the additional features we'll leave for if we were to go live as bolt -on packages. So we could leave the AD out because that AD part would slow us down. There's a few other departments to get involved.
+
+>>Ciaran	24:07
+Right.
+
+>>Avirup Banerjee	24:08
+So that definitely can. What we can do that is, yeah, Kieran, you were saying something, please.
+
+>>Ciaran	24:12
+Sorry, just a quick question, just jump in on that. So it's going to do the groups. But let's say, for example, if we were to do service now, just as an example, some of the groups are actually based in Active Directory, as in, I don't know if that matters. Because you can still get all the users will be in there. But does it matter if the group was created in Active Directory? I don't think that would matter, though, right?
+
+>>Vinny Curley	24:37
+Because you just need to read it. You can also sync the Aad.
+
+>>Ken OToole	24:40
+You can sync the Aad, yeah. Should be fine, yeah.
+
+>>Vinny Curley	24:43
+Because it's a read -only process.
+
+>>Ciaran	24:45
+Yeah. Just want to make sure with the lads if that's all right. Just so you're aware, anyway, some of the groups, the SSL groups, are in AD.
+
+>>Vinny Curley	24:50
+But they sync across to Azure, just in case if that's any problem.
+
+>>Ken OToole	24:53
+They will not link with Aad.
+
+>>Vinny Curley	24:57
+We'd have ORBAC groups set up on Azure AD, and members of those ORBAC groups would be AD security groups, which are synced directly from AD, obviously. So if we want to give somebody access to an ORBAC group, we'd add them into the AD group and then wait for Ad Connect to sync every 30 minutes.
+
+>>Ciaran	25:20
+It should be all right. Just so the lads are aware, that's all, I think it should be okay.
+
+>>Vinny Curley	25:25
+So that's fine. Thanks. Is that okay?
+
+>>Ken OToole	25:30
+Yeah, I think so.
+
+>>Avirup Banerjee	25:33
+Okay. Perfect. So as next steps, Ken, Karen, Vinny, what we can do is that let's start off with the integration with not the on -prem AD, but the cloud AD. If you guys can suggest some time for your availability for Monday, Tuesday, Wednesday, we can set up a call, and you can choose up to four to five applications on Kkn, it's not going to be a problem. Radhe will send you over the list of applications that you can choose from a Clash in, in case you guys have that, we can connect that as well. And of course, Ad, we are connecting. And meanwhile, just to let you know on the call that we were going to set up, the admin of the apps needs to be present, otherwise we won't be able to connect. Yep. That's fantastic. So any time that works for you, next week, Monday, Tuesday, Wednesday?
+
+>>Ciaran	26:26
+Um, would Tuesday and, I can't have this check with yourself, just Monday, I just, I just we have to go live.
+
+>>Ken OToole	26:35
+So I won't be around Monday morning, but I could do Monday lunch on Tuesday.
+
+>>Ciaran	26:43
+Do whatever suits, whatever day suits yourself, Ken, just Monday morning, I probably won't be around, but I need your time.
+
+>>Avirup Banerjee	26:48
+Okay. Does Tuesday work for you, or what time do you think, Tuesday or Wednesday?
+
+>>Ken OToole	26:57
+Uh, Thursday. Um, I'm, I have Monday, Tuesday, Wednesday, I'm quite busy. Um, how long do we need, an hour?
+
+>>Avirup Banerjee	27:05
+Um, I guess half an hour to 45 minutes. What do you say, Radhe?
+
+>>Vinny Curley	27:10
+Yeah.
+
+>>Ken OToole	27:11
+Half an hour.
+
+>>Vinny Curley	27:12
+If this is all approved, Ken, I mean, I can, I can take the call earlier and connect it.
+
+>>Ken OToole	27:17
+Yeah, this is all, this is all approved, um, for Poc.
+
+>>Vinny Curley	27:22
+Okay. Well then let's, I can do Monday. I can get, I can work with you to get it, to get you connected to Aap.
+
+>>Avirup Banerjee	27:31
+Okay.
+
+>>Vinny Curley	27:31
+Monday at what time? Um, anytime after 10 o 'clock. Okay.
+
+>>Ciaran	27:38
+I'll just be, hang on. So just to confirm, do you need the system administrators there as well? Like for example, to admin a service now on that call, or is just, just to connect to Azure?
+
+>>Avirup Banerjee	27:48
+Oh no, uh, we would be requiring the admin of each and every application.
+
+>>Vinny Curley	27:53
+Radhe, uh, if you could please. What applications are we talking about here?
+
+>>Ken OToole	27:59
+Kendra, is it confirmed or do you have the list that you'd like to use? They're not fully confirmed. I'll have them confirmed for you for, for next week.
+
+>>Vinny Curley	28:06
+Okay. We have a couple. Will we go, will we go for Tuesday then and give, when, give Monday the time to confirm the apps? Yeah. Um, where you are all on the same call then.
+
+>>Ken OToole	28:20
+It's fine with me. Yeah. I can, if you want me on the call, I can do Thursday, 10 o 'clock. Um, if you don't need me Tuesday, yeah.
+
+>>Vinny Curley	28:29
+Or ahead. Yeah. If you can have us know before. Yeah. I'll give you the apps. Yeah. We, we, we, we, we, so we just have to. Anytime. Let's see. Tuesday I'm kind of okay in the morning time.
+
+>>Ciaran	28:42
+So I can. Yeah. Any, any time in the morning. Up to two on Tuesdays.
+
+>>Vinny Curley	28:46
+Grant for me.
+
+>>Ken OToole	28:46
+10, half 10, Tuesday.
+
+>>Vinny Curley	28:51
+I've got, I've got partying. I don't want to be disturbed. So, um, can we, can we do the afternoon instead? Can we do like, uh, what's the two o 'clock or half?
+
+>>Ciaran	29:04
+Let's say half two. Half two. That's not for me.
+
+>>Avirup Banerjee	29:12
+Uh, okay. Just give me a second.
+
+>>Ciaran	29:14
+Let me check my calendar as well.
+
+>>Avirup Banerjee	29:15
+It's a GMT as well. Yeah. Yeah. That, that sounds fine. I will be sending you over an invite. Yeah. I think both the rather than, uh, available. So what I'm going to do with that team, I'm just going to send you over an email, which has a list of some applications. It's a deck. Basically, you can take a look at it. List of applications that are already there for the pilot. Uh, just let me know about, uh, three to four, uh, applications that you would want to connect apart from course. Uh, rather than anything you want to add.
+
+>>Radheshwar S Modi	29:47
+Yeah. So just wanted to check. So are we doing on -prem, uh, Ad as a part of the Poc, like immediately or.
+
+>>Ken OToole	29:54
+No, we're going to leave the on -prem. So we're going to do the software review section.
+
+>>Vinny Curley	30:02
+We'll leave the ID part for the moment.
+
+>>Avirup Banerjee	30:04
+So because, Radek, Ken's main objective is cost optimization and license usage. So we really don't need on -prem for that in that case.
+
+>>Vinny Curley	30:14
+Ok, perfect.
+
+>>Avirup Banerjee	30:15
+So 2 .30 PM on Tuesday, we'll see you guys. I'll send you over the email. Please choose the applications, let us know, and make sure that the admins are waiting.
+
+>>Vinny Curley	30:23
+Yeah, but by Tuesday, we should have the admins of the apps available.
+
+>>Avirup Banerjee	30:28
+And then obviously, I have -
+
+>>Vinny Curley	30:29
+That's fine. Yeah, that's fine. Perfect. Ok.
+
+>>Avirup Banerjee	30:33
+Srini, I do not have your email ID.
+
+>>Vinny Curley	30:35
+Would you be putting your email ID on the chat, please? Yeah, I'm popping in there now. Ok. Oh, sorry.
+
+>>Avirup Banerjee	30:47
+Get rid of the - No problem.
+
+>>Vinny Curley	30:51
+Perfect.
+
+>>Avirup Banerjee	30:51
+Awesome. I am shooting you all an invite. And perfect. See you guys on Tuesday, and have a great weekend.
+
+>>Vinny Curley	30:59
+You too, guys.
+
+>>Ken OToole	30:59
+Thanks for the help. Bye -bye.
+
+>>Vinny Curley	31:01
+Thank you. Cheers. Bye -bye. Nice to meet you.
+

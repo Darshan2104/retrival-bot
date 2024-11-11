@@ -1,0 +1,174 @@
+>>Laura Turley	00:02
+Hi there.
+
+>>Vikram Senthil	00:06
+Hi, Laura.
+
+>>Laura Turley	00:08
+Sorry, I'm late.
+
+>>Vikram Senthil	00:11
+It's not a problem. My name is Vikram. I'm part of the customer solution engineering team. So, yeah. Okay.
+
+>>Laura Turley	00:25
+Hi.
+
+>>Vikram Senthil	00:27
+Hey, Laura.
+
+>>Astitva Gajendra	00:28
+Hi. Apologies for being late. Oh, I just joined. Okay. Okay.
+
+>>Laura Turley	00:35
+I came in very sheepishly saying apologies for being late.
+
+>>Astitva Gajendra	00:42
+So, let's accept both of our apologies and then move forward. Yeah.
+
+>>Laura Turley	00:46
+Perfect.
+
+>>Vikram Senthil	00:48
+Yeah.
+
+>>Astitva Gajendra	00:48
+Okay. Yeah. Glad you were able to connect with us. Vikram has joined our customer solutions team. He's still ramping up. However, the roadmap here is that probably, let's say, 30 to 45 days down the line, he will be helping us into identifying all the technical capabilities as to how more Zuluri can, you know, assist Podpoint and how we can, you know, streamline and get connected with your other systems, other legacy systems to get the data and transfer the data. So, he's going to be the liaison for that. But yeah. Okay. Great. So, I had a couple of points, Laura, just quickly, I'll show you this is again a work in progress. So, just I wanted to let you know that this is going to be ready by tomorrow. I will share with you, as I mentioned in a previous call, for all your current managed applications that you have marked, my team is currently doing a feasibility or rather an integration.
+
+>>Astitva Gajendra	01:54
+Availability check whether current the integration is available at Zuluri have you connected it or not and should you connect that integration what amongst the scope you know will be available to you at your disposal basis that you will get this you know visibility. So that we can go ahead and make you know decisions accordingly basis all the applications for example we can decide basis the scopes that is available to us all the applications map it to their renewal dates and understand that Okay now that the renewal is coming in do we have enough information coming in from the application to empower our procurement team to do better negotiation right offset licenses identify wastage reducing them you know things like that So this is the work in progress by tomorrow you will get the sheet I will share it across slack And yeah other than that Laura any sort of questions or any issues that you had encountered happy to assist.
+
+>>Laura Turley	03:03
+I guess a win is that I use Zuluri to do a piece of work that I was asked to do And it was very very useful I was asked to cost up the cost of hiring someone and that was really really useful to be able to do that So Yeah And I think it reiterates what we were talking about before about having that idea of a role from myself I had a meeting with Jeremy last week to start getting into Azure The Active Directory And I've got a follow -up this week to start talking about how we might change things in there before we go ahead and change it I'd be keen to do a bit of a review with you guys just to make sure that we're changing it in the most optimal way that helps you you're not the only customer for that we want to do it for a few different systems But I think lining up with you guys would be good hopefully we should be ready to have something as a draft by the end of this week
+
+>>Astitva Gajendra	04:04
+And we can maybe spend next week's session talking about it perfect I will add a few of my stakeholders as well who have hands -on knowledge about the Sso so just after this call I'll add them into the system probably they can give us more enriched information Yeah
+
+>>Laura Turley	04:20
+That's great I'll take an action to confirm by end of the week that we're ready to to discuss at that level just so that you're not inviting them onto the call And you know they can they can drop off if not two points one was around the contract training whether we can get that organized that would be really good and the other one was about I've recently become aware of a what's called a source to contract solution being looked at for the company that's to monitor contracts coming in and essentially version them and track them I was wondering if there's anything smart we could do between any level of integration there or whether it just be like a process level whether you guys have so what is the is there a current Clm that is at use or are you exploring CLMs in the market we're currently exploring at the moment Okay
+
+>>Astitva Gajendra	05:21
+Okay So we are still in discussion about the integration however our first integration with zip has been completed so zip is one of the CLMs that are out in the market in terms of usage information again Docusign is one where we where we can provide you enough usage information as to how the Docusign is being used but I will need to check whether we are currently handy with you know fetching the contract information from Docusign to Zuri via integration however zip is something where we have done some POCs with customers and the results have been quite satisfactory so I will put that put it at the first in priority table if you're looking at CLMs Okay
+
+>>Laura Turley	06:09
+And I don't have influence over the shortlist Unfortunately so it's a different department that's looking at it I'll try to influence them to to do that But it's not my project And I'm not the main stakeholder there So I guess Yeah Any experience with working with that type of tool in a wider process even if it's not a technical integration level would be good to to hear about as well can you exemplify the statement any any of the scenarios where you're looking so we in a world where we have this solution in place a contract comes in at what point would we look to put
+
+>>Laura Turley	06:53
+Data into Zuri, who would typically do that? What data can we look to extract from that system that would make it easiest to implement?
+
+>>Astitva Gajendra	07:06
+So extract. So there are two things. First is the extraction. Should we have an integration readily available in an ideal world, we would be able to extract the information provided it has the following fields, that is start date and end date, license name, the amount, and another field that is there. So there are total five to six fields, culmination of which a contract is created. Basically those are the mandatory fields. Now in the current scenario, when we do not have an integration, ideally with all the customers, how we do it is, we maintain a G drive, a Google drive or any drive of sorts, wherein we ask the client to upload the contracts with maintaining date folders, so that we get to know that if there is a specific date folder that is available, we just have to access to that folder and all the contracts that are available in the folder, we can just upload that. So we have a contract concierge team who looks after that, and they readily upload all of those invoices slash contracts.
+
+>>Laura Turley	08:18
+Makes sense. I think that that would be a challenge. The reason this solution is coming in is because of some security concerns about hosting contracts in that kind of way. So it would be more likely that we'd be able to extract data from the system into a spreadsheet and then provide that if that makes sense.
+
+>>Astitva Gajendra	08:37
+Okay. Okay. So we can still do that. If you, you know, you're not comfortable with providing us the contracts, it's only the aforementioned information that I mentioned, right? The five fields that we require, and more so ever than not, these five fields are present in the invoice section, if not the contract. So if you think that contract has security concerns, feel free to not let us get access to the contracts. However, you can still give us any of the month's invoices. That invoice, if it has all of this information, we can create a contract out of it.
+
+>>Laura Turley	09:15
+Okay, cool. So we can embed into the process that when a contract's signed off and ready to go, that data is extracted and provided to you in whatever shared way. Sure.
+
+>>Astitva Gajendra	09:31
+I'll just show you. Okay. I don't think that it is currently present in Podpoint. However, I will make that live for you, Laura, probably in the next call, I will give you a hands -on demonstration. So we have something called as contracts AI module as well, wherein we have a, you know, typical OCR level of, OCR level of integration, wherein if you, let's say upload a contract, we'll fetch those details and, you know, present it within the contract if it is provided in the certain fields or in a certain fashion. And the second one is via the CSV upload. So whatever the mandatory fields are, as you were mentioning that you want to extract that information. So we do have a ready retina CSV that is available. I can share that with you and you can just templatize it, share that template across and we can upload those contracts.
+
+>>Laura Turley	10:31
+I think that would probably work the best for us in terms of keeping the systems in sync. We can do a scheduled extract of any new contracts and just make sure that it's up to date. I'm actually really excited by it because the contract part of our job is hard. And if it's this team that's driving it, then they're more empowered to get those contracts details. So hopefully it will make our lives easier and take us closer to Zuri being that point of look up. Because ideally they're not looking at the contract repository, they're looking at Zuri to see what the price and renewals are. And that's just the source of information.
+
+>>Astitva Gajendra	11:12
+So it makes sense. Okay.
+
+>>Laura Turley	11:14
+Cool. And the only other piece that I had to bring to you guys is that I demoed Zuri to our new CIO and he's very behind the goal of making it the source of truth for this. He's already starting to talk about it as a solution to some problems such as for some security. He's got a big security mind on his CISO as well. So for some of our security tech boxes to achieve certain crediting.
+
+>>Laura Turley	11:52
+We need to have a system that manages financially critical applications within the business. He was saying, is there a way that we can use Jury to call out which ones we would say is a financially critical system. So I just wanted to check with you guys. My gut feel would be to use a custom field, but I don't know if there's an alternative solution.
+
+>>Astitva Gajendra	12:19
+So to classify any application as financially critical is for that. Are you looking at Jury to provide you this information or do you have this information and you have to feed it into Jury?
+
+>>Laura Turley	12:33
+Yes, we would have that information and we would probably want to be the suppliers of that information because there's different ways that you can use a system. And just because the metadata on the Internet says it's financially critical doesn't necessarily mean.
+
+>>Astitva Gajendra	12:47
+I'll just show you quickly. So you can use custom field across the board, Laura, across the module. I'll just show you how to do that and use Jury as a point of contact or rather just a point to upload all the custom fields data. So this is spot point instance here. If you see, there is a option called as custom fields under settings and within custom fields against all the modules that are here. You will identify that there is a new field addition is mentioned. Ideally, I would suggest for your use case, you should use the applications custom field over here. And then from the application custom field, if it is a drop down text box, Boolean, date picker or a Jury entity, you can just select that. I classify the field name and then from there onwards, you will be able to see those custom columns be populated within that particular module. And then from there, you can just go ahead and do a bulk upload. Sorry about that. So if you just click on bulk update data, you can just go ahead, select the fields. The custom field will come in here, select the custom field, download the CSV and then reupload it to get it against all the applications. Brilliant.
+
+>>Laura Turley	14:21
+That's that's excellent. Is there any best practice around using custom fields, the naming convention or anything like that so that we don't clash? If you were to add something similar in the future?
+
+>>Astitva Gajendra	14:33
+Not not really. I think one thing that you can add is in the nomenclature. You can add pod point as well just to be on the safer side that as you mentioned that, you know, there are no clashes with the custom field. So that is one thing that you can add. However, again, the fields are at your disposal so you can use it your way.
+
+>>Laura Turley	14:55
+Excellent. Ok, cool. Yeah, we'll have a look at that. I think there's probably a lot that we can do there and it's probably taking it slow and steady rather than absolutely all and making a mess.
+
+>>Astitva Gajendra	15:09
+Sure, sure. Yeah, that's great.
+
+>>Laura Turley	15:13
+Ok, great. Is there any anything to be aware of or in custom fields around? I'm trying to think of what is maybe caught me out before. Migrating data, I guess, between. No, we don't really have a sandbox or anything, do we? Ok, that's I think we're failing because we just have one instance. Custom fields will live there. We're not migrating between anything.
+
+>>Astitva Gajendra	15:42
+Right.
+
+>>Laura Turley	15:43
+Yeah. Ok, cool. Great.
+
+>>Astitva Gajendra	15:46
+The updation of custom fields also is a is a rather manual process currently because it has to be done by fields. Oh, sorry. The other way, the Excel, the sample Excel that is there. So, yeah, that is that is another thing. Are you looking to probably do it via an API? Are you looking to do it that way?
+
+>>Laura Turley	16:10
+For this one, no. It would be it would be a handful of of systems that we would really want to categorize in that way. We would need if there's other categorizations that we'd care about calling out. But there are use cases where I would be keen to use the API more. Things around like budgeting where we're managing a budget there and who the, you know, the budget owner would be, which I think there might be a field already in Zuri to capture like the finance owner.
+
+>>Astitva Gajendra	16:50
+Budget we can.
+
+>>Astitva Gajendra	16:51
+Can currently capture budget -basis departments. So the budget owner eventually becomes the department owner. And again, how you basically calculated the cost of hiring by looking at department -level applications, the same becomes with spend as well. So in department level, whatever the applications are, we'll attribute the spends to the app, then to the users, then to the department. And then overall, we can just show you against the budget whether you have overspend, underspend, and how exactly is your forecast going to be.
+
+>>Laura Turley	17:28
+Yeah, exactly. That's probably something I want to look at in the future, is how we use Uri for that view of how we're spending against the budget. But it's something I'm really interested in because we don't do it particularly well at the moment. It's a very minor process. But no, there's nothing else.
+
+>>Astitva Gajendra	17:48
+Sorry for the interruption. What is the ERP solution that you're using?
+
+>>Laura Turley	17:53
+Sorry?
+
+>>Astitva Gajendra	17:54
+The ERP solution, your finance tool?
+
+>>Laura Turley	17:56
+Sure. So we previously used Sage. And it wasn't an ERP solution. It was very much just the Sage accountancy software with a lot of spreadsheets that tied it together. Just last week, we went live with Ifs as our ERP solution. Ok. I don't know what that stands for. Ifs, Erp, industrial and financial systems. So we went live with that in terms of processing POs and payments, but not in terms of supply chain or anything like that so far.
+
+>>Astitva Gajendra	18:37
+Ok, got it. So we currently, as I can see, we currently don't have that integration available. So when we will look at it, just a heads up, it would either be in two ways. One would be a month -wide CSV upload, wherein you can just give us the CSV in the required format and we can just upload it. Or the second would be an SDK integration, wherein we can just give you the required format. And then you can develop the SDK and then push the data within slowly.
+
+>>Laura Turley	19:10
+Ok, yep, that's fair. And if we were to develop that through the SDK, is that something we could contribute back to become an official integration? Or is there a few more steps there?
+
+>>Astitva Gajendra	19:22
+No, it will be a local integration, basically. So it will only be restricted to the Podpoints instance. And yeah, that's how it is going to be.
+
+>>Laura Turley	19:34
+No problem. Ok, I think that's everything. I think going forward, when there are new solutions being looked at, I do want to work within my business to make sure that we're considering integration with Zuri as part of the criteria. It might not be high weight and that we're just establishing Zuri at the moment. But we should be at least evaluating it. Ok, great.
+
+>>Astitva Gajendra	20:06
+Ok, just one last question, Laura. So last week, we discussed about merging of applications via source to just do a bit of cleanup. Have you been able to do that? Do you require our assistance or anything in that manner? We'd be happy to help.
+
+>>Laura Turley	20:22
+I haven't managed to look at that. I've been prioritizing the Active Directory stuff. I think that that would help us mostly to clean everything up at the moment. But yeah, I'll maybe take a look at that just to refresh myself on it and just see where the problem's sitting and how big is it.
+
+>>Astitva Gajendra	20:46
+Sure, perfect. Ok, perfect. That's about it, Laura, from my end as well.
+
+>>Laura Turley	20:50
+Ok, that's great.
+
+>>Astitva Gajendra	20:52
+Ok, thanks. Thanks, Laura, for your time.
+
+>>Laura Turley	20:53
+Have a great week ahead.
+
+>>Astitva Gajendra	20:54
+Bye -bye.
+

@@ -1,0 +1,231 @@
+>>hariharan manikandan	00:00
+Hi Brendan. Good afternoon. How are you?
+
+>>Brent Brown	00:04
+I'm doing good, Brendan. How are you doing today?
+
+>>hariharan manikandan	00:06
+Good. You feeling better?
+
+>>Brent Brown	00:09
+Yes, I'm feeling much better.
+
+>>hariharan manikandan	00:12
+Good.
+
+>>Brent Brown	00:19
+All right.
+
+>>Brent Brown	00:31
+Margo is out doing her military stuff this week. So, April don't laugh. That's the official name for it, her military stuff. Military stuff. Her military stuff. Not 100 % sure what she does. Kind of hush -hush stuff, I think. Classified. Classified, I need to know this.
+
+>>April Michaelis	00:57
+Right, right. Cool. So we can go ahead and get started here.
+
+>>Brent Brown	01:03
+We got the crew. So yeah, let's just kind of talk through kind of what we're focusing on for this week. And then we got a lot of exciting stuff going on right now. So, you know, I think we're still waiting on the API and the timelines there for Concur. I think the Zillary team is going to go back and figure out how to – what was the date for the Concur API? Any updates on that one, Hari? No, not at the moment.
+
+>>hariharan manikandan	01:31
+We are still checking it. However, Gc, who will join the call in another five minutes, I can probably check with him for updates. Okay. Cool. Okay.
+
+>>Brent Brown	01:43
+In the meantime, we are working through the manual upload. I did see some traffic this morning. So it looks like, Mel, we've got the upload in of the latest Concur file, and we're going through reconciliation right now. Is that a fair assessment? Is that right, Mel? We've got a Concur file that was uploaded. I ended my wrong one.
+
+>>Melodie Mallory	02:16
+I believe it is uploaded for one month. I think the third month, three months, is still in process. They're working through the data issues. Okay. And then you know how they go into the AI learning phase. Looks like there's several records in the AI learning phase. When those get posted, then we'll have a view on reconciliation. But I'll probably push the next four months at them pretty quickly.
+
+>>Brent Brown	02:45
+There's no need to dawdle.
+
+>>Melodie Mallory	02:47
+We can. Okay. Okay.
+
+>>Brent Brown	02:52
+So right now, we've sent it in. I think there was like 70 ,000 records or something like that, right? Yeah. Better in the AI learning.
+
+>>Melodie Mallory	03:01
+Gotcha. Okay.
+
+>>Brent Brown	03:06
+Any time frame on when we'll complete that kind of reconciliation process? Is that this week? You know, if all the numbers tie out, it'll be dream cake.
+
+>>Melodie Mallory	03:19
+Five minutes. I would put, you know, because we keep loading the files, I think it's ongoing until 10 -1. I don't think there's one specific end date because you have to reconcile after every file, right? Okay. And we're doing how many more?
+
+>>Brent Brown	03:34
+We're just going to continue. Well, we've got four more to upload, and that'll take us to I think July or August if I'm keeping track.
+
+>>Melodie Mallory	03:43
+So then we'll have to get two more. You see where it's a rolling thing. So I would put 11 -1 for the end date. Okay. And then we'll check and see where we are and decide if we even need to do reconciliation after that. Okay. Gotcha.
+
+>>Brent Brown	04:04
+And, you know, I know there's this idea of these true -ups as well. Is that also taking place during this process, or is that something separate?
+
+>>Melodie Mallory	04:15
+I'm not sure on that one. True -up of data.
+
+>>Brent Brown	04:28
+Where when there's a discrepancy between what the invoice is saying and what we've contracted for our license.
+
+>>Melodie Mallory	04:35
+You know what the system does is automatically post it as a true -up, which is great. Yeah, I think that's great.
+
+>>Melodie Mallory	04:43
+I don't think it matters if we go and track an invoice exactly for it. I was excited that the system actually did the true up. So, I would just, yeah, I'm not sure we need to do much with that one because we got the answer. The answer is the system automatically posts it versus us trying to have to find something. Okay.
+
+>>Brent Brown	05:07
+Gotcha. It's not a financial tool replacement, right?
+
+>>Melodie Mallory	05:13
+If it was a financial tool, yeah. Okay. Okay.
+
+>>Brent Brown	05:17
+Cool. And then I think once I did see an email going around, Hari, I believe you were going to update our training document with some steps on what does it take to do the reconciliation process. Is that correct? Yes. Yes.
+
+>>hariharan manikandan	05:33
+So, we are working on it. What we are planning to do is we'll prepare like a two -minute video using Zoom and we can share it so that in future if something similar occurs, you can probably refer to the same. What I'm also working on is that I just got the Okta groups export from our team. So, I'm emailing Mark, keeping you all in Cc so that I see only 75 groups that are active. Even though there are 3 ,000 groups, only 75 are active groups which can be used for our license mapping. I'm, in fact, typing that email. You should see that email from me in probably five minutes from now. It's also ready.
+
+>>Brent Brown	06:16
+Ready? And I think that is this work down here, right? Create a list of Okta groups. Validate. Okay. Cool. And then I think the next piece here was all around getting the right people access in Zuri. April, that was assigned over to you. Do you have that? Do you know what that is? Just getting everyone access in Zuri? Yeah.
+
+>>April Michaelis	06:49
+I think we actually, it's considered, in my mind, I think the critical users are complete. So, I think we could mark that done and then if we need to make amendments, we can. Okay. Sounds good.
+
+>>Brent Brown	07:03
+And I would say the same thing on that one. If there are others we need, we'll just address them as we go.
+
+>>April Michaelis	07:09
+I'd call it complete. Cool.
+
+>>Melodie Mallory	07:12
+Yeah, I guess that's an interesting one on the reconciliation, too. I mean, do you want to just continue to track reconciliations until the project closes because it's ongoing? Or how do you want to do that, Brent?
+
+>>Brent Brown	07:27
+No, I mean, I don't think we, I mean, I just want to make sure when we're, when the project is closed, if we don't have the, well, either way, we just need to make sure that we know how are we doing reconciliation moving forward each time we look to incur either through an API or through the manual process we're doing now. And then who's doing it? Yeah, Naveen will be doing it. So, that's why I'm paying Naveen.
+
+>>Melodie Mallory	07:56
+So, I'll work with Naveen to make sure we understand that. And then, yeah, we have a call Wednesday.
+
+>>Brent Brown	08:03
+Yeah, the only other piece is that I know that it's a certain duration. So, once Naveen rolls off, where does that process go to and who owns it? Yeah.
+
+>>Melodie Mallory	08:15
+So, that'll be a year from now. And a year from now, that would be, I guess, that's a good question. But, April, I hate to say it, but I think except with your group. Tell me if I'm wrong. We get bored every now and then when, you know.
+
+>>April Michaelis	08:34
+Yeah, I'm hoping it's not a trouble.
+
+>>Melodie Mallory	08:36
+Hope it's a non -issue. Yeah, that's fine.
+
+>>April Michaelis	08:41
+No. Okay. This whole world has blossomed exponentially.
+
+>>Brent Brown	08:53
+Let's see here. Kind of going down to our training world. Capture process on how to request additional training support after project close. I think I saw that it's a ticket process or a portal process somewhere.
+
+>>hariharan manikandan	09:06
+Yeah, you can always reach out to Malkit for the training. If you're not getting a response, the alternate way to reach out is probably using a ticket. But I would say that could be the last option. We are there in the Teams chat. Plus, you have Malkit and Naveen assigned as a resource. So, a ticket is always an option. Cool.
+
+>>Brent Brown	09:31
+And then we've got a meeting next week with Don just to kind of make sure we've got support in mind.
+
+>>Brent Brown	09:40
+Anything special we need to do there for for support of the applications blurry not necessarily the functionality in there, so That's next week When Margo was back All right, so training materials I Think this was the thing not in Missouri help guide. I don't believe this is a sign of the person. This is this is you are you right? Yeah cool See here managed first month unmanaged apps I'm sure what this one's about It's managed, and there's a current expense
+
+>>Melodie Mallory	10:30
+Okay unmanaged means it's a URL or Bed and bath and beyond And so I went through I went through and marked a lot of those I think 300 of them And so I think they did a bulk upload or something So I'll just have to keep working on that because there's about six thousand line items to work through
+
+>>hariharan manikandan	10:55
+So we'll do the best we can but it's not going to be done that quickly. It's an ongoing process, so we can never say Maybe it's good to say that for now we have completed the initial batch, but Discovery is something that will keep happening so we cannot say that it's complete a lot of these now that no
+
+>>Melodie Mallory	11:14
+I mean they've had the file for a while Brent, but Naveen has just now started working, so that's why we're missing our dates
+
+>>Brent Brown	11:23
+Yeah, I mean this is this is training, so I think this is all around Documented on what do we do? You know if we come across an unmanaged app who who is doing what with it if anything? We've is that in the documentation or is that something we need to still document?
+
+>>hariharan manikandan	11:43
+It's already there in the documentation
+
+>>Melodie Mallory	11:45
+Okay Okay, I thought the other day I can confirm cool.
+
+>>Brent Brown	11:53
+Yeah, leave me on that one Brent because it looks like I got more done You're on there no worries so the administration training I know that we've got that scheduled for this week on Thursday, I believe and Then we'll do a quick check with with April and team and just make sure that they are Good to go to administer this solution Application owners decide who will be application owners Think we've gone through that right. That's where Matt gave us two cents on some stuff. I know April Is there any is there any other? Work that needs to be done on the application owners is that been so no
+
+>>April Michaelis	12:36
+I mean kids again I think the majority of it is in IT Between me Don Scott, I think we are it We got some comms here that we were going to expectations for slurry admins and expert and what to expect for contract renewals When I think that kind of all goes tied in I'm hoping it's included in what we cover in Training sessions or in the documentation that's been provided
+
+>>Brent Brown	13:07
+Yes Yeah, I think we just needed to you know for the for the folks like the Scots of the world and the DS of the world that are you know? Do they know what to do when a when a contract comes up for renewal, you know?
+
+>>April Michaelis	13:21
+Yeah, what do they do within the system and make sure that they have that training? Okay. I think once we have our Training is admins. We can create some Help like put it in fresh even or something like that.
+
+>>Brent Brown	13:35
+So we have some quick materials Okay, cool All right Yeah, this is I think you just that's what you're just process for long term manual documentation upload So put it in fresher.
+
+>>April Michaelis	13:54
+We can figure that out. Yeah, I think fresh is the right thing to do for it's not just IT
+
+>>Brent Brown	14:00
+And it's something we can share with anybody or they can go look If we are mom apparently I do I have to decide who will be leadership So, I don't know who do you want to be leadership? Let's make some changes. I Don't know this is I think this is uh, I Think this is just making sure maybe Matt and Tommy and other other team members know How to use this system is that where this is leadership training.
+
+>>April Michaelis	14:31
+I don't remember that I mean, I don't know. I don't know how I
+
+>>April Michaelis	14:42
+I mean, the only thing that's there is really defining who we notify within IT leadership or other grant.
+
+>>Brent Brown	14:50
+I think we kind of already have a gut instinct on that. Yeah. I mean, my guess is this is Matt's directs, And then we just need to make sure what we available within. I don't know what that means.
+
+>>Brent Brown	15:14
+Let's punt it out. We'll figure it out. I think this is all around just do we need, you know, does Matt and Tommy or Scott, I guess, need any particular training on how to pull reports or anything like that? Yeah. You know, I think maybe Matt would be the only one that, because I know he wants to go in there and start playing around to figure out. His biggest thing every time he talks to me is he wants to know where the overlaps are.
+
+>>Melodie Mallory	15:44
+So Brent, I have Gc working on a canned report that maybe Matt can use based on that discussion we had earlier.
+
+>>Brent Brown	15:58
+So FYI, there's a little yay for you in there. Okay. Awesome. That's great. Cool. Just see if there's anything extra in the last meeting. I think we talked about this one. Gc's here. So I think double check calls for Gc and Hari, and I'll keep them. We're all good there. Awesome.
+
+>>Melodie Mallory	16:24
+Anything else, Rowan, that we need to chat about? I just want to thank Slurry for, I mean, all of a sudden we got a ton of work done the last two days. So thank you guys. We're getting caught up, it feels like.
+
+>>Brent Brown	16:39
+Absolutely. Now we can start doing some of these reconciliations and stuff. Yeah. No, I mean, I keep saying, I think, you know, you're looking at this, right? We just keep the reconciliations going. We got some training going. If we need to send some comms to some folks and then, you know, keeping our eye on the API for Concur, but I think we're getting down to the pointy end of the stick, as they say.
+
+>>April Michaelis	17:05
+The pointy end of the stick.
+
+>>Melodie Mallory	17:08
+We're at the good status level to achieve.
+
+>>Brent Brown	17:13
+That's in your next status report.
+
+>>Melodie Mallory	17:16
+Yes.
+
+>>Brent Brown	17:19
+Cool. Anything else? Have fun. We'll see you later. Yeah. You know, I had just for the Slurry team, you know, I had Margo cancel our tech point that we have later in the week on Thursdays, but if there's anything that you guys need from us or anything like that, just shoot us in the team's meeting and we'll get on it.
+
+>>Melodie Mallory	17:37
+So, I didn't think we needed another one. Sounds good.
+
+>>Gaurav Chopra (Guest)	17:41
+Let's go real fast. Gc, did you have an update on the API on Concur? No, it's the same, right? So, if you remember, we told you that they're working on it. It should be, I think, confirmed internally and they were asking for about four to six weeks, but I don't have a confirmed timeline.
+
+>>hariharan manikandan	18:00
+Before we meet next time, I'll try and get an Eta on that. So, I think I informed this to Margo earlier, Margo and Brent. So, I'll be supporting Gc and Malkith for the next two weeks and then you will see me slowly moving away from this project because my roles and responsibilities onboarding.
+
+>>Brent Brown	18:24
+And once you have reached the steady state, you will have Gc and Malkith take over from now.
+
+>>hariharan manikandan	18:30
+Okay.
+
+>>Gaurav Chopra (Guest)	18:33
+Sounds good. Appreciate it. All right, guys. All right. Thank you. Enjoy your evening. Bye. Bye, guys. Bye. Bye. Bye. Bye. Bye.
+

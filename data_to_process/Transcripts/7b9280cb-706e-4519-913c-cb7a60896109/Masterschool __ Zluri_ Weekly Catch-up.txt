@@ -1,0 +1,585 @@
+>>Anupam Acharya	00:03
+Hey, hi, Divya.
+
+>>Divya Aphale	00:07
+Hello, hi. That's our message. I like he's joining in two, three minutes.
+
+>>Anupam Acharya	00:14
+Got it, got it, got it.
+
+>>Divya Aphale	00:17
+Done. I've just enabled this continuous optimization in their instance.
+
+>>Anupam Acharya	00:24
+Perfect.
+
+>>Divya Aphale	01:29
+Can you check if you're able to log in to master school? My app authorization failed as of 3 o 'clock. Oh, really? Yeah.
+
+>>Anupam Acharya	01:39
+I'm able to.
+
+>>Divya Aphale	01:58
+Okay, I can log in through the support porting. Okay.
+
+>>Anupam Acharya	02:08
+Okay, for this masking of Ai data, what do we use? Skyflow. Skyflow, no? I'll add it.
+
+>>Divya Aphale	02:22
+Hello. Hi, Ariel.
+
+>>Ariel Mardegan	02:23
+Hi, Divya. Sorry for the delay. I am sorry for the delay. Hi.
+
+>>Anupam Acharya	02:27
+Absolutely not. Pleasure to have you.
+
+>>Divya Aphale	02:30
+How are you doing, Ariel? All good?
+
+>>Ariel Mardegan	02:33
+No, how are you?
+
+>>Divya Aphale	02:35
+All good. Thank you. All right, we can get started. So the agenda for today's call, Ariel, is basically, you know, you asked us about the difference between Zlori and Tori. So Anupam and I would walk you through that first. That will take like around five, 10 minutes. Then we'll jump into the demo and set up of continuous optimization and access management. That's planned for today, unless you have something else on the agenda. Any questions, any queries that you have?
+
+>>Ariel Mardegan	03:08
+I did have some trouble. I tried to do onboarding.
+
+>>Divya Aphale	03:12
+Okay.
+
+>>Ariel Mardegan	03:13
+And I did encounter some trouble with it. More in the field of Slack, we have some difference between some users and I couldn't find the right option in Zlori to fit the user.
+
+>>Divya Aphale	03:29
+Would you like to share your screen and show it to us? What exactly was the issue? Yeah.
+
+>>Ariel Mardegan	03:33
+Yeah, let me find the onboarding again. One moment.
+
+>>Ariel Mardegan	03:54
+Yeah, I deleted that when it didn't work out. No, it didn't. Ok.
+
+>>Divya Aphale	04:08
+You created a test playbook, is it? Yeah.
+
+>>Ariel Mardegan	04:12
+Called it test. So we have two types of users. We have users who are members on our Slack channel, and we have users who are guests. Hmm. I can't seem to find an option for guests.
+
+>>Divya Aphale	04:30
+So you've added the action, add a new user to workspace, invite user to Slack Channel, right? You want to assign a permission or a role to the user that you're adding, is it?
+
+>>Ariel Mardegan	04:43
+No. In Slack, you have actually three types of users. You have members. You have single channel guests. Ok. People who can only be in one channel. And you have multi -channel guests, people who can be more than one channel, but only on those channels. The basic difference with that means that people who are not on the same channel and are not members, they cannot talk with each other. So for example, I can have a channel with someone from Microsoft and a channel with someone from Google. But we are not on the same space.
+
+>>Divya Aphale	05:27
+Understood. Understood. Ok, since you mentioned about the same space, just wanted to understand, would you have different workspaces for different user types? Or is it the same workspace that everyone has?
+
+>>Ariel Mardegan	05:40
+Same workspace.
+
+>>Divya Aphale	05:41
+Same workspace. Ok. All right. Let me just check in terms of the onboarding actions that we have. Ok.
+
+>>Divya Aphale	06:06
+Ok. So we have these generic onboarding actions, mainly to invite user to a Slack channel, add user to a new workspace, or add user to a group. What we can probably do is that we can create different onboarding playbooks for different user type on Slack. Do you think that will help? Because we need to basically configure the channels that the user needs to be added to. For example, if you click on invite user to a Slack channel, can you click on that action?
+
+>>Ariel Mardegan	06:38
+Invite user to a Slack channel, can.
+
+>>Divya Aphale	06:41
+Click on edit action. Edit action, right. Yeah. So you need to add the channels here, right? For example, I can see you've added guest as a channel. So all the guest members should be added to the guest channel, if I'm not wrong. Similarly, you will have a different channel where you'll add the employees, for example.
+
+>>Ariel Mardegan	07:01
+No, I don't add the employees to the channel. The full -time employees, they are members. So they are just added to Slack. And each head of department add them to the specific channels. But we have specific guests that I need to add to specific channels.
+
+>>Divya Aphale	07:22
+Absolutely. So are the guest members only added to the guest channel? Or is there any other channel that the guests are added to?
+
+>>Ariel Mardegan	07:28
+Yeah, I add them to the guest channel as a multi -channel guest. And the head of department need it for him, add him to the specific channel they need. Ok, OK.
+
+>>Divya Aphale	07:40
+So can we create one onboarding playbook for all the guest members and the other onboarding playbook for all the full -time employees?
+
+>>Ariel Mardegan	07:48
+Yeah, that's what I'm trying to do. But I don't see an option here that add the user as a guest. Hmm.
+
+>>Divya Aphale	08:01
+You're referring to the user role, if I'm not wrong. Ok, let me make a note of this area. I'll have to check this once internally. Because I'm not able to see any such action in our onboarding actions that are currently available, as you can see. Under Add Actions, if you can just scroll to the bottom on the left -hand section.
+
+>>Ariel Mardegan	08:24
+For example, sorry to cut you. For example, here, I can add the person as a guest. Here is on Slack itself.
+
+>>Ariel Mardegan	08:33
+As soon as I put in guest, allow them to be added to more channels, but invite as guest. Okay.
+
+>>Divya Aphale	08:41
+Can you go back to Zuluri and click on the invite user to a workspace action? Yeah. Okay. So this will just add the user to your Slack workspace, but it won't invite as a, yeah, as a guest or a member. Understood. All right. Let me get this checked, Ariel. Just give me one minute. I'll make a note of this.
+
+>>Ariel Mardegan	09:08
+No problem.
+
+>>Divya Aphale	09:29
+Okay. Yeah. Right. Anything else, Ariel, apart from this? Nope.
+
+>>Ariel Mardegan	09:40
+Nope. That was the biggest problem that I got.
+
+>>Divya Aphale	09:43
+Right. Right. Right. Sure. I'll get this checked and share a response at the soonest. Thank you.
+
+>>Ariel Mardegan	09:52
+Yeah. All right.
+
+>>Divya Aphale	09:55
+Anupam, would you like to share your screen?
+
+>>Anupam Acharya	10:00
+Yeah, sure. Sure. So Ariel, basically you did ask us about the difference between Zuluri and Tori. And what we've done is we built a small document, though by the end of this week, our team will, you know, the creative team is also developing a whole, you know, a nice creative, which will kind of help you present it better to the leadership as well. So in the meantime, what we'd like to do is share with you a couple of highlights, which, you know, put Zuluri in the forefront and why you should continue with Zuluri as well. So just sharing my screen and walking you through this. Just give me a second.
+
+>>Divya Aphale	10:48
+Yeah.
+
+>>Anupam Acharya	10:49
+I hope you can see my screen. Yes. Amazing. Amazing. So basically what we've done, Ariel, is, you know, we've put a couple of points down in terms of, you know, what is, who are Zuluri, what we do, you know, this is basically giving you an overview of what our use cases are, why clients typically work with us. So, you know, it is in terms of, so primarily Zuluri is a 360 degree visibility and, you know, we are able to give you control across applications, access, costs, risks, all of this in one single platform. So these are a couple of the use cases that we highlight is Shadow IT and Discovery, where also we can be used as a contract management tool. Also we work very well in terms of cost optimization, which organizations primarily also work with us for as a use case. You know, in terms of app security is something that we also have. This also pairs very well with something called as access reviews. So I believe you had to do the access reviews for, you know, the Iso certification, which you just completed recently. So I just wanted to also understand how you're doing. How are you doing access reviews at the moment, Ariel?
+
+>>Ariel Mardegan	12:12
+I go over the platform, download the CSV of all the users and start checking one by one.
+
+>>Anupam Acharya	12:20
+One by one. Use the filter.
+
+>>Ariel Mardegan	12:23
+Yeah. True.
+
+>>Anupam Acharya	12:24
+True. Understood. So actually, Zluri also has the option of being used as a platform, which can actually help you with your access reviews as well. So that's another module that could be unlocked if you want to kind of streamline the process of access reviews as well. And this is something that we do, you know, we are one of the first players in the industry to give this 360 degree control to our clients as well. Also, you know, these are a couple of fast trends which we've highlighted, you know, in terms of the integrations, the agents. So, you know, discovery is something that is fairly strong compared to Torii where we have multiple sources of discoveries starting through integrations, going to your Sso, also deploying agents. These are, you know, browser agents as well as desktop agents. So the kind of data or the kind of visibility that you get is very, very detailed and in depth. And this is something that we do very well. Also, in terms of the usage data, we are able to kind of get it from multiple sources like your primary source, which is your integration, the secondary source, which could be your Sso. We are able to see who the users are, when they use it.
+
+>>Anupam Acharya	13:31
+Using the platform, and while Tory does focus on giving you the details of undeprovisioned users, which are basically people who have left the organization and still hold licenses, they're also able to go one step ahead and tell you, hey, these are the users who have not used the platform in the last 30, 60, 90 days. And these licenses could be reclaimed as well. And this could be a cost saving. It could be a security risk that you're actually avoiding as well. So these are ways where we are actually doing very well. Also on the workflows and access management, we have a lot of granular data with over 150 plus applications, which can help you with the onboarding, offboarding, playbooks. You're already exploring that. And today, Divya is going to walk you through it in detail. Also, access reviews is what I'd already told you about. That's a part of our platform and can be enabled for you if you would like it as well. Also, yeah, cost optimization, I told you about that. We are also the first SMP platform to introduce encrypted privacy vault, where you can strengthen your PII data as well. So this is something which is very interesting. On the workflow automations also, we are evolving continuously. And we are actually working tirelessly to ensure that we are the front runner in this space too. So very shortly, we are going to be launching various other improvements on the conditional workflows, which you see today. Divya will be walking you through this today. But we have new features which are going to make workflows for you. And this will be one of the best in the industry actually going forward. And this is expected to roll out by the end of this quarter as well.
+
+>>Anupam Acharya	15:11
+And continuous optimization also is something that you keep getting reports. Again, here you can choose to manually remove these users or deprovision these users. Or you can also run it through our workflows and actually automate creating playbooks, where you say that, hey, OK, if this user has left the company and they still have a license, just take out their license. Or if this user hasn't used the application for over 60 days, which is the best practice, you can actually make sure you are able to take out or reclaim that particular license from that user. So these are multiple points where we stand out in the industry, where we are better than our competitors. And we are growing as well. So you will see a lot of product improvements quarter on quarter. And that's what we wanted to kind of highlight. Though there'll be an official document that will come to you by the end of this week. But I could share this for you to kind of give you an overview about Zluri and also create the case why should you continue with Zluri and what benefits it will actually have for the organization at master school, Ariel.
+
+>>Ariel Mardegan	16:21
+Yeah, I would like to receive this document.
+
+>>Anupam Acharya	16:25
+Absolutely. So at the end of this call, we'll send across this document to you, Ariel. And also by the end of this week, we'll share with you a better looking document. Because with my limited creative skills, this is all I could put together. But I'm sure my creative team will do a better job than me at this.
+
+>>Ariel Mardegan	16:45
+Don't worry. Most of my messages here is Chajapiti and emojis.
+
+>>Anupam Acharya	16:53
+Great, great. I'm glad to see someone like me. So absolutely. So yes, we'll share this with you, Ariel, at the end of this call. And I hope this kind of gives you a direction in terms of why we would like to continue this association with you. And also it'll help you create a case internally as well.
+
+>>Ariel Mardegan	17:14
+Yeah, it's a lot of things to consider, even with one of our shareholders suggesting another platform to use as well, which I have a demo tomorrow.
+
+>>Anupam Acharya	17:27
+Got it, got it. If we may ask, which platform is this, Ariel, so that we can help you with some information?
+
+>>Ariel Mardegan	17:34
+Rippling.
+
+>>Anupam Acharya	17:36
+Rippling, got it, got it. Great. Absolutely. So let us also kind of help with data on that for you.
+
+>>Divya Aphale	17:43
+Right. Rippling is more of like a Hrms tool. I know.
+
+>>Ariel Mardegan	17:49
+I'm going to check the IP part, see how much it fits, so that I have something to reply.
+
+>>Divya Aphale	17:58
+Absolutely, yeah. I mean, we have seen customers using it as a Hrms tool and not mainly a tool that solves for IT -related use cases, right, in terms of license management, optimization, contracts management, spend management. The other much more in -depth modules that Zuluri has are currently not there on Rippling, at least not as much as in -depth at what you'll see on Zuluri. So yeah, I mean, definitely you can evaluate that. But.
+
+>>Divya Aphale	18:30
+Since we are also in the process of demoing a couple of our modules to you, what we've planned to demo today is the continuous optimization feature that will help you automate the license optimization for all your SaaS applications. So that's the main agenda for today's call, along with access management, as in how time permits, because we don't want to rush into it. We want to make sure that we show you all the possible capabilities and features that we have in each and every module. Would you like to share your screen, Ariel? In fact, I would recommend that you do the setup yourself so that you get a hang of how seamless the setup is for continuous optimization. We can do it for any one application today on the call together, and that will give you a fair idea of how the setup needs to be done.
+
+>>Ariel Mardegan	19:20
+Okay.
+
+>>Divya Aphale	19:21
+Yeah, we can pick up application like Zoom looks good to me and just give me one minute. Yeah, we can look at Zoom application. So just give me one minute.
+
+>>Divya Aphale	20:16
+All right, yeah. Okay, so this is basically the overview page for Zoom application, Ariel. We spoke about this, it shows you all the information like how many active users are using this application, how many licenses are assigned, what's the upcoming contract date, how much is the spend in the current financial year, and things like that. But what we are going to focus on today is how can you continuously keep your Zoom application optimized, Right? So for that, we have an optimization tab that you can see in the top section. You can click on optimization. Perfect, right. So here, Zuluri will show you details like, okay, we show a license trend graph in that section where it shows something went wrong. Maybe some data sync is in progress, and that's why the graph is currently not showing, but I'll get this checked with the team after the call. But below the license trend graph, you can see how many unused licenses do you have in Zoom application, and how many undeprovisioned licenses do you have in Zoom application. So two different sections, unused licenses and undeprovisioned licenses. What each of these categories mean is, let's take undeprovisioned licenses first. So undeprovisioned user or undeprovisioned license is a license assigned to a user that has already left your organization area, but still has an active license assigned in that particular application. So in case of Zoom, you have pro and basic as two licenses, right? So as you can see, there are two users with pro license still assigned to them, but they have already left your organization.
+
+>>Divya Aphale	21:58
+And the source from which Zluri gets this data is Google Workspace. So if the user's employment status in Google Workspace is inactive, then Zluri considers that user as a user who has left your organization. So from this data, we can see that there are two users who have left your organization, but still have a pro license assigned to them. So what we can do is, you can basically go on the Optimization Summary page. From there also, you'll get an overview of who these two users are. Can you go to Optimization Summary page on the left panel? On the left panel? Yeah, above that, right. Let's look for Zoom here, the first one, right. Okay. Can you go back on the Optimization Summary page? We just need to expand the Zoom section. Okay. Yeah. So there you can see pro as the license name for Zoom. And there is a column called Undeprovisioned Licenses where it shows two against pro, right. So if you click on two, Zluri will redirect you to the Optimizable Users list, which is basically these two users, Mike and Quintin. These users have already left your organization, but still have a pro license assigned to them in Zoom. So you can maybe verify or validate this once you - I know who these users are.
+
+>>Ariel Mardegan	23:20
+This is something that I'm checking on it because they don't exactly, they are working with us, but they don't have, at the moment, an account with us.
+
+>>Ariel Mardegan	23:29
+That's why it's their personal email and not our company email.
+
+>>Divya Aphale	23:34
+Right. Right. Right. So are these employees or external accounts?
+
+>>Ariel Mardegan	23:39
+Yeah.
+
+>>Divya Aphale	23:41
+These are employees.
+
+>>Ariel Mardegan	23:42
+These are employees on external accounts.
+
+>>Divya Aphale	23:45
+Understood. Understood. Ok. So Zuluri will also show you optimization insights for your external users as well. Right. And since Mike and Quentin are not a part of your Google workspace, and as you can see, we are showing their personal email address. We will consider these as inactive employees because they're not a part of your Google workspace yet. So that's basically what's happening here. But maybe, you know, we can take some other application, for example. Let me just quickly take a look at this.
+
+>>Divya Aphale	24:30
+Can you search for Slack application on the applications page on Zuluri? Slack. Yeah. Search for Slack. Right. Can you go to app insights? Or this also works? Yeah. So this is also a page where Zuluri will show you how many users are not deprovisioned from the application area. Just like the optimization summary page, the app insights page will also give you certain insights into optimization. So if you click on review now, it will show you the list of all the 420 users who are inactive in your organization. But again, I can see a lot of personal email addresses here. So these could be students. Yeah. Right. Let me check what your verified domain is. Just give me one minute. No problem. Masterschool .io or Masterschool .com. You know, any user with this domain should be considered as an employee. Is that right? Yes.
+
+>>Ariel Mardegan	25:34
+Okay.
+
+>>Divya Aphale	25:35
+Okay. So then in that case, we can actually apply a filter on the user email address and check how many users are with Microsoft .io Domain. If there are any users with Masterschool .com domain, we can check that too. But also wanted to give you some context, you know, based on my previous discussion about optimization. So Gilad had mentioned that you would still be interested in considering optimization insights for external users. So is that the case? I mean, just wanted to understand your thoughts on this.
+
+>>Ariel Mardegan	26:15
+Again?
+
+>>Divya Aphale	26:17
+Would you like, for example, if Zuluri shows you, you know, who the optimizable users are, let's say, for example, inactive users, right? If Zuluri tells you that these 10 external users are inactive in, let's say, Zoom application, which means that they haven't used the application in the last 30 days or 60 days or 90 days, then would you be interested in optimizing their license, external user's license? Okay. Okay. Then we can look at unused licenses for now, since, you know, for undeprovisioned users, we need to check the setup. Maybe you can go back to Zoom application. Right. Go to optimization. Yeah. And in the unused license section, click on optimize now. Right. So here we are showing you all of these users that have that have not used the applications in the last that have not used Zoom application in the last 30 days. If you see, there is a column called last used all sources, where Zuluri will show you the timestamp of when they have used last used an application. So if you scroll to the bottom, you should start seeing the timestamps of when was the application last used. Wherever you do not see any timestamp, it simply means that the user has never used Zoom application in the first place. Okay. Right. But as you can see, we also show you the account type here. Right. Whether it's an external user or an employee. For example, there is someone named Ofer Raj. Right.
+
+>>Divya Aphale	27:57
+Who's an employee and has used Zoom one month, three days ago. Right. Yeah. So just wanted to show you how the optimizable user lists look like. But let's go to the configuration now, which is where you can configure all of these settings of continuous optimization. Can you click on configuration in the top right corner? Configuration. It's right.
+
+>>Divya Aphale	28:28
+Ok, yeah, Yeah. So here, if you see, Ariel, if you expand the configuration section for unused licenses, the first one, configuration, yeah. So basically, this is the place where you select if you want to check users who are inactive in the last 30 days or 60 days or 90 days, you can select that from the dropdown. Second is the exclusion in terms of if you want to exclude users who have been discovered within the last 30 days or 60 days. So what actually makes sense is, yeah, I think this configuration is right. So basically, as per the current configuration, you're checking which are the users inactive in the last 60 days, but you're excluding users who have been discovered in the last 30 days, right? For example, if any user has joined your organization in the last 30 days, then you wouldn't want Zuluri to treat that as an inactive user, right? That's what the exclusion means here. Then the next section is account types. So Zuluri, by default, will show you the optimization insights for all your employees, but you have an option to choose any other account type, include or exclude any other account type. So for example, if you want to exclude external service group users, you can exclude that. Same goes with license types, in fact. You can choose which license types to include for optimization, which ones to exclude. Those options are available. Can you expand the continuous optimization section now for unused licenses? So we'll come back to the playbook section. What that means, Ariel, is basically we create an app -level off -boarding playbook for Zoom.
+
+>>Divya Aphale	30:13
+Let's say, for example, a playbook that will have an automated action to remove a user from Zoom, or it could have a manual task to remove a user from Zoom. So Zuluri, with the help of APIs that Zoom has exposed, Zuluri has an automated action to remove a user from Zoom. So we can create an automated playbook to remove a user from the application. But in cases where the APIs do not have the capability to build automated actions, typically we create a manual task in the playbook. What the manual task will do for you is, while configuring the manual task in the playbook, we will basically add an assignee to perform that manual task, which could be the app owner. Let's say, for example, it could be the Zoom application owner. So the manual task, once triggered, will send a notification to the app owner to remove a particular user from Zoom, any optimizable user in this case. So let's come to the playbook section later. We'll create the playbook and then link it here. But let's take a look at some of the other configuration settings that are there. So you can basically select the interval here, Ariel. Sorry, if you can click on the configuration again.
+
+>>Ariel Mardegan	31:22
+Oh, sorry.
+
+>>Divya Aphale	31:24
+Yeah, the continuous optimization section, just expand that. Yeah, yeah. So after playbook, you see something called as intervals, right? So for example, if you choose weekly as the interval, then Zuluri will run the playbook on a weekly basis. Let's say on a Monday or Tuesday, you also have that configuration to select. And let's say if 10 users are shown as optimizable users on Monday this week, then Zuluri will run the offboarding playbook on those 10 users. Let's say in the next week, if there are 30 users, then Zuluri will run the automation on those 30 users. So we basically define the interval at which the continuous optimization automation should run. So you can select weekly, for example, right now. And choose any other day of the week, Tuesday, for example, because since today is Monday, you can select Tuesday, right? Then the next configuration is to receive a notification via email and via Slack. What this notification means, Ariel, is that Zuluri will consolidate the list of optimizable users and either send it via email or via Slack to the application owner of Zoom, finance owner and IT owner of Zoom application. So these owners are updated on Zuluri on the overview page. We can check who the owners are. Mostly, you've changed the owner from Gillard to yourself, I assume. So it could be you. But let's check that. So you can checkbox. You can checkmark the box via email and via Slack. Right. Ok. And let's save this for now.
+
+>>Divya Aphale	33:06
+If it doesn't have a playbook, it will just send you a notification on email and on Slack. Ok.
+
+>>Ariel Mardegan	33:12
+And if I don't want to send a notification to the finance officer, only to the owner, the application owner?
+
+>>Divya Aphale	33:19
+So the Slack notification just goes to the application owner, whereas the email notification goes to the application owner, finance owner, and the IT owner.
+
+>>Divya Aphale	33:27
+Id or not, so you can see it's only to me, OK? Let's click on save and let's go to the automation tab. To create a playbook that you can link to this configuration, the automation tab is right on this page. Can you click on deprovisioning now? Deprovisioning, yeah. Right, let's create a new playbook. Let's create a test playbook. Yeah, you can rename this playbook in the top left section as test zoom off boarding.
+
+>>Divya Aphale	34:11
+Click on the check mark there, yeah, right, perfect. Yeah, let's add an action to the playbook now. Your Zoom instance is already selected if you see in the top right corner. Now, let's add an action. Probably since you're just testing right now, you can add an action, a manual action to a manual task to remove a user from Zoom. If not, there are some other actions that you can see. For example, remove a user action, yeah. So this is the automated action that we have which can be converted to a manual task, yes. You can select the template, yeah. One other thing to note here, Ariel, is that just right below create manual task, it's mentioned assigned via email or via Slack, right? So let's assume that tomorrow, Zluri runs this playbook for all the 140 unused licensed users, Okay? Let's look at that scenario. So what will happen is that Zluri will send you the manual task notification to remove a user from Zoom, right, because either they are undeprovisioned from the application, or let's say they are inactive in the application. It could be either of the two reasons, right? So you can choose here whether you want to receive that notification via email or via Slack.
+
+>>Ariel Mardegan	35:36
+Yeah.
+
+>>Divya Aphale	35:37
+Yeah, that's what the setting is about, yeah. So currently it's, okay, you've changed it to Slack now, right, let's rename the title quickly, remove user from Slack. Let's add the application name from Zoom, I'm sorry, yeah. Right, and in the assignee, you can assign it to the application owner. If you scroll in the list, you should see app owner, yeah. Assign it to the application owner, right. And let's click on save task. Perfect, let's publish the app playbook in the top right corner, right. Now, if you see the test Zoom off -boarding playbook with a manual task to remove a user from Zoom is already created and published, and the task is assigned to the application owner. Can you go on the overview page for Zoom? Let's check who the app owner is.
+
+>>Ariel Mardegan	36:39
+Me.
+
+>>Divya Aphale	36:40
+Okay, it's you. Perfect, perfect. Let's go back to the optimization tab now and link the playbook to the configuration that you have done. Let's click on configuration in the right corner, top right corner. Okay, let's expand the continuous optimization section. Let's select the playbook, perfect. And click on save, right. Okay, so now as you can see, Ariel, there are 148 optimizable licenses that you can see for unused, that you can see in the unused section, right. So what Zluri will do is, A, it will send you a consolidated list of users on Slack that can be optimized from Zoom application. And B, you will receive manual task notification for each optimizable user on Slack since you have configured it to receive on Slack, right. One other thing that I wanted to check is your workflow settings, because I have just, before our call, I have enabled the Slack notifications feature for you. So can you go to workflows and go to Slack integration? I just want to check if all the scopes, notification scopes are basically connected. You can go to sources, sources, just above workflows. Yeah, go to connected and let's open Slack, right. So there are two instances, right. One is connected on 19, September 24th.
+
+>>Divya Aphale	38:23
+The other one is on 29th, Jan, 2024.
+
+>>Divya Aphale	38:26
+Ok, so which Slack instance or which Slack account are you on, Ariel?
+
+>>Ariel Mardegan	38:33
+I'm on both.
+
+>>Divya Aphale	38:36
+You're on both?
+
+>>Ariel Mardegan	38:36
+Ok, OK, because this space is for the team, for the members, for the guests. This is for the students. That's why two.
+
+>>Divya Aphale	38:50
+Ok, OK, but you're on both the Slack instances, right?
+
+>>Ariel Mardegan	38:53
+Yes.
+
+>>Divya Aphale	38:53
+Ok, the reason why I'm asking is because Zluri will send the notification to the first connected Slack instance, right? In this case, I can see Slack Campus as the instance that was connected on 29th of Jan. And Slack Team was connected on 19th of September. Maybe it was reconnected again. Yeah, I reconnected this one. Right. I'm just wondering why the Slack Campus integration is not disconnected, because I can see it's connected by Gilad.
+
+>>Ariel Mardegan	39:23
+Because I haven't removed Gilad from there yet.
+
+>>Divya Aphale	39:25
+From that instance. Ok, OK.
+
+>>Ariel Mardegan	39:28
+Because every time I try to remove him from somewhere, something breaks down.
+
+>>Divya Aphale	39:33
+Yeah, yeah. Yeah, I can imagine. Right, so Zluri will most likely send a notification to the Slack Campus instance tomorrow, Ariel. Both the consolidated list of users and the manual task notifications as well. So what I wanted to check is the scopes, which I can see are connected. Can you click on Settings? Settings for The Slack Campus. Yeah. And click on Scopes. Click on Notifications. And everything is connected. Perfect, perfect. So the setup is done. This looks good. Just give me one quick minute. Ok, one last setting that needs to be configured on the UI. Can you go to the Settings of Zluri? And click on Workflow Settings. That's something that I have enabled before our meeting right now. Perfect. So you see Manual Tasks, right? Now you've chosen in your playbook to receive manual task notifications on Slack. So we just had to select Slack here, and you can click on Save Settings in the top right corner. Perfect. Ok, so this is done, right? What you can expect, Ariel, is tomorrow at 9 a .m. Utc, the optimization automation will run. Zluri will send you the list of optimizable users on Slack. And Zluri will also run the offboarding playbook that you've created right now on all the 142 optimizable users. And you will receive 142 Slack notifications to remove these 142 users from Slack, right?
+
+>>Divya Aphale	41:20
+That's how manual task notification works, because it's very user -specific, right? So this is just for the testing purpose. If in case you do not want to receive a single notification per user, you can change it to email, and you can bulk select and delete all the emails. That's one option that you have. And anyway, on Slack, you will receive the consolidated list of users. So it's totally up to you how you'd want to set it up.
+
+>>Ariel Mardegan	41:48
+I would prefer to receive one message on Slack with all the users.
+
+>>Divya Aphale	41:55
+Okay, perfect. So then we'll have to go back and edit the playbook that you've created. Let's go to Zoom application. Automation, deprovisioning, yeah. Let's edit it, yeah. Edit task, yeah. It's assigned via Slack right now. You can change it to email. What I would say, it has to be assigned either via email or Slack, Ariel. So it's either 142 notifications on Slack or 142 email notifications.
+
+>>Ariel Mardegan	42:37
+Okay, I prefer then 142 notifications on Slack.
+
+>>Divya Aphale	42:42
+Okay, all right. Sounds good, yeah. You can save the task from here. Also, one thing to note here, only because this is a manual task, we will send notifications. If it is an automated off -boarding action, then you won't be notified in that case. I mean, of course, if you want to be notified, we can do those kinds of settings as well. But an automated action will simply just go ahead and remove the user from Zoom application. That's how fully automated it is. But since we are testing it right now, we want to test it with a manual action first and then move on to automations, right?
+
+>>Anupam Acharya	43:18
+And we can also add an approver, right, Divya?
+
+>>Divya Aphale	43:21
+Yeah, absolutely. We can quickly show that to you, in fact. Can you click on add?
+
+>>Divya Aphale	43:25
+Add in the top right corner. Let's just create a playbook for your understanding in terms of how to create a playbook with automated action. Yeah, click on. You can add the same action, remove a user.
+
+>>Ariel Mardegan	43:40
+I want to test something else. Sorry. Instead of remove the user, I want to change his plan to basic instead of pro.
+
+>>Divya Aphale	43:51
+There is an action to remap a license. Just type remap. You should find that one. Perfect. So you see something called as approval under remap license. If you click on that and add yourself there, then basically before running this automated action, first of all, what this action does is if at all there is any user on a pro license, then Zuluri will basically change the license type to a basic license. It will downgrade the license of the user. Now, since you've added yourself as an approval, Zuluri will first send you an approval notification. If you click on approved, then Zuluri will go ahead and automatically change the license from a pro to basic for this particular user.
+
+>>Ariel Mardegan	44:42
+Ok.
+
+>>Divya Aphale	44:50
+You can schedule the action to run with a certain amount of delay after it's.
+
+>>Ariel Mardegan	44:57
+I'm not going to save this one.
+
+>>Divya Aphale	44:59
+Just check it. You can't save this one. Just go back and. Right. So that's basically the setup for unused licenses for Zoom. We can quickly do the setup for undeprovisioned licenses as well. But in the meantime, I mean, I wanted to understand your inputs in terms of how you would want to treat all the external users. Because for Zoom, you saw there are two users with a pro license. But their personal email addresses are being considered because they do not have an account in your Google Workspace yet. So how would you go about these users, Ariel?
+
+>>Ariel Mardegan	45:45
+I need to check if they need an account of the company. This is not in my list of priorities right now because I know those two users.
+
+>>Divya Aphale	45:54
+Yeah.
+
+>>Ariel Mardegan	45:55
+It's not like no one knows. I know who they are. So it's not on my list of priorities.
+
+>>Divya Aphale	46:00
+Got it.
+
+>>Ariel Mardegan	46:02
+But I would need to create an account, then remove their license from that account, and transfer it to the new company account.
+
+>>Divya Aphale	46:11
+Yeah, yeah. Totally. That's what needs to be done. Right. So can you go on the Optimization tab again? Let's just check how the configuration settings look like for undeprovisioned users. It's very similar in the top right corner. Similarly, you can choose the account types. If you want to exclude the external users, service accounts, group accounts, you can exclude that. You can choose which license types to include and exclude. These are the same settings that are available in both the optimization categories. And ultimately, you can configure the continuous optimization settings. The same playbook probably that you've created right now. You can add the same playbook here, which will have the manual task to remove a user. Yeah. And I don't think the playbook got selected.
+
+>>Ariel Mardegan	47:11
+I didn't select it. I don't want to select it on purpose.
+
+>>Divya Aphale	47:15
+We know who the users are right now. Correct. So yeah, the configuration settings look pretty similar for both the optimization categories. Currently, what we have enabled is only for unused licenses and not for undeprovisioned users. Right?
+
+>>Ariel Mardegan	47:31
+And then I will receive, tomorrow, I will receive notification of this, right? No one will be removed.
+
+>>Divya Aphale	47:39
+No one will be removed. No. You can be rest assured. It's only a manual task that we have created. Only if it was an automated action in the playbook, then the users would have been automatically removed from the application. But with the current setup that we have, you will just be notified of removing a user. No one will be automatically removed from the application.
+
+>>Ariel Mardegan	47:58
+Ok.
+
+>>Divya Aphale	48:00
+Right. So this is mainly how the continuous optimization configuration needs to be done. And tomorrow, you'll understand how it actually runs based on the configuration. Just wanted to understand your thoughts on this, Ariel. How does this look to you? How would you want to set it up going forward for the rest of the applications? What we at least recommend is that we do the
+
+>>Divya Aphale	48:24
+The configuration for your top 10 applications for which you have spends and licenses. That's basically what we can look at achieving in the next one or two months. Then we can plan to work in phases and automate further 10, 20 more applications.
+
+>>Ariel Mardegan	48:44
+Yeah, I need to check with the other applications. It's something that I need to play around with it.
+
+>>Divya Aphale	48:49
+Yeah.
+
+>>Ariel Mardegan	48:51
+Until next week, I don't think I'll be able to. But I have a holiday coming up in one week and a half.
+
+>>Divya Aphale	49:01
+Ok.
+
+>>Ariel Mardegan	49:02
+So I should be able during the holiday to play around with it.
+
+>>Divya Aphale	49:06
+Got it. Also, Ariel, can you go to sources? Let's check the integrations once. Yeah. So Atlation Admin and Jira, these are typically also some of the applications where we see a lot of optimization opportunities. And those are currently errored out. So are you the owner of these applications, or is it someone else in the organization?
+
+>>Ariel Mardegan	49:34
+Technically, it's someone else. I have access so that I can reach the billing part of it. And I know who the users for The Jira And Atlation Admin are. It's a small department of 10 people.
+
+>>Divya Aphale	49:49
+Ok, OK. So not a lot of users are using Jira, is it? No.
+
+>>Ariel Mardegan	49:55
+We also stopped using Surveymonkey. That's why I didn't update it. I didn't see anything about Shutterstock. Docusign, it's something that it's complicated. Ok. Apparently, I should activate it.
+
+>>Divya Aphale	50:13
+Ok. One other thing I wanted to discuss, Ariel, is that, as you are aware, not all the APIs, I mean, applications of the APIs of not all the applications will give us the license information, right? So for example, you can see Zoom licenses automatically being fetched on the platform. That's because the API gives us that information. But if you take some other application, like let's say Hubspot, for example, it might not give us the license information. So what we suggest in that case is basically, yeah, you can go on the Licenses tab. Right. So as you can see, there is no green mark next to the license name, right? The green mark indicates that it's an auto -fetched license. If you want to check how it looks like, you can go back to Zoom application and on the Licenses page. Yeah, that green mark next to Pro And Basic, that's the one that indicates that these licenses are auto -fetched from the APIs of Zoom directly. But that's not the case in an application, you know, that's not the case basically in an application like HubSpot. So what do we do in that case to make sure that the license to user mapping is there on the Zulu platform, right? Because for optimization, what we need is the license mapping to the user, right? So one of the workarounds that is a highly recommended one and which will ensure that the license mapping is fully automated, is that if you are maintaining application -specific SSO groups, right?
+
+>>Divya Aphale	51:55
+Okay, can you click on Directory and show me if Groups module is enabled in your account? Directory in the, yeah, let's click on Groups. And can you search for HubSpot? Let's check if you have a Sso group for all the licensed HubSpot users.
+
+>>Ariel Mardegan	52:11
+No, I don't.
+
+>>Divya Aphale	52:12
+You don't. Okay. So what we can do, Ariel, is that if you're able to maintain application -specific SSO groups, we can map this group as a primary source to process the license information on the platform. Let's say, for example, if you create a Hubspot group on your Google Workspace and add 10 licensed users to the Hubspot group, we can map that onto Zuluri and any change that you make in that group will reflect on Zuluri. So all those 10 users that are a part of that Hubspot group will show a HubSpot license on Zuluri. If you make any changes, if you remove a few users, if you add a few users, then the data will reflect automatically onto Zuluri.
+
+>>Ariel Mardegan	52:55
+We have a subdomain with everyone on that subdomain have a license from HubSpot.
+
+>>Divya Aphale	53:04
+Okay. What domain is it?
+
+>>Ariel Mardegan	53:09
+Admissions .masterschool .com. Admissions .masterschool
+
+>>Divya Aphale	53:13
+.com. Okay. I'll have to check if we can, you know, do any sort of a mapping automation based on the subdomain. As far as I...
+
+>>Divya Aphale	53:23
+I remember we haven't done such sort of a configuration for anyone. So there are multiple ways in which you can do the license mapping. One is through the Sso groups. The second way to do it is a manual license bulk mapping upload that you can do. It's nothing but a manual CSV upload to assign the licenses in a bulk way to all the licensed users. But this activity needs to be done monthly just to make sure that we have the real -time license mapping data on the platform. That's the reason it's not recommended, because we'll have to do it monthly. It's a recurring activity that we'll have to do to make sure that the data is up to date. Whereas automating it through the Sso groups helps us ensure that the data is up to date based on what changes you make in your SSO groups. These are the two workarounds that we have in cases of applications where the APIs do not give us the license information.
+
+>>Anupam Acharya	54:27
+Also, Ariel, I believe you're going to start using Jumpcloud, right?
+
+>>Ariel Mardegan	54:31
+Yes.
+
+>>Anupam Acharya	54:32
+So how do you intend to use that?
+
+>>Ariel Mardegan	54:37
+I plan to have mostly just so that I have control of the computers itself and some sort of control in the policies.
+
+>>Anupam Acharya	54:51
+Got it.
+
+>>Ariel Mardegan	54:51
+Registry of the computer.
+
+>>Anupam Acharya	54:55
+Understood, understood. More in terms of device management.
+
+>>Ariel Mardegan	54:58
+I talked about it with one of the shareholders, one of the CEOs. And they are worried about the security with privacy. So they don't want to get inside the privacy of the employees, but still maintain level of security. So it's something that will change as we go.
+
+>>Divya Aphale	55:21
+Got it.
+
+>>Anupam Acharya	55:22
+Got it.
+
+>>Divya Aphale	55:24
+Yeah. The reason I think why Anupam was also asking this question, Ariel, is because you can do user access provisioning and deprovisioning through Jumpcloud groups, right? Jumpcloud has that capability. So a lot of our customers who are using Jumpcloud as their Sso, they typically maintain Sso groups that are application specific, right? So in that case, we can easily map the Sso groups in your Jumpcloud as a primary source to fetch the license information for a particular application. So it becomes very seamless. And the ways Lurie and Jumpcloud work with each other is also very smooth and seamless. They go hand in hand, basically. And yeah, basically, Lurie supports your Sso seamlessly.
+
+>>Ariel Mardegan	56:10
+Yeah, it's more complicated than our use case, but I'll keep that in mind. Thank you.
+
+>>Divya Aphale	56:19
+Absolutely. So in your case, you do not maintain any application -specific groups on Sso, right? Ok. So then we are left with manual bulk uploads, making sure that we are bulk uploading all the license information on the platform for all such applications where there are no Autofetch licenses, but you have seed -based licenses as per your contracts, right? So that's what we can look at. If not monthly, we can probably twice in a quarter is when we can look into manually bulk mapping the license information. All that we will need from your end is an export from your application console area. The service team at Lurie will do the manual bulk upload for you. That's something that you will not have to look into at all. We just need the export of licensed users from applications like, let's say, Hubspot or Miro, these applications, or any other application that do not give us the license information. But largely, I can see applications that you're using, like Google Workspace, Slack, Zoom, all of these applications do give US Autofetch licenses. And I think these are the applications that you have maximum number of users for also, right? Yeah. So we should be able to fully automate these applications in terms of optimization.
+
+>>Ariel Mardegan	57:41
+Ok.
+
+>>Divya Aphale	57:42
+Yeah. Right. Any questions on optimization? No.
+
+>>Ariel Mardegan	57:52
+No, this is something to play around.
+
+>>Divya Aphale	57:56
+Right, right. Just keep a watch on the notifications that you receive tomorrow. Do share your feedback on the same. And then we can tweak the configurations a little based on your feedback and do the setup for your rest of the applications as well. Right?
+
+>>Ariel Mardegan	58:15
+Yeah.
+
+>>Divya Aphale	58:17
+It's almost time. It's, yeah. So let's take a pause here.
+
+>>Divya Aphale	58:22
+Here, and just let me know if you're available any other day this week. We can quickly meet for access management demo and setup as well. It's basically the onboarding and offboarding playbooks that you were trying to test yourself, right? So that's the last bit of our demo sessions, and we would want to cover that either this week, or we can meet next week on Monday. When are you going on a holiday, you mentioned?
+
+>>Ariel Mardegan	58:48
+Let me double check that. Holiday starts on Wednesday.
+
+>>Divya Aphale	58:57
+Ok.
+
+>>Ariel Mardegan	59:00
+Yeah, it starts on Wednesday. On Monday next week, I will need to leave the office 45 minutes after we started our next meeting. Ok?
+
+>>Divya Aphale	59:18
+Ok.
+
+>>Ariel Mardegan	59:22
+But yeah, besides that, everything seems OK.
+
+>>Divya Aphale	59:28
+Ok. Ok, so you're available on next Monday at the same time, right? If that's the case, then we can -
+
+>>Ariel Mardegan	59:34
+Yeah, I will just need to cut short.
+
+>>Divya Aphale	59:36
+Yeah, just 45 minutes. That should be fine. All right. Then we can continue on next Monday and do the setup for access management onboarding and offboarding playbooks. Currently, just one last question before we drop off. Just wanted to understand, which is the first application any user is added to? Is it Google Workspace or SSO?
+
+>>Ariel Mardegan	59:55
+Yeah, the first application is Hibob and Google Workspace. I don't touch HiBob. That's the HR part. So from my side, it's only Google Workspace, the first one. And from there, I started adding.
+
+>>Divya Aphale	01:00:10
+Ok.
+
+>>Ariel Mardegan	01:00:11
+Also, it's the last one to be removed.
+
+>>Divya Aphale	01:00:15
+Understood. Understood. So the Hibob integration is also disconnected on - Because I don't have access to it. You don't have access to it. Ok. The way I'm thinking about this area is that Zuluri has an integration with Hibob. And we can set up an automation rule in a way that if a new user is identified from Hibob as a primary source, then run the onboarding playbook on that new user, new joiner. And then the playbook can have all the Google Workspace automated onboarding actions, Zoom onboarding actions, Slack onboarding actions in it. So that from an IT perspective, you will not have to do the onboarding manually to any of your top applications.
+
+>>Ariel Mardegan	01:00:54
+Zuluri will also - Make sure, something that I said in our last meeting, this is something that I want to make sure that it works correctly. I want to make the onboarding to Google Workspace. And from there, I want the automation.
+
+>>Divya Aphale	01:01:09
+Ok. So Google Workspace, you want to keep it to yourself. And after that, Zuluri can maybe onboard the user to Slack, Zoom, and any other applications. Perfect. We can do it that way as well. That should be fine. So we'll do the setup next week. Meantime, we'll share the document, the business case, basically, that you need to share internally with your management. We'll have that shared before end of this week, Ariel, with you.
+
+>>Ariel Mardegan	01:01:35
+Ok.
+
+>>Divya Aphale	01:01:36
+Thank you. Yeah. All right.
+
+>>Ariel Mardegan	01:01:38
+Thank you so much, Ariel, for your time. Thank you, Ariel. Thank you.
+
+>>Anupam Acharya	01:01:41
+Have a nice day, evening.
+
+>>Ariel Mardegan	01:01:42
+Bye -bye.
+
+>>Divya Aphale	01:01:42
+You too.
+
+>>Ariel Mardegan	01:01:43
+Have a lovely day. Bye -bye. Thank you. Bye.
+

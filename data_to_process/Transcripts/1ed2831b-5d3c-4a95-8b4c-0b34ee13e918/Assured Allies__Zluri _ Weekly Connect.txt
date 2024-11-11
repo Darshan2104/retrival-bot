@@ -1,0 +1,210 @@
+>>Divya Aphale	00:06
+Hello. Hi, Omri. Hi, Shahar. Hi. Hello. How are you doing? Good. Someone was on a holiday, right? Last week.
+
+>>Ramat Gan Office-6-Rome (5)	00:20
+I was in Italy, yes.
+
+>>Divya Aphale	00:22
+How was your holiday, Omri?
+
+>>Ramat Gan Office-6-Rome (5)	00:24
+It was nice.
+
+>>Divya Aphale	00:26
+Good to know.
+
+>>Ramat Gan Office-6-Rome (5)	00:27
+It was in Italy. How could it not be nice?
+
+>>Divya Aphale	00:31
+Totally. I plan on taking a holiday too sometime hopefully in the last quarter of the year. I haven't gotten the time to take a holiday this entire year. So, looking forward to doing something. Let's see.
+
+>>Ramat Gan Office-6-Rome (5)	00:44
+And where do you plan to go?
+
+>>Divya Aphale	00:49
+That's also something that I'm thinking about. Let's see. Let's see.
+
+>>Ramat Gan Office-6-Rome (5)	00:54
+Okay.
+
+>>Divya Aphale	00:56
+I do wish to come to Israel sometime. But unfortunately, the time right now is not good. The situation is not very good for travel. But I've heard so many good things about Israel. Yeah.
+
+>>Ramat Gan Office-6-Rome (5)	01:08
+Maybe not to Israel.
+
+>>Divya Aphale	01:12
+Right. Okay. Omri, just a quick update on what we were talking about yesterday. You requested to check for two integrations, mainly with your finance tools, right? One is priority. Another one is mesh payments. Just give me one quick minute. We do have both the integrations available on demand in our catalog. So, what I would suggest or recommend you to do is just go ahead and request for those integrations. The team will get back to you to understand your requirements and use case a little better. Although I have conveyed the same internally in terms of what you wish to do by integrating these applications. And, you know, what's the outcome or what you want to do on the platform once the data comes in from these integrations. But we'll follow a process there. Currently, we do not have any customer, to be very honest, who is integrated with mesh payments. So, we'll have to work together, collaborate on that one to make it work for you. But we do have certain customers that are using priority. So, that should be seamless. I would request you to go ahead and request for those on -demand integrations to be enabled.
+
+>>Ramat Gan Office-6-Rome (5)	02:28
+Okay. If I remember correctly, we had an issue with mesh payments regarding their API. Yeah. To give us the key. Yeah. So, we can't really do anything if we don't have the API key on mesh payments. It's not something that we can solve, I think. Or did you come up with something? I don't know. But is there any type of reports that we can export from mesh payments and then maybe import? I don't think that's relevant. Slowly, I think. Why? Mesh themselves.
+
+>>Divya Aphale	02:59
+Yeah.
+
+>>Ramat Gan Office-6-Rome (5)	03:00
+But maybe mesh has a report. But maybe somebody knows how to import the API. Yeah. Manually, at least one time so we can see if there is any access to the system. And mesh payments doesn't allow automated access. Yeah, right. To take it out one time and then import it and then at least have the information. Okay. Okay.
+
+>>Divya Aphale	03:25
+I just have two questions based on the conversation that we just had. One is from what I'm understanding is that you did reach out to mesh payments for an API key, Right?
+
+>>Ramat Gan Office-6-Rome (5)	03:37
+Yes.
+
+>>Divya Aphale	03:37
+What response did you get exactly?
+
+>>Ramat Gan Office-6-Rome (5)	03:40
+No. That was the response. We don't give out API keys.
+
+>>Divya Aphale	03:44
+Oh, okay. Okay. So, that's the problem. Okay. All right. Makes sense. And the other thing that Omri was talking about is exporting the data from mesh and then importing that to Zuluri, right? So, that is pretty much possible. Because we do have an option to bulk upload the Sas Bench data through a CSV file. So, that's something that we can facilitate for you. But let that be the last resort. Let me just let the team know internally as well that this is the challenge that you faced with mesh when you try to reach out to them for an API key. But this API key is not available on the admin console, is it? No.
+
+>>Ramat Gan Office-6-Rome (5)	04:24
+They don't disclose it. They just say that they're not willing. I mean, because it's a very sensitive system that holds financial information, they don't allow it.
+
+>>Divya Aphale	04:33
+Understood.
+
+>>Ramat Gan Office-6-Rome (5)	04:35
+Okay.
+
+>>Divya Aphale	04:36
+Got it. Got it. Fair enough. We also have Mithilesh on the call. You've met him before when we did a feedback call for access reviews. So, Mithilesh basically wants to brief you about the new beta feature, the improved enhanced global search feature that we have on Zuluri. Currently, we are in the early stages.
+
+>>Divya Aphale	04:55
+Access space for that particular feature. So we just want you to try the feature out and share your feedback with us. So he would be walking you through the feature, give you a small demo of it, and give you some more details around it. Over to you, Mithilesh.
+
+>>Ramat Gan Office-6-Rome (5)	05:10
+Ok.
+
+>>Mithilesh Hari	05:12
+Thanks, Divya. Hi, Gentile. Thank you for taking the time out to go through. Let me go through the demo for this feature. I'm excited about the feature, and I'm excited to get your feedback as well. I think my screen is visible.
+
+>>Ramat Gan Office-6-Rome (5)	05:31
+Yes, it is. Ok.
+
+>>Mithilesh Hari	05:33
+So I just have a small few slides to give you an overview of what this new capability is and connect your thoughts and maybe enable it after this call, if required. So we're calling this Search V2. So right now, we have a global search capability that allows you to find specific applications or users within our platform. And that's about it. So what we're trying to achieve here is improve that experience, be able to allow users of Zuri to be able to switch to the new Command -K experience that's becoming more common with search across modern SaaS tools, be able to identify not just applications or users or integrations, but also find certain pages within the platform, be able to perform certain actions quickly on the platform, be able to find certain health articles on our platform as well. And there's a small amount of Gen -AI capabilities that we are also trying to introduce to automatically create any help text based on the inputs that you provide. So at a high level, that's the problem that we're trying to solve. The need, like I mentioned, there are two parts to it. One is be able to find parts of Zuri's platform that extend beyond searching for a specific entity. So that existing capability will still be retained. We'll still be able to find any applications or users.
+
+>>Mithilesh Hari	07:14
+But on top of that, if there are any other actions or any health articles that you'd like to find, you'll be able to search for those as well. And even this is even more nascent right now, but we are also trying to incorporate Gen -AI to make life easier for users of our platform. The use case that we're trying to solve for here is to be able to generate health text based off of any inputs that you give. For example, if you say, how can I connect Google Workspace as the input, you'll be able to contextually infer what is your problem statement, look through all of the documentation, our entire knowledge base, and generate some health text to help you perform that action. Now, there are three. As I'm going through this, please feel free to interrupt me and ask any questions that you have. Now, there are three new capabilities that we're adding. The first is something that we're calling Quick Actions, where you'll be able to hit Command -K, open up that search model. And you'll be able to see a set of actions, which includes a few health articles, being able to find a few pages, and also being able to perform certain actions. So for example, if you want to add a transaction, which is something you were talking about, you'll be able to search for that command. And it will automatically open up the place where you'll be able to add a transaction. Similarly, you'll be able to switch between different pages, different screens using the same command, instead of relying entirely on the navigation here. The second is health articles. This new search is linked to Zuluri's knowledge base, which allows you to search for any health articles that you are looking to find.
+
+>>Mithilesh Hari	09:04
+And something that will help you, that you can keep on the side as you're trying to set up a workflow or perform a certain action. You can still find these on our support portal. But this way, we have integrated the two, so that you don't have to switch between two tabs. And you have everything presented in one view. You can pin it, and you can move this around. And you have the view of the support article while you're also performing your actions on the screen. And the third bit is the AI generation. Like I mentioned, very, very early, it's taking some time to learn user intent and be able to generate the health text on this based off of the inputs. But this is something that is supported. So you enter a query. And
+
+>>Ramat Gan Office-6-Rome (5)	09:54
+What is it?
+
+>>Mithilesh Hari	09:55
+You enter a query and hit on, now it will say, ask Zuluri Ai, and it will generate a response for you based on the input and based on the information that Zuluri already says. Similarly, it will be present over here on the UI. You can drag this around, you can place it wherever, and you can leave this here while you're trying to perform certain actions. These are the three primary capabilities that we have introduced. There's a lot more that we have planned going forward, which I'd like to get your feedback on at a later point in time. But this is what is currently available as part of our early access that we would like for you to try out and provide feedback. I'll pause here for a second if there are any questions or any clarifications I can provide.
+
+>>Ramat Gan Office-6-Rome (5)	10:46
+Yes, so this helps us work with Zuluri or like a shortcut to reach certain pages and things like that. If I want to add a new contract or something like that, I can write, add a new contract, and then I will get directly to the page.
+
+>>Mithilesh Hari	11:06
+Absolutely. The list that you see here will come from a predefined set of actions that we currently support. So if there are any actions, for example, actually not for example, if there's any actions that are not currently supported, we will be able to add that additional action so that you'll be able to use that as well. So here, the example that I showed was to add a transaction. Similarly, you can add a user. I believe add contract is also available. But if anything is missing, we'll be more than happy to add that functionality in so that you can make best use of this capability to support your use cases.
+
+>>Ramat Gan Office-6-Rome (5)	11:45
+Okay. Thanks. Thanks. And regarding AI, you're using Copilot, is that it?
+
+>>Mithilesh Hari	11:54
+I know it says Copilot. Behind the scenes, we are using our proprietary version of, I want to say Openai, but it's Microsoft's GenAI model. I'm trying to recall if it's Openai or if it's a different model, but it's Microsoft's GenAI model. But what I do want to call it, I get this question often, we don't use any of your actual data for the AI model's learning purposes. This is trained entirely on our knowledge base of support articles and such. There is no assured analyzed data that's being fed to this model for any training purposes.
+
+>>Ramat Gan Office-6-Rome (5)	12:38
+Okay, that's good.
+
+>>Mithilesh Hari	12:40
+And I think I can show this. Let me just quickly go back here. So I have this open here. We have linked the... So we have linked our AI policy over here as well to the same search bar. So you will be able to kind of click on it. That will take you to our website and you'll be able to see our AI terms and conditions in case you want to understand more details about it. And obviously, any further questions also, our team is more than happy to answer.
+
+>>Ramat Gan Office-6-Rome (5)	13:18
+Okay, good.
+
+>>Mithilesh Hari	13:21
+So yeah, this is largely what we have right now. I do want to pause here and check if this is something that you're willing to participate in. You know, this is going to be a four -month, sorry, four -week trial program. We can enable access for you if you're interested. You can try it out. You can provide feedback either on the channel. I'm also part of the external channel. You can tag me directly or tag Vidya and provide your inputs, ask for follow -up any issues. Or alternatively, if you want to give feedback, you can do it directly from here as well. There's a small feedback form where you can mention whether it's a bug or any experience improvement, additional capabilities, provide more details, even add attachments if you want to. Multiple ways of giving feedback, but all of this feedback will be consolidated. We'll keep making incremental improvements. And a couple of weeks from now, we'll probably catch up. I will get on a call again. There'll be a more structured feedback session, not just for what you've already tried out, but also for what we plan to implement in the future. Understand your point of view of whether you believe that will be useful for your use cases or even beyond for anyone else trying to use this. So if you are interested, I can enable this feature for our tenant auxiliary And you can try it out.
+
+>>Ramat Gan Office-6-Rome (5)	14:49
+Can it disrupt any of the normal work?
+
+>>Ramat Gan Office-6-Rome (5)	14:53
+So if it's nothing that changes the way we work and it's not taking our data, so I think we would be happy to join and give feedback.
+
+>>Mithilesh Hari	15:04
+Definitely will not disrupt anything because like I mentioned, there is compatibility with the capability, for example, right now, if you search for Google Workspace on your current instance, it will just show you these results. It won't show you these results. And if you click on, you can switch between the other four entities that are present. You can go back to the existing experience also if you want. So all of this capability is still retained. We're just adding more on top of it.
+
+>>Ramat Gan Office-6-Rome (5)	15:32
+Okay, yeah. Yeah.
+
+>>Mithilesh Hari	15:39
+Right, so right after this call, it looks like you are interested if I understood it correctly. So right after this call, I can enable this for your tenant. I can, I'll share this presentation as well. The setup is what we'd like for you to try out is pretty straightforward. There's a limited set of actions that you can, sorry, a limited set of tasks that we'd like for you to try out. Quick actions will probably be the most beneficial at this point in time, given you use multiple models of the platform as is. Help articles, wherever you believe you would, wherever you'd like to reference a help article, you can use that. And anything around the in -app documentation and, sorry, the AI -generated in -app documentation, you can try it out and provide feedback, although like I called out, it's very, very early stage. So you may not benefit a lot from this bit at this point in time. And like I mentioned, four weeks, two weeks from now, we'll get on another call and collect your feedback. And based on your feedback, we'll keep making incremental changes as well. And actually, yeah, that's it. This is what I wanted to talk to you guys through. I'll pause here.
+
+>>Divya Aphale	17:07
+Yeah, thanks for that, Mithilesh. Since we have a couple more minutes left and I know Omri and Shahar were trying to create some access review certifications today. So just wanted to understand if you have any questions around that, if there's any issue that you face that we can help you with.
+
+>>Ramat Gan Office-6-Rome (5)	17:27
+Yeah, there is, when Shahar does, he's part of the access reviews and we have a long list of applications, like 20 or 30 applications in the access review. And then because Shahar can't approve himself, I go in and approve what's the last ones. But anyway, for each application that I go in, I go in and then there is a way to filter out, only see assigned to me and I can see Shahar And then I can approve him. But then I go back to the list of all the applications and there is no way to filter that list. So even ones that are 100 % approved, I always have to scroll down and go to find the next one and find them again. So it will be better if on this list of seeing applications for waiting for approval, there was a filter to filter approved, already 100 % approved and just see the ones that are not approved And then I can just quickly find them and continue on the process. Because anyway, there's a lot of clicks in this process, it's not a fast process. I have to go in, find Shahar, and then go back to the list and then again, find the next application, which will be probably down below and I have to scroll a lot and find them. So it takes quite a lot of time and it's not like a productive time, it's just. Yeah, yeah,
+
+>>Divya Aphale	18:55
+Yeah.
+
+>>Mithilesh Hari	18:57
+Definitely noted on the one suggestion that.
+
+>>Ramat Gan Office-6-Rome (5)	19:02
+Just one more suggestion. So if I'm in a certain application, my only button, my only option is to go back to the list. Instead of going back, I would want to, I have a button for next, to go to the next application and just do the next, instead of going back and searching again in the list.
+
+>>Mithilesh Hari	19:22
+Definitely noted. One similar feedback that we've gotten, please let me know if you believe this can be helpful as instead of having it be grouped by applications, just a view where you can see all the users that you need to perform reviews for. So every one view where you see user A application and user B applications and you can just perform all the reviews at one go. If you, something like that would help.
+
+>>Mithilesh Hari	19:52
+So that's another option that we're evaluating in terms of improving the experience of doing this.
+
+>>Ramat Gan Office-6-Rome (5)	20:01
+That's actually really good. Because I have 80 applications, all in all, in Zuloid that I need to review. After I do that, he needs to go in at least half of them to approve me. So if you're talking about the list of applications in which, under each application, it just says who are the pending employees to be reviewed. For him or for any other manager, that would be really good.
+
+>>Mithilesh Hari	20:28
+Noted. Yeah, noted. Feedback definitely taken. But one alternative that I can share that may help Omri at least at this point is on the admin view, you will still see all of the users that are present that Shahar has already reviewed. But there's another view called the employee view where you still see everything grouped by applications, but it'll be easier for you to find just Shahar's. It'll just be what's assigned to you rather than everything that's included in the review. So it doesn't solve the problem entirely, the problem that you outlined, but it does make things a little bit simpler than what it currently is for you.
+
+>>Ramat Gan Office-6-Rome (5)	21:15
+Yeah, maybe that's good for me, but for Shahar, which has to go anyway through the applications, it would be better if he could go to an application, make the approvals, and then go click next instead of going back and searching for the next application. So it's the same thing when the first approver needs it, not just for me doing one. Absolutely.
+
+>>Mithilesh Hari	21:37
+Yeah, that feedback is definitely taken. This was more a suggestion to at least ease things for you in the meantime.
+
+>>Divya Aphale	21:49
+Sounds good. Anything else, Shahar or Omri?
+
+>>Ramat Gan Office-6-Rome (5)	21:56
+In Access Reviews, no. I don't think there's much more. Only thing is still with what I said before about entering contracts and... When you go to licenses, in order to create a license, you need to create a vendor. And in order to create a vendor, you have to put in an email address, even though the vendor is SaaS and I never talk to anyone And I don't have an email address or a contact person. Right, yeah.
+
+>>Divya Aphale	22:36
+I remember that this feature request or this enhancement basically is already conveyed to the team internally. I'll quickly just follow up on that one as well. But just a small correction there, Omri. If you have to map the licenses, more than the vendor data, what is needed is the contract details, right? So, yeah. So you can just add a contract without adding all those vendor details that you just mentioned about, like email address or something of that sort.
+
+>>Ramat Gan Office-6-Rome (5)	23:08
+There is no way to create a contract without a vendor.
+
+>>Divya Aphale	23:13
+Right, so when you're adding a vendor, all you need to do is basically just type in the vendor name. It's not needed for you to add all of the other vendor details. Maybe I can just quickly walk you through this once we connect the next time. But in the meantime, I also wanted to check if you have any contracts that can be uploaded on the platform. Then please do share those contracts with us, let's say in a single Google Drive folder or something of that sort. The contracts team at Zuluri will help us upload all the contracts on the platform. And they will take care of uploading the vendor data as well on the platform on your behalf. So it's a service that's completely taken care of by the Zuluri contracts concierge team. So you don't have to do it yourself.
+
+>>Ramat Gan Office-6-Rome (5)	24:00
+Okay, good.
+
+>>Divya Aphale	24:01
+Right. So maybe you can share the Drive link with me once you are able to add all your SaaS contracts in that particular Drive folder. If you have any contract in a language that's other than English, then that's going to be a little, you know, complex.
+
+>>Ramat Gan Office-6-Rome (5)	24:21
+Only in English, right? Yeah, yeah. We won't upload it in any other language.
+
+>>Divya Aphale	24:25
+Okay, great. Then looking forward to receiving the contracts from you, Omri. And once we receive the contracts, we'll share an Eta and a contracts tracker with you, depending on how many contracts need to be uploaded on the platform.
+
+>>Ramat Gan Office-6-Rome (5)	24:38
+Okay.
+
+>>Divya Aphale	24:41
+Sounds good. All right. Thank you so much for your time today. See you next week.
+
+>>Ramat Gan Office-6-Rome (5)	24:44
+Thanks. Thanks. Bye -bye. Thank you.
+

@@ -1,0 +1,96 @@
+>>Aayush Ojha	00:00
+Hello. Hi. How are you? Hey, everybody. Hey, Julien. Hey, Nathan. Good morning. Morning.
+
+>>Aayush Ojha	00:15
+I don't know how to put this, but I hope I'm audible right now, Nathan and Julien.
+
+>>nathen vu	00:21
+Yeah, you are. Yeah, what's the matter?
+
+>>Aayush Ojha	00:26
+Yeah.
+
+>>nathen vu	00:27
+Yeah.
+
+>>Aayush Ojha	00:28
+Actually, there is basically a transformer blast that happened just 30 minutes ago at my place. And I have joined in from my mobile, and basically, I don't know because people are not able to hear me. I just had to cancel two of my meetings from the last 30 minutes. Unfortunately, I don't have the required bandwidth currently. I've joined it from my phone. I don't have the bandwidth. I'm not able to join even the meeting from my laptop. So sincere apologies for this. My only request would be if you could reschedule this call for Monday, Tuesday, whenever you are available. Yeah.
+
+>>nathen vu	01:16
+Yeah, that works for us.
+
+>>Aayush Ojha	01:17
+It was such a last one that I did not even want to drop a message or mail just at the last moment.
+
+>>joelyn manfredi	01:24
+Yeah, that sounds fine.
+
+>>nathen vu	01:28
+Yeah, hopefully everything gets fixed soon for us. Yeah.
+
+>>joelyn manfredi	01:32
+Yeah.
+
+>>Aayush Ojha	01:34
+It's pitch black. It's pitch black at my place. I'm just staring into darkness and talking while talking from my phone mobile. But thanks. Thanks for your concern. But apart from that, I why I also joined the call from my mobile is Nathan. I just wanted to also quickly on how the going for you. Are you facing any challenges?
+
+>>nathen vu	01:59
+The desktop? Deployment.
+
+>>Aayush Ojha	02:01
+Deployment of agent.
+
+>>nathen vu	02:03
+So far, it's been deployment of desktop and drop. Yeah. So the browser, the browser agents, I'm sorry for talking in noise. You're good. The browser agents, I haven't done just yet. But the desktop agents looks like they're for the most part going through. But there are some that are failing, and it might be because the folder is not found after it's created. So I'm not sure why. So I have to go through and kind of figure that part out. But let me get those screenshots for you, and I'll send those over to you. But it seems like for the most part, they are installing on the desktop. There was something that I missed last time that was on the instructions. It looks like that wasn't quite clear until later on down the path. So getting that worked out and redone from scratch again seems like it's working for the most part, though. Now I got to do the browser agents, and that seems like that might be the hard part there. Why is that the hard part? Because last time we did that, they were all failing completely. It's the same set of instructions. So I'm not sure if we need the desktop agent installed first before we do the browser agents. That way they install correctly. Or if they're two separate items that are, you know, they're not dependent on each other. If that makes sense.
+
+>>Aayush Ojha	03:37
+Yeah. Yeah. I'll provide some clarity on this. Ideally, it should not depend, Nathan. Okay. But what happens is that when we deploy browser agents, we deploy it directly depending on the browser. Let's say if the user is using Chrome or if the user is using Microsoft Edge, if they're using Firefox, we have separate documentation and steps for that on how to install that. But I guess it is because we needed to install the desktop agents first and then go ahead with the browser agents. So it is good to know that the desktop agents are going on fine now. And to be very honest, that should have been our primary step forward regardless. We should have always deployed desktop agents first and then gone ahead with the browser agents. But like I said, that's good to know that the desktop agents are going fine now. But, yeah, like you said, for the ones that are failing, you can retry them once again, depending on why you feel they might be failing. And if they are still failing, please just send us those screenshots so that we can look at it and help you out over there. I hope I was audible.
+
+>>nathen vu	04:51
+I did speak for the last one or two minutes. Yeah. No, you're audible. Yeah, no, that makes perfect sense.
+
+>>nathen vu	04:57
+And do that i think it's just it's kind of Yeah I think we should have done it from the desktops first i think what we did was uh maybe we did something backwards a little bit and there wasn't clear direction So um we were going Yeah Yeah
+
+>>Aayush Ojha	05:11
+Even even the browser so correct correct even even i don't know why Sriram had shared uh the browser agents first with uh you guys Um but that's fine uh we we know what we we need to do next so let's go ahead with that that's actually very good to know that the desktop agents are going fine and being deployed fine for the most part of it so we should be having very rich data by the time uh we have that meeting on 23rd Um
+
+>>nathen vu	05:40
+So Yeah
+
+>>Aayush Ojha	05:40
+That's good to know um just let us know Nathan wherever you face issues so that we can help you out Right
+
+>>nathen vu	05:46
+Yeah sounds good I'm going to deploy to probably the rest of the um the the computers and the network uh because it seems like it's going fine so we'll go from there and gather more data that way Okay
+
+>>joelyn manfredi	05:58
+Hey Nathan Nathan on the ones that are successful for the desktop um do you want to also try maybe the browser install for a selection of those and just compare it
+
+>>nathen vu	06:14
+I'm going to do the edge browser first Yeah That's the biggest yeah mine actually got uh like active and did everything perfect So um i'm going to do our little test group first with the edge browser and the marry it off is probably um probably your guys decided to in South Carolina And then that way we can uh i can gather more data that way So um i've had one person complain that it wasn't quiet when he installed but other than that I mean it seems everything ran pretty smoothly So good Yeah So i'm going to do that today
+
+>>Aayush Ojha	06:52
+And then i'll have uh updates uh monday jolene on that one for you all right perfect that's amazing nathan and actually actually we are in luck um i'll tell you why because i have a document just for deployment of browser agents to edge saved on my mobile so what i'll do is immediately after this call i'll send you that document as well we are just lucky i'll just let you know that much So um i'll send you I'll I'll Yeah I'll send you out that document as well so in case the in case the deployment fails from the previous document that you have i would request you to please refer to the other document that is that i'll share with you shortly and if that fails as well please do reach out to us
+
+>>nathen vu	07:43
+Right okay perfect um that is great
+
+>>Aayush Ojha	07:50
+I did want to i have i had the optimization summary ready and everything to show But uh like i said i don't have access right now um But yeah That was thing that i did want to do today apart from the installation thing But uh maybe we can reschedule it and discuss it again um next week uh then nathan does that sound good to you Yeah
+
+>>nathen vu	08:14
+That's fine by me Yeah
+
+>>Aayush Ojha	08:16
+We already agreed if you want to if you look at your schedule for uh monday and see if that works yes um actually actually that is where the catch is i was trying to save this for the last um because i realized i did not inform you guys earlier um So actually i am on Pto next week entirely um jolene and Nathan but um rest assured um i will i will have Erom join the calls And i will i will uh whatever i'm discussing with you right And i have already transferred all the knowledge to her and she is going to discuss with you the same things Right um so the only thing would be to keep to keep posting those uh errors wherever you get that error nathan in our team channel and Erom will take it for from there all right and the same goes for the reschedule meeting as well i will ask Erom to basically share her availability for monday if she does not have time on monday maybe tuesday and we will leave the calls on wednesday and friday as it is and we will basically go over the progress on the next call which we reschedule okay all right good all right thanks thanks a lot guys for understanding and i apologize again for this last minute issue um But Yeah uh we'll get nathan before the meeting definitely rest assured all right no worries thank you all right good
+
+>>joelyn manfredi	09:45
+Thanks nathan no worries thank you Jolene thank you all right take it easy guys
+
+>>Aayush Ojha	09:51
+Bye thank you thank you everyone and thanks nathan for your all your efforts appreciate it
+
+>>Aayush Ojha	09:56
+Bye -bye.
+

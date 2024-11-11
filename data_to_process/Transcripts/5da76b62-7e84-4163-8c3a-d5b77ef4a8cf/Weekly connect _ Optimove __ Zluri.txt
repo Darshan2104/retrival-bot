@@ -1,0 +1,201 @@
+>>Vijay Viswanathan	00:00
+Me yes are you me Yes how are you fine how are you doing well now uh give me one second
+
+>>Vijay Viswanathan	00:21
+No i uh just want to start with the webhook integration for bamboo is like no problem we can go ahead and connect it uh here uh from the catalog Uh right you do this from your side or i will do this no you can do it's already there it's already integrated now uh we just have to basically you can see webhook events here on my screen you just uh basically enable this webhook integration and you can basically these are the webhook events that we have And then you need to uh add the you have to you know reconnect the integration itself okay
+
+>>Naor Hershkovitz	01:05
+So let's do this yes let me stop sharing
+
+>>Naor Hershkovitz	01:22
+Okay So let's start with bamboo Yes yes it's enabled uh i just have to reconnect this integration you have to add the api Yes just a second i will get it out from the bamboo subdomain it's meaning this
+
+>>Vijay Viswanathan	02:25
+Yes awesome i think the webhook integration itself is live so it will in our next sync we should have that in the meantime what we will do is uh the user creation uh the one for user creation that we have so we will uh probably change the automation for that alone so that we can see the user creation on azure ad happening right from bamboo to ad one thing that i want to uh call out is uh we are not getting any user attributes from bamboo when we are doing webhook events when i say user attributes you're not getting their departments all of that information uh for us to trigger the subsequent playbooks the department level playbooks on azure Right So that's one block that we have right now which my which my team is looking into so by friday we should know why we are not getting any attributes via the book Okay
+
+>>Naor Hershkovitz	03:33
+And i need to also turn the webhook in the azure Yes
+
+>>Vijay Viswanathan	03:37
+But we've not enabled it yet not anybody can you can you check webhook event here Okay it's there But the only thing is that we will not be able to execute these uh playbooks because like i said bamboo from bamboo hr we are not getting user related attributes which is department or if you have let's say department right or on bamboo hr we are not getting that via webhook events right now So there will still be a 48 hour delay 24 hour delay for azure at this point in time
+
+>>Naor Hershkovitz	04:08
+Okay um and until friday you have an answer And
+
+>>Vijay Viswanathan	04:16
+Yeah i'll have an answer on friday in terms of what's the next step ahead for uh that the attributes additional attributes coming in from bamboo Okay
+
+>>Naor Hershkovitz	04:24
+And now i need to change something in the automation rule
+
+>>Vijay Viswanathan	04:27
+Yes we have to change the automation rule can we maybe just help create just for the uh user creation on ad Yeah You you can just like edit this existing Yeah We can just do it on call right now if you can just like uh we'll have to recreate this rule you can just close it and we can start from scratch
+
+>>Naor Hershkovitz	04:47
+Okay So let's change this
+
+>>Vijay Viswanathan	04:50
+Yeah The condition you can delete and you can add the webhook condition Yeah you can remove and add the trigger uh which is
+
+>>Vijay Viswanathan	05:00
+If you scroll down further, yeah, web integration given this process, then select BambooHR. Yeah, that's the one and select even when user is created, right? Fire date, user created date, and you can add the... Is here it's on or before?
+
+>>Naor Hershkovitz	05:27
+How can I know it will do before and not on the day?
+
+>>Vijay Viswanathan	05:32
+It will be on the date. If the user created date is mentioned, it will be on the date of the higher date mode.
+
+>>Naor Hershkovitz	05:39
+So if I want before, before?
+
+>>Vijay Viswanathan	05:43
+Sai, do you have clarity on on or before?
+
+>>Sai Prakash	05:49
+I was on mute. If you want just before, I don't think we have that supported. Maybe it will pick up.
+
+>>Vijay Viswanathan	05:58
+Yeah, it will just be on the date. No, it will not be before the higher date.
+
+>>Sai Prakash	06:04
+But I don't know in detail about it, the product.
+
+>>Naor Hershkovitz	06:10
+So one thing, it's not right to write it in the condition. Second, so the webhook is less good for me because on the regular sync that take 24 hours, it create the user, not matter what the date.
+
+>>Vijay Viswanathan	06:34
+Right.
+
+>>Sai Prakash	06:36
+What else options are we showing here on the higher date? Is it just on or before?
+
+>>Vijay Viswanathan	06:41
+No, there is one more. Before or after?
+
+>>Sai Prakash	06:43
+After. Ok, we should have something specific for before.
+
+>>Vijay Viswanathan	06:48
+But now the user itself will be fetched on to Zuluri. That user creation will happen immediately, but only the playbook execution will happen on the higher date.
+
+>>Naor Hershkovitz	06:59
+Yes, but so what, how it help me, it not help me. Because if it will create on the day, the higher date, it's already when the employee here and I need to do the all.
+
+>>Vijay Viswanathan	07:12
+Ah, so OK, so it will execute at 12 a .m., 12 a .m. Time, which is about 4 a .m. Israel time is when it will basically execute. So it will be before the employee's workday starts. So that's that will be taken care of right now. We run it at, I think, 12 a .m.
+
+>>Naor Hershkovitz	07:32
+Yes, still, still do not help me because it's only one day before. It's very close because on the when the user create, I need to put it in the group and have the information. This still not happen from Zuluri. So the way book not give me any any advantage. I prefer to to come back to the old sync until you will solve the issue, because it's not give the give me anything. Also, the day before I needed the user like for my for my side, a week at least before the day of fire.
+
+>>Vijay Viswanathan	08:18
+Right, so the user is already created, right? The user creation will happen from Bamboo and on Zuluri almost immediately. So are you referring to the subsequent actions on Azure?
+
+>>Naor Hershkovitz	08:32
+No, if I ask about now, I put open a user in Bamboo, it's immediately to Zuluri, immediately create the user in Azure or you wait to the higher date.
+
+>>Vijay Viswanathan	08:45
+It will create on the higher date.
+
+>>Naor Hershkovitz	08:48
+So it's not good for me.
+
+>>Vijay Viswanathan	08:51
+Higher date on and before user created it. So I can just just give me one second.
+
+>>Sai Prakash	09:00
+I'm dropping a text.
+
+>>Naor Hershkovitz	10:13
+I just have the confirm now.
+
+>>Vijay Viswanathan	10:15
+So I think it will run on user created data, let me just confirm that for now you create this hire date on or before user create date and you add the playbook and confirm it And then I will enable the playbook or enable the automation rule afterwards. So I was saying let's create the automation rule I will confirm if the playbook will execute on user created date as you said in the condition or on the hire date so that's the clarity I will get from my thought.
+
+>>Naor Hershkovitz	11:01
+So I will create a new playbook I do not want to mess it.
+
+>>Vijay Viswanathan	11:06
+Please create a new rule I will have it confirmed and I'll turn the rule on once I get a confirmation if it is on user created date. I think it will execute on user created date So as and when you create the user we can execute on user created date so I will confirm that And I will you know activate the rule
+
+>>Naor Hershkovitz	12:08
+So I will just confirm on the user created date field
+
+>>Vijay Viswanathan	12:19
+And I will I will activate the rule after that, I will let you know when I activate the rule. In the meantime, by Friday, I will let you know on the additional add -in for Azure AD webhooks. So that's something that I will confirm from my side by Friday.
+
+>>Naor Hershkovitz	12:37
+Ty, anything else that we're spending for now on the previous call?
+
+>>Sai Prakash	12:50
+From the tickets, there aren't any. So I have shared the update. So one playbook didn't trigger because the user's work email was not updated in Babo Hedgehog. I've also shared the article, like what are the limitations or best practices when you are trying to onboard users with Babo Hedgehog. So we definitely need to have the user personal email, depending on the work email, we don't sort the home email as well. So that's the update I shared. I think there was one other thing, user primary sources was not aligned with which was set in our directory management settings, which I communicated to Nod as well. Those are the two things.
+
+>>Vijay Viswanathan	13:56
+I had one other thing on my side. So now we're from the list of actions, so I just wanted clarity on a couple of actions from you. I'm just going to share my screen with you. So when you had shared list of actions, right. So row number 12, enable user for Office 365. I just want to understand your business case a little bit more so that I can communicate to my engineering team. So how you will basically use this specific action is something I want to check with you.
+
+>>Naor Hershkovitz	14:39
+Yes, this is like a couple of rules that I copy what I need, that I will have. But I think I mean to enable the user like.
+
+>>Naor Hershkovitz	14:58
+We have we have situation sometimes that like previous week a user was closed because a mistake of HR and they do not change the Termination date and then we need to enable it again So it will be great if we will have a playbook that will Do this And That will do this when we have case like this, but I Think I I mean in the first like to create the user. So it's same like What we have today, so I believe that you do not need really To create it. It's already Existing in the in the system Got it.
+
+>>Vijay Viswanathan	15:47
+So I can we can ignore this enable user action right then. Yes Perfect. And the second one is remove Sharepoint folder direct access from user so just again want to understand so We use Sharepoint for the department storage they share
+
+>>Naor Hershkovitz	16:07
+And Sometimes we Give them we add them to this to decide It's not part of like a group Because you know you have Dynamic groups in Microsoft it's called 365 group Yes is include the teams the Sharepoint and all this so we do not use like group like this so more some of the department they have like this or Distribution but some users we added directly to the SharePoint Specific to this to site of the department. So if we have the ability to remove them It will be great Understood understood Got it.
+
+>>Vijay Viswanathan	16:57
+That's the clarification. I wanted on that Some of the actions have been you know Already made available on broadside will share those as well, especially from mod 0 There are a couple of actions that were made available As you ready update first name last name is also available create user. We've already made it available Similarly for 80 set user status and update work email Is another thing that that's available on broad not?
+
+>>Naor Hershkovitz	17:31
+Wait, so the last name and first name the update in Azure.
+
+>>Vijay Viswanathan	17:35
+I need to edit it to the playbook or yes Add it to the playbook I would say let's wait for the first automation the way book to run
+
+>>Naor Hershkovitz	17:44
+And then we will make changes to the existing okay, and this and the date of the The builder of the Oh the API the webhook builder. Yes.
+
+>>Vijay Viswanathan	18:06
+Yes. So end of October we are still on track for that Yeah, we're still on track
+
+>>Naor Hershkovitz	18:12
+Okay, great so for my side, I do not have anything say Already answer and give me the answer in slack Only the API the webhook builder is available on the webhook I need to inform you the next week again, Wednesday, it's It's our Holiday, we walk again only half a day. So we need to To remove it or Reschedule it another day.
+
+>>Vijay Viswanathan	18:46
+Can we do it Tuesday?
+
+>>Naor Hershkovitz	18:49
+Tuesday yes, but I am on two and a half already meeting So I think this meeting does the second it's for enough an hour we can Schedule it for three or three or three and a half on my time Got it.
+
+>>Vijay Viswanathan	19:09
+It's one. So if you want earlier, it's also a I can With the 3 30 your time that should be okay. Let me Double check on Tuesday. Hopefully I don't have anything I'm just rescheduling it for now. Anyway in case I have to move around my other meeting. That should be fine. I'm I'm available at the time. No, it should be fine Okay, so I also is available. So yeah, it should be okay
+
+>>Naor Hershkovitz	19:40
+Okay, great Awesome, cool.
+
+>>Vijay Viswanathan	19:44
+So I will confirm in a bit on the You know automation rule itself whether it's on user created date or higher date and basis that we can You know
+
+>>Vijay Viswanathan	19:56
+And then let's see how that goes. I will confirm on the additional attributes from Bamboo why we are not getting via webhook events by Friday that my team is investigating already. Once that is done, we can enable Azure AD webhooks as well. So both the webhooks will be done. And once we have both of those tested, we have update first name and last name on BambooHR. So that's an action we have. So we can add that as part of the playbook. And Auth0 also, we have additional actions now, so we can add those. So I think by early next week, hopefully we should be able to cover all of this.
+
+>>Naor Hershkovitz	20:33
+Great. Thank you very much.
+
+>>Vijay Viswanathan	20:37
+All right. Thank you. Thanks, everybody. Bye.
+
+>>Naor Hershkovitz	20:40
+Thank you.
+
+>>Anupam Acharya	20:42
+Bye bye. You too. Bye bye.
+
+>>Sai Prakash	20:44
+Thanks.
+
+>>Anupam Acharya	20:46
+Yeah.
+

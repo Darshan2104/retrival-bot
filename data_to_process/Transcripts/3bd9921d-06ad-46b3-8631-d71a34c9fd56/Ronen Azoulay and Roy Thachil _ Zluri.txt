@@ -1,0 +1,300 @@
+>>Roy Baby Thachil	00:20
+I hope everyone is safe, you and your family members are safe.
+
+>>Ronen Azoulay	00:26
+Yeah, we are in the challenging times here in Israel, but we are surviving, and hopefully everything will be okay. We're doing our best.
+
+>>Roy Baby Thachil	00:39
+Sure, sure. I wish all the best for you. I hope all of you stay safe. I have Avirup on this call. Avirup is an EE for Israel and the rest of the world markets. The agenda of today's call would be to understand the Israeli market, and also to show you the product demo of the product. This is what I'm planning on. Is there something that you want to add on to this?
+
+>>Ronen Azoulay	01:02
+Yeah, I think if everyone understood me well, I mean, let's start from saying that, let me ask you, how much you are familiar with Okta, with the Teraworks?
+
+>>Roy Baby Thachil	01:18
+So, we work, as I said before, with Ron, and we are not a competitor to Okta, but we are more of a complementary tool to Okta. I would like Avirup to speak on this. Avirup, do you want to introduce and speak on this?
+
+>>Avirup Banerjee	01:34
+Yeah, absolutely. Thank you so much, Rai. Hey, Ron, and hey, Ran. So, my name is Avirup. You can call me Avi. And so, in terms of to answer your question, yep. So, Okta is something that we sit on top of. Okta generally comes up as an Iem tool, basically for SSOs. So, what Zuby does is that we integrate with Okta, and we find the users that are there in your employees, in your organization, basically the employees, and how many of them are in suspended state, in active state, and if there are any applications that are federated through Okta. So, that is our main purpose when we integrate with Okta. We help understand in onboarding, offboarding of the tools as well, because Okta does that, but to some extent, Okta can give you access to, say, Jira, but if you club Jira and Okta and Zuby together, then Zuby can give you access to not just Jira, but certain projects within Jira. So, we go into more detail. So, that's basically how the whole differentiation is.
+
+>>Ronen Azoulay	02:40
+Ok, and how much you are familiar with the Devops in this way? Are you familiar with us, or do you want me to give you two minutes of intro about who we are and what we are doing?
+
+>>Avirup Banerjee	02:55
+Well, I have done my research, but it would be great if you can give an introduction from your side as well, that can, you know, from your side.
+
+>>Ronen Azoulay	03:02
+Ok. So, Devops is actually eight years old. Ok. We are dealing with Iam solution. Ok. We are the biggest partner of Okta. We are considering Okta as a high -tech partner, means a high -level kind of partnership with Okta. We share together more than 100 customers, and a lot of them are very big companies in Israel. One of them you are familiar with, Monday, is using Okta to us. We have globally, we have Fireblocks, we have a lot of companies that we are selling Okta. We provide professional services, project and support as part of, you know, providing the solution. We are selling Mbm solution as well, based on Jumpcount technology. We have about approximately 30 customers using those systems. We have Access. I don't know if you are familiar with Access. Access is actually a startup that basically is a spin -off that runs out of Teraworks, because the owners of Access are the owners of Teraworks as well. Access is a solution for Okta users, providing disaster recovery and business continuity to the Okta platform.
+
+>>Ronen Azoulay	04:49
+If something happens, you know, let's say someone was pushing the undo while he is dealing with the platform.
+
+>>Ronen Azoulay	04:58
+And delete all the policies, for example, of the organization. Okay, so we can back up. In 10 minutes, you will be back, and everything will be fine. Actually, in this case, we are not only with Senior and Integrators. We are actually with Vento in this kind of solution. Okay. And we started to work now with Zscaler, which is a Tier 1 partner, and we are looking for, now, to have additional one or two vendors to aid our portfolio in order to grow with the customers and provide more services. And Ronen joined Terraworks about two months ago. He is actually the CEO of the company. He is the technology... taking care of all the technologies, the new vendors and everything, and the professional services, as well. And when he was looking for potential vendors that we can deal with, he suggested your solutions. So this is the reason that we are really thinking together what we can do and what we need. You know, in one hand, the technology and the value of the technology, and the business model, and how we can share profit together. More for Terraworks, less for you, but, in general, we want to hear about the business model, as well.
+
+>>Roy Baby Thachil	06:34
+Got it. One question I had from the previous session was, you guys are familiar with Torii, also, right? Torii, a Saas management platform from Israel. I think last time you mentioned it. Torii?
+
+>>Ronen Azoulay	06:54
+Which platform?
+
+>>Roy Baby Thachil	06:56
+Sorry. It's called Torii. Yes. One question my management asked is, are you guys also planning a strategic alliance with them?
+
+>>Ronen Azoulay	07:11
+No. It's either you or them, it's not both. We don't want to work with them. You are the same product, right?
+
+>>Roy Baby Thachil	07:23
+Got it. No, I was just checking because they are also from Israel, so I just wanted to check if you guys are having conversations with them, also.
+
+>>Ronen Azoulay	07:29
+We do. Torii. Torii is their competitor. Yeah. No, we are not working with Torii.
+
+>>Roy Baby Thachil	07:38
+Got it. Sorry.
+
+>>Ronen Azoulay	07:40
+You have resellers here in Israel, right? You have some companies?
+
+>>Roy Baby Thachil	07:46
+Yes. We do have YHM as one of our resellers in Israel market. Yhm? Yhm, yes. They are also a reseller for Jump Club in the region. Yhm?
+
+>>Ronen Azoulay	08:02
+Yhm, yes. They are the only one for now?
+
+>>Roy Baby Thachil	08:07
+Yes, they are the only one for now.
+
+>>Ronen Azoulay	08:09
+Okay. I saw that you, in the past, you worked with Matrix?
+
+>>Roy Baby Thachil	08:14
+Oh, yes. We have worked with Matrix in the past. In the early years, even, so at that point of time, Zuluri didn't have a proper partnership division. It was directly done with my co -founders, and we had to end that partnership after a point of time.
+
+>>Ronen Azoulay	08:33
+Okay. This partnership is not working anymore with Matrix. Pardon me? So, for now, you don't have the partnership with Matrix anymore? No, we don't have any other partners apart from YHM. It was Matrix or the company named Integrity?
+
+>>Roy Baby Thachil	08:54
+It was Matrix. I have to check who was the person. I think it was David from Matrix, who was our POC.
+
+>>Ronen Azoulay	09:04
+There is a company named Integrity Software. They are part of Matrix. So, maybe they are working with you. Yeah. Matrix is a big organization.
+
+>>Roy Baby Thachil	09:14
+It is a big industry. Got it, got it. I was not part of that conversation, because before, in the days, I was an SDR at that point of time. So, I was not part of that conversation. Okay.
+
+>>Ronen Azoulay	09:25
+But I know there was a company called Matrix. Any other questions? Yeah, we just wanted to discuss with you how we can proceed. What is your knowledge? What is the way that you are looking at the Israeli market? What is the potential? I mean, you know, as a reseller or integrator, whatever, I need to invest. I need to invest time. My people need to learn about technology, support staff.
+
+>>Ronen Azoulay	09:57
+It costs money in the end of the day. What is your perspective on the Israeli market? What are your expectations for partnering with the Israeli market?
+
+>>Roy Baby Thachil	10:07
+Got it. I'll tell my perspective after that, Avirob will tell it because he's in the market more than me. I have worked in the Israeli market as an SDR, in the very beginning I used to work in this market. One thing I told Ronan also before is that the market is very tech forward, the market is already educated for Saas management, they know what is the problem. Being working in for two years, I was able to bring somewhere around 8 to 10, my own contribution was to bring 8 to 10 customers. This include Monactiv, one of the gaming companies, then we have Playarium, we have Optimus, we have Guesty, one of the portals. Then as you said, one of our customers is Monday .com And there are another 10 to 12 customers from this area. One thing I understand is that when we go to a different market other than Israel, we have to tell them what SaaS management is, how it is, or we have to educate them. But the Israeli market is already educated about this problem, they are facing this problem and they want a solution right now. That's how we capitalized on this market in the initial days. That's how we do it. Overall, the war has made it a bit slow in the process, but again, we see a lot of requests from Israel markets till today. That's my perspective where I understand this is a very good market for us.
+
+>>Ronen Azoulay	11:24
+I'll let Avinash to speak on his perspective on this.
+
+>>Avirup Banerjee	11:28
+Yeah, absolutely. I think that Israel market is one of the most educated market that we work at because a lot of effort goes into for us to, if we are talking to some of the customers in the India region, to learn them first, teach them what a Saas management tool is, how you will get the benefits, the cost optimization part, or releasing your bandwidth part. Israel, most of the prospects do their homework, they know what is in store for them, so that's something. Apart from that, what we have also understood is that when coming to the Israel market, working with a bit of organization, which is say 200 plus above, has worked really good for us because the ones that Roy also mentioned are all above 200, 500, 1000 sizes, so that's where you have believed that 250 to 1500 is probably the sweet spot for us. When it comes to what they are requiring, a lot of organizations come with the problem in terms of license optimization, cost optimization, and in terms some of the cases to identify shadow ITs and applications, so that's my take on it. Pretty educated market, knows what they are looking for, always do their research, evaluates a couple of platforms and comes to us, or we are in turn there as one of the platforms that they are evaluating, and yeah, that's how it is.
+
+>>Ronen Azoulay	12:58
+No, but excuse me for being so direct, okay, let's talk a little bit about numbers. Okay, what are the expectations in terms of yearly budget or yearly expectation in terms of sales, okay, and what is the average margin for me as a reseller, what is your support in terms of providing pre -sales, post -sales, especially in the beginning, okay, because if we want to start, for example, in 2025, it's not a long time, so I have a lot of experience working with vendors, okay, and it's not a big deal, but if those things are not on the table from the beginning, it won't go anywhere, okay, so we'd like you to do a little bit more about that.
+
+>>Roy Baby Thachil	14:00
+Yeah, so I think, sorry, last time when I spoke to Ronan, I said that there will be a 20 % commission for the reseller model, where it will be based on the invoice, and the invoice, you can get the 20 % of the invoice, but at this point, we are moving out of the commission -based model of 20%, so going forward, what my VP said, it would be like we would share your quote, and you can add your margin, whatever it is, on top of that quote, and you can share it to your customers, okay, so that's about the margin part of it. Now, coming to the pre -sales and post -sales, once you sign up the partnership agreement, there would be a proper training where there would be in -depth going through the product, where we make you enable on the product on how to and what the product is, was it for every conversation that you bring up, for every call that you bring up, one of our account executives, most probably Avira or Harsha will be joining it, along with the pre -sales from our team, that will be decided based on the
+
+>>Roy Baby Thachil	14:56
+Number of employees in a company will be part of this call and will be helping you on these calls. So it would be like, in case if you want to run it, you can run it, or else you can sit in the back end and make our team also run it. Suppose that in case if you need a customer success team from us, we are happy to provide that throughout the journey. So even though you have the customer with you, there will be always a person from Zuri that will be shadowing these calls.
+
+>>Ronen Azoulay	15:24
+So that's how we have planned it up. So Roy, if you can just repeat your first section about the commission and the sales because we need to get that part.
+
+>>Roy Baby Thachil	15:39
+Got it. So what I was saying is that last time we spoke about 20 percentage commission on the invoice. Correct? Yes.
+
+>>Ronen Azoulay	15:45
+What my co -founder, sorry, what my VP... 20 % from your price list, from the invoice, what is that?
+
+>>Roy Baby Thachil	15:52
+It will be based on the invoice, 20 % commission based on the invoice. So in case of the invoice that's 500k, you get 20 % out of it.
+
+>>Ronen Azoulay	16:02
+Okay. Now what... I said 20 % from the invoice. What do you mean the invoice? Let me understand something. Okay, there is a solution. I believe that the price is based on the monthly rate per user, right? Correct. Okay, and the condition of one year, two years, doesn't matter. You are going to send me a quote according to my request, right? Correct. And your quote will be the price for the customers
+
+>>Roy Baby Thachil	16:37
+And then you will provide the 20 %? No.
+
+>>Ronen Azoulay	16:40
+So we are...
+
+>>Roy Baby Thachil	16:43
+Then I have to add 20, 25, 30 % as much as I can? No, no, I'm saying we are moving out of the 20 % method. We, what we are planning to do right now is that we will share your quote and on top of that quote, you can add your margin to it. It doesn't need not be 20%. It doesn't need not be anything. It could be your wish, what margin you want to add on that quote.
+
+>>Ronen Azoulay	17:07
+So in case if... You give us a price and we can add our margin and this is all us. We can say how much the price will be. Correct, yep. As usual, we actually say the same. Your quote is what I'm going to pay to you and then what I want to charge the end customers. Yes, you can... But your price, usually when, what we are doing with Okta, as Okta is working, she tell me, you will receive 55 % discount from the price list, okay, on this kind of feature And then I'm taking this price And I'm deciding how much to charge the end customers. In this case, you say, you will get the price. You don't know what is actually the discount from the price list. Why am I asking? Because the customers will check us looking for some kind of benchmark, what is the price. Okay, actually, I can tell any price, but I never will say, okay, but I need some kind of benchmark. You can tell me, okay, as far as I know, this kind of feature, the formal price is $5 per month. You will ask for 4 .2, so you know that the discount that you received is 20%, okay. You should provide me this kind of feature in 45 % because, you know, dealing with this kind of business, if I'm not receiving at least 20 -25 % margin, I'm losing money.
+
+>>Roy Baby Thachil	18:53
+Got it, got it, got it. Sure, Anil. I cannot give you a comment on the numbers of what percentage discount I could give, but one thing I could keep it very clear is that the pricing would be very competitive in this industry and in case if someone is charging something more than what it's supposed to be, like if any of our competitors are charging something extra, I think we can go to a point where we can help you out to get the deal in, okay. Now, that is one part and in case if a customer is coming directly to us, because customers are obviously smart these days, instead of going to a partner, they could come directly to us. Something like that happens. We always, what we do is we keep a transparency between the partners and we tell them, hey, this partner, this customer has registered with us directly and we will show you that customer back to you. So we will not take the conversation forward alone. We will always involve the partner who's already involved in it. So you don't have to get worried about the pricing where you will be charged extra or there would be a discount on it. What we can do is...
+
+>>Ronen Azoulay	19:55
+What we can assure you right now is that we can give you the best price out of every competitor or any other benchmarking what they look for And Roy, the prices and the customers, can they directly purchase the license from you?
+
+>>Roy Baby Thachil	20:13
+They can but in case if there's a partner what we do is that And if the partner is the customer knows the partner we will involve the partner into the conversations But sometimes we have seen instances where customers are telling that don't involve any partners or anyone else But in that case, it would be bit tricky, but we will keep you in loop of those customers
+
+>>Roy Baby Thachil	20:45
+Definitely so Till Like the previous year we had a very dedicated budget for Israel We used to do events in Israel markets, but due to in -person events in the market But right now as this war has come, we have cut short the budget a bit But still in case you become into the second stage of authorized partner, you will be getting a marketing funds for Amzlouri What is included in this kind of marketing budget from your side?
+
+>>Ronen Azoulay	21:17
+I mean events, sharing some kind of digital campaigns What is usually what you are doing with other partners?
+
+>>Roy Baby Thachil	21:28
+Got it. So what we typically do as part of marketing with the partners We do PR releases, we do all the LinkedIn and Word Publishings. Apart from that We do a webinar co -hosting with the partner where we do it for their customers One of our representatives will be there We'll have a quick discussion about the product, the problem and the things. Apart from that, we also do in -person events, we plan it out in the regions where we see traction more and We use that database to bring in more clients and leads like that These are the marketing activities that we typically do. Apart from this, our partners do their own All LinkedIn ads and Google ads what they have to run on their end. They also hire SDRs and a team to work dedicatedly for Zuluri. We help them in their training and support and other things. All marketing contents and things will be shared by Zuluri and you can translate into your language and can be used. And in case if you want to create some content We could vet it from our product marketing team and get back to you on that.
+
+>>Ronen Azoulay	22:34
+And what is your expectation in terms of sales from Zuluri?
+
+>>Roy Baby Thachil	22:42
+Yeah, so we don't keep a target with the partners because when we keep it, what we see is that most of the time they would say It's not a very good practice to give a target. But as like for every company, we are burning cash You are burning cash. What I look forward is for results. And as a result, what I'm expecting is somewhere around two to three closures in a quarter, not the first quarter, obviously, but from the from the second or third quarter two to three closures and somewhere around four to ten leads that can be brought in a quarter. Now, I'm not looking for like if I were to say very blankly I'm not looking for one partner for one lead but I'm looking for one partner for ten leads and that ten leads will be through that partner and we work with that partner for a very long relationship.
+
+>>Ronen Azoulay	23:30
+That's what my expectation is.
+
+>>Roy Baby Thachil	23:33
+Ten leads? No, I'm just telling like my part, my ideology of partnership is that partner comes with a lead. We take in that lead. We convert it. We close the partnership. No, what I'm looking for is a very long -running partnership where I look for like one partner that I could work with them for years and years yielding in result and which could be beneficial, which should be beneficial for both the parties. It should not be just Zuluri is earning money, but it should be the partner also should be earning money.
+
+>>Ronen Azoulay	24:00
+What is the average deal with the customer? Let's say 200 -300 users a year. What is the average? Yes, so for example, if we just focus on the product, on the Saas management. Let's take this product, the Saas management. What is the price as for, if we are like, as Zoran said, if we are like a company of I don't know, 200 users. Sure, I'll let Varun take it up.
+
+>>Avirup Banerjee	24:36
+Yeah, so you're typically asking that how much we would quote for a customer, which is around 200 employee size, right? Yes. Yeah, so let me just share my screen so that it gives you a better idea to understand that how the pricing comes out.
+
+>>Avirup Banerjee	24:55
+So, if you can see my screen now, so what slurry does is that slurry has three major offerings, task management, access management and access reviews. Now depending upon whatever be your company size, depending upon whichever modules you take in, you pay for those modules. You can just take this one or this one plus this one or all three and then accordingly the pricing changes. Now typically, if I am giving you know kind of a ballpark figure, this is something that I am just saying it so that you understand that how much the pricing goes like. So, if a company of around 200 members looking for all the solutions that are there, the pricing would be ranging around 18 ,000 to 20 ,000 Us dollars for a year.
+
+>>Ronen Azoulay	25:44
+That's the annual price. Now this is a 18 ,000 to 20 ,000 US dollars, 18 ,000 to 20 ,000 Us dollars for everything.
+
+>>Avirup Banerjee	25:57
+For everything including support, you know implementation, everything. So this is a ballpark figure but it depends on team, you would know better than me like if it is the end of the quarter, we would add some more discounts, something like that. But typically, it should be around 18 ,000 to 20 ,000
+
+>>Ronen Azoulay	26:14
+Us dollars, not more than that. This is our price or the customer or the client price?
+
+>>Roy Baby Thachil	26:22
+This would be your price.
+
+>>Ronen Azoulay	26:23
+On top of this, you can add your margin. And only for the Saas management, if it's one product for example, what's the difference?
+
+>>Avirup Banerjee	26:36
+See, if it's a 200 member company, it would be just for Saas management around 12 ,000 to 14 ,000
+
+>>Ronen Azoulay	26:42
+Us dollars.
+
+>>Avirup Banerjee	26:44
+12 ,000 to 14 ,000 US dollars?
+
+>>Ronen Azoulay	26:45
+14 ,000 to 1 ,400 US dollars.
+
+>>Ronen Azoulay	26:55
+So actually, in order to, we need a lot of customers, if you want to make it a business that we have, as I said before, we have to invest and stuff like this. So actually, if I would take around, if the cost is 20 ,000, 25 % margin, it's 30 ,000, right? If I'm going to an organization with 200 users trying to sell this kind of solution, asking for 30 ,000, 35 ,000 K, then we buy it? Can you repeat it? So you're asking basically that if the customer is... The prices that you mentioned are my, this is the quote for me.
+
+>>Roy Baby Thachil	27:50
+This is my cost.
+
+>>Ronen Azoulay	27:52
+20 or in other case, 12 to 14, right? But if I'm trying to go up for 20, 25%, at least 25 % margin. So if the cost is 20, I have to sell it 30. Is this a reasonable price for customers for this kind of solution?
+
+>>Avirup Banerjee	28:15
+I think so. Avi, you want to take that up? No. So basically, if you are saying that you are adding around 20, 25 % on, say, maybe a $15 ,000, yeah, that should be a reasonable price. But anything above that might be an issue because it depends upon how you are having the relationship with the customer. If you are having them just to evaluate slurry, then for sure that this will not be a problem. But in some cases, if they are evaluating a few other customers, say, for example, if they are not those few other tools who are not going through a partner, in that case, it might be a bit higher for them. So I guess it comes to you also how you would want to, you know, portray the price. Ideal situation, it should not be a problem adding a 20 to 25 % margin on, say, $12 ,000, $15 ,000 that I mentioned.
+
+>>Ronen Azoulay	29:06
+But we can charge for implementation and professional services, so it is not necessary.
+
+>>Roy Baby Thachil	29:15
+Implementation will be taken by slurry?
+
+>>Ronen Azoulay	29:18
+Yeah. You are doing all the implementation and support for the product? Yes, we can do that. Yes.
+
+>>Roy Baby Thachil	29:29
+But it's part of the price or for additional cost?
+
+>>Avirup Banerjee	29:33
+I mean, is it part of the price or is it additional? So, Ronan, it comes in for the part of the price if we are talking about $15 ,000 and more. For the $12 ,000, we might charge an implementation charge. But if the pricing goes above $15 ,000 for a 200 -member company, we typically do not charge an implementation. It comes along with it.
+
+>>Avirup Banerjee	29:54
+We do not charge extra for anything in that case Around 10 to 15 percent of 12 ,000 or you know, whatever amount that is there that is the standard implementation charge Not 2 ,000 I'll say additional 1 ,500
+
+>>Ronen Azoulay	30:25
+Yeah 15 ,000 Yes for the organization of size 200, yeah
+
+>>Roy Baby Thachil	30:39
+And if for example We are feeling comfortable with doing the implementation Ronan we have to check that with the department With our management because right now we don't have any certification program for Implementation one we are planning to launch that later this year or early next year So once that certification comes into place, I think we will be rolling out to the partners.
+
+>>Roy Baby Thachil	31:26
+I may have to check it somewhere around 10 to 12 more than 10 customers
+
+>>Avirup Banerjee	31:30
+Yeah, definitely for sure But we need to check the exact number because I'm pretty sure that will be more than that
+
+>>Roy Baby Thachil	31:39
+So maybe Roy you can check with Csm and get back. Yes. Let me check that up It would be more than 10 customers for sure But let me just check on how much exactly how much exact more customers we have from there.
+
+>>Ronen Azoulay	31:53
+Yes So I'm familiar with the product with the solution that they provide Not with jury themselves I Was doing of dealing with with Tori a few years back, okay, So I'm familiar with Tori How are you compared to Tori with? With the product itself.
+
+>>Roy Baby Thachil	32:25
+Is it same features? I Same features, but
+
+>>Avirup Banerjee	32:30
+Yeah Yeah, I mean so see there are some of the aspects of course that we are we and Tori are coinciding but currently in terms of the ROI that you are looking at slowly gives out more ROI because we have teachers related to access reviews and which story doesn't have at all and Access management is something that we do better than Tory That's Management is common for both of us now a lot of our customers which has below 1 ,000 members they typically want a platform which can support Sas management Along with access reviews, which Tori cannot provide only glory can provide and we score higher For your site, you know No First movie in general, it doesn't matter Yeah, so pricing if the customer size is higher more than say 2 ,000 or Going up and about so obviously in that case. We have a enterprise discount comes in So even so then the prior pricing for employee For user basically reduces so that that is something that happened So the higher you go you pay lesser in terms of for employee charges One more question regarding the Integration itself that you have so we said that you have integration with Okta
+
+>>Ronen Azoulay	34:13
+You read information about applications and users from Okta Do you have the same integration with the Entry D or sure Absolutely, we have with Entry D as your on -prem as well as cloud we have the integration Google works Please jump cloud in tune Jamf country. We do The users and application, right you have Information from Okta you can read it also from Entry D. Absolutely. Absolutely So
+
+>>Avirup Banerjee	34:54
+Yeah, you can connect target and try the ones Azure even if they are on -premise we still support that so that's also something that we do So Yeah definitely it's not going to be a problem.
+
+>>Ronen Azoulay	35:14
+Okay, I think that I will take it to a general discussion here in 10 hours, meanwhile if you can send us some kind of, you know, white paper I call it regarding all the, you know, the terms about what we spoke about numbers and stuff like this so that we have some kind of paper that we can sit on it and to decide how to proceed I mean some kind of white paper in terms of business case And I want this kind of paper to include the things that we spoke about including the marketing support and things like that And then we will have an internal discussion to see, you know, as the CEO of the company I'm always looking for the value that I can provide to my customers, okay, and the way that this value will provide value for Teraworks as well in terms of margins, okay, as far as I can see now, you know, speaking about average, average is between 15 to 20, 20 % it's a margin, it's not a big piece, okay, we need to do a lot of them in order to bring a lot of value to Teraworks, so we have to think how much, you know, sometimes if you don't have to invest a lot of time only if we are already dealing with the customers and we can provide short and very professional value, so it's okay,
+
+>>Ronen Azoulay	37:00
+But if we have to invest time for the preset, so we have to think about it because I'm not familiar with the solution, so please send as much as you can, we will have an internal discussion and let's have another discussion after the holiday two weeks from now, because I'm going to go for a holiday in Israel, it's called Sukkot, I don't know if you heard about it, but it's a nice holiday, one of the nicest holidays, we have a very bad holiday, it's a nice holiday, I think you also have holidays coming here in India, right? Yes, we have a celebration called Tashera, it's called The Festival Of Lights.
+
+>>Roy Baby Thachil	37:56
+Where are you based in India?
+
+>>Ronen Azoulay	37:59
+Bangalore. You've been here? Bangalore, I used to work one year in the Indian market, so I've been in Bangalore, Pune, of course Delhi, so I've travelled a lot in India. I think then you're familiar with the traffic in Bangalore. One of the amazing things when you're looking for Uber or something like this, there are 250 ,000 cars in the world and we find you in like this. Please share as much information as you can regarding our discussion and we'll get back to you after two weeks from now, we'll see how we can progress.
+
+>>Roy Baby Thachil	38:54
+Definitely, so what I'll do is I'll share with you, as you said, white papers, a few case studies from Israel and other features about the product and also the marketing things that we can do together in the initial 30 to 60 to 90 days and we'll take a conversation from there.
+
+>>Ronen Azoulay	39:11
+Thank you very much for your time and for the nice conversation.
+
+>>Avirup Banerjee	39:16
+Afi, thank you very much, we call you Afi Koi, it's a very common name in India.
+
+>>Ronen Azoulay	39:23
+Oh yeah,
+
+>>Avirup Banerjee	39:24
+I know that, I know that.
+
+>>Ronen Azoulay	39:25
+Afi Koi, Afi Koi, Afi Koi, it's also like a baby, so we can call you Afi Koi, thank you very much and see you in two weeks from now.
+
+>>Roy Baby Thachil	39:41
+Sure, thank you, see you in two weeks.
+
+>>Avirup Banerjee	39:43
+Have a great holiday guys, bye.
+
+>>Ronen Azoulay	39:45
+Absolutely, bye bye.
+

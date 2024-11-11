@@ -1,0 +1,216 @@
+>>Jess Futerman	00:00
+I'm not sure if Emily will join who's the account manager, she might just be leaving it to me which is fine. That's fine Yeah, Anyway we have the context as to what we would want to talk about So that's good. Yeah exactly, great all right Well I'll give her a few minutes to join. Oh Emily's just joined as well. Hey, how are you? Oh I can't hear you, can you hear me? Sorry I think I'll mute, Hi
+
+>>Emily Bygrave	00:37
+Yeah I can hear you now, sorry about that. Do you need me on this Jess or do you reckon I could just jump in? I was just saying I wasn't sure if you were going to join or if you were just going to, that's fine. Yeah I'll probably just leave you guys to it. Okay bye, bye.
+
+>>Jess Futerman	00:57
+Cool, all right I'll give her a couple of minutes to join and then I'll drop an email if she's not joined by then. Done, perfect.
+
+>>Sacha Tasker (Guest)	01:20
+Hi, can you just give me two seconds, I'm going to be back in one second. Sure Yeah no worries, that was a quick call.
+
+>>Jess Futerman	03:54
+I'll see if I can get the list of applications that she uses as well and I'll send it to you in our chat on Teams.
+
+>>Avirup Banerjee	04:05
+Generally how we do it is that we do a feasibility check, let you know that those are the applications that we're integrating. A good match is probably around 40 to 50 percent and that's about it.
+
+>>Jess Futerman	04:17
+Here you go, loads of them look like ones that I've seen on your list before, so like Atlassian, Github, Lastpass, Slack. Oh yeah
+
+>>Avirup Banerjee	04:29
+These are pretty generic ones, I think that most of it will be integrated. Yeah, Aws, Atlassian, so I'm expecting that they might be having Azure as their Sso, that becomes really important, so perfect.
+
+>>Jess Futerman	04:48
+Great, and then they also said ideally it would have a service that manages access on an ongoing basis.
+
+>>Jess Futerman	04:58
+Team within the company then their access to the tools is updated so all the kind of stuff that we spoke about actually yesterday. Joiners, Movers, Leavers.
+
+>>Jess Futerman	05:29
+I saw your email to Jen, let's just hope that Super Awesome gets back to me.
+
+>>Avirup Banerjee	07:21
+There's only two accounts that we are working on right, you and me, this one and Super Awesome, that's about it.
+
+>>Jess Futerman	07:29
+Yeah I think so, hopefully get an update from Jen today on that one But yes.
+
+>>Sacha Tasker (Guest)	07:39
+Hi there, I'm so sorry about that, the farmer had to like, he's got his massive tractor to do something to the hedge And so I had to move all of our cars out the way. Oh my gosh, no worries, that's fine.
+
+>>Jess Futerman	07:54
+Well thank you for making the call today, so as we discussed on Friday, Zlury's technology which underpins Softcat's Sas intelligence service has functionality around automating Joiners, Movers, Leavers processes when it comes to software and I've ran your list of applications that you sent in your email past Zlury And it all looks compatible and really good news, your HR system, hi Bob, there is also an integration there as well. Okay great. So yeah I'll pass over to Avi But we've already had a call around your requirements and I'm excited to showcase the technology to you today and how it works.
+
+>>Avirup Banerjee	08:43
+Cool, awesome, thank you so much Jess, Avi here, so I am from Zlury, so we are a Sas management platform, I guess Jess might have talked to you about it previously and of course I have all the requirements that you have. A couple of things that I would like to highlight before the call itself, the list of applications that you have sent, I'm pretty sure that just by taking a glance we are compatible with all of them, probably one or two, I just need to double check But yeah, either way it's not going to be a problem at all. Hi Bob, yeah the problem that you mentioned that you wanted to keep a track on the Joiners, Movers and Leavers, basically hi Bob can be used as a trigger as well, Zlury is compatible with that, not going to be a problem again. Now a couple of things that I would really want to ask from your side, maybe if you could define the problem statement or the roadblock from your perspective as well, that gives me a more understanding to solve the issue.
+
+>>Sacha Tasker (Guest)	09:40
+Okay so easy, so how our process currently works at the moment is, so hi Bob feeds into a data warehouse which is maintained by one of the engineering teams through and the data warehouse then feeds into our lifecycle services so
+
+>>Sacha Tasker (Guest)	09:58
+Onboarding, offboarding and group sync which it controls continuous access to all like tools and services and applications and obviously if we and if we didn't have that the corporate IT team would have no way of having like of they don't have a running list of who's got access to what so it's all controlled through group sync which is that all secret controlled through Hibob. The team that's currently maintaining the data warehouse and the like associated pipelines shouldn't be looking after them it used to be looked after by the corporate IT team because there was there were dev engineers within the team there aren't anymore So they aren't able to look after it so that is our current problem Basically is that we created this like homegrown solution which does require engineering skills that no longer are there in the kind of corporate teams so it's currently being managed by a team that shouldn't have access to what they have access to. Got it perfectly
+
+>>Avirup Banerjee	11:05
+Okay Yeah I mean that that's totally fine it's a very straightforward use case. A couple of more things maybe a bit from the technical side do you have any single sign -on currently I mean I just wanted to know that by Hibob being the second Yeah Yeah
+
+>>Sacha Tasker (Guest)	11:18
+So we have Google we have Google like single sign -on through Google which which does control access to some things But I spoke to one of the someone about why can't we just use single sign -on And she said that it doesn't you can't kick well I don't know if this is correct But you can't kick people out so like once your site it's like when someone's being off -boarded through Google we can't then kill their access to everything.
+
+>>Avirup Banerjee	11:50
+Right But not just that I can actually show you this is nothing to do with Louis but actually informative article that you might want to check out so basically there's something called an SSO tax so what means that you know tools like say a github etc If you want it to be federated through an Sso that they will be charging probably you know $20 instead of $15 but that's something that happens and it's not very recommended I need to federate each and every applications through the Sso so that might be one of the reasons And Yeah again say if you use an Sso to give access to an application you might give them access to github but you can't give them access to a certain code repository within github which is where you can't do that because you use open API so absolutely spot on on that perfect and in terms of you know if you are looking to implement a tool like this do you have a timeline in mind that if you would want to get it on and starting I mean well I guess my question to you would be how like reasonably how quickly could we integrate a tool like slurry because we're not in any obviously ideally the sooner the better but there's not like a hard deadline for this so just be kind of like we're not gonna do a hero effort to get it on boarded because we need done the next two weeks but ideally like uh -huh as soon as is reasonably possible perfect
+
+>>Sacha Tasker (Guest)	13:17
+Okay
+
+>>Avirup Banerjee	13:17
+So that I'm gonna answer that question of yours when I go into the platform you will just see that honestly integrating with applications is pretty straightforward Jess and her team will also be there you know post the process as well So they will be all helping you out we will be have customer success folks and onboarding and trainers from our side as well making it as seamless as possible but let me do one thing I think I say I've done your homework you know what you want there's no point for me to go ahead And I'll show you what all capabilities we have to a deck I'm just gonna go into the platform directly and show you Yeah feel free to stop me anytime if you find something interesting apart from the ones that I'm going to cover related to your point of problem statement happy to you know take a pause and explain perfect Okay So let's understand the first things first that slowly is not just a platform that helps you out in access management we help you out in a lot of things for example like you were mentioning that it takes up a lot of bandwidth for some folks in IT or engineering you know to monitor other tools everything that's out there now what's moving is gonna do is that we're gonna go ahead and integrate with some of your system starting off we're gonna integrate with your single sign -on which is going to be Google Workspace and let's see how the integration is select go to the services go to integration click on browse catalog type of the application now it'll come up with connect once you click on this read all the scopes see what all you know data we are going to take from your site click on connect and the integration is done every integration takes about 30 to 40 seconds for the connection to be established and one time 24 hours for the data the same
+
+>>Avirup Banerjee	14:56
+In from your platform to ours. Once it's done it's all good, it's going to come in. Now that's the first link, this is where we understand all of your employees and of course like we mentioned right not all applications are going to be federated through the Sso starting from Hibob. So as you can see that similar process for Hibob you can go ahead and integrate and all the other applications that you had mentioned, Slack, Zoom, etc. etc. The best, yes please.
+
+>>Sacha Tasker (Guest)	15:22
+So what's obviously say Hibob, you've integrated with Hibob, how do you choose which fields within HiBob are pulled through to everything else?
+
+>>Avirup Banerjee	15:32
+Right, so basically a couple of things Hibob already gives us some of the data that are there, some we can go ahead and enable. So if there are some custom fields we can obviously go ahead and discover those for you. Usually we go ahead and these are by default user profile, department, role, email. Generally this is what is required, sometimes it might be requiring say reporting manager etc. information. You can pull that if you are storing that on Hibob, that's not going to be a problem. Okay fine. Yeah and all you need to do is go here to the setting, all these will be a guided process just FYI, you don't need to figure it out yourself. You just need to go ahead and say that hey I'm keeping my department in Hibob so pull it from there but the designations are coming from Google Workspace, that's fine. So that's how you can even if you have different ways of categorizations in your directory you can do that, not going to be a problem. So now we do that, we integrated with your Sso, your Hrms system, the rest of the applications as well. Now once that integrations are done, the data will start flowing and the overview screen, this is for you. I know this is not what you asked but this is something that you can definitely leverage to understand how many applications are there, how many employees are using it, if people are using it to the fullest, total expense, if any contract renewal etc. If you want to do it too slowly you can do it as well. That's how the whole process comes in. Now in terms of the department, we put the department data exactly the way that is there on Hibob, nothing manual, once integration comes in it pulls in directly and you will be seeing the whole department, how many employees are there, how many applications they are using, how much you've been spending on a historical level as well. Plus you get to assign department vice budgets as well, chargebacks, basically say greenhouse and application used by HR folks the most, it should be going from there but you can put it there.
+
+>>Avirup Banerjee	17:20
+These are some to have stuff, I'm not going into the details of it. Now let's come off to the part which is mainly for you related to the workflows. So workflows is what we are going to cover related to your onboarding and offboarding. So first things first, what we are going to do is we're going to create a playbook. So currently I'm just assuming that you might be onboarding folks based on department roles or designation like that.
+
+>>Sacha Tasker (Guest)	17:46
+Sorry, there's a massive crash outside. Sorry, say that again.
+
+>>Avirup Banerjee	17:53
+No, I just wanted to know that. Is it how you onboard folks like in a department -wise role, designation, how do you onboard? Like you would know that, okay, you send me a set of applications, these are both right applications everybody should be getting access to, right? But there would be some department -specific applications as well. Do you segregate that or how do you do it?
+
+>>Sacha Tasker (Guest)	18:14
+So there are department -specific applications in terms that some departments like they would be added to the on -call, like Ops Genie, they'd be added to and some of them they wouldn't like, some will have access. So one of the pipelines that we have at the moment is within Hybob we have project access. So if we have some people that have access to certain Github repos that others don't, things like that, but I think predominantly the tool other than Ops Genie, I think the tools are kind of pretty like standardised across the company. Although actually Github, other than engineering and like products, people wouldn't have access to Github. Right, they wouldn't need it.
+
+>>Avirup Banerjee	19:02
+Cool, so let me just take an example. For example, playbooks are nothing but templates. It can be created role -wise, department -wise, destination -wise. You can create a playbook that, you know, for leaders they should be getting access to these applications and this level of access. And maybe engineering team, let me just create a playbook for that. I'll just click on create playbook, click, name it engineering team, save it, keep on adding the application. Azure comes in, maybe, let me just check Github. It's not integrated with Github, so I'll just take on Zoom. Maybe some other applications as well, N365. So what you do in this case is that you're defining that people who are joining in engineering should be getting access to these 10 -20 applications.
+
+>>Avirup Banerjee	19:55
+On day, whatever day that you define. Then you can also say that if they're getting access to Zoom, whether they should be getting a Zoom Pro or a basic license, you can define that as well. If they should be admins or not, you can define it day zero. So similarly for M365, Github, Jira, you can define which certain code repository project they should be getting access. Now you've published the playbook, it's all set. You now know that folks joining in engineering should be getting access to these apps and this level of access. And in order to automate this, when they are joining in, go to automation rule, click on new rules, and then set up a trigger. Now the trigger can be anything. It's for joiners, movers, and leavers. It can be if the department changes, designation changes, if they're marked for onboarding, if their primary email changes, whatever. But for your case, I'm going to state it as new user identified from a primary source. And the primary source is going to be Highball, right? So all your HR folks need to do is go ahead on Highball, say I'm joining your organization, put my name, first name, last name, email ID, designation, department. That's it. So Louie's going to take that information directly because I've been identified as a new user. And I would also know that what is my joining date. So depending upon that, user current department equals to say engineering, add that. And then the playbook be defined with all those 10, 20 different applications. You select that and define at what time or date they should be getting access. Maybe the same day, maybe after a couple of days, or maybe after a couple of weeks, then click on save. So what's going to happen? Anytime your people from HR create somebody on Highball as a new user, Louie's going to automatically fetch their information and check that which department or role or designation they belong to.
+
+>>Avirup Banerjee	21:43
+Accordingly, the playbook that you have defined would be selected. They would be getting access to all those applications without you even opening Louie. All you need to do is if you want to see that things are running smoothly, go to the run logs and you will be able to see that if that playbook has been successfully executed or not. It gives you a lot of time. Of course, bandwidth for all of your team gets freed up and you can just automate it and keep it in auto -bandwidth.
+
+>>Sacha Tasker (Guest)	22:07
+Can I ask, with the playbooks within Slack, can you define specific channels that a new joiner would be added to? You can. That's excellent.
+
+>>Avirup Banerjee	22:20
+Actually, first time somebody has asked me this question, I've always waited for somebody to ask this because we can't do that. So yeah. Gold star for me. Yes, absolutely. So yeah, you can define like which channel, we can even create a channel, add them to a new workspace, whichever, invite them to a channel. Yeah, you can just do that. You can even update their user status, yeah. So another thing is that even for something like a Zoom, I mean, you know, Okay, I'm gonna show it in a different way. This comes along with the platform, okay? This doesn't, I mean, we don't bundle just that part alone. But if you go to an application and say, take an example, maybe Zoom, if you go to the optimization section, if you see that there were people who were underusing or unusing Zoom Pro licenses, you can click on this and you can remove their license. Excuse me a second.
+
+>>Avirup Banerjee	23:24
+Sorry about that. Okay, so I'm just going back. So basically, for every application, you will also see that if people are using it or not. If they're not using it, we're gonna flag it, that okay, these are some 20 people who have Zoom Pro licenses, out of which five people are underusing it. Means that their meetings are getting over by 40 minutes. They do not need Zoom Pro licenses. Since you will be directly integrating with this application, and we have an action called remapping the license, if you click on optimize now by selecting these users, the license will automatically go down from a Pro to a basic one. We can even define that. You can even make the whole thing automated. That we run a check, maybe for license types only Pro, for people who are not using it for 30 days or 60 days, right? And run a check probably last day of every month. And if we see that people are not using it to the fullest, their license can be remapped from a Pro to a basic one. Or you can even give them an option on Slack that they can choose to keep it or fold it. So just pointing it out, Sasha, that it's not just about onboarding and offboarding. Our access management module helps you out in doing a bit of cost saving as well. Okay.
+
+>>Sacha Tasker (Guest)	24:36
+Yeah, any other questions, please? No, I mean, this looks really great. And this definitely looks like it would serve. I can't at the moment think of any use cases that we have that this wouldn't serve. So that's fantastic. I have one question.
+
+>>Avirup Banerjee	24:52
+Do you guys have a set process of how to?
+
+>>Avirup Banerjee	24:54
+Request for an application, maybe an old or a new one? Do we have a set process for that?
+
+>>Sacha Tasker (Guest)	25:02
+No, I don't think we do.
+
+>>Avirup Banerjee	25:05
+Well we can help you out on that as well, just pointing it out, it's up to you whether you want to use it or not. We have a section called access requests and you use Slack right, so all of these can be automated in Slack itself. So you just put on an automation rule that whenever somebody requests for a maybe existing application. Oh no, sorry, we do have a process for this. Okay, so you won't be requiring something like this?
+
+>>Sacha Tasker (Guest)	25:32
+Yeah, no, so we basically have a JIRA workflow for existing applications but I don't know what the process is for new applications.
+
+>>Avirup Banerjee	25:45
+That's fine, because in case you want to do that, we can even start the trigger, you know, fetch the ticket from Jira Itsm as well, so you don't need to do any kind of manual work. All of the folks that need to, you know, get the notification to approve or deny, will get it on Slack, they can just pick up their phone and say approve or deny. Okay, so that's mainly what I wanted to cover, Sasha. There are tons of other things that we can do, but I am going to keep it confined to your requirements because, of course, yeah. Can you just talk me through the security tab?
+
+>>Sacha Tasker (Guest)	26:22
+Okay, perfect.
+
+>>Avirup Banerjee	26:23
+So for the security tab, I will go to the application section once And then I'll go to security because that will basically answer your questions. Okay, first things, so we have something called discovering shadow IT. So what we do is that we discover apps within apps, means that if there is a third -party application within Slack that maybe somebody from marketing is trialing or testing it out, but you have no clue about it, since Louie is integrating with Slack, we're going to discover all of those. So that's how we discover some shadow IT bits as well. Okay, now once we discover all of these, day on day, the notification will be sent to the admin of Louie saying that, hey, five new applications were detected in your system. You can set the authorization to make them either centrally managed or unmanaged or, in some cases, even restricted. It means that anytime somebody accesses these restricted applications that you do not want your employees to access, the admin will be getting a notification and so will the person who is accessing that application saying that you're not supposed to access this. But that's one bit of the security that comes in the report, right? So this mitigates the shadow IT and you can actually go ahead and check that all of the people who are playing League Of Legends, they're not supposed to do that. So you'll be able to see that as well and be ITDPI compliant, so no Gmail or anything is tracked, only the verified domain that you sign up with is tracked. And now, if I take into consideration one application, I'm going to take maybe Slack, you go to the security compliance section, we do four checks. One, any events associated with this application, you remember the cloud flare incident, something like that. What kind of data your employees have shared with this application, what compliance this application has, and you want some security probes to basically break it from A to F.
+
+>>Avirup Banerjee	28:04
+Depending upon the whole score from all of these four sections, we make it either a low risk, a medium risk, or a high risk application. So you have the chance to go ahead and reset it, but whichever applications are high risk will be coming up in the security section. You can schedule reports, export the data, you'll be able to see that why are these applications are in a higher risk, and even the people who are accessing a lot of application that are probably risky in terms of they are taking a lot of rights data are not compliant. So that's what the security section is about.
+
+>>Sacha Tasker (Guest)	28:39
+Okay, great, thank you.
+
+>>Avirup Banerjee	28:43
+Okay, any other questions, Sasha? Something, if you really want to check out, you know, people who are using it in an individual way, you can even do that. Application section, you'll be seeing what all apps they have, and sometimes we can even, I mean, we do pick up licenses for each and every application we need to create. We can showcase that if somebody has been assigned two licenses instead of one. Plus, if I'm taking a scenario, say Robin has to leave today, maybe some emergency is fitting, you'll have a hard time to revoke all the licenses for that, right? You can just click on these three dots, click on producers, where we will automatically create a playbook for this specific person. And you can actually define that, okay, since they are leaving, you know, delete the domains, delete the group, make this action, that action, you can define all of it, click on run, and it will be executed. You not only have to worry about somebody having the license of an app once they are leaving, even the shadow IT gets detected, so that, you know, basically, nothing remains in action with anybody who's leaving Europe.
+
+>>Sacha Tasker (Guest)	29:47
+Can I ask, do you have an integration with, you might need to check this, but with Kantata, it's a...
+
+>>Sacha Tasker (Guest)	29:53
+It's like a time management software.
+
+>>Avirup Banerjee	29:57
+Okay I might need to check this, can you spell it out for me please? Yeah K -A -N -T
+
+>>Sacha Tasker (Guest)	30:03
+-a -T -A, it used to be called Mavenlink.
+
+>>Avirup Banerjee	30:08
+Okay let's see, I don't think so. Looks like we do not have integration with Canada. Yeah Yeah But I'm not sure the office internet today is a bit wonky Or it's not coming up.
+
+>>Sacha Tasker (Guest)	30:25
+Yeah if you could double check that, because at the moment, I mean this obviously totally serves our use cases in terms of lifecycle services, but we do have a use case which at the moment I can't figure out how we can get rid of some data pipelines, because basically out of office holiday information feeds from Hibob to our Kantata, which is our time management software, so it automatically populates when people are on holiday and at the moment they don't have a direct integration, so I was just wondering if we could do it through you. Oh is he gone? Oh Jess?
+
+>>Jess Futerman	31:06
+I think he's just dropped off, he's just messaged me on team, I think it's his Wi -Fi.
+
+>>Sacha Tasker (Guest)	31:16
+So Jess, can I just ask a really quick cheeky question, so Lurie looks brilliant and absolutely, like obviously I need to talk internally, but it does look like it can't cover our use cases, but what then is, what are you guys adding on top of it?
+
+>>Jess Futerman	31:31
+Yeah, what Softcat add on top of it is Uk based support and also a team of analysts as well, so we've got two different services, one of them is a support wraparound to help set up the platform and just for maintenance issues and then the second one is if you wanted our analysts to help you actually use the platform and make sense of your data and report back to you, where you can optimise costs and things like that, we can also do that type of service too.
+
+>>Sacha Tasker (Guest)	32:13
+Also Sasha, if you can see my screen, we do have the integration with Kantata.
+
+>>Avirup Banerjee	32:18
+Oh great! Yeah, yeah, the office internet was wrong, so that's good news.
+
+>>Sacha Tasker (Guest)	32:26
+That is actually great news. So hold on, so basically the use case for that is that out of office, like holiday data feeds from Hybog to Kantata, so that Kantata automatically populates people's holidays, so could we do, is that possible then through Zuluri to do that, like feed that data from Hybog to Kantata or would it not have that information?
+
+>>Avirup Banerjee	32:51
+As far as my limited knowledge about this is that, I don't think we can do that because generally what happens is that the application either talks to an ITS until like Jira or they talk to Zuluri, but I will go ahead and check it out then if we can because we are taking it, yeah, and if we are taking the status as well and we will see, I will just check it out with them because we do have a provision with Asana which I guess is a similar tool, I'll just need to check it with Kantata.
+
+>>Sacha Tasker (Guest)	33:22
+Okay, okay, that would be great if you could check that out, thank you. Okay, okay, cool, this has been incredibly helpful Abhi, thank you. So I was just saying to Jess that obviously I need to chat internally, but for like this specific, the lifecycle services, it definitely seems like this serves all of our use cases, so that's great. Jess, could you, I'm sure I need to give you information, but can you just give me a breakdown then of what the cost will be around this, please?
+
+>>Jess Futerman	33:54
+Yeah, absolutely, in terms of which modules to include Abhi, have you got any questions just to determine the right package?
+
+>>Avirup Banerjee	34:04
+I think Jess, it's going to be the access management module, so access management and part of this Tl plan, so that's how it's going to go hand in hand with it.
+
+>>Jess Futerman	34:14
+Great, and we'll base it on 200 users, is that right? Yeah. Okay, all right, and then is there any other information that you need to take back to the business, does anyone else need to see a demonstration? I'm happy to run it again.
+
+>>Sacha Tasker (Guest)	34:30
+There definitely will be, but I need to basically put forward my proposal at the moment because, Yeah, I basically need to put forward my proposal, so I will do that this week, hopefully get an answer and then obviously if the answer is yes, we want to go ahead, then definitely the IT team will need to.
+
+>>Sacha Tasker (Guest)	34:52
+To do a demo of this so I will let you know But this has been incredibly helpful thank you. Great
+
+>>Jess Futerman	34:59
+Okay well leave that with us we'll come back to you with a proposal and some white papers of what we showed you today and then just let us know if you need anything else at this point.
+
+>>Sacha Tasker (Guest)	35:11
+Yeah if you could just, the cost is really it because I need obviously I do want to sell my proposal over this week And I just need the cost because it's going to be either we hire an engineer or we do this So um yes that's what I need for this week. Okay sure okay we'll get working on that.
+
+>>Jess Futerman	35:30
+Fantastic thanks everyone.
+
+>>Avirup Banerjee	35:32
+Yeah absolutely just one thing Sasha I'm going to shoot you an email with a few collaterals just you'll be marked on that maybe uh we can circle back internally and decide on the course depositing and the pricing and Sasha and Jess they'll get back to you on the pricing I'll just send you the emails with the collaterals. Okay perfect all right thanks so much thank you.
+
+>>Sacha Tasker (Guest)	35:51
+Bye. Thank you. Bye.
+

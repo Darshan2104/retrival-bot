@@ -1,0 +1,70 @@
+User_query: "how to integrate Jira on zluri"
+LLM :
+To integrate Jira with Zluri, follow these steps:
+
+1. Ensure you have Administrator privileges in Jira and a valid Jira subscription (Free, Standard, Premium, or Enterprise).
+2. Generate an API token in Jira by navigating to the API Tokens section and clicking on "Create API token." Choose a descriptive name and copy the generated token.
+3. Open the Integrations Catalog in Zluri, search for "Jira," and click on "Connect."
+4. Select the appropriate scopes for the integration and click "Continue." If you lack Administrator privileges, invite a co-worker who does.
+5. Fill in your Jira account’s email address, the generated API token, and your organization’s Atlassian base URL found in Jira’s Product settings.
+6. Click "Connect," and your integration will be complete.
+
+If you encounter any issues, refer to the troubleshooting section or contact support for assistance.
+
+================================================================
+User_query: "can i integrate Jira on zluri if so how ?"
+LLM:
+Yes, you can integrate Jira with Zluri. To do so, follow these steps:
+
+1. **Generate an API Token in Jira**: Go to the API Tokens section in Jira, click on "Create API token," choose a descriptive name, and copy the generated token.
+
+2. **Connect Zluri Account to Jira**: Open the Integrations Catalog in Zluri, search for "Jira," and click on "Connect." Choose the appropriate scopes for the integration and click "Continue." If you lack Administrator privileges in Jira, invite someone who does.
+
+3. **Fill in the Required Information**: Enter your Jira account’s email address, the generated API token, and your organization’s Atlassian base URL, which can be found in Jira’s Product settings. Finally, click "Connect" to complete the integration.
+
+Once connected, you can track Jira licenses, usage frequency, and optimize spending based on this data.
+================================================================
+
+User_query: "how to get Beta Integration Access on zluri"
+LLM :
+I can not help you with this.
+
+================================================================
+
+User_query : "what roles or access levels are supported by Zluri"
+LLM : 
+Zluri supports the following roles or access levels:
+
+1. **Owner Level**: The person who initially signs up and creates the organization has complete access to Zluri and is also referred to as a Super Admin.
+
+2. **Admin Level**: Owners can add multiple admins who have access to all screens and privileges to perform day-to-day administrative tasks.
+
+3. **Viewer Level**: Users with this role have view-only access to all screens and cannot take any specific actions.
+
+4. **IT Admin**: Users in this role have access to all screens except transaction screens. They can add applications, users, assign users to applications, and manage departments.
+
+5. **Finance Admin**: Users with this role have access only to the overview and transaction screens. They can add transactions, map them to applications, and archive transactions.
+
+These roles allow for a structured approach to access and permissions within the Zluri platform, catering to different administrative needs.
+
+================================================================
+
+User_query: "Zluri Browser Agents are supported for which browsers ?"
+LLM:
+Zluri's browser agents are supported for all major browsers, including Google Chrome, Microsoft Edge, Mozilla Firefox, and Brave.
+
+================================================================
+
+User_query: "Does Zluri Browser Agents supported for opera mini browsers?"
+LLM:
+Zluri's browser agents currently support all major browsers, including Google Chrome, Microsoft Edge, Mozilla Firefox, and Brave. However, there is no mention of support for Opera Mini in the provided context. Therefore, it can be concluded that Zluri Browser Agents are not supported for Opera Mini browsers.
+
+================================================================ 
+
+User_query: "What is Zluri Desktop Agents and how it works?"
+LLM:
+Zluri Desktop Agents are tools that monitor the usage of SaaS applications on devices and send this data to Zluri servers for analysis. They are compatible with Windows, Linux, and macOS operating systems. 
+
+The desktop agent identifies SaaS applications based on their names and classifies each app launch as an activity. It aggregates daily app activity data for each user and compares it with that of other users in the organization, providing a percentile score for individual app usage.
+
+The data collected by the desktop agent includes device information, installed applications, app launches and exits, background applications, and application running time. This information is accessible through the Zluri dashboard, allowing organizations to evaluate app usage and optimize their SaaS investments effectively.

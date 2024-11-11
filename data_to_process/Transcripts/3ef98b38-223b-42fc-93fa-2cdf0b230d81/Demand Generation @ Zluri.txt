@@ -1,0 +1,57 @@
+>>Mukil Ganesan	01:17
+Hey team, we'll wait for like five more minutes and then we'll get started. Yeah, sure. Vikram, which team are you joining for?
+
+>>Vikram Senthil	01:30
+Solution Engineer.
+
+>>Mukil Ganesan	01:35
+Akash, you're joining in Nishani's team, right?
+
+>>Akash Akilan	01:38
+Yes.
+
+>>Mukil Ganesan	01:39
+Cool, cool.
+
+>>Mukil Ganesan	02:20
+Hey, hi Srikanth.
+
+>>Shrikaant Iyer	02:23
+Hey, Vikram.
+
+>>Mukil Ganesan	02:26
+Which team are you joining for, Srikanth?
+
+>>Shrikaant Iyer	02:29
+I've joined the US for the Principals. I'm joined as a Principal CSM.
+
+>>Mukil Ganesan	02:34
+Okay, got it, got it.
+
+>>Mukil Ganesan	04:15
+Hey, we'll get started Welcome to slurry everyone. So what this call I'll just give you a high -level look on to what we are Owning an asset demand generation function and before that I'll just quickly introduce myself I'm okay, and I've been leading demand generation here at slurry Being with the arc for close to more than two and a half years now And there's my third company so overall I have was to eight nine years of experience into Sas marketing and demand generation So that's very quick intro about me. So with that I'll just start with the overview. So within the margin the core objective for this is to generate qualified Leads for the sales team and we do this through multiple ways or I would say multiple channels So we have different sub functions within demand generations of one is content marketing And then we have performance marketing We have outbound we have events And then we have other sources like referral, etc So I just quickly deep dive into each of these channels will give you like a two -line brief into how this work and what we are doing So now looking at content marketing. So this is kind of outsourced today. We are working with a bunch of Consultants for the for our content marketing efforts so all the content that you see on our story blog is written by the content marketing team and Their core job is to improve and increase the traffic to our website Through which we are generating meetings today. So currently the inbound channel contributes to around 30 to 35 percent of the Meetings and the pipeline that we are generating on a quarterly basis and The second one is performance marketing again
+
+>>Mukil Ganesan	06:11
+Performance marketing is Outsourced as of now, so we are working with one consultant respect to performance marketing That's something that we got started with very early on But we are yet to hit that escape velocity or scale to set up a team in house until then we will be working with an external Consultant so we typically or predominantly spend on Google Ads We were trying out Linkedin previously, but it was a bit slow now We are just focused on Google Ads and we are a bit mindful about the money we are spending for advertisements So this channel has been contributing, you know around Five to ten qualified opportunities per quarter and that has been the trend for us for quite some time It's kind of linear at this point in time And we have not increased our budgets also So we're just slowly decreasing the budgets there. So that's with performance Marketing and the third one would be outbound or the Sdr team So within the Sdr function, we have two parts One is for the Americas US and the other one is for the rest of the world So today the rest of the world team is predominantly focusing on the European Uk markets we are planning to slowly expand into the other markets also down the line So the core objective of the SDRs are to go about pursuing target accounts and then Build a relationship with them get them on to a meeting with our accounting security and then build the pipeline from there So this channel is contributing to somewhere around
+
+>>Mukil Ganesan	07:52
+I think over the last quarter it contributed around 20 -25 % in pipeline But the goal for us is to hit a 35 to 40 percent of contribution from this channel down the line. So we are Building the right set of systems processes and onboarding the right set of people to get there So this is a critical piece in our demand generation in itself And then the other one is field marketing field marketing is nothing with the events that we are sponsoring that we are attending You know representing slurry Until the last quarter we were doing it only in the US in the last quarter we sponsored Monday .com's Elevate that's their annual conference. So we sponsored that in London and in New York So the London event went pretty well. We are having a bunch of Poc's It looks like we might be closing a couple of deals from this event US I would say it's a much more mature market at least from from a field marketing perspective for us. We used to We have tried out different
+
+>>Mukil Ganesan	08:59
+Formats of events, we have sponsored a lot of these conferences focusing both on SMP or SaaS management platform or access management, access reviews. So some have not worked out, a few have worked out. So I think today we have a good amount of learnings from the US market and we have a very clear way forward on how to go about handling field marketing for this. So currently this channel contributes around 10 to 15 percent of our pipeline on a quarterly basis and this is more of a seasonal channel. So if we are sponsoring or being a part of any event, we will get those leads. If not, we won't get that. So that's the other channel and referrals are nothing but the investor referrals. Referrals we get from our Cxos which get funneled into our pipeline. So I think overall these are the demand generation channels that that has been working out for us that we are scaling upon as of now. And apart from that, the Revops function also reports into our demand gen currently where we have two people. One person supports with marketing slash sales ops and the other person supports with more of strategy and operations across sales and marketing. So that that's kind of rolling up into demand gen today. So we make sure that we are bringing in the right set of systems and building the right set of processes and operationalizing them on these tools, integrating the tech stack and everything. So we have a pretty good tech stack when it comes to marketing and sales and we keep on evolving.
+
+>>Mukil Ganesan	10:40
+So we keep onboarding new tools, we keep upgrading, we keep consolidating also. So that's the other team that reports into demand generation. So overall I think this is a very very brief overview team. I think within marketing you have two functions which is demand generation and product marketing. For product marketing you might be having a separate call shortly. So this is what the demand gen team does at the end of the day. So if you have any questions on this I'll be happy to address that now.
+
+>>Akash Akilan	11:18
+I think I'm pretty clear.
+
+>>Shrikaant Iyer	11:20
+Yeah I'm good Mukul.
+
+>>Mukil Ganesan	11:24
+Awesome, cool. So feel free to ping me on slack if you have any questions. I'll be happy to respond team and welcome to Zuluri. So I'll catch up with you all shortly.
+
+>>Vikram Senthil	11:35
+Thank you so much Mukul.
+

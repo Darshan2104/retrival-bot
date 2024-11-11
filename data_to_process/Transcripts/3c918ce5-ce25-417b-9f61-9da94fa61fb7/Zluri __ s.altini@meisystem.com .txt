@@ -1,0 +1,114 @@
+>>Mamtha Eswari	00:03
+Hi Stefano. Hi Stefano, how are you?
+
+>>Stefano Altini	00:10
+Hi, good morning. I'm fine, thank you.
+
+>>Mamtha Eswari	00:14
+Sorry?
+
+>>Stefano Altini	00:15
+Can you hear me?
+
+>>Mamtha Eswari	00:17
+Yes, yes, I can hear you well.
+
+>>Stefano Altini	00:20
+Yes, I'm fine, you? Everything okay?
+
+>>Mamtha Eswari	00:24
+Okay, so you are based out of Uk? Yeah. Alright Stefano, so it's nice having you on the call today Stefano. So let me set the agenda for today's call, right? So we'll start with a quick introduction from Bodar and what made you to reach out to Zloori in the first place. And a couple of more questions from my end. So this will help us tailor a customized product demonstration for you on the next call moving forward. So we'll stick on to this call as an introductory call for us to better understand your requirements and how Zloori can combat with all of your requirements. And then as a next call moving forward, we'll have a technical discussion on taking you through the product demonstration as such. So does that sound good to you Stefano?
+
+>>Stefano Altini	01:05
+Yes, yes, it's okay, thank you.
+
+>>Mamtha Eswari	01:07
+Alright, so like you can start with the introduction from your end, what made you to reach out to Zloori.
+
+>>Stefano Altini	01:13
+Okay.
+
+>>Mamtha Eswari	01:24
+Stefano, I'm not able to hear you.
+
+>>Stefano Altini	01:30
+Sorry?
+
+>>Mamtha Eswari	01:31
+Yeah, I'm not able to hear you Stefano. I can just... Yeah. Alright, so introduction from your end Stefano. Like what do you do? What made you to reach out to Zloori? What are your requirements that you wanted out of Zloori? Okay.
+
+>>Stefano Altini	01:49
+We are looking for an IT cost solution management at this moment. These are our requirements. I have found five or six solutions on the market. But this solution is only for corporate industry. We are a small industry, a small medium industry. And I need to have a solution, a platform solution to manage the cost of a SaaS, for example, or cloud solution or service solution. But I think the only platform that has an Itsm solution with this extension to manage the cost. I need a specific solution for the IT spend cost management. I found Zloori on Gardner diagram. I'm interested to watch a demo of this platform, if it's possible. Okay, Stefano.
+
+>>Mamtha Eswari	02:59
+Cost management is your priority concern right now, right? A SaaS management tool to optimize all of your licenses and potentially save cost on all of your licenses. And manage all of your SaaS applications in total. So this is going to be your predominant requirement from Zloori, right?
+
+>>Stefano Altini	03:16
+Yes, absolutely. I don't need to manage the asset, for example. We have an Itsm solution from Manageengine. I need specifically to manage the cost of the renewal of the license, for example.
+
+>>Stefano Altini	03:33
+For example, the expiring of the licensing and the need to negotiate the costing, okay?
+
+>>Mamtha Eswari	03:44
+Yeah, okay, all right. And Stefano, I understood your requirements basically. So I have a few questions in mind, Stefano. So what is the exact number of employees size that you have in your organization right now?
+
+>>Stefano Altini	03:58
+The employees is about 400 at this moment, and we have 360 users of the IT systems.
+
+>>Mamtha Eswari	04:10
+Okay, all right. And do you have any idea on the number of SaaS applications that your employees might be using at the moment?
+
+>>Stefano Altini	04:19
+It's about 30 solutions in SaaS. We have Arp and CRM by Microsoft, Dynamics 365 F &o, and Dynamics CRM for the sales and the service. And other solutions, you know, they mentioned.
+
+>>Mamtha Eswari	04:43
+Okay, all right, all right. And, you know, since you were mentioning about the cost optimization, any idea you have on the average annual spend that you do on all of this software together for now? And, like, this is just for us to understand, you know, how much in terms of ROI we will be able to give you, you know, basis what you spend right now. So any idea on how much you spend on all of the software's total?
+
+>>Stefano Altini	05:10
+All in the software, it's about 400 euros for years.
+
+>>Mamtha Eswari	05:25
+Can you come up with the number again?
+
+>>Stefano Altini	05:30
+400 ,000 euros.
+
+>>Mamtha Eswari	05:35
+Okay, 400, approximately around 400K euros a year. Yeah. Okay, all right. All right. So this is just for us to have a fair enough, you know, understanding on how much you are spending and how much we can potentially, you know, help you better, you know, optimize all of your licenses and save costs for you. Just for that. And Stefano, like on the introduction you were mentioning, you are looking out for other platforms as well for the evaluation, right? So anything in the Poc or in the trial phases or, you know, any other softwares that you are currently working with or trying ahead with? Is there anything specific?
+
+>>Stefano Altini	06:14
+No, I don't have any idea at this moment. Okay.
+
+>>Mamtha Eswari	06:18
+Okay. All right. All right. This is just for us to, you know, give you a competitive analysis maybe on how we are differentiated from maybe other vendors in the market. Just for that. Right. So, yeah. So, Stefano, like how quick are you trying to implement this kind of project in place? Is it an immediate requirement from your end or you're still in the researching phases of all of this?
+
+>>Stefano Altini	06:44
+At this moment, we are looking for a solution on the market. It is not urgent.
+
+>>Mamtha Eswari	06:53
+Okay. So I'm just curious to know the timeline of implementation. When are you trying to procure this kind of tool in place?
+
+>>Stefano Altini	07:03
+I don't have an idea at this moment. I am the first looking on the market on the proposal of the business. We don't have any idea of implementation project plan for this.
+
+>>Mamtha Eswari	07:18
+Okay. All right. All right. And like I also assume it is not yet budgeted from your organization yet for implementing a SaaS management tool in place. Is it budgeted for this year or it's not yet?
+
+>>Stefano Altini	07:33
+It should be for the next year.
+
+>>Mamtha Eswari	07:36
+Next year. Okay. Okay. All right, Stefano. So Zluri is pricing, right? So we do not work on a listed pricing model. Obviously, our pricing is customized basis. The number of employees that you have in your organization plus the number of modules that you opt in from Zluri. Let's say we cater to three different modules, Stefano. So one is, as you have rightly mentioned, is the Saas management module, wherein we get visibility of all the applications that your employees are using at the moment, plus helping you with the license cost optimization, as I've mentioned. So the second and the third modules are mainly on the automation part, majorly on the automations of onboarding and offboarding of your employees and automations of all of your access reviews. So we do auto remediation of all of your access reviews, help you with all of your compliances and security side as well. So second and third are mostly inclined towards automation.
+
+>>Mamtha Eswari	08:32
+The first so your use case is predominantly on the first use case, right? So, um, we you exactly pay for what you use, uh, though we have different modules in place So that is why we work on a customized pricing model stefano So, um on an average for a 150 sized employee company Um, you know, if you take sas management module alone, that is the first module that we would offer So for an average 150 sized employee company, we would start around 12 000 us dollars a year So this is this is for a 150 sized employee, uh company So this obviously, uh, you know, um, this will cost you around 25 000 to 30 000 us dollars basis The number of employees that you have in your organization right now So it it is it is going to be somewhere around 25 000 to 30 000 us dollars a year So this is obviously without any discounts or anything This is not the actual or the exact figures But I would want to uh You know project this as a ballpark figure for you because you will also have a fair enough estimate on Let's say how this much you are going to invest in a project like this So it will give you an understanding and an idea as well. So do you think uh, you know You your organization from your organization's end you would be investing this this Like this investment in a project like this I'm, not really sure Uh because uh today we use uh, an excel as patient to manage the 80 Cost
+
+>>Stefano Altini	10:00
+And then the cost is zero so much zero. I don't i'm not really sure that 20 30 K is accepted by our cfo But It's possible to make To try. Okay
+
+>>Mamtha Eswari	10:18
+Okay, okay, so what I can do is as Stefano, um, I understand, you know, uh, there might be budgetary constraints there might be uh, You know, uh, the the timeline of implementation might be different from what you think and what your organization is about So I totally understand that so, uh, what I can do is Stefano Um after this call I can send you a detailed email sharing some of the collaterals Some of the case studies that might be helpful for you. Um, so you can have a look at them Um, you know basis what what requirement that you have stated I can send you through specifically list of collaterals that you can you and your team can have a look at them And maybe if if you get any approvals from Um from your cfos or from your management on the timeline of implementation and on the budget you can always you know revert revert me, uh, you know, uh with with uh with your team as well, and we will be happy to host you a Technical product demonstration for you. So, um, You you can have a look at all of them. And if that interest you, um, you know If you would want to invest in this kind of project, uh, maybe um, uh, maybe down the lane So you can always uh, Contact me Stefano for that Okay. Thank you very much Okay, so you can expect my email in a couple of hours Stefano. So, um, uh, you know, uh, we can uh, You know, maybe once once all of that is settled in your organization We will be happy to host you a discussion separately for you. Yeah Okay, perfect Okay, Stefano. Thank you. Thank you so much for uh, being on the call today. It is nice talking to you Great.
+
+>>Stefano Altini	11:53
+Thank you for your time. Have a nice day Bye. Bye. Bye
+

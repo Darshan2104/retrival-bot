@@ -1,0 +1,597 @@
+>>Priya Jaladi	00:00
+Hi, Roger. How are you? Hi, Priya.
+
+>>Roger Le	00:02
+Good. How are you doing?
+
+>>Priya Jaladi	00:03
+All good. Thank you. How was your weekend?
+
+>>Roger Le	00:06
+It was nice and restful. So I can't complain.
+
+>>Priya Jaladi	00:10
+Amazing. Same, same. I just slept through the weekend as usual. That's the best. As I got older, I just stopped making plans and, you know, drinking all night and I'm like, I just need my bed and, you know, just want to watch something on Netflix and just rest. So that's how my weekends have been all the time.
+
+>>Roger Le	00:31
+Yeah, that's my kind of weekend. I used to do chores around the house and pretty much just relax and try to sleep in.
+
+>>Priya Jaladi	00:40
+Amazing, amazing. So, Roger, we also have Anu from Zlooris and you've met her before. So are we expecting anyone else from Rivian or can we get started?
+
+>>Roger Le	00:51
+Let me see. Sean said he'll join. And Michael said he'll join. So let's give him a couple of minutes.
+
+>>Priya Jaladi	01:00
+Sure, absolutely.
+
+>>Roger Le	01:01
+I'm going to get a drink real quick. So I'll be right back.
+
+>>Priya Jaladi	01:04
+Sure, sure. No worries. Hi, Anu. Hey, Priya.
+
+>>Priya Jaladi	01:20
+Hi, Sean. How are you?
+
+>>Sean Curran	01:23
+I'm good. How are you doing?
+
+>>Priya Jaladi	01:25
+All good. Thank you, Sean. I'm pretty jealous looking at your picture because me and my friends are planning to go to Europe and only I ended up getting a visa and all of my friends, Shenzhen, is rejected.
+
+>>Sean Curran	01:40
+Oh, no.
+
+>>Priya Jaladi	01:43
+Yeah, it was wonderful. Sorry, Sean.
+
+>>Sean Curran	01:50
+Yeah, it was wonderful. I went there a couple months ago right before the Olympics. So it was good.
+
+>>Priya Jaladi	01:56
+Yeah, I see the Olympic sign as well. So I'm assuming it's recent. That's awesome, Sean. I'm actually jealous of you.
+
+>>Sean Curran	02:04
+Don't be. But you're going to go then without your friends?
+
+>>Priya Jaladi	02:09
+Not really because we just thought we'll do it together. So we're planning some other country at this point through Europe. Okay. By the way, Sean, we haven't met. I'm Priya and I'm the sales director at Zluri. I've been managing this engagement from Zluri Sen. We also have Anu on the call who's a solution architect. She'll be running the Poc from Zluri Sen. So yeah, nice to meet you.
+
+>>Sean Curran	02:38
+Nice to meet you as well. I think I saw one of your intro meetings with Roger a month ago or two. But nice to meet you.
+
+>>Priya Jaladi	02:48
+Nice to meet you. Hi, Michael. How are you?
+
+>>Michael Kwiatkowski	02:53
+I'm doing good, Priya. Thank you for joining us today.
+
+>>Priya Jaladi	02:56
+No, no, no. Thank you for taking time out for this, Michael. So I think Roger is also back. So, Roger, can we get started or should we wait for anyone else? Nope.
+
+>>Roger Le	03:08
+I think this is going to be everyone. We can get started, Priya.
+
+>>Priya Jaladi	03:11
+Perfect. So, Roger, Sean, Michael, thank you so much for joining the call. So today's agenda is we have a lot of questions to understand the scope, the success criteria you're looking to evaluate Zluri on. According to your responses, we will prepare a Poc plan with timelines, what apps you will integrate, what scopes and permissions we would need from your end, who needs to be on the call for a POC kick -off. So we want to get started with our questions. And also, Roger and team, we would like to understand when are you looking to kick -start the POC? I know last time you mentioned as soon as possible, but any date you would like to give so that we'll send out a calendar invite and we can prepare the Poc instance.
+
+>>Roger Le	04:01
+Yeah, Priya, so kind of just starting right away. So, I mean, if it's kind of like next week, Monday, is probably what we can shoot for. But yeah, again, we want to, to your point, right, hyper -focus on what's the Poc plan to make sure that we have a successful Poc, right?
+
+>>Priya Jaladi	04:20
+Absolutely. Absolutely, Roger. So, yes, Anu, do you want to quickly share your screen and our lips?
+
+>>Priya Jaladi	04:26
+Let's go through the questions and yeah, accordingly we can plan the Poc. Sure.
+
+>>Anugraha R	04:32
+Just give me a quick minute here. Sure.
+
+>>Priya Jaladi	04:42
+Meanwhile, Roger, just curious, would you be running parallel POCs with our competitor as well? Or is there like a order in which you're doing a POC? Any thoughts on that?
+
+>>Roger Le	04:57
+Yeah, we're going to be running them in parallel. Okay.
+
+>>Priya Jaladi	05:00
+Got it. Great. Great. So, Anu, we can see your screen. So first question, project owner for the Poc, Roger, we will give your name, any other names you'd like to add just as a point of contact for anything pertaining to POC.
+
+>>Roger Le	05:17
+Yeah, that's the meaning.
+
+>>Priya Jaladi	05:18
+Okay, perfect. And we would also like to understand who will be the stakeholders involved and what time zone they will be based out of so that we'll also make sure that the calendar invite is accommodating to everyone. So Roger, will it be everyone who's been part of the conversation so far? Anyone else new that will be joining and will they be out of the specific time zone at this point?
+
+>>Roger Le	05:44
+So for right now, I would say the people currently involved, we may add people later on depending on the scope that we can do. But for now, let's include everyone who's been involved. So I would say myself, Raj, Bala, Sean, and I would say give Michael Kosky some visibility as well if he wants, that's optional. Sure.
+
+>>Priya Jaladi	06:07
+Absolutely. And I'm assuming all of you are based in The Bay Area, Roger, or any other time zone?
+
+>>Roger Le	06:14
+I think we're all in California. Correct me if I'm wrong. Michael, are you? I think you're in California too. So yeah, I think we're all in California.
+
+>>Priya Jaladi	06:21
+Okay, perfect. So we'll stick to the PT time zone that we've been following then. Perfect. And the next question, Roger, is the single sign -on system you would like to integrate Zuluri with? We understand that you use Azure AD, so can you please confirm your SSO?
+
+>>Roger Le	06:40
+That's correct.
+
+>>Priya Jaladi	06:41
+Okay, perfect. So you'll be integrating your Azure AD. And Roger, also in the conversation once you brought up that you use Sailpoint as well as a single sign -on system. But like we mentioned before, we don't have an out -of -box integration with Sailpoint as of today. But the team checked the APIs and based on your requirement, we can do a custom integration with Sailpoint. So I just want to make sure that I call it out again, in case you would like to connect Sailpoint in the Poc.
+
+>>Roger Le	07:09
+Got it.
+
+>>Priya Jaladi	07:10
+Right. And the next question, Roger, would you be connecting your sandbox or production instances for the POC?
+
+>>Roger Le	07:19
+It'll be sandbox.
+
+>>Priya Jaladi	07:20
+Okay, perfect.
+
+>>Roger Le	07:21
+If possible, yeah. I mean, maybe we still need to finalize on the different SaaS products, but if they only have one instance and it's production, we might have to go production, but we're trying to do sandbox.
+
+>>Priya Jaladi	07:34
+Yeah, we do support sandbox integration as well, Roger. In fact, we suggest customers to connect their sandbox, though there is a problem with sandbox of not having too much data. But you can connect your sandbox and if you're not happy with a lot of data and you would like to test on your production instance as well, we can kill the sandbox instance and give you a fresh production instance as well. But we can go with sandbox for now.
+
+>>Roger Le	07:58
+Got it. Okay.
+
+>>Priya Jaladi	07:59
+Great. And the next question, we understand you use Netsuite as your expense system. Would you like to connect your Netsuite as part of the POC?
+
+>>Roger Le	08:08
+Yes.
+
+>>Priya Jaladi	08:09
+Okay, perfect. So I know you can mark it as yes. And the next question is Koopa. So would you be integrating your Koopa as well for the POC? Yes. Great. So regarding Koopa and Netsuite, Roger, we would like to understand what you're looking to achieve through these integrations. So I'm assuming Netsuite is for all your software expenditure. We understand that all your expenditure pertaining to SaaS or software is recorded in your Netsuite and you want Lurie to fetch that and show it to you on the platform. Did I understand it correctly, Roger, or any other outcome you're looking to achieve?
+
+>>Roger Le	08:45
+No, that's correct. So I think Netsuite as well as Koopa has kind of one goal, right? It's to capture all software purchases. So they pretty much have the same objective here.
+
+>>Priya Jaladi	08:57
+Okay. So what we usually do is, Roger, we consider Netsuite as your expense system and fetch your spend data. And we usually consider Koopa as your contract management system and fetch all your contract information. Like contract start date, end date, the licenses purchase, cost of license, etc. Will that work for you, Roger, or you want to spend to be fetched from both Netsuite and Koopa if you have both system of records?
+
+>>Roger Le	09:23
+No, no, no, that's exactly right.
+
+>>Roger Le	09:25
+Let's look at the cost and amount, right? And amount of licenses we purchase, whereas a contract is going to be like the, to your point, right? Multi -year contract versus one year starting end date. Absolutely. Absolutely.
+
+>>Priya Jaladi	09:37
+That's perfect. Anu, any other questions you have pertaining to Netsuite and Coupa integrations?
+
+>>Anugraha R	09:43
+Yes. Do you store your contract PDF or contract documents in Coupa team?
+
+>>Roger Le	09:49
+No, we actually use Ironclad. So Ironclad is our contracts management system. There's a caveat to that, right? Because there's a certain threshold that's being met to be even be in Ironclad. I don't know off the top of my head what that threshold is. I think it's 10 ,000. And then, so what that means is that if someone purchases a software that's, let's say only a hundred dollars, it won't be in Ironclad, just purely because it's way too little, right? It's not worth storing that contract in Ironclad. But with that being said, usually I would say 95 % of the time in Coupa, we have some sort of attachment that has either an order form or an Msa. So Coupa usually has an attachment that's per purchase, if you will.
+
+>>Priya Jaladi	10:40
+Got it.
+
+>>Anugraha R	10:41
+Yeah, this is where we will have all the license information. That's why I wanted to check on this.
+
+>>Roger Le	10:46
+Yeah. All right.
+
+>>Priya Jaladi	10:49
+Okay. And Roger, any estimate on how many users will be in your sandbox? We understand you're actual users. So any estimate on the number of users in your sandbox accounts? Will it be the same or how is it like a trivial?
+
+>>Roger Le	11:05
+What do you mean by, you mean like how many, will this be in scope, you mean, in a sandbox environment?
+
+>>Priya Jaladi	11:10
+The number of users, like for example, your Azure AD sandbox, will it also have like 10 ,000 users or less more? How is it maintained that trivial?
+
+>>Roger Le	11:21
+It should be, yeah. It should be like for like, it's just an older snapshot, if you will. Yep.
+
+>>Priya Jaladi	11:26
+Got it. Got it. That helps. That helps, Roger. The next question is really like, you know, supports browser extensions and desktop agents, which will play a very key role in tracking your application usage. So would you like to install agents as well to test and, you know, see how it functions? So we usually open it to three agents to be installed. So Anu also mentioned what browser extensions and desktop agents we support. So you can install the agents and track the application usage. So would you be open to doing it, Roger, in the POC?
+
+>>Roger Le	12:02
+Yes. I think it's going to be very valuable to see how this interaction has been made.
+
+>>Priya Jaladi	12:06
+Absolutely. So I'll say yes. Absolutely. That's perfect. And Roger, any certain applications you would like to track using the agents? Because the agents are at the end point and some customers would want to track certain applications, like Adobe, for example. So any specific applications you would like to track using our browser extension and desktop agent, Roger? Yeah.
+
+>>Roger Le	12:29
+So actually, probably using Google Chrome, because that's our standard browser here. But I think we need to finalize on a list of the, I would say, just a handful of applications we want to do in this Poc. And Adobe is a great one, right? Because Adobe is a hybrid. There's a cloud and also an on -prem installation. So we'll give you some examples, but definitely we'll select a few. That's kind of a hybrid situation.
+
+>>Priya Jaladi	12:57
+Absolutely. Absolutely, Roger. Great. And coming to the list of applications we support during the Poc, Roger. So these are the applications. You can pick any three to connect outside of your SSO expense system and your contract management system. So you will be basically connecting Azure AD, Netsuite, and Coupa, and any three applications from this list you see, Roger. So can you pick three applications you would like to connect and test during the POC? Yeah.
+
+>>Roger Le	13:26
+Do you mind if I review this with the team and get back to you?
+
+>>Priya Jaladi	13:29
+Absolutely. Absolutely. So we will share this list with you. Please check internally and come back, Roger. And we will share all the scopes and permissions required to connect these applications so that you have a system of record and we would need your super admin of these applications to connect that application with Zuluri. So we can share this list with you, Roger. You can come back to us offline.
+
+>>Roger Le	13:50
+Okay. And Priya, if I can also follow up, are these the only apps that we can choose from or can we select a couple in our environment that we want to test out?
+
+>>Priya Jaladi	13:58
+Roger, these are the applications we support just for the Poc. So we anyway gave you the entire list of applications available out of the box, which will be available for your full implementation. But these are the ones we support for the Poc, Roger. Okay.
+
+>>Roger Le	14:13
+The only reason why I asked is there are very unique situations, I would say unique applications that we'd like to see how Zuluri kind of...
+
+>>Roger Le	14:24
+Handles those types of applications, right? So, for example, consumer -based licenses like from Datadog, right? It's based on consumed resources versus a license count. We'd love to see how your application handles those types of situations, right? Adobe is in there, which is great because it's a... Adobe is, again, a hybrid application. But again, we have a couple of examples we want to track that's kind of a unique software. Sure.
+
+>>Priya Jaladi	14:53
+Sure, Roger. So, I understand where you're coming from, Roger. If you can share the applications outside of this list that you would like to connect and test in the Poc, the decision is way above my pay grade. I will take it back to our product and technical team and see if we can get an approval for that. I can't promise, but I'll do my best to see what we can do from our end, Roger.
+
+>>Roger Le	15:15
+Okay, perfect. Thank you. Absolutely.
+
+>>Priya Jaladi	15:19
+Next, any specific feature requests you have that you would like to evaluate during the pilot, Roger? I know at a very high level, you know what Zulily is. You can capture all the applications being used, how they're being used, achieve cost optimization. You also wanted to test license reclamation. Any other specific feature requests that you would like to test in the POC?
+
+>>Roger Le	15:43
+Yeah, so, I mean, from the beginning, right? I want to see how contracts are automatically being processed. So, you're number five, right? How that is being captured automatically when a new purchase has been made, right? When it enters the system as an administrator who owns the platform, what do I need to do to process that, right, into the system correctly? So, do I have to manually comb through, make sure all of the information is correct? What does that look like, right? So, as an administrator. Then, moving on to the integrations, I want to, and this is probably the main focus of the Poc, right, is integrating all these applications. What's that process look like? Because we scale it out, right? We multiply that by 900 of applications. How easy is that integration, right? Then moving on to the inventory. So, I would love to see, okay, with the three applications we choose, what does that look like inventory -wise? What does the dashboard look like? Can we customize the dashboard to say, for example, Adobe, right? The Adobe software owner only owns Adobe. So, is there a way we can, and I know we covered this in demo, how can we customize that view for them to say, okay, if they want to go into Zuri and see their dashboard of their health today, let's make it, you know, pretty, right? Let's see how, what they can, what can they see?
+
+>>Priya Jaladi	17:06
+Absolutely.
+
+>>Roger Le	17:07
+Yeah. And then moving on to reclamation, to your point, right, is be able to identify the low usage, all the candidates, right, to save money cost and how we can build out that workflow, meaning doing that Slack or email to that user saying, hey, you haven't used this in a while. Do you need to keep it, yes or no? If they say yes, again, we kind of talked about this, go to the manager or the VP, depending on the cost, and to get approval. And once it's approved, then they can keep it, or is it denied? We can reclaim that license and how that license is reclaimed successfully, right, we want to see that action.
+
+>>Priya Jaladi	17:43
+Absolutely. Absolutely, Roger. So that's pretty much the entire product and more. So yes, we made a note of all of it. So we'll make sure that you, we make sure that we spend time on the platform as well, just in case you were not able to figure out these specific use cases and make sure that you see them on the platform. So this is very helpful, Roger. And another thing, sorry. Sorry, one more, one last one, sorry. Go ahead.
+
+>>Roger Le	18:07
+Last one that's pretty big is software renewal. We want to see, one, an automated message reminding owners to renew their software or start renewing software six months ahead, or seven months, let's do seven months ahead. And basically either Slack or email, including all the information, right? Hey, this is how many we use, here's information, or here's the dashboard, link to the dashboard to see the historical data to help you in the renewal process, right? And then if they don't respond, we also kind of same thing with the reclamation process, right? We escalate to the manager, up to the VP levels, like, hey, we haven't got a response, we need to start the renewal process, right? But I'm really interested because it's a big effort on the purchasing team on, hey, we want to arm these people with as much information as possible. So when we come on renewal, we can save costs, right? How can we leverage Lurie to save costs upon renewal activities, right? Sorry, that's it.
+
+>>Priya Jaladi	19:11
+Absolutely, Roger. So one question is, I don't think we have the possibility of escalation, but I will let Anu comment. So Anu, can Rivian escalate just in case?
+
+>>Priya Jaladi	19:23
+Case if there is a renewal reminder sent and nobody acts on it, can it be escalated? Do we have that inbuilt today?
+
+>>Anugraha R	19:31
+No, I've taken note of it because it was a good recommendation for the roadmap. So, but right now we do not have the means for escalation. However, all the admins of the application get notified on renewal, right? And you can send multiple notifications. You can customize a six month notification plus a 50 day notification or 45 day notification. You can keep sending them as many reminders as you want.
+
+>>Roger Le	19:55
+Yeah, the problem with that, unfortunately, with Verivion is we do remind them. They just tend to ignore them. So we don't want to include the manager right away, right? Because that'll just kind of bombard them. But, you know, it's just a soft reminder. Hey, you know, blah, blah, blah. But after a few months, it gets kind of critical that we need to get this escalated to, let's say, the manager or even VP level. Sometimes the software owners are at director level, right? And so we might not want to involve their VP right away. But again, it gets critical where it gets too close and we may miss out on negotiating a $3 million deal, right? So just very curious about how we can be very creative about this or maybe put like an indicator that, you know, I don't know. We can think of something here, but that's an important aspect of anything.
+
+>>Priya Jaladi	20:47
+Absolutely, Roger. That's a universal problem. But as Anu mentioned, it's a very good add -on that you've suggested. So let Anu check with the product team and come back, Roger. So like I mentioned before, we work with our customers. We do involve in our product roadmap as well so that there's a mutual value addition to Rivian as well as we also want our product to benefit based on your customer feedback. So we will check with the product team and come back and we will take this as a feature request and if possible, we will include it in the roadmap as well. I can't promise at this point, but we will check with the product team and come back, but we'll make sure that we key in all your requests and what you're specifically looking for, Roger. That much assurance we can give you.
+
+>>Roger Le	21:31
+Perfect. Thank you.
+
+>>Priya Jaladi	21:32
+Great. And one question, it's not part of this list, Roger. I just thought of it. So Zuluri is an extremely powerful data platform. Like you've seen, right? We use multiple methods to capture the data. Even for the integration, you will clearly see we captured quite a lot of data attributes from every integration you connect as well. So a lot of customers can find Zuluri a little overwhelming initially because there's so much data on the platform, so many groups, this, that. So would you want the platform data to be filtered for you where it's mostly cleaned up and given it to you or you want a raw unfiltered version and you will not just skim through the data and see the user's usage, et cetera? So how would you like to see your data on the platform, Roger?
+
+>>Roger Le	22:22
+Hmm. So this is just purely for the pilot itself as we go throughout the pilot. It's just notifications on our progress. Is that what I'm hearing correctly? Or is this the raw data of any action that's been taken back in?
+
+>>Priya Jaladi	22:34
+So the raw data of all the integrations, the data we capture through the agents, everything you see on the platform, Roger. If you want it raw as is, we will keep it as is. If you want it filtered, like you don't want to see all the random applications you want it filtered, we will clean it up and give it to you.
+
+>>Roger Le	22:52
+Got it. Um, I'm interested in getting the raw data. If you don't mind, if I, if I think it's a little overwhelming, I might change my opinion.
+
+>>Priya Jaladi	22:58
+It's okay. You can let us know anytime we can clean it up and give it to you. Yeah. A lot of customers actually prefer seeing the raw data, Roger, I'm being very honest because you want to get your entire visibility application inventory, right? Then raw data makes a lot of sense because you will be very surprised to see some random person using a random application and you're like, where is this coming from? So raw data is definitely like, will be helpful specific to the use case you're looking to solve, but it can be overwhelming. So I'm just giving you a heads up.
+
+>>Roger Le	23:27
+I'm ready. Putting my helmet on.
+
+>>Priya Jaladi	23:31
+Great. Great. Love the energy. The next question, uh, Roger, uh, is would you like to receive notifications during the pilot, this contract renewal notifications, et cetera?
+
+>>Roger Le	23:42
+Yeah.
+
+>>Priya Jaladi	23:42
+Okay.
+
+>>Roger Le	23:44
+Okay. Uh, I know just make sure that only Roger receives these notifications.
+
+>>Priya Jaladi	23:48
+So yeah, we'll just, uh, key in Roger's ID. And, uh, the next is what collaboration channel would you prefer, Roger? I understand you're on Slack, but we want to check with you because we'll create a channel and make sure that we collaborate and you can raise concerns, issues, whatever, if you have any in the channel itself and, uh, we'll work on it. So which one would you prefer?
+
+>>Roger Le	24:10
+Yeah. Slack is perfect.
+
+>>Priya Jaladi	24:11
+Slack is perfect. That's awesome. I will create a channel and add all the stakeholders, Roger, so we can collaborate there. And, uh, would you need any security documentation, any security?
+
+>>Priya Jaladi	24:22
+Security approvals to connect any of your instances? Since it's Sandbox, it must be easy. But would you need any security documentation, Roger, to kickstart the Poc from our end? Any help you need?
+
+>>Roger Le	24:35
+Yeah, I'll probably need to check back on the team, unless, Sean, you know. But I think I need to check with Bama and team if we need additional security documentation.
+
+>>Priya Jaladi	24:45
+Absolutely. Please check and let me know, Roger, and we can share it with you. The next question is the source of user information. As you remember, Roger, from the platform, you can basically configure how you want Lurie to process the data, like from your Sso or from your Hrms. So would you want to process all the user attributes, like department, user status, et cetera, from your single sign -on system? How would you like to configure it on the platform?
+
+>>Roger Le	25:16
+Do you guys have Workday integrations by any chance?
+
+>>Anugraha R	25:20
+Yes, we do.
+
+>>Priya Jaladi	25:22
+Perfect.
+
+>>Roger Le	25:22
+Can we integrate with Workday? Because it will have all that user information. So department, their title, their manager. I think that will bring a lot of value here, just because I think that's where all the user data is stored today.
+
+>>Priya Jaladi	25:35
+Ok, got it, got it. Since it's not in the list, maybe we'll check internally and come back if we can let you connect Workday integration in the Poc itself, Roger. We will check and come back. But just in case if we don't have permission for you to integrate Workday, then we will consider Azure AD as the primary source of information. But in your full implementation, you can. Ok, perfect.
+
+>>Roger Le	25:57
+Yeah, that's fine. Azure AD is fine, too. But Workday is preferable, just because that's our Hrs system, right?
+
+>>Priya Jaladi	26:04
+Understand, understand. We will check and come back, Roger. You should be able to connect. But yeah, we will check and come back, since it's not in the predefined list. Great, Roger. You've been extremely patient in answering all the questions. And yes, so once you get back with the list of applications you would like to connect, we will prepare an entire scope document of what permissions we would need. And it's super simple to kickstart the Poc. And it wouldn't take a lot of time to implement and connect your Sso or any applications you choose to connect. We would need 30 minutes of your time. It wouldn't take all the entire 30 minutes. But we would need 30 minutes of your time to kickstart the Poc and for you to connect the application, it takes one or two minutes per application. So we can plan the Poc based on the date you choose. And we would need a few days for us to process the data and capture all the information. Anu, do you want to go to the scope tab once?
+
+>>Anugraha R	27:02
+Yeah, just before that, Roger, can you confirm if Azure AD is on cloud? It's not on prem, right?
+
+>>Roger Le	27:09
+It's on cloud, I believe, Yeah.
+
+>>Anugraha R	27:11
+Yeah, OK. Thank you. Thank you for confirming that. Great.
+
+>>Priya Jaladi	27:16
+So this is the scope for the Poc, Roger, Michael, and Sean. So the total POC period will be for two weeks. But once you connect the applications, we would need 72 hours for the data to be processed because it's quite a lot of data, right? So we process the data. And after 72 hours is when the official Poc time period starts. And you can evaluate the product. So you'll have complete two weeks to evaluate the product. And specific for every application you integrate, we will share what scopes and permissions are required from our end. And yeah, the number of devices you can install for agents would be three. And we will process one month of contract information and pass six months of your spend information. And specific to integration with AD and applications, Anu, how much of the past data we process? Can you please confirm?
+
+>>Anugraha R	28:11
+What would be one month of past data that gets processed?
+
+>>Priya Jaladi	28:15
+Perfect, perfect. So Roger, will that work? Because it's POC, we tend to limit the data processing because it's free of cost. And we just want to make sure that you see the value. But it's not a lot of processing from our end. Will that work, Roger?
+
+>>Roger Le	28:31
+So I got a question. So would you be, with the integration, would you be able to pull that one month automatically? Or we have to provide that raw data one month?
+
+>>Priya Jaladi	28:39
+No, no, we do it automatically. You don't have to retain anything.
+
+>>Anugraha R	28:43
+Integration is sufficient. You just plug it in, Zuluri starts syncing the data.
+
+>>Roger Le	28:48
+So I guess my question is, how does the two link between Coupa and Netsuite? Because Coupa obviously is going to have, I mean, sorry, Netsuite is going to have six months worth of purchases, but then you have nothing to tie that back to the contract, right, if it's only one month worth. Would that break the, not integration, but how does it map? For example, right? I purchased Microsoft and renewed it five months ago. But because you don't have the contract, only one month's worth, how is it going to link back to that contract that's five months ago?
+
+>>Anugraha R	29:21
+It all the contracts for the connected applications, Roger. So if you're, if Azure AD or Microsoft is all is an app that you're connecting for sure, contracts and spend for Microsoft will automatically be populated apart from the connected applications, right? We would only process one month of contracts that you have recently added to Coupa. Yeah.
+
+>>Priya Jaladi	29:42
+For example, Roger, you've decided to connect your Azure AD, Microsoft and let's say Adobe. And you purchased, let's say Jira two months ago, that will not be shown on the platform, but you will see all these three applications, irrespective of your date of purchase on the platform, you will see the contract information, everything purchased in the past one month.
+
+>>Anugraha R	30:05
+Do you think we can, can we do three months?
+
+>>Roger Le	30:09
+Okay. So the reason why I'm kind of hesitant because the past one month, we probably didn't purchase much. Our bulk purchase probably happened around like the June, July area. And please correct me wrong, Michael, but that's kind of the, our peak from what I saw. So I feel like there's not gonna be as much value. We just do it the past month where we might not have as much renewals.
+
+>>Priya Jaladi	30:33
+Okay. That should be possible, right Anu, I will let you comment.
+
+>>Anugraha R	30:37
+Yeah, that should be possible. So I'm gonna take it three to six months slab because you said June, right?
+
+>>Roger Le	30:43
+Right, correct. June is when we kind of have the beginning of the year and in June is kind of, I feel like that's where the peaks happen. So June, July definitely doesn't mean a lot of renewals. Got it.
+
+>>Priya Jaladi	30:56
+So it should be possible, Roger, but I let Anu confirm on this. And yeah, we can process contracts from like three to six months. But particularly from June. Yeah.
+
+>>Roger Le	31:06
+Okay. Thank you. Great.
+
+>>Priya Jaladi	31:09
+And next week, past six months of your spend information should be good, right, Roger?
+
+>>Roger Le	31:14
+That should be, that should be fine. Yeah. And there's no way you can make a year, huh?
+
+>>Priya Jaladi	31:21
+In the full implementation, obviously, we capture a lot of historic data, which will make sure that you see the trends and everything POC we tend to limit it to six months, Roger, we can get started with this. If you want to see more data, then maybe we can take a call then if it's okay with you.
+
+>>Roger Le	31:38
+Okay, sure. Let's do six. Let's keep it six months for now.
+
+>>Priya Jaladi	31:41
+Perfect, perfect. So six months, you will see all the spend data, not anything pertaining to your apps connected or anything. All the transactions that happen pertaining to your software in the past six months, you will be able to see that information on the platform. Perfect.
+
+>>Roger Le	31:54
+So I have a quick question. So the output of these two, we will, what, I guess what fields are going to be captured? So for example, will it capture how many licenses we purchased?
+
+>>Priya Jaladi	32:08
+Yes, go ahead Anu.
+
+>>Anugraha R	32:11
+Yeah, yeah. So if you're talking about Netsuite, we only get to understand what did you purchase against Microsoft 365, right? There would be a spend amount, it could be an employee P card that is attached to Netsuite that says that this employee procured 100k or $1 ,000 spent on a specific application. So Zluri reads the description of the transaction, which pertains to that application and the amount and the currency type. These are the, yeah.
+
+>>Roger Le	32:44
+Sorry if I missed the answer, but which integration or which process between Coupa and Netsuite is going to capture how many licenses we purchased?
+
+>>Anugraha R	32:58
+Yeah, Coupa will have your contracts, your contracts will have your licenses and the license cost.
+
+>>Roger Le	33:06
+Okay, and then my next question is, will it, I'm assuming it will, I'm just kind of dumb question, but a lot of times in Coupa, we have multiple types of purchases within one, for example, maintenance, right? And then you have SaaS licenses itself, and then you have implementation costs within the same Coupa Po. Is your tool able to spit them off, right? Saying, hey, this is the cost for implementation, this is the cost of your actual licenses, you actually bought 100 licenses, and then this is your implementation cost. So all separated, or is it going to come together in one and divided by 100? Does that make sense?
+
+>>Anugraha R	33:46
+Yes, yes. How would you prefer it, Roger? Would you want to add all the total implementation cost, everything, divided by the number of users, or do you just want the license cost to be computed within Slurry? How would you prefer it?
+
+>>Roger Le	34:00
+Just the license count itself, because the thought process behind this, right, is we may have onboarded a vendor, and a front -end cost. Let's say, for example, Servicenow is a very good example. There's a very front -heavy cost, because you have to implement the tool, but after the fact, the renewals is just going to be the license itself, right? It's not going to be any implementation.
+
+>>Anugraha R	34:19
+It's a one -time cost.
+
+>>Anugraha R	34:20
+Cost, right? The implementation of the initial first year one -time cost that you have.
+
+>>Roger Le	34:24
+Correct, correct. So we want to make sure that we're just capturing kind of different items, itemize it, right? So implementation cost, one -time cost, license count, I mean license cost is going to be, you know, annual renewal, right? So that's going to be another cost and then maintenance, right? It's also another cost that has to be considered, but we'd like to have it itemized so we know which one's maintenance versus license count.
+
+>>Anugraha R	34:47
+Got it. We can do that. And again, like I asked, if there are POs which has all these details, Lurie can read this information and automatically populate it with the contract AI that we have, or we also have a contract team who will work with you, look into the contract, like the POs that gets fetched from Coupa and they go ahead and add it to the system. So there's always a two -time check that happens so that we ensure that the correct numbers are getting populated. Roger.
+
+>>Roger Le	35:17
+Got it. Okay. Thank you, Anu. Nice.
+
+>>Anugraha R	35:21
+And one more thing with respect to Netsuite is, do you have a specific GL code which pertains to Sas pins in Netsuite?
+
+>>Roger Le	35:32
+Ooh, I would have to follow up with that team. I personally have not seen the exports of Netsuite, so I'm not so sure if, I'm assuming it should, but I'll double check to see if they put a code pertaining to specifically, yeah. So I know we do have for Coupa, but I'm not so sure about Netsuite.
+
+>>Anugraha R	35:54
+Got it. Let us know. This is not needed right now, but I'm just letting you know that this is something we will need in the setup call. Okay.
+
+>>Roger Le	36:03
+Got it. Great.
+
+>>Priya Jaladi	36:06
+So moving on since we just have 10 minutes. So success criteria, Roger, you've mentioned all the success criteria you're looking to evaluate on already, and we did capture some of the success criteria based on the conversation so far. We will document all of it. Please feel free to ping us if there is any other specific use case or success criteria you're looking to evaluate or the team internally, and we will make sure that we cover all of it in the Poc, Roger, and we include it in the scope.
+
+>>Roger Le	36:36
+Got it. Okay. Great.
+
+>>Priya Jaladi	36:39
+And Zuluri team and responsibilities, you've already met most of us. So I also introduced Connor on email, who's the VP of sales and partnerships. He's overseeing this engagement. We also have Chaitanya, who's the CTO and co -founder of Zuluri. He was part of the product demo as well. So he's also overseeing this engagement. I'm parallelly following up with Raj to have a conversation with Chait because he was not part of the demo call and he didn't get to meet Chait, Roger. And we also have Setu on the call. Setu, who's overseeing this engagement, who's also the CEO and co -founder. He's in fact based out of The Bay Area as well, Roger. As the Poc progresses, I would love to schedule an in -person meeting between you and him and, you know, make sure that he's well aware of how the Poc is going. If you have any questions, concerns, he'll be there to sort them out for you. He's the highest in the chain of command. So I would love you to meet him. So I will plan this as well as we progress in the Poc, Roger. Hope that is okay. Perfect.
+
+>>Roger Le	37:41
+Okay. Yeah. No worries. I'm not in The Bay Area. So I may be able to meet him, but I'm in the Orange County area, so towards La. Okay.
+
+>>Priya Jaladi	37:49
+Got it. Got it. Then I will maybe ask our CEO and co -founder to travel. But yeah, according to, based on the logistics, we can see if we can do an in -person meeting or a virtual meeting, Roger.
+
+>>Roger Le	38:04
+Sure. Sure. Yeah. Also Raj and Bala are also on the, actually, I don't know about Bala, Raj, our director is also in Orange County as well. So that might work.
+
+>>Priya Jaladi	38:14
+Okay.
+
+>>Sean Curran	38:14
+And Bala is up here in The Bay Area.
+
+>>Roger Le	38:17
+So we can work something out there. Divide and conquer. Okay. Then I will let Connor and Sethu, both of them are based in The Bay Area. So I will let them decide who's going to Orange County and who's meeting you in The Bay Area.
+
+>>Priya Jaladi	38:32
+I'm not involved with that. And yeah, but we would love to meet all of you. And I wish I was in The United States at this point. I've been in India for a while now, but would love to come back and meet all of you once, one before the Poc ends, Roger and team. Sure.
+
+>>Roger Le	38:50
+For sure.
+
+>>Priya Jaladi	38:51
+Great.
+
+>>Roger Le	38:52
+Thank you.
+
+>>Priya Jaladi	38:53
+Thank you, Roger. So, and coming to the next steps, it's to schedule the Poc kickoff and we would need the admins of the applications you choose to be on the call. So Roger, once you come back on the list of applications you would like to connect, we will share a scope and implementation document. And can I block some time tentatively?
+
+>>Priya Jaladi	39:19
+Do you want me to schedule a Thursday or Friday or Monday early next week to schedule the Poc kickoff, Roger, or do you want me to work with you separately to offer the dates?
+
+>>Roger Le	39:29
+Let me see here. I can check our calendars right now. One second. All these people. Sorry, be patient with me.
+
+>>Priya Jaladi	39:44
+We will also need the super admin of the applications on the call, Roger. So whoever that is for your AD, Netsuite, Coupa, that person wants to be on the call. So yeah.
+
+>>Roger Le	39:55
+Oh, on that call as well.
+
+>>Priya Jaladi	39:57
+Yes, that person needs to enable, connect the application to Zulily. So we will need that person as well.
+
+>>Roger Le	40:04
+Are you talking about the official kickoff or are we talking about the follow up for this week? Sorry, I got a little confused.
+
+>>Priya Jaladi	40:13
+It's for the official kickoff, Roger. So I was thinking if you can connect on Thursday or Friday, we could use the weekend to just fetch the data and you can full fledgedly evaluate the product from next week is what I thought. But if it's too early, we can connect the applications on Monday itself. That's basically kickstarting the POC. Gotcha.
+
+>>Roger Le	40:34
+Okay, let's tentatively book for now. Let's book from 9am to 10 on Friday. That seems to be the most free.
+
+>>Priya Jaladi	40:51
+Okay. Anu, will that time work for you? Just confirming.
+
+>>Anugraha R	40:55
+I'm just quickly checking my calendar.
+
+>>Priya Jaladi	40:58
+We need Anu on the call.
+
+>>Roger Le	40:59
+So 9 to 10 or 11 to 12.
+
+>>Priya Jaladi	41:04
+Okay, 9 to 10 should work for me this Friday. Anu, once you confirm. Perfect. So we just need 30 minutes, Roger. I will tentatively block 9 to 9 .30 Friday for the Poc kickoff. But we will need the list of applications you can share so that we will plan to connect those applications as well on the kickoff. And yeah, if there are any changes, we can move it to next week.
+
+>>Roger Le	41:32
+So Priya, sorry, can I also get additional information? So you want the super admins to be on that call as well. What information do you need to grab from them? Because I need to know how to coordinate with three super admins at least. So I want to make sure they understand what their objective is to join the meeting to make sure they're prepared.
+
+>>Priya Jaladi	41:52
+Yeah, absolutely. So basically they have to connect the application to Zuluri, Roger. We'll anyway share all the scopes and permissions required to integrate the application beforehand itself. So they're aware of what scopes and permissions they're given. But all they have to do is basically connect Zuluri to the application and we'll fetch all the information via API. We'll also share the how to connect steps beforehand as well. But it's super simple. We can walk through the entire process of integration. We will be on the call. So yeah, we can help them out, connect the application. But in case if they want the how to step, how to connect steps beforehand, we can share that as well.
+
+>>Roger Le	42:28
+Yeah, let's do that. Let's do the steps first. Let them see if they can do it themselves. Just purely because I can't guarantee everyone's going to be available. Just purely because we're very hyper -focused on joint venture right now for Rivian. So everyone's kind of crazy with the schedule. So if they're able to even do their, you know, maybe they have like a quick 30 minutes within their timeframe they can do on their own, I would love for them to try it. And then use Friday in the event that they were Unsuccessful, right? And use that time to help them, at least they're familiar at this point, right? To help them walk through and get that integration forward.
+
+>>Priya Jaladi	43:03
+Okay, absolutely. We can do that, Roger. So can you share the list of applications by Wednesday? Once we freeze the applications, we will share the how to connect steps for each application, what scopes, permissions are required so that they can go through it themselves. Can you share that list by Wednesday? We'll share it by Thursday, the how to connect guide for those apps.
+
+>>Roger Le	43:25
+Absolutely. Okay.
+
+>>Priya Jaladi	43:26
+Perfect, perfect. But Roger, we would need the Sso super admin on the Friday's call because that's the first step of integration and he or she can nominate all these other super admins to connect the applications and they can do it themselves. So can we ensure that the super admin for your single sign on system will be on the call on Friday? Is that possible?
+
+>>Roger Le	43:48
+Yep, let me make sure I can make them aware to come to Friday. I'm sorry, I'm putting my notes here.
+
+>>Priya Jaladi	43:56
+Absolutely. If it's too soon, Roger, we can schedule the call on Monday or Tuesday as well. Not a problem at all.
+
+>>Roger Le	44:04
+Okay, got it. Great.
+
+>>Priya Jaladi	44:09
+So we have our next action items written for us, Roger. I'll share a summary email and Yeah, all we need.
+
+>>Priya Jaladi	44:18
+Your help is to freeze the list of applications. So the three applications you can connect from the list we have shared. I'll share that list with you. Please share the applications you would like to connect and we can take it up from there. I'll also create a collaboration channel on Slack so that all of us are part of and any questions, concerns, you can quickly send a Slack message instead of back and forth emails.
+
+>>Roger Le	44:39
+Okay, perfect, Priya. And then also, can you please confirm with your management if we can add something from not on the list, right? So again, let's see if we can kind of diversify the portfolio a little bit to see the different use cases.
+
+>>Priya Jaladi	44:53
+Absolutely, Roger. So we will have a conversation internally on workday. You can also share what applications outside of the list you would like to connect. We will see if we can get an approval for that, Roger. Perfect.
+
+>>Roger Le	45:05
+Okay, sounds good, Priya.
+
+>>Priya Jaladi	45:07
+Great. Thank you so much for your time, Roger. Very patiently you answered all the questions. We are super excited to kickstart the Poc and show you value. And Sean, Michael, any further questions, thoughts, concerns you have?
+
+>>Michael Kwiatkowski	45:24
+Nothing, Priya.
+
+>>Sean Curran	45:24
+I think I'm good.
+
+>>Priya Jaladi	45:27
+Great, great. Thank you so much. Thank you, everyone. Look forward to speaking to you again. Thank you. Thanks, Roger. Thank you. Anu, are you still on the call? Let me do this note take out. Sure.
+

@@ -1,0 +1,286 @@
+
+Jump to ContentHomeGuidesChangelogSystem StatusRaise a TicketZluri WebsiteLog InGuidesSystem StatusRaise a TicketZluri WebsiteLog InHomeGuidesChangelogGoogle SSOSearchGetting StartedWelcome to ZluriOnboardingOverview ScreenReportsOrganization DataWorkable InsightsSpend ReportsUsage ReportsApplication ManagementApplication Management OverviewAuthorization CategoriesExport Applications DataFAQSecurity and ComplianceCritical AppsCritical UsersThreat and Risk Level CalculationBrowser AgentsDesktop AgentsUser ManagementUser Management OverviewUser RolesOther User ActionsFAQDepartmentsExport DataFAQCost ManagementSpendsTransactionsRecognized TransactionsUnrecognized TransactionsArchived TransactionsPayment MethodsUploadsCurrency ConversionFiltersFAQLicenses and ContractsLicensesContractsBulk Contract UploadContract Notifications and RemindersSubscriptionsPerpetualsAuto-increment and Auto-adjustFAQOptimizationOptimization ReportsContinuous OptimizationApplication Usage ScoreFAQExclude Users from OptimizationAccess ProvisioningOnboarding WorkflowsOffboarding WorkflowsSchedule Onboarding and OffboardingAccess RequestsAccess Requests OverviewAdmin ActionsAccess ReviewsAccess Reviews OverviewIntegrationsIntegrations OverviewInstancesMulti-instance ConnectionScopesZluri Integration SDKUsageBeta Integration AccessFAQAdobe Creative Cloud V2ConnectTroubleshootData ProcessingAtlassian AdminConnectTroubleshootData ProcessingAzure ADConnectConnect via OAuthConnect via Custom Admin RoleTroubleshootData ProcessingBambooHRConnectTroubleshootData ProcessingCalendlyConnectCalendly Data ProcessingCisco Umbrella V2ConnectTroubleshootConfluenceConnectTroubleshootGoogle WorkspaceConnectConnect Via OAuthConnect via Custom Admin RoleTroubleshoot“This app is blocked!” Integration Error“Error 400: admin_policy_enforced” Integration ErrorData ProcessingGreenhouseConnectTroubleshootData ProcessingJiraConnectTroubleshootJumpCloudConnectTroubleshootData ProcessingMicrosoft 365ConnectTroubleshootmonday.comConnectTroubleshootData ProcessingOktaConnectUsing a Custom Admin RoleUsing Super Admin AccountTroubleshootData ProcessingOneLoginConnectTroubleshootData ProcessingSlackConnectTroubleshootData ProcessingZendeskConnectTroubleshootData Processing15FiveData ProcessingAct!ActiveCampaignAdministrateAircallData ProcessingAlfrescoAlibaba CloudAnswerbaseAppFollow­­­­­­­­­­­­AsanaData ProcessingAutodeskAWSData ProcessingWhat does 'Read billing info" scope in AWS integration give us?Azure DevOpsBasecampBeanstalkBeeboleBitbucketData ProcessingBonuslyBoomiBoxData ProcessingBreatheHRBrexBugHerdCampaign MonitorCannyCapsuleCisco MerakiCloudflareData ProcessingClustdocCopper (Prosperwork)DarwinboxDatadogData ProcessingDeskProDigiCertData ProcessingDocuSignData ProcessingDriftDripDropboxData ProcessingFlockFlowluFreshBooksFreshCallerFreshChatFreshdeskData ProcessingFreshserviceData ProcessingGitHubData ProcessingGitLabGoogle AdsGoogle AnalyticsGoogle Cloud PlatformGrooveHQHackerRankData ProcessingHerokuHubSpotData ProcessingInformaticaIntercomData ProcessingIntuit QuickbooksJamf ProData ProcessingJetBrains HubJira ITSMJitbitKanbanizeKekaKobitonLogMeIn CentralMicrosoft Dynamic CRMMicrosoft Teams"Manage apps" Scope issueMongoDBData ProcessingMoskit CRMNetsuiteNetSuite (SOAP)OpsgenieData ProcessingPagerDutyData ProcessingPapershiftPingdomData ProcessingPipedrivePipeline CRMProdPadProspect.ioQuantive (formerly Gtmhub)Salesforce OAuthSalesforce (Form) Integration - How to connect to Salesforce?Salesforce Data Processing - How to validate Salesforce Data in Zluri?How to fix the error you are getting while Integrating Salesforce?Add Salesforce OAuth Integration - How to connect Salesforce OAuthSAP AribaSegment.ioSendGridServiceNowSmartsheetData ProcessingStripeTableauTalentLMSTeamgateTeamworkTestRailTodoistData ProcessingWebexWrikeZohoZoho CRMZoho DeskZoho InventoryZoho RecruitZoomPre-approve Zoom admin interfaceData ProcessingZoom (Custom)Aha Data ProcessingFastly Data ProcessingGanttPro Data ProcessingGong Data ProcessingJFrog Data ProcessingLaunchDarkly Data ProcessingLooker Data ProcessingMixPanel Data ProcessingNew Relic Data ProcessingNotion Data ProcessingRollbar Data ProcessingSentry Data ProcessingToggl Track Data ProcessingTravelPerk Data ProcessingXero Data ProcessingWorkflow and AutomationsWorkflowsAutomation RulesPlaybooksHTTP Request with Callback ActionSettingsSettings OverviewSAML SetupAzure AD SAMLGoogle SAMLJumpCloud SAMLOkta SAMLOneLogin SAMLGoogle SSOLogin and Logout SettingsFAQGoogle SSOThis article explains how configure Google SSO in Zluri Suggest EditsHow to configure Google SSO for Zluri?
+Two steps are to be followed to create a Google SSO connection.
+Configure Google Identity Provider in Zluri app.
+Register OAuth 2.0 app with google.
+Step 1: Configure Google Identity Provider in Zluri app.
+Login to the Zluri dashboard
+Go to settings
+Select SSO from the left sidebar
+
+Check the list of verified domains. The Google SSO will only be enabled for users belonging to these domains. If the domains are not listed please contact the support team to get these populated in your account.
+
+Scroll down to Identity provider and search for Google Workspace.
+
+Click on 'Google Workspace'.
+Form to configure the Google Workspace Identity Provider opens up
+
+Enter Client id and Client Secret and save it (Please refer step 2 to get client id and client secret)
+Post save, click enable to enforce users to login through SAML.
+
+If something goes wrong disable the connection and check if OAuth app is correctly registered with Google or please contact us at [email protected]
+ Step 2: Get the client id & secret from Google Cloud Console
+(https://support.google.com/googleapi/answer/6158849)
+To use OAuth 2.0 in your application, you need an OAuth 2.0 client ID, which your application uses when requesting an OAuth 2.0 access token.
+To create an OAuth 2.0 client ID in the console:
+Go to the API Console.
+From the projects list, select a project or create a new one.
+If the APIs & services page isn't already open, open the console left side menu and select APIs & services.
+On the left, click Credentials.
+Click New Credentials, then select OAuth client ID.
+Note: If you're unsure whether OAuth 2.0 is appropriate for your project, select Help me choose and follow the instructions to pick the right credentials.
+Select the appropriate application type for your project and enter any additional information required. Application types are described in more detail in the following sections.
+Application type - web application
+Authorised JavaScript origins - https://auth.zluri.com
+Authorised redirect URIs - https://auth.zluri.com/login/callback
+If this is your first time creating a client ID, you can also configure your consent screen by clicking Consent Screen. (The following procedure explains how to set up the Consent screen.) You won't be prompted to configure the consent screen after you do it the first time.
+Click Create client ID
+It will display both the Client ID & Secret. Copy those and enter those as mentioned in point 8 of step 1.Updated 18 days ago 
+Jump to ContentHomeGuidesChangelogSystem StatusRaise a TicketZluri WebsiteLog InGuidesSystem StatusRaise a TicketZluri WebsiteLog InHomeGuidesChangelogGoogle SSOSearchGetting StartedWelcome to ZluriOnboardingOverview ScreenReportsOrganization DataWorkable InsightsSpend ReportsUsage ReportsApplication ManagementApplication Management OverviewAuthorization CategoriesExport Applications DataFAQSecurity and ComplianceCritical AppsCritical UsersThreat and Risk Level CalculationBrowser AgentsDesktop AgentsUser ManagementUser Management OverviewUser RolesOther User ActionsFAQDepartmentsExport DataFAQCost ManagementSpendsTransactionsRecognized TransactionsUnrecognized TransactionsArchived TransactionsPayment MethodsUploadsCurrency ConversionFiltersFAQLicenses and ContractsLicensesContractsBulk Contract UploadContract Notifications and RemindersSubscriptionsPerpetualsAuto-increment and Auto-adjustFAQOptimizationOptimization ReportsContinuous OptimizationApplication Usage ScoreFAQExclude Users from OptimizationAccess ProvisioningOnboarding WorkflowsOffboarding WorkflowsSchedule Onboarding and OffboardingAccess RequestsAccess Requests OverviewAdmin ActionsAccess ReviewsAccess Reviews OverviewIntegrationsIntegrations OverviewInstancesMulti-instance ConnectionScopesZluri Integration SDKUsageBeta Integration AccessFAQAdobe Creative Cloud V2ConnectTroubleshootData ProcessingAtlassian AdminConnectTroubleshootData ProcessingAzure ADConnectConnect via OAuthConnect via Custom Admin RoleTroubleshootData ProcessingBambooHRConnectTroubleshootData ProcessingCalendlyConnectCalendly Data ProcessingCisco Umbrella V2ConnectTroubleshootConfluenceConnectTroubleshootGoogle WorkspaceConnectConnect Via OAuthConnect via Custom Admin RoleTroubleshoot“This app is blocked!” Integration Error“Error 400: admin_policy_enforced” Integration ErrorData ProcessingGreenhouseConnectTroubleshootData ProcessingJiraConnectTroubleshootJumpCloudConnectTroubleshootData ProcessingMicrosoft 365ConnectTroubleshootmonday.comConnectTroubleshootData ProcessingOktaConnectUsing a Custom Admin RoleUsing Super Admin AccountTroubleshootData ProcessingOneLoginConnectTroubleshootData ProcessingSlackConnectTroubleshootData ProcessingZendeskConnectTroubleshootData Processing15FiveData ProcessingAct!ActiveCampaignAdministrateAircallData ProcessingAlfrescoAlibaba CloudAnswerbaseAppFollow­­­­­­­­­­­­AsanaData ProcessingAutodeskAWSData ProcessingWhat does 'Read billing info" scope in AWS integration give us?Azure DevOpsBasecampBeanstalkBeeboleBitbucketData ProcessingBonuslyBoomiBoxData ProcessingBreatheHRBrexBugHerdCampaign MonitorCannyCapsuleCisco MerakiCloudflareData ProcessingClustdocCopper (Prosperwork)DarwinboxDatadogData ProcessingDeskProDigiCertData ProcessingDocuSignData ProcessingDriftDripDropboxData ProcessingFlockFlowluFreshBooksFreshCallerFreshChatFreshdeskData ProcessingFreshserviceData ProcessingGitHubData ProcessingGitLabGoogle AdsGoogle AnalyticsGoogle Cloud PlatformGrooveHQHackerRankData ProcessingHerokuHubSpotData ProcessingInformaticaIntercomData ProcessingIntuit QuickbooksJamf ProData ProcessingJetBrains HubJira ITSMJitbitKanbanizeKekaKobitonLogMeIn CentralMicrosoft Dynamic CRMMicrosoft Teams"Manage apps" Scope issueMongoDBData ProcessingMoskit CRMNetsuiteNetSuite (SOAP)OpsgenieData ProcessingPagerDutyData ProcessingPapershiftPingdomData ProcessingPipedrivePipeline CRMProdPadProspect.ioQuantive (formerly Gtmhub)Salesforce OAuthSalesforce (Form) Integration - How to connect to Salesforce?Salesforce Data Processing - How to validate Salesforce Data in Zluri?How to fix the error you are getting while Integrating Salesforce?Add Salesforce OAuth Integration - How to connect Salesforce OAuthSAP AribaSegment.ioSendGridServiceNowSmartsheetData ProcessingStripeTableauTalentLMSTeamgateTeamworkTestRailTodoistData ProcessingWebexWrikeZohoZoho CRMZoho DeskZoho InventoryZoho RecruitZoomPre-approve Zoom admin interfaceData ProcessingZoom (Custom)Aha Data ProcessingFastly Data ProcessingGanttPro Data ProcessingGong Data ProcessingJFrog Data ProcessingLaunchDarkly Data ProcessingLooker Data ProcessingMixPanel Data ProcessingNew Relic Data ProcessingNotion Data ProcessingRollbar Data ProcessingSentry Data ProcessingToggl Track Data ProcessingTravelPerk Data ProcessingXero Data ProcessingWorkflow and AutomationsWorkflowsAutomation RulesPlaybooksHTTP Request with Callback ActionSettingsSettings OverviewSAML SetupAzure AD SAMLGoogle SAMLJumpCloud SAMLOkta SAMLOneLogin SAMLGoogle SSOLogin and Logout SettingsFAQGoogle SSOThis article explains how configure Google SSO in Zluri Suggest EditsHow to configure Google SSO for Zluri?
+Two steps are to be followed to create a Google SSO connection.
+Configure Google Identity Provider in Zluri app.
+Register OAuth 2.0 app with google.
+Step 1: Configure Google Identity Provider in Zluri app.
+Login to the Zluri dashboard
+Go to settings
+Select SSO from the left sidebar
+
+Check the list of verified domains. The Google SSO will only be enabled for users belonging to these domains. If the domains are not listed please contact the support team to get these populated in your account.
+
+Scroll down to Identity provider and search for Google Workspace.
+
+Click on 'Google Workspace'.
+Form to configure the Google Workspace Identity Provider opens up
+
+Enter Client id and Client Secret and save it (Please refer step 2 to get client id and client secret)
+Post save, click enable to enforce users to login through SAML.
+
+If something goes wrong disable the connection and check if OAuth app is correctly registered with Google or please contact us at [email protected]
+ Step 2: Get the client id & secret from Google Cloud Console
+(https://support.google.com/googleapi/answer/6158849)
+To use OAuth 2.0 in your application, you need an OAuth 2.0 client ID, which your application uses when requesting an OAuth 2.0 access token.
+To create an OAuth 2.0 client ID in the console:
+Go to the API Console.
+From the projects list, select a project or create a new one.
+If the APIs & services page isn't already open, open the console left side menu and select APIs & services.
+On the left, click Credentials.
+Click New Credentials, then select OAuth client ID.
+Note: If you're unsure whether OAuth 2.0 is appropriate for your project, select Help me choose and follow the instructions to pick the right credentials.
+Select the appropriate application type for your project and enter any additional information required. Application types are described in more detail in the following sections.
+Application type - web application
+Authorised JavaScript origins - https://auth.zluri.com
+Authorised redirect URIs - https://auth.zluri.com/login/callback
+If this is your first time creating a client ID, you can also configure your consent screen by clicking Consent Screen. (The following procedure explains how to set up the Consent screen.) You won't be prompted to configure the consent screen after you do it the first time.
+Click Create client ID
+It will display both the Client ID & Secret. Copy those and enter those as mentioned in point 8 of step 1.Updated 18 days ago 
+Jump to ContentHomeGuidesChangelogSystem StatusRaise a TicketZluri WebsiteLog InGuidesSystem StatusRaise a TicketZluri WebsiteLog In
+Jump to ContentHomeGuidesChangelogSystem StatusRaise a TicketZluri WebsiteLog InGuidesSystem StatusRaise a TicketZluri WebsiteLog In
+Jump to Content
+
+HomeGuidesChangelogSystem StatusRaise a TicketZluri WebsiteLog InGuides
+HomeGuidesChangelogSystem StatusRaise a TicketZluri WebsiteLog In
+HomeGuidesChangelogSystem StatusRaise a TicketZluri WebsiteLog In
+HomeGuidesChangelogSystem StatusRaise a TicketZluri WebsiteLog In
+HomeGuidesChangelogSystem StatusRaise a TicketZluri WebsiteLog In
+Guides
+System StatusRaise a TicketZluri WebsiteLog In
+
+
+HomeGuidesChangelogGoogle SSOSearch
+HomeGuidesChangelogGoogle SSOSearch
+Search
+
+Search
+
+
+
+
+Getting StartedWelcome to ZluriOnboardingOverview ScreenReportsOrganization DataWorkable InsightsSpend ReportsUsage ReportsApplication ManagementApplication Management OverviewAuthorization CategoriesExport Applications DataFAQSecurity and ComplianceCritical AppsCritical UsersThreat and Risk Level CalculationBrowser AgentsDesktop AgentsUser ManagementUser Management OverviewUser RolesOther User ActionsFAQDepartmentsExport DataFAQCost ManagementSpendsTransactionsRecognized TransactionsUnrecognized TransactionsArchived TransactionsPayment MethodsUploadsCurrency ConversionFiltersFAQLicenses and ContractsLicensesContractsBulk Contract UploadContract Notifications and RemindersSubscriptionsPerpetualsAuto-increment and Auto-adjustFAQOptimizationOptimization ReportsContinuous OptimizationApplication Usage ScoreFAQExclude Users from OptimizationAccess ProvisioningOnboarding WorkflowsOffboarding WorkflowsSchedule Onboarding and OffboardingAccess RequestsAccess Requests OverviewAdmin ActionsAccess ReviewsAccess Reviews OverviewIntegrationsIntegrations OverviewInstancesMulti-instance ConnectionScopesZluri Integration SDKUsageBeta Integration AccessFAQAdobe Creative Cloud V2ConnectTroubleshootData ProcessingAtlassian AdminConnectTroubleshootData ProcessingAzure ADConnectConnect via OAuthConnect via Custom Admin RoleTroubleshootData ProcessingBambooHRConnectTroubleshootData ProcessingCalendlyConnectCalendly Data ProcessingCisco Umbrella V2ConnectTroubleshootConfluenceConnectTroubleshootGoogle WorkspaceConnectConnect Via OAuthConnect via Custom Admin RoleTroubleshoot“This app is blocked!” Integration Error“Error 400: admin_policy_enforced” Integration ErrorData ProcessingGreenhouseConnectTroubleshootData ProcessingJiraConnectTroubleshootJumpCloudConnectTroubleshootData ProcessingMicrosoft 365ConnectTroubleshootmonday.comConnectTroubleshootData ProcessingOktaConnectUsing a Custom Admin RoleUsing Super Admin AccountTroubleshootData ProcessingOneLoginConnectTroubleshootData ProcessingSlackConnectTroubleshootData ProcessingZendeskConnectTroubleshootData Processing15FiveData ProcessingAct!ActiveCampaignAdministrateAircallData ProcessingAlfrescoAlibaba CloudAnswerbaseAppFollow­­­­­­­­­­­­AsanaData ProcessingAutodeskAWSData ProcessingWhat does 'Read billing info" scope in AWS integration give us?Azure DevOpsBasecampBeanstalkBeeboleBitbucketData ProcessingBonuslyBoomiBoxData ProcessingBreatheHRBrexBugHerdCampaign MonitorCannyCapsuleCisco MerakiCloudflareData ProcessingClustdocCopper (Prosperwork)DarwinboxDatadogData ProcessingDeskProDigiCertData ProcessingDocuSignData ProcessingDriftDripDropboxData ProcessingFlockFlowluFreshBooksFreshCallerFreshChatFreshdeskData ProcessingFreshserviceData ProcessingGitHubData ProcessingGitLabGoogle AdsGoogle AnalyticsGoogle Cloud PlatformGrooveHQHackerRankData ProcessingHerokuHubSpotData ProcessingInformaticaIntercomData ProcessingIntuit QuickbooksJamf ProData ProcessingJetBrains HubJira ITSMJitbitKanbanizeKekaKobitonLogMeIn CentralMicrosoft Dynamic CRMMicrosoft Teams"Manage apps" Scope issueMongoDBData ProcessingMoskit CRMNetsuiteNetSuite (SOAP)OpsgenieData ProcessingPagerDutyData ProcessingPapershiftPingdomData ProcessingPipedrivePipeline CRMProdPadProspect.ioQuantive (formerly Gtmhub)Salesforce OAuthSalesforce (Form) Integration - How to connect to Salesforce?Salesforce Data Processing - How to validate Salesforce Data in Zluri?How to fix the error you are getting while Integrating Salesforce?Add Salesforce OAuth Integration - How to connect Salesforce OAuthSAP AribaSegment.ioSendGridServiceNowSmartsheetData ProcessingStripeTableauTalentLMSTeamgateTeamworkTestRailTodoistData ProcessingWebexWrikeZohoZoho CRMZoho DeskZoho InventoryZoho RecruitZoomPre-approve Zoom admin interfaceData ProcessingZoom (Custom)Aha Data ProcessingFastly Data ProcessingGanttPro Data ProcessingGong Data ProcessingJFrog Data ProcessingLaunchDarkly Data ProcessingLooker Data ProcessingMixPanel Data ProcessingNew Relic Data ProcessingNotion Data ProcessingRollbar Data ProcessingSentry Data ProcessingToggl Track Data ProcessingTravelPerk Data ProcessingXero Data ProcessingWorkflow and AutomationsWorkflowsAutomation RulesPlaybooksHTTP Request with Callback ActionSettingsSettings OverviewSAML SetupAzure AD SAMLGoogle SAMLJumpCloud SAMLOkta SAMLOneLogin SAMLGoogle SSOLogin and Logout SettingsFAQGoogle SSOThis article explains how configure Google SSO in Zluri Suggest EditsHow to configure Google SSO for Zluri?
+Two steps are to be followed to create a Google SSO connection.
+Configure Google Identity Provider in Zluri app.
+Register OAuth 2.0 app with google.
+Step 1: Configure Google Identity Provider in Zluri app.
+Login to the Zluri dashboard
+Go to settings
+Select SSO from the left sidebar
+
+Check the list of verified domains. The Google SSO will only be enabled for users belonging to these domains. If the domains are not listed please contact the support team to get these populated in your account.
+
+Scroll down to Identity provider and search for Google Workspace.
+
+Click on 'Google Workspace'.
+Form to configure the Google Workspace Identity Provider opens up
+
+Enter Client id and Client Secret and save it (Please refer step 2 to get client id and client secret)
+Post save, click enable to enforce users to login through SAML.
+
+If something goes wrong disable the connection and check if OAuth app is correctly registered with Google or please contact us at [email protected]
+ Step 2: Get the client id & secret from Google Cloud Console
+(https://support.google.com/googleapi/answer/6158849)
+To use OAuth 2.0 in your application, you need an OAuth 2.0 client ID, which your application uses when requesting an OAuth 2.0 access token.
+To create an OAuth 2.0 client ID in the console:
+Go to the API Console.
+From the projects list, select a project or create a new one.
+If the APIs & services page isn't already open, open the console left side menu and select APIs & services.
+On the left, click Credentials.
+Click New Credentials, then select OAuth client ID.
+Note: If you're unsure whether OAuth 2.0 is appropriate for your project, select Help me choose and follow the instructions to pick the right credentials.
+Select the appropriate application type for your project and enter any additional information required. Application types are described in more detail in the following sections.
+Application type - web application
+Authorised JavaScript origins - https://auth.zluri.com
+Authorised redirect URIs - https://auth.zluri.com/login/callback
+If this is your first time creating a client ID, you can also configure your consent screen by clicking Consent Screen. (The following procedure explains how to set up the Consent screen.) You won't be prompted to configure the consent screen after you do it the first time.
+Click Create client ID
+It will display both the Client ID & Secret. Copy those and enter those as mentioned in point 8 of step 1.Updated 18 days ago 
+Getting StartedWelcome to ZluriOnboardingOverview ScreenReportsOrganization DataWorkable InsightsSpend ReportsUsage ReportsApplication ManagementApplication Management OverviewAuthorization CategoriesExport Applications DataFAQSecurity and ComplianceCritical AppsCritical UsersThreat and Risk Level CalculationBrowser AgentsDesktop AgentsUser ManagementUser Management OverviewUser RolesOther User ActionsFAQDepartmentsExport DataFAQCost ManagementSpendsTransactionsRecognized TransactionsUnrecognized TransactionsArchived TransactionsPayment MethodsUploadsCurrency ConversionFiltersFAQLicenses and ContractsLicensesContractsBulk Contract UploadContract Notifications and RemindersSubscriptionsPerpetualsAuto-increment and Auto-adjustFAQOptimizationOptimization ReportsContinuous OptimizationApplication Usage ScoreFAQExclude Users from OptimizationAccess ProvisioningOnboarding WorkflowsOffboarding WorkflowsSchedule Onboarding and OffboardingAccess RequestsAccess Requests OverviewAdmin ActionsAccess ReviewsAccess Reviews OverviewIntegrationsIntegrations OverviewInstancesMulti-instance ConnectionScopesZluri Integration SDKUsageBeta Integration AccessFAQAdobe Creative Cloud V2ConnectTroubleshootData ProcessingAtlassian AdminConnectTroubleshootData ProcessingAzure ADConnectConnect via OAuthConnect via Custom Admin RoleTroubleshootData ProcessingBambooHRConnectTroubleshootData ProcessingCalendlyConnectCalendly Data ProcessingCisco Umbrella V2ConnectTroubleshootConfluenceConnectTroubleshootGoogle WorkspaceConnectConnect Via OAuthConnect via Custom Admin RoleTroubleshoot“This app is blocked!” Integration Error“Error 400: admin_policy_enforced” Integration ErrorData ProcessingGreenhouseConnectTroubleshootData ProcessingJiraConnectTroubleshootJumpCloudConnectTroubleshootData ProcessingMicrosoft 365ConnectTroubleshootmonday.comConnectTroubleshootData ProcessingOktaConnectUsing a Custom Admin RoleUsing Super Admin AccountTroubleshootData ProcessingOneLoginConnectTroubleshootData ProcessingSlackConnectTroubleshootData ProcessingZendeskConnectTroubleshootData Processing15FiveData ProcessingAct!ActiveCampaignAdministrateAircallData ProcessingAlfrescoAlibaba CloudAnswerbaseAppFollow­­­­­­­­­­­­AsanaData ProcessingAutodeskAWSData ProcessingWhat does 'Read billing info" scope in AWS integration give us?Azure DevOpsBasecampBeanstalkBeeboleBitbucketData ProcessingBonuslyBoomiBoxData ProcessingBreatheHRBrexBugHerdCampaign MonitorCannyCapsuleCisco MerakiCloudflareData ProcessingClustdocCopper (Prosperwork)DarwinboxDatadogData ProcessingDeskProDigiCertData ProcessingDocuSignData ProcessingDriftDripDropboxData ProcessingFlockFlowluFreshBooksFreshCallerFreshChatFreshdeskData ProcessingFreshserviceData ProcessingGitHubData ProcessingGitLabGoogle AdsGoogle AnalyticsGoogle Cloud PlatformGrooveHQHackerRankData ProcessingHerokuHubSpotData ProcessingInformaticaIntercomData ProcessingIntuit QuickbooksJamf ProData ProcessingJetBrains HubJira ITSMJitbitKanbanizeKekaKobitonLogMeIn CentralMicrosoft Dynamic CRMMicrosoft Teams"Manage apps" Scope issueMongoDBData ProcessingMoskit CRMNetsuiteNetSuite (SOAP)OpsgenieData ProcessingPagerDutyData ProcessingPapershiftPingdomData ProcessingPipedrivePipeline CRMProdPadProspect.ioQuantive (formerly Gtmhub)Salesforce OAuthSalesforce (Form) Integration - How to connect to Salesforce?Salesforce Data Processing - How to validate Salesforce Data in Zluri?How to fix the error you are getting while Integrating Salesforce?Add Salesforce OAuth Integration - How to connect Salesforce OAuthSAP AribaSegment.ioSendGridServiceNowSmartsheetData ProcessingStripeTableauTalentLMSTeamgateTeamworkTestRailTodoistData ProcessingWebexWrikeZohoZoho CRMZoho DeskZoho InventoryZoho RecruitZoomPre-approve Zoom admin interfaceData ProcessingZoom (Custom)Aha Data ProcessingFastly Data ProcessingGanttPro Data ProcessingGong Data ProcessingJFrog Data ProcessingLaunchDarkly Data ProcessingLooker Data ProcessingMixPanel Data ProcessingNew Relic Data ProcessingNotion Data ProcessingRollbar Data ProcessingSentry Data ProcessingToggl Track Data ProcessingTravelPerk Data ProcessingXero Data ProcessingWorkflow and AutomationsWorkflowsAutomation RulesPlaybooksHTTP Request with Callback ActionSettingsSettings OverviewSAML SetupAzure AD SAMLGoogle SAMLJumpCloud SAMLOkta SAMLOneLogin SAMLGoogle SSOLogin and Logout SettingsFAQ
+Google SSOThis article explains how configure Google SSO in Zluri Suggest Edits
+Google SSOThis article explains how configure Google SSO in Zluri
+This article explains how configure Google SSO in Zluri
+This article explains how configure Google SSO in Zluri
+ Suggest Edits
+How to configure Google SSO for Zluri?
+Two steps are to be followed to create a Google SSO connection.
+Configure Google Identity Provider in Zluri app.
+Register OAuth 2.0 app with google.
+Step 1: Configure Google Identity Provider in Zluri app.
+Login to the Zluri dashboard
+Go to settings
+Select SSO from the left sidebar
+
+Check the list of verified domains. The Google SSO will only be enabled for users belonging to these domains. If the domains are not listed please contact the support team to get these populated in your account.
+
+Scroll down to Identity provider and search for Google Workspace.
+
+Click on 'Google Workspace'.
+Form to configure the Google Workspace Identity Provider opens up
+
+Enter Client id and Client Secret and save it (Please refer step 2 to get client id and client secret)
+Post save, click enable to enforce users to login through SAML.
+
+If something goes wrong disable the connection and check if OAuth app is correctly registered with Google or please contact us at [email protected]
+ Step 2: Get the client id & secret from Google Cloud Console
+(https://support.google.com/googleapi/answer/6158849)
+To use OAuth 2.0 in your application, you need an OAuth 2.0 client ID, which your application uses when requesting an OAuth 2.0 access token.
+To create an OAuth 2.0 client ID in the console:
+Go to the API Console.
+From the projects list, select a project or create a new one.
+If the APIs & services page isn't already open, open the console left side menu and select APIs & services.
+On the left, click Credentials.
+Click New Credentials, then select OAuth client ID.
+Note: If you're unsure whether OAuth 2.0 is appropriate for your project, select Help me choose and follow the instructions to pick the right credentials.
+Select the appropriate application type for your project and enter any additional information required. Application types are described in more detail in the following sections.
+Application type - web application
+Authorised JavaScript origins - https://auth.zluri.com
+Authorised redirect URIs - https://auth.zluri.com/login/callback
+If this is your first time creating a client ID, you can also configure your consent screen by clicking Consent Screen. (The following procedure explains how to set up the Consent screen.) You won't be prompted to configure the consent screen after you do it the first time.
+Click Create client ID
+It will display both the Client ID & Secret. Copy those and enter those as mentioned in point 8 of step 1.Updated 18 days ago 
+How to configure Google SSO for Zluri?
+Two steps are to be followed to create a Google SSO connection.
+Configure Google Identity Provider in Zluri app.
+Register OAuth 2.0 app with google.
+Step 1: Configure Google Identity Provider in Zluri app.
+Login to the Zluri dashboard
+Go to settings
+Select SSO from the left sidebar
+
+Check the list of verified domains. The Google SSO will only be enabled for users belonging to these domains. If the domains are not listed please contact the support team to get these populated in your account.
+
+Scroll down to Identity provider and search for Google Workspace.
+
+Click on 'Google Workspace'.
+Form to configure the Google Workspace Identity Provider opens up
+
+Enter Client id and Client Secret and save it (Please refer step 2 to get client id and client secret)
+Post save, click enable to enforce users to login through SAML.
+
+If something goes wrong disable the connection and check if OAuth app is correctly registered with Google or please contact us at [email protected]
+ Step 2: Get the client id & secret from Google Cloud Console
+(https://support.google.com/googleapi/answer/6158849)
+To use OAuth 2.0 in your application, you need an OAuth 2.0 client ID, which your application uses when requesting an OAuth 2.0 access token.
+To create an OAuth 2.0 client ID in the console:
+Go to the API Console.
+From the projects list, select a project or create a new one.
+If the APIs & services page isn't already open, open the console left side menu and select APIs & services.
+On the left, click Credentials.
+Click New Credentials, then select OAuth client ID.
+Note: If you're unsure whether OAuth 2.0 is appropriate for your project, select Help me choose and follow the instructions to pick the right credentials.
+Select the appropriate application type for your project and enter any additional information required. Application types are described in more detail in the following sections.
+Application type - web application
+Authorised JavaScript origins - https://auth.zluri.com
+Authorised redirect URIs - https://auth.zluri.com/login/callback
+If this is your first time creating a client ID, you can also configure your consent screen by clicking Consent Screen. (The following procedure explains how to set up the Consent screen.) You won't be prompted to configure the consent screen after you do it the first time.
+Click Create client ID
+It will display both the Client ID & Secret. Copy those and enter those as mentioned in point 8 of step 1.
+Updated 18 days ago 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

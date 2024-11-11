@@ -1,0 +1,375 @@
+>>Madhu Malaranban N	00:00
+I moved to a two -people room because I was taking a six -people room. I was like, I should probably take a very smaller room so people can actually do their meetings. Okay, good for others. Exactly, so no more being selfish. Great. How was your weekend, Kal?
+
+>>Carl Vella	00:19
+Not bad, not bad. All good. You guys?
+
+>>Madhu Malaranban N	00:22
+Yeah, good, I think that's good. Good. Right, okay. Kal? Go ahead. Yep. I had posted an update with respect to 1Password, so we identified the issue and we have fixed that. And I've also tried validating the draft that we have created. It did not show or throw any error. But I'll leave it to you, so you can check once from your end and see if that goes through.
+
+>>Carl Vella	00:55
+The 1Password ad user action?
+
+>>Madhu Malaranban N	00:58
+Correct, yeah.
+
+>>Carl Vella	00:59
+Right, so let me see, because I've tested it when you sent me the message. And it brought some kind of error. So, what am I sharing? What am I sharing? Not this one. Present something else. So, let me see if I can replicate.
+
+>>Madhu Malaranban N	01:24
+You can just retry action.
+
+>>Carl Vella	01:26
+Yeah, that's what I'm gonna do.
+
+>>Carl Vella	01:37
+259, so that's not the current one. Retrial failed, maybe.
+
+>>Carl Vella	01:57
+No, it's still not refreshing. I can probably try to recreate the playbook from the beginning. I'm actually just gonna delete this.
+
+>>Carl Vella	02:15
+Send you playbook on password. Add an action, add user, send task. Task.
+
+>>Carl Vella	02:47
+The error in the beginning was being here.
+
+>>Madhu Malaranban N	02:51
+Yeah, correct.
+
+>>Carl Vella	02:52
+So, now that's fixed. Looks like it. And then, once we run, run logs, view logs, pending, connected with 1Password.
+
+>>Madhu Malaranban N	03:16
+You can refresh. Oh.
+
+>>Carl Vella	03:21
+This is the error. So, now my.
+
+>>Madhu Malaranban N	03:29
+Okay, we went past that verification stage. It got verified. Earlier, the error was thrown during the validation, right?
+
+>>Carl Vella	03:40
+Yes, exactly.
+
+>>Madhu Malaranban N	03:41
+So, now it's in the later stage. Yeah, so now it's probably the API response. I'll take a look, but I just quickly want to check what's the app response. Can you click on app response for a moment?
+
+>>Carl Vella	03:53
+App response, where is that?
+
+>>Madhu Malaranban N	03:56
+Oh, yeah.
+
+>>Carl Vella	03:57
+Oh, sorry.
+
+>>Madhu Malaranban N	04:00
+Okay, it still shows internal error. Okay, right. So, sorry about that, Kal. No worries, no worries. I got that 1Password was not retrieved. Right, I'll have this one checked. Okay, and I think we are sorted with Jumpcloud, Google Workspace, and 1password is still on. And there's one other action, which is Jira, right? Yeah, so I reviewed that with the team, Kal. So, there are two scenarios, and I also went through the run logs here. I could see two different errors for Jira that were presented, right? One was some internal server error, and the other one, you know, it was very explicit, and it said that could not perform this action because this user has reported few issues or has few issues assigned. So, for the second one, it's an API restriction that we cannot.
+
+>>Madhu Malaranban N	04:58
+Supersede you know user the task assignment and suspend the user so the prerequisite is you might have to remove all the projects or tasks that are assigned on that user and only then we can suspend or remove that user that's an API.
+
+>>Carl Vella	05:18
+So in the offboarding stage so any task that is assigned to this X user right we would need to unassign or reassign to someone else before this action can be completed.
+
+>>Madhu Malaranban N	05:31
+Am I understanding correctly? Correct and we have an action for that So if you see we have an API action to unassign the tasks that are in this user and then you can add this action to suspend or remove this user which will go through fine.
+
+>>Carl Vella	05:46
+Okay what we want right now is someone who's being offboarded let's say in a month's time a week before the manager would have someone would have let's say an interview more like a meeting to be set with one of our specialists on Atlassian therefore he can go through all the tasks or the all the subtasks that are assigned so he can see which proper assignee to assign it to. So that way there is the ongoing business continuity from those tasks perspective and still keeping in mind that whoever replaces will get those tasks.
+
+>>Madhu Malaranban N	06:31
+Okay
+
+>>Carl Vella	06:31
+So I want to find a way to make it more automated with Lurial this week because this is our way forward.
+
+>>Madhu Malaranban N	06:40
+Yeah that totally makes sense as well to review those tasks.
+
+>>Carl Vella	06:44
+Exactly what I would want maybe is to get like a report But I think we can get this from JIRA or Atlassian itself that all the tasks like a simple filter that will create all the tasks assigned to that user we will get all those tasks and then those will be like moved or are sent to the direct superior to see if those tasks needs to be reassigned to someone else or he can reassign it to himself for the time being until we get a replacement. I'm not sure if it's possible as Luri in some way so get a filter get all those tasks assigned to that of border and those tasks will be redirected all to the direct superior. That's what I want.
+
+>>Madhu Malaranban N	07:35
+Okay I know we have an action to unassign all of them but to reassign and to reassign to a specific assignee I'm not so sure we might have to check. Can we quickly check that? Yeah of course.
+
+>>Carl Vella	07:49
+If I go to playbooks. Let's continue editing or let's click this one. We have Divya.
+
+>>Madhu Malaranban N	07:59
+Hi Divya.
+
+>>Carl Vella	08:01
+So, Atlassian. Hi Divya. I'm sorry, I can't hear you.
+
+>>Divya Aphale	08:04
+Hi guys.
+
+>>Carl Vella	08:07
+Plus. JIRA.
+
+>>Madhu Malaranban N	08:18
+Add an action. You can click on add an action or edit action.
+
+>>Carl Vella	08:24
+Yeah, I'm seeing what we have. Remove user from our groups. Remove user as a assignee from all issues. Remove user from projects. So, this is a removed, right? But we don't have.
+
+>>Madhu Malaranban N	08:39
+Okay, can you?
+
+>>Carl Vella	08:42
+No, this is the only one.
+
+>>Madhu Malaranban N	08:58
+We have something like add user to issues. But we don't know what all issues got unassigned from this user.
+
+>>Carl Vella	09:12
+Exactly, we would need some kind of link. Correct. Because I assign users to issues that probably will.
+
+>>Madhu Malaranban N	09:21
+I can think of a workaround here Karl, but that would require some amount of manual work or intervention. Let's say, you know, you perform this action unassign all issues from this user. You also have the timestamp of when these issues were unassigned. You have that log in this workflow within Zlori. So, you can probably go back to your Atlassian console and check all issues got unassigned at that timestamp and then probably get them assigned. That's one workaround I can think of.
+
+>>Carl Vella	09:57
+Ideally, we would see all the issues that were unassigned and probably have that manual task, even if we can trigger it manually, but ideally it will be automated by getting a log of what was unassigned and then simply reassigning them to a specific user. That would be a good development within Zuluri, I think. Because that manual work would just be skipped. We would just need to reassign it to someone else.
+
+>>Madhu Malaranban N	10:29
+Okay, so what I can probably do is I can go back and check if there are Ap capabilities to reassign instead of unassign the issues. And if that's available, I think we are pretty much sorted, but not giving you a word here, Karl, but I am going to do a feasibility check to see if the APs allow...
+
+>>Carl Vella	10:50
+Yes, yes, okay.
+
+>>Madhu Malaranban N	10:51
+I'm taking a note.
+
+>>Carl Vella	10:55
+That's good.
+
+>>Madhu Malaranban N	10:56
+Okay, but in the meantime, just to fill in the gap, to fill in the gap, you can act on the work around that we just discussed, Karl.
+
+>>Carl Vella	11:10
+Yeah, yeah, tell me if you have any updates regarding that development.
+
+>>Madhu Malaranban N	11:17
+Right, okay, so in terms of completing your global onboarding and offboarding workflows or the playbooks, basically, do you have any hiccups with any other actions, Karl?
+
+>>Carl Vella	11:35
+I think we sorted with Google, Jumpcloud, Azure, Justice, and that was the global offboarding onboarding and offboarding, so they worked pretty well apart from those hiccups that we had. I cannot see, I mean, I can go through the actual run logs of the general stuff onboarding.
+
+>>Madhu Malaranban N	12:10
+I could see both onboarding and offboarding playbooks and runs within onboarding section.
+
+>>Carl Vella	12:18
+I think Jumpcloud and 1Password were the only issues in the Atlassian, but yeah. Okay. So, obviously, we will have a run test again. Now, our main focus has to be on the role -per -role basis playbooks, so.
+
+>>Madhu Malaranban N	12:34
+Right, setting up automation rules.
+
+>>Carl Vella	12:37
+This week, sorry about last week, but last week, I didn't have any time to look at Slurry. This week, I'm gonna look at the actual roles. It's supposed to be finalized, but I have to finalize with some departments, and then I can upload the actual sheet that we have on all the roles with all the systems and how level of depth we have to go through in order to make this possible in the playbooks. So, I have to see also the applications that are within our access matrix are actually assigned the actual owners, the actual IT owners, and all that within the applications. So, when it comes to adding the applications within the playbooks, we would have the proper assignees of the triggers. That is my task for this week.
+
+>>Madhu Malaranban N	13:30
+Okay, perfect. I probably have one other update from our last discussion. So, you mentioned that you want to onboard a user when their status change from hired to employed.
+
+>>Carl Vella	13:44
+Employee, yeah.
+
+>>Madhu Malaranban N	13:44
+You know, we went back and we checked because, you know, there are different statuses in Hybob that gets translated to a few status like active, inactive, suspended in Slurry, right? So, the hired status in Hybob is translated as suspended in Slurry.
+
+>>Carl Vella	14:03
+Really?
+
+>>Madhu Malaranban N	14:03
+Yeah. The employed status becomes active. So, let's say a user is hired until today and his status changes to employed tomorrow. He would be inactive in Hybob until today and from tomorrow, he'll be active. So, ideally, the trigger, the automation trigger that you can go for would be, if you can click on automation rules, we can probably go over the first part of the automation rule, the trigger part.
+
+>>Carl Vella	14:34
+You're saying with regards to automation rules?
+
+>>Madhu Malaranban N	14:37
+Automation rules, yeah. So, you can use the trigger, user status changes, user status changes in a primary source. Okay.
+
+>>Madhu Malaranban N	15:01
+If you are going to define where it's going to happen in the condition, then it's fine, totally fine. Can you type in user status?
+
+>>Madhu Malaranban N	15:19
+Okay, user status changes.
+
+>>Carl Vella	15:21
+That's it.
+
+>>Madhu Malaranban N	15:22
+That's it, yeah. So now we can define if that happens in Hibob and if that status is active, right? So you can select integration source.
+
+>>Carl Vella	15:34
+Integration source, because our primary source is Google.
+
+>>Madhu Malaranban N	15:39
+Integration source equals Hibob. You can also add an and condition with an and operator and if the user status is changed to active, right? So if it becomes active. So user status equals active. So this, if a user becomes active in Hibob.
+
+>>Carl Vella	16:07
+So from Hibob, if it's status is currently set as hired, they'll be as inactive from Zuluri. Correct.
+
+>>Madhu Malaranban N	16:17
+It'll be suspended, but Yeah, it'll not be active, yeah.
+
+>>Carl Vella	16:21
+So once it changes to employee, it will change to active, I'm guessing.
+
+>>Madhu Malaranban N	16:25
+Absolutely. So once the sync happens and if Zuluri identifies this user to be active in Hibob, then that's the moment this will get triggered.
+
+>>Carl Vella	16:34
+Yeah. And then I can select a playbook as the general staff homeboarding.
+
+>>Madhu Malaranban N	16:40
+Absolutely, yeah. So. This rule could serve as the common automation rule that you would run for any employee in the organization. Now, this can just be a tweak a little bit so that it can serve departments, right? Let's say you add a condition saying if the user's department equals so -and -so, you can go through the same playbook. You can eventually add multiple playbooks, right? You can have two or three playbooks configured on the same rule. So you can add a condition saying if department equals so -and -so, you can first go with the general staff onboarding. And let's say there are two other applications which are specific to those departments where you have to add those users. Wait, give me one second.
+
+>>Carl Vella	17:39
+Yeah, sure.
+
+>>Madhu Malaranban N	17:41
+Let's see.
+
+>>Carl Vella	17:48
+This has to be active. Okay.
+
+>>Madhu Malaranban N	17:58
+And the playbook that - Sorry, what were you saying? Okay, sorry. So I'm just confirming the playbook that you have added to this as all set, right? If it has manual tasks, it has a Sini set as well.
+
+>>Carl Vella	18:12
+Yeah, I think so, yeah.
+
+>>Madhu Malaranban N	18:14
+Okay.
+
+>>Carl Vella	18:14
+You can check.
+
+>>Madhu Malaranban N	18:15
+You can check that and - If nothing gets assigned, who gets assigned to us? I don't understand. You do not have to save if there is no SINI. If there is an SINI required and if you don't have an SINI, then you cannot save that playbook, basically.
+
+>>Carl Vella	18:34
+Ah, okay.
+
+>>Madhu Malaranban N	18:36
+Right, so this would apply for any employee in your organization. Now, let's say you have a department customer success and you would like to add this to other applications or grant access to two other applications in addition to the general application that you have in general staff monitoring. Then that's when you can tweak this same automation rule that we have created. So we can add to that, probably adding a condition saying, we had two conditions, right? User status changes to active from Hibob. Yeah, yeah,
+
+>>Carl Vella	19:12
+Yeah.
+
+>>Madhu Malaranban N	19:13
+Department equals, let's say, customer success. You can have the existing playbook and you can add another playbook saying, two other applications for customer success. And similarly, you can create multiple rules for different departments that you have.
+
+>>Carl Vella	19:31
+Let me check something. Yeah. So if I edit this, can I add that in their condition?
+
+>>Madhu Malaranban N	19:39
+Yeah, you can add that in. This is just like this, right? Yeah.
+
+>>Carl Vella	19:43
+So if the current department.
+
+>>Madhu Malaranban N	19:48
+Yeah.
+
+>>Carl Vella	19:50
+I don't know, any. Yeah, all right. Yeah.
+
+>>Carl Vella	19:59
+And then I can just add the other variables. Yay, okay, got it. Yeah.
+
+>>Madhu Malaranban N	20:03
+So similarly, you can create multiple automation rules depending upon department specifics. The same thing can be done for offloading as well. We can set - Yeah, yeah. Awesome.
+
+>>Carl Vella	20:16
+One question I have. Do you have like some sort of format that we can use as a naming convention maybe? So similar to what we have as a company. So I want to streamline the automation rules about naming, about global, about direct departments and then user roles, right? If maybe we can come up with some sort of format that for example, we have the global rules, right? And then we can go into deeper like tier two levels of departments and then the rest. I don't know if you have this kind of information maybe that's gonna help me guide into actually creating these rules.
+
+>>Madhu Malaranban N	20:59
+We don't have any template that we can download and then, you know, push that into the automation rules that we create, but, you know, it's today manual call, so we - Okay, okay, Okay.
+
+>>Carl Vella	21:14
+No, I was just asking, but if that's the case, I can just simply be creative. I get where you're coming from.
+
+>>Madhu Malaranban N	21:22
+You just want to import the namespace, the naming convention. Exactly, exactly.
+
+>>Carl Vella	21:26
+And then just follow through with our settings. But to the case, I can just go with tiers. All right.
+
+>>Madhu Malaranban N	21:39
+Karl, I lost you for the last 10 seconds. So sorry, my network was a little bit cluttery. So I - No worries.
+
+>>Carl Vella	21:46
+I was just saying that that's completely fine. I'll just have to work up with tiers when it comes to naming conventions. But yeah, shouldn't be a problem. I'll just see if I can set the onboarding, set the offboardings, finalize the roles and systems from all the departments. Then I can share with you the access matrix and we can then dive into the actual testing of integrations of applications, that they're working fine with the playbooks, that everyone is getting assigned the appropriate tasks. Yeah.
+
+>>Madhu Malaranban N	22:24
+We can go through the configuration that you'd like to set up and have them in place and test them as well.
+
+>>Carl Vella	22:31
+This week I should be more proactive when it comes to theory because our internal audit is finally over and now it's time to start training for the external audit. So, yeah. Great.
+
+>>Madhu Malaranban N	22:48
+And I hope we could understand if your other tasks that you prioritized last week that you could not look into the access request that we discussed last time, but I'll leave it to you. I think we discussed creating or setting up the access requests for existing application, new applications. We also tried a few, having you as the assignee. So do you have any questions? If you have any questions, Karl, around that as well, please feel free to drop them in the chat box.
+
+>>Carl Vella	23:22
+Yeah. So, yeah. I just wanted to follow up on the one password, which is your currently working on.
+
+>>Madhu Malaranban N	23:33
+The Jumpcloud.
+
+>>Carl Vella	23:34
+I think I had some question on Jumpcloud as an action. Aha. Jumpcloud, when it comes to, let me show you. So when we add a user on Google, right, our sync is directly to Jumpcloud. So they're directly synced via Sml. And what happens is we import the actual user from Google, right, and this current status from Jumpcloud, that would be as password pending. So one action which would be very beneficial for us is the setting of the password on the actual Jumpcloud. So right now, as an action available on Jumpcloud, there are, so edit.
+
+>>Carl Vella	24:36
+So adding a user, fine, that works. But then we would also need, once from the user action, is to actually set the password. So that way, we would skip a step within the actual status of password pending from our dashboard.
+
+>>Carl Vella	24:54
+To be a set. That would be a very beneficial action within the actual Jumpcloud here.
+
+>>Madhu Malaranban N	25:03
+Okay, just trying to understand, Karl, so when let's say you add a user, did we try adding a user via Zuluri into Jumpcloud?
+
+>>Carl Vella	25:13
+Yes, but we had some error saying that, wait, no, it was the suspension.
+
+>>Madhu Malaranban N	25:21
+No, there was an error, I know, but I think it was sorted. We fixed that. So let's test it out.
+
+>>Carl Vella	25:28
+So add user, delete.
+
+>>Madhu Malaranban N	25:33
+I don't think we have an API provision to, you know, set password or...
+
+>>Carl Vella	25:41
+That was what I was asking, actually. If there's an API provisioning that can be created, maybe. There are a few parameters.
+
+>>Madhu Malaranban N	25:49
+Yeah, but normally when a user is added to Jumpcloud, where they're not set a password or a login, how does that happen is what my question is.
+
+>>Carl Vella	26:00
+So this is how it works. If I had to import someone from, wait, you're not seeing my screen.
+
+>>Carl Vella	26:13
+So Jumpcloud, right? So if I had to import someone from Google Workspace, start manual import, select specific new user.
+
+>>Madhu Malaranban N	26:28
+When you import a user, then they'll be password pending. They'll be in the status of password pending when they're imported. But how does that happen when you add a user directly on Jumpcloud? Would you set up a password for them?
+
+>>Carl Vella	26:44
+Yes. Okay. We always set a password because the first initial meeting and your boarding stage, we always like login with the default password that we set the same as Google and they would change it. So without setting the password, the password status will still be as pending. And we just want to, you know, get over that step with Zuri. I'm not sure if that can be incorporated within the options.
+
+>>Madhu Malaranban N	27:16
+That gets me curious, right? So I'd like to see how it works when we add a user via Zuri. We can test that one, Karl. We can see if there is a random password that gets generated or how it goes.
+
+>>Carl Vella	27:33
+Okay, I'll test it out. But I have a meeting in 10 minutes. So yeah, I'll test it out. I'll let you know the results. But in the meantime, I'll see how we can fix this.
+
+>>Madhu Malaranban N	27:46
+Sure. I would definitely explore this as well. I'll try to find out in our test environment on how it goes as well from my end, Karl. I'll keep you posted. We will definitely see how this can be sorted as well. We have the Jira action that has to be sorted and I'll take up Jumpcloud as well. Absolutely. Yeah. Thank you very much.
+
+>>Carl Vella	28:11
+So, John Divio and John Madhu. See you next week.
+

@@ -1,0 +1,126 @@
+>>Roy Baby Thachil	00:00
+Doing great, doing great. Yeah. Over to you, Roy. Before starting, sorry, even my camera is switched off. You and I are facing some issues. I think it's better to start off with a quick intro. My name is Roy. I handle partnerships in Solidity along with my management and my team. Today, I've been an SDI for this company for the past two years and we understood that we need presence in the market. That's how we started the partnership thing altogether. So what the agenda for today's call would be more of like to introduce you to Solidity on a theoretical form and both of you, I would like to discuss the model of partnerships that we offer at the partnership. But before that, I heard from Preston that you have an opportunity in fact, who's looking for Solidity. So if you could do a quick intro and tell me how you came across Solidity or how you came to know about Solidity, that would be great.
+
+>>Rohit Mutkiri	00:53
+Yeah, so I'll start with my introduction first and post that, I will explain what we are, what we are expecting and how would things go moving forward, I would say. So yeah, I'm Rohit. I'm a research analyst at Gep Worldwide. I am representing Gep Worldwide. So we are a sourcing and procurement consulting firm. So we provide consulting services to, you know, the global 1000 companies. So currently we are engaged with one of our client named Dmg Insurance. So it is headquartered in Usa. So the client is currently looking for vendors who can provide vendor management softwares or systems for them. So for the current scenario, they are currently using three softwares as the vendor management for the vendor management, but they are expecting to shift it down to just one software as a whole. So the three softwares they are using for to be precise, like one software is for their depository, like storing of documents. The second one is for routing of documents to different teams and different companies. And the third one is, I would say for the signatures on the document, digital signatures. So they are looking like these three basic things in just one software, I would say. Yeah, along with this, they are looking for different features like single sign on confidentiality between companies and many others. We have a list of that. So yeah, we are looking like as an authorized consultants on their behalf.
+
+>>Rohit Mutkiri	02:34
+We are looking for vendors who can provide these services. So we are looking for few data points and pricing through which you would create a report and share it with them. So yeah, we would be sharing a report with them with all the data you would be sharing with us, like the features, the pricing of the software and post that our client will connect with you directly, we would be out of the picture completely. So it would be you and our client. So how we came across Zuluri was while doing the initial research, like the Google search engine, we came across your company and like we were doing a few research reports, we are going through a few websites like the G2, Forrester, Gartner, like from these sources, we have basically come across you.
+
+>>Roy Baby Thachil	03:26
+Got it, got it, got it. Thank you for that quick intro, just making notes of it. One question I have is like TMG insurance, how many employees are there in the company at this point of time?
+
+>>Rohit Mutkiri	03:38
+They have not provided any information on that. So we don't know like how many users would be using the vendor management system. But I would say it would be more than, you know, one company because TMG is a very large group. It has many subsidiaries and sister companies in it. So one of it is Guideone, if I would say Guideone company. Understood.
+
+>>Roy Baby Thachil	03:59
+So in case if they are buying it for TMG, I think they would be deploying it for all their subsidiaries and sister companies, right?
+
+>>Rohit Mutkiri	04:08
+Yeah, right. True.
+
+>>Roy Baby Thachil	04:10
+So it would be more than somewhere, more than a thousand employees?
+
+>>Rohit Mutkiri	04:13
+Maybe, not sure, I would say.
+
+>>Roy Baby Thachil	04:16
+Got it, got it. Why I ask this question is because we do business with commercial and enterprise accounts. When it comes to SMB or when it comes to customers that are less than 100 employees, the trend what we see is that they usually come to the last point where they say, hey, this is something that we could manage on a spreadsheet. But say that's so, we have customers that are like 33 or 44 employees, like one three words, from Europe and other markets who needs Fleury to help them to optimize their cost and help them to onward for their access management and access reviews. Another question I have is that you said TMG insurance is looking for a vendor management tool. Is SaaS management also part of their?
+
+>>Roy Baby Thachil	04:58
+A request?
+
+>>Rohit Mutkiri	05:01
+Yeah, they can look software as a service, I would say not like they are looking for software as a whole, you know, to manage all these things. Can you just elaborate like what do you expect from the point of view of Sas, I would say.
+
+>>Roy Baby Thachil	05:17
+So let me introduce Lurie to you, that's better. Because Lurie is a Sas management tool, if I have to say Lurie is a unified Sas management tool and vendor management is a part of the Sas management. So let me just share my screen. Sorry, is my screen up?
+
+>>Rohit Mutkiri	05:39
+Yeah, it's visible.
+
+>>Roy Baby Thachil	05:40
+Perfect. So as I said Rohit, we have three modules in Lurie. The first one is management, where we help you to discover what all applications you have in your company. We tell you what all are the used applications, what are the unused applications, inactive users. We give you a total 360 degree on your applications, on your licenses and users in your company. And this data, we help you to optimize cost and help you to auto reclaim unused licenses. And I said, the vendor management or the vendor management, what you said about full -time keeping documents and signatures and things, would be just one small part in this module, where we help you to manage all the Sas contracts, vendors and spend in one single dashboard. So as you said, you don't have to look, you don't have to deploy three tools how TMG has done, you can all manage this on Lurie's Sas management module itself.
+
+>>Rohit Mutkiri	06:37
+Okay.
+
+>>Roy Baby Thachil	06:39
+Now with Sas management, you understand or you got the visibility, 100 % visibility on the applications, users and the licenses that are there in the company. But obviously the company is not stagnant, it always grows. And tomorrow 100 new employees joins the company, you have to onboard them into this, into these different tools that they want. So what we have is an access management tool, where we can do zero -touch onboarding and offboarding. What this means is that let's take Prashant is joining Gep World and Prashant needs few applications. So Prashant is joining as an SDI, he needs a CRM access, Slack, Sso and other applications. So instead of an idea or an application admin going one by one on these applications and giving this licenses, what the IT admin of Gep can do is that they could create a workflow on Lurie's platform that Prashant is joining as an SDI in the marketing department. And whenever an SDI joins in the marketing department, they could play this workflow and all the licenses will be given to him on the day of his joining, which would make a one week job into more of a 30 minutes or a three day job Max. Yes. And another thing is, let's take an example, if you want a hundred people are exiting the company, instead of going to each application and revoking the licenses for them, or instead of just revoking their Sso, assuming that all applications are being revoked, what Lurie can do is Lurie can create a workflow on Lurie and run this workflow for the hundred people that is moving out of the company and all their applications one by one will be revoked from Lurie's platform, which would help you to improve your security by removing inactive users and to help your finance team to plan for your next renewables.
+
+>>Roy Baby Thachil	08:21
+So that is on zero touch onboarding and offboarding. And the second part of access management is that if tomorrow Prashant needs a camera license to create a post for his mail, instead of going to his three different managers, which is media manager, finance manager, his IT department, what Prashant could do is Prashant could ask for this request on Lurie's platform and all these people will be notified immediately and they could approve it on Lurie's platform. So Prashant will get the license on the same day itself.
+
+>>Rohit Mutkiri	08:51
+Oh, that's great. Nice.
+
+>>Roy Baby Thachil	08:53
+So this is about access management. Let me stop here and check with you if you have any questions on SaaS management or access management modules.
+
+>>Rohit Mutkiri	09:00
+No, right. Everything is clear.
+
+>>Roy Baby Thachil	09:02
+Perfect. And does this make sense for TMG insurance?
+
+>>Rohit Mutkiri	09:06
+No, actually, TMG insurance currently they are looking only for, you know, vendor management system. So it's not even like a SaaS management as a whole. So as you said, like vendor management is a part of it. I guess they are only looking for the vendor management part itself. So do you, can you provide only that particular area of interest or like the TMG needs to buy the entire SaaS management or, you know, the access management as such?
+
+>>Roy Baby Thachil	09:34
+So we cannot give vendor management as one single thing. I think they have to go for the Saas management module to get vendor management because it is correlated with the applications and the integration that is being done. So what I will do Rohit for the next steps is that I will send out a mail detailing the features of vendor management, how Lurie does vendor management on Lurie's platform.
+
+>>Roy Baby Thachil	09:57
+Platform and you can share it with TMG insurance and have a conversation with them and get back to me on this. Yeah.
+
+>>Rohit Mutkiri	10:05
+So what even I will do is so sorry, I'm not saying that TMG insurance is not only looking for, you know, vendor management, like what I explained, they are looking more features in it. So like since they have many subsidies and sister companies, if there's any vendor onboarding and there are more than two companies involved, so they also want a feature like the document should be visible to both the companies, you know, like instead of, you know, creating a duplicate of the document, same document should be visible to both, but there should also be a confidentiality that it should be only visible to both and not the other companies or the subsidiaries and other features like the single sign on for user and others. So what I can do is I can share an Rfi with you, which has a few questionnaires in it. So it is related to the features they are looking for. So it's most of a Yes or no. And if it's a yes answer, like we have asked to elaborate more based on like, what are your, how is your feature different from, you know, competitor, like if there's a single sign on feature. So if two or three competitors are also providing that, but how is it different from you? So that, you know, we can position your company a much better place in when compared to other, you know, competitors.
+
+>>Roy Baby Thachil	11:29
+Makes sense.
+
+>>Rohit Mutkiri	11:29
+So, yeah, I will share the Rfi with you, like if you can fill the Rfi in two to three days, so we'll create a report and share with TMG insurance at the end, also like the document which you would share to, you know, explaining the Saas platform, even we'll embed it in the report so that they can go through it.
+
+>>Roy Baby Thachil	11:49
+Sure. I think that's a better plan. So I look forward to the Rfi. And one more question I have is like, in case of this goes and in case if there's a possibility to work on this deal, what model of partnership are you looking for or how do you do partnerships in general?
+
+>>Rohit Mutkiri	12:05
+So we would be completely getting out of the game once we share the report. So it's directly between you and our client TMG insurance. So we would be not there in between. So we won't act as an agent or we don't take any commission between you and TMG insurance. All the billing talks regarding the billings or finalization of terms, business terms, financial terms, would be done directly from the point of contact of TMG and not by us.
+
+>>Roy Baby Thachil	12:33
+Perfect. Perfect. Thank you for that understanding. First of all, I think you should make a note of it and you should communicate it with our sales team also about this. Cool Rohit. I think that's it from my end. Is there anything else from your end?
+
+>>Rohit Mutkiri	12:50
+No Rohit, like any other questions from you or Prashanth?
+
+>>Roy Baby Thachil	12:54
+No, I don't have anything. Prashanth?
+
+>>Rohit Mutkiri	12:58
+Yeah, I think I'm good enough.
+
+>>Prasham Jhaveri	13:00
+Thank you Rohit.
+
+>>Roy Baby Thachil	13:01
+Thank you Rohit. Have a great day. I'm expecting.
+
+>>Rohit Mutkiri	13:04
+Yeah, sounds good.
+
+>>Roy Baby Thachil	13:05
+Yeah.
+
+>>Rohit Mutkiri	13:07
+Have a great day. Thank you. Have a nice day.
+
+>>Prasham Jhaveri	13:11
+Bye.
+
+>>Rohit Mutkiri	13:11
+Bye. Bye.
+
+>>Prasham Jhaveri	13:13
+Bye. Bye. Bye.
+

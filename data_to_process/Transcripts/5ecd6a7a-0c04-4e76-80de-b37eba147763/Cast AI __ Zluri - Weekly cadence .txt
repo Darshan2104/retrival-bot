@@ -1,0 +1,306 @@
+>>Danielius Dzekunskas	00:00
+Going? How are you? Good, good, thank you. How is yourself? All good over here. Has it been like a hectic Friday for you? It's been a little. Seems like you have a lot of calls today. No, it's just the inconvenience and the only time available was either way. Yeah, so I just moved it back and forth. So sorry for that.
+
+>>Eeram Nishat	00:27
+No, not a problem at all. So Ayush has a little bit of a network issue today. I just tried to call him on his phone and that's not going through as well. So I think he might not be talking too much. Ok, he's dropped off.
+
+>>Danielius Dzekunskas	00:42
+Ok, so no worries. So just to sum up from previous what we discussed with our HR personnel is that sometimes they do enter the data inconsistently. For example, they review some candidates, they enter them two months early, so on and so forth. And so that's why they said that the number one approach is not that feasible. Yeah, so yeah, and the second one. Am I audible?
+
+>>Eeram Nishat	01:20
+You are, yes.
+
+>>Aayush Ojha	01:21
+I hope I'm audible. And I would request if you guys have your videos turned on, it's not showing me yet, but please turn it off. Apologies, Daniel, I'm having internet bandwidth issues. Yeah, it's a little choppy, Ayush.
+
+>>Danielius Dzekunskas	01:45
+We can reschedule it. I mean, I just didn't try not to go over your head with this. We could hopefully get it fixed.
+
+>>Eeram Nishat	01:58
+Right, so let's.
+
+>>Aayush Ojha	02:00
+Yeah, unfortunately, Daniel, I am on PTO next week. Worst case scenario, what I can do is I can send you an email in writing on what exactly we have to do. Okay. I hope I'm still audible, but just to give you a brief summary, right?
+
+>>Danielius Dzekunskas	02:23
+Okay, let's try.
+
+>>Aayush Ojha	02:24
+Zero touch onboarding. Zero touch onboarding is possible, Daniel. I'm glad to let you know that.
+
+>>Danielius Dzekunskas	02:31
+We will be doing that for you.
+
+>>Aayush Ojha	02:33
+Okay. And we will do everything to make it work. And it is something which we are already working on very actively to make it work for you. Obviously, what I just want to call out is there might be a few things here and there which might require a little back and forth because we are implementing it for the first time.
+
+>>Danielius Dzekunskas	02:52
+But yeah, it is possible and we'll get it done. Okay, perfect.
+
+>>Aayush Ojha	02:56
+And to give you a brief summary as well. Essentially, what we are going to utilize is the higher date field that you have in BambooHR.
+
+>>Danielius Dzekunskas	03:09
+Okay.
+
+>>Aayush Ojha	03:13
+Yeah, please go ahead.
+
+>>Danielius Dzekunskas	03:15
+No, just maybe you first explain it And then I can give my comments or I can ask even my HR person that has access fully to the Bamboo with all the attributes and so on, just so we can have a comprehensive call with all the relevant members included in the call so we can troubleshoot it ad hoc.
+
+>>Aayush Ojha	03:43
+Definitely, definitely. So once we get it, once we start implementing, right, maybe next to next week, I am on PTO, but next next week, you can definitely schedule a call and you can invite someone from your HR team who has access to the BambooHR as well. And we can basically implement and discuss it in more detail on the call in that call. But just to give you a brief summary as well, right, so that you can go ahead and explain it to your team as well. Essentially, what we are going to do is we are going to use the higher date field, right? And let's, okay, starting from the beginning, let's say you have a candidate who is going to turn an employee in 10 days. Okay. Then what we then what we will need is for you to populate the higher date of that employee in BambooHR, which is 10 days later. Okay. Then what we are going to do is we are going to use that higher date as the trigger. And as soon as that date comes right, whenever that calendar date is achieved, what our system is going to do is it is going to pick up the employee's email ID from BambooHR. And it is going to create an email ID in Google Workspace.
+
+>>Aayush Ojha	04:58
+Directly for you. Ok, after that it is going to provision all the other accesses to all the other applications later.
+
+>>Danielius Dzekunskas	05:07
+Ok, perfect, so I hope this was this.
+
+>>Aayush Ojha	05:13
+This was not actual use case, right? That you were trying to solve.
+
+>>Danielius Dzekunskas	05:18
+Yeah, yeah, We're because when I talk with HR, they mentioned that you know the first approach without the higher date is not feasible and the second approach of entering the data manually in one more place. For example, in slurry is as well. Well, they don't want to have another place to enter the data manually. So so they said, let's let's then just wait for for the new approach to come in and let's then define the use case in the workflow.
+
+>>Aayush Ojha	05:52
+Got it perfect. So that is that is amazing. We are going to do that itself. The technicalities of it. Maybe Daniel, we can have a call next next week. Just bear with me with us for two weeks. We are also sorting it out internally in the meantime as well. I running the entire process out for you. But what I just want to assure you is that it is definitely doable and will do it for you, right?
+
+>>Danielius Dzekunskas	06:15
+Ok.
+
+>>Aayush Ojha	06:17
+Apart from that, just to give a little bit more detail. On this, on how we are going to use it as well for when an employee is in the candidate state, right?
+
+>>Danielius Dzekunskas	06:32
+At that point, the HR team is going to work personally.
+
+>>Aayush Ojha	06:37
+Follow me, Daniel.
+
+>>Danielius Dzekunskas	06:40
+You were a bit crashing with the post ID. I didn't get it fully.
+
+>>Eeram Nishat	06:46
+So basically what I was trying to say is, Daniel, till the candidate is not hired, like when the candidate email address is created, that would be with their personal email address. That would be the first touch point of the employee.
+
+>>Danielius Dzekunskas	07:03
+Ok, yeah.
+
+>>Aayush Ojha	07:06
+That's correct. It's correct. Now, when we decide when the HR team and when CastAI decides that this candidate is going to turn into an employee, then when they sign the contract, obviously we are going to get a higher date as well. Right. At that point of time, when they sign the contract.
+
+>>Danielius Dzekunskas	07:23
+Ok.
+
+>>Aayush Ojha	07:26
+Is my understanding correct on this?
+
+>>Danielius Dzekunskas	07:31
+Well, we might get the higher date earlier, but I mean, some of the candidates are reviewed, let's say, a week before they're being on boarded, some of them only a couple of months later only. But the entry is already in the system of HR. So as long as that is even better. Yeah. As long as we can get, as long as we can query the higher date from BambooHR for the employee, I believe we're all good to go.
+
+>>Eeram Nishat	08:04
+Yeah, exactly. Exactly. So that's what that's exactly what we're doing, Daniel. Yeah.
+
+>>Aayush Ojha	08:12
+Yeah. Just one additional detail. Sorry to cut your freedom. Just one additional detail on this, Daniel, would be that once they enter the higher date, right, they also have to finalize the work email ID as well. So I just want to understand when the work email, how is the work email ID created? Is it first created in Google Workspace And then it is entered in BambooHR or is it first basically decided in BambooHR on what their work email ID is going to be and then created in Google Workspace? This is going to be one pivotal factor for us to basically iron out the process for you.
+
+>>Danielius Dzekunskas	08:49
+I believe this can be discussed for now. I don't believe they entered the work email ID in BambooHR in the first place, meaning that they create, well, we have this set of policies that we create if the user came with the first and last name and there has never been a user with the first name created beforehand. We would just create a username with just first name at CastA. On the other hand, we can have it a bit easier for the implementation as in they would just create a Casta email based on first name dot last name. And then if user wants to have their email modified along the way, we can add them an alias. So that's not an issue.
+
+>>Aayush Ojha	09:43
+Perfect, perfect. That would be amazing. So basically, if we have the work email ID also created in BambooHR, we are not expecting the HR team to go ahead and enter in multiple places. One request would be to have the
+
+>>Aayush Ojha	09:57
+And work email ID decided and entered in that work email ID column in BambooHR. What it will do is that we are going to recognize that email ID, and we are going to directly pick up that email ID and create Google Workspace for you.
+
+>>Danielius Dzekunskas	10:17
+Perfect. Very good.
+
+>>Aayush Ojha	10:19
+As a user.
+
+>>Danielius Dzekunskas	10:21
+And one more use case. If hire date changes, we will be able to query it. And then if, let's say, the hire date is within two weeks, and then something along the way changes, and they say, OK, the hire date will be in one month, actually, will Zluri be able to fetch that data and update that?
+
+>>Aayush Ojha	10:52
+Definitely, definitely. So our system, our logic is going to completely run on hire date. It is going to be dynamic. It is not going to be static, as in whatever you enter first, that is only the date you are going to work with. Because we are going to sync with BambooHR as an integration daily. So if you make any changes to hire date, we are going to pick up the name hire date when the next sync runs.
+
+>>Danielius Dzekunskas	11:16
+Perfect.
+
+>>Aayush Ojha	11:20
+So that is definitely not going to be a problem. I can still double check for you, just in case. My initial understanding is that it is not going to be a problem. We are still solutioning it for you. It should be ready in a couple of weeks. But yeah, it should not be a problem.
+
+>>Danielius Dzekunskas	11:34
+Ok, that's good to hear. Thank you.
+
+>>Aayush Ojha	11:40
+Perfect. I'll get back to you with more details. And maybe, Iram, what we can do is we can organize a call with the HR team. And Daniel can maybe help you organize that as well. And we can have an extended discussion and implement on that call. But yeah, like I said, that is all that I had from my end, Daniel. And rest assured, we are going to do this for you. And yeah, just look out for more updates from our end.
+
+>>Danielius Dzekunskas	12:05
+Ok, so we could potentially schedule a meeting on, I don't know, you're coming back to work on Monday, the 14th of October, I guess. So we will leave you one day to catch up with all the emails and activities. And we could schedule the meeting on Tuesday or Wednesday.
+
+>>Aayush Ojha	12:27
+Appreciate that.
+
+>>Danielius Dzekunskas	12:29
+How does that sound?
+
+>>Aayush Ojha	12:31
+That would be ideal. If we can schedule it on Wednesday, that would be ideal.
+
+>>Danielius Dzekunskas	12:34
+Wednesday, OK.
+
+>>Aayush Ojha	12:35
+Wednesday would be ideal, Daniel.
+
+>>Danielius Dzekunskas	12:38
+Perfect. Iram, how's Wednesday for you?
+
+>>Eeram Nishat	12:42
+Yeah, that works perfectly fine for me, Daniel.
+
+>>Danielius Dzekunskas	12:46
+Ok, very good. What time?
+
+>>Eeram Nishat	12:51
+Wednesday, I'll just check your calendar as well, Ayush. Give me a moment.
+
+>>Aayush Ojha	13:00
+Yeah, please.
+
+>>Eeram Nishat	13:07
+Would an hour earlier from the time we connected today work for you, Daniel?
+
+>>Danielius Dzekunskas	13:13
+Yes, yes. And if you can send, I will include as well now in the chat HR email so you can send the invite.
+
+>>Eeram Nishat	13:24
+Yes, I can do that. Ok, you should be receiving my invite in a minute or two. Perfect. All right, so Daniel, I had a few questions regarding the access reviews as well. So Ayush, if you want, you can drop off because I know your network is not working very well. I will just finish and wrap up the discussion for the access reviews.
+
+>>Danielius Dzekunskas	14:00
+Perfect.
+
+>>Aayush Ojha	14:03
+That was actually all from my end as well. Any other questions that you have, Daniel, I'll be more than happy to answer today.
+
+>>Danielius Dzekunskas	14:10
+Ok, sure. Nowhere is nothing else regarding this, so let's catch up on the 16. I believe you're only one leg into your PTO, so have a great week, and let's catch up later on.
+
+>>Aayush Ojha	14:26
+Appreciate it. Appreciate it, Daniel. Thanks a lot for your patience with us as well. And rest assured, we'll get this delivered for you. Yeah.
+
+>>Danielius Dzekunskas	14:33
+Ok, thank you. Thank you.
+
+>>Eeram Nishat	14:36
+Bye -bye. Thank you so much, Ayush.
+
+>>Aayush Ojha	14:39
+Bye -bye, thank you. Thanks, everyone.
+
+>>Eeram Nishat	14:42
+So Daniel, I had a few questions regarding the access reviews bit. So I think the previous one that we had set up, that was more for you to test it out and understand how it would work and everything, right? So.
+
+>>Eeram Nishat	14:56
+I wanted to understand what are your next steps with respect to access reviews. I'm sure you'll be doing one in Q4 as well. So how are you going to go about that, and what will be your next steps?
+
+>>Danielius Dzekunskas	15:10
+Ok, so I have one before answering that. I have one question. If I signed off the access review already, is it possible to, for example, I marked one user to have a revoked access rights, and I signed off the whole review. And then a couple of days later, we identified that no, actually, the user wasn't required to be signed off. So my question is, can we unsign it off and change it? Or in these type of scenarios, what is the use case?
+
+>>Eeram Nishat	15:56
+Right, so as far as I know, there is no way to, after signing off, making any changes. What I can check, Daniel, is if we can just do one workflow run or one certification or something like that for one specific user. I just add one user and do it like that. If that would be possible, let's explore that. Because from the sense of when the report is getting generated, I don't know if we'll be able to change it. Because at the end of the day, this will be an audit report. So I'm not sure if going back and changing it would be possible. But let me see what's the shortest way to create a certification and get it done for a singular user. Because today, when we apply filters, it doesn't really apply anything for one user. It will take all the application users today. So let me see if we can do it.
+
+>>Danielius Dzekunskas	16:52
+No, no, it applies. You can apply it only for one user. You can filter it out. So that's not an issue. I tested it.
+
+>>Eeram Nishat	16:58
+Ok, OK, then that's fine. Sorry, I'm writing it out.
+
+>>Danielius Dzekunskas	17:01
+Yeah, OK, so yeah, you can do that. Just an FYI. So that's not an issue. Ok, so for example, I now have these bunch of reviews. And they're mentioning it overdue. Because I believe, as we discussed last time, that users would need to sign it off, right, the managers. But as they haven't signed it off, this would still add. Well, I mean, can I just archive, for example, this, these reports? I mean, users, the managers won't be signing off it. So I believe the only approach I could take is just archive it. And then it would be reachable, then, from our end, or not.
+
+>>Eeram Nishat	17:51
+Ok, let me check one second.
+
+>>Danielius Dzekunskas	17:56
+I haven't tested the archive, actually, but.
+
+>>Eeram Nishat	18:02
+So yes, you should be able to archive it. So see, the one that is created for Github access review, right, like the last one, you can try and, like, I wouldn't be able to do it through the support login. But you can try and go to archive it. And then it should be removed from here.
+
+>>Danielius Dzekunskas	18:25
+Ok, and it says that, because I have definitely tested it. And I archived some of the tests I did. So now my question is, OK, for example, if the auditor comes in and says, hey, have you done the access review? And I would say, hey, yes, we did it. And he says, where is it? Now, would I be able to check this archived review somewhere? Because I haven't yet found an option where I could check the archived reviews.
+
+>>Eeram Nishat	18:52
+Yes, so within your completed section, you should have that done in. So basically, you will be generating the report only once the certification is completed, right? So in the completed section, you will have that option.
+
+>>Danielius Dzekunskas	19:08
+So even if it was overdue, I can archive it. And it should be under the completed section.
+
+>>Eeram Nishat	19:15
+Oh, no, no, no, no, no. I'm saying, like, the certifications. So my question in that case would be, so these ones that I see, right, which are in ongoing. So even if you, like, I'm not able to understand the use case of generating a report through this because we will not be able to conclude it. And if we don't conclude it, then we wouldn't be generating the report that we would have. So in that case, like, what would be the use case of having this report in terms of an auditor, like, because they would be looking for a completed report if I understand this correctly.
+
+>>Danielius Dzekunskas	19:53
+Yeah, so that was the point, actually.
+
+>>Danielius Dzekunskas	19:55
+Actually, I wanted as well to discuss, I believe you mentioned that I might have misunderstood that. So ideally, whenever the managers conclude, for example, say that leave access, revoke access, or modify the access, they already basically state that we have their approval because they need to submit their responses saying that, yeah, let's approve, revoke, or modify it. And I don't really understand this additional request to sign it off by unique managers itself who already pre -selected all the responses. Do you see my point here?
+
+>>Eeram Nishat	20:40
+Yeah. Yeah, the sign -off is like an extra step today, right? We're trying to get it removed as soon as we're able to. Yeah. Because we got this feedback from other customers as well, and that's what we're going to do. Like, we'll have it removed, Daniel. So they wouldn't have to come here and sign it off. Or even if they do have to sign it off, if they have already taken care of the request, like approval or rejection, the certification owner can do a sign -off for everyone.
+
+>>Danielius Dzekunskas	21:16
+Ok, that's very good. That's actually what we would be looking for.
+
+>>Eeram Nishat	21:24
+So yeah, so can you let me know when would you be starting the access review for this quarter, which is the Q4?
+
+>>Danielius Dzekunskas	21:34
+Well, I don't know yet. I believe that this was just a, I believe we will need to do it. I haven't yet concluded, so we are preparing now for SOC 2 audit, which most likely will request some of the additional certifications or access reviews completed for other applications. So most likely, we'll look into this. But yeah, I believe you're asking because this is actually, the access reviews are additional, should be additional paid module for your subscription, right? Yes, that's right. Ok, how much does it cost?
+
+>>Eeram Nishat	22:10
+So access reviews is already a part of your contract. So within the contract, how much does it cost?
+
+>>Danielius Dzekunskas	22:20
+Oh, no, if it's already added, so no, no, no questions further for it then.
+
+>>Eeram Nishat	22:25
+Yeah, because otherwise, that module would not be visible. So I'm assuming it's visible because they're in the contract.
+
+>>Danielius Dzekunskas	22:33
+Yeah, OK, OK, good then.
+
+>>Eeram Nishat	22:36
+Thank you.
+
+>>Danielius Dzekunskas	22:37
+So yeah, then I didn't understand maybe your question regarding the further utilization of access reviews.
+
+>>Eeram Nishat	22:46
+The reason being, then I can go back and tell the product people that, OK, this is the date when you would want to start. So before that, if we can launch the feature to do the sign off so that you can do it without any issues for Q4. That's why I wanted to know what date.
+
+>>Danielius Dzekunskas	23:02
+Ok, makes sense. So I mean, whenever you would push the updates to it, I'm happy to actually then to start. So I will be aware about that. You will be implementing this without needing for manager sign off. So after I get the green light from your end that, yeah, no access, additional access, sign offs from managers is required. I will be prioritizing this action item.
+
+>>Eeram Nishat	23:30
+That's great.
+
+>>Danielius Dzekunskas	23:32
+Apart from everything else, really like the process. I have very much skeptical developer managers as well. But they as well like the process. So all the feedback about this part of the solution was really great.
+
+>>Eeram Nishat	23:49
+That's great. That's actually great, right? And I'm going to go back to the team and tell them that we are waiting to do the Q4 because of this feature. Can we fully prioritize it? That's how I'm going to push for it. Perfect. Thank you. All right, Aril. In that case, I think we are good for today. Feel free to let us know in case you have any questions. And yeah, we'll meet you soon.
+
+>>Danielius Dzekunskas	24:17
+Ok, perfect. Thank you very much, Hiram. And have a great day.
+
+>>Eeram Nishat	24:22
+You too. Thank you so much. Have a great weekend as well.
+
+>>Danielius Dzekunskas	24:24
+Bye -bye. Bye.
+

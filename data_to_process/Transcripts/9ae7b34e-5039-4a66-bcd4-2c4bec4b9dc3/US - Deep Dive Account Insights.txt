@@ -1,0 +1,120 @@
+>>Gaurang Shah	00:00
+Thrasio is in the onboarding stage currently. And the reason why I have picked up Thrasio is I see that there is some risk associated with this. And there are a few pointers that I'll talk about later during the presentation, why I consider this as a risk. All right, so let's say I am an Amazon seller and I wish to do an order fulfillment. So I have three options. First one is self -ship where I store the product, I pack the product and ship the product using my 3PL network. 3PLs are third -party logistics. And to give a few examples, delivery, Dhl, loadout are 3PLs. So first one is a self -ship where I store, pack and deliver. Second option is easy -ship where I store, pack but Amazon delivers it. And third one is FBA, which is fulfilled by Amazon, where Amazon fulfillment centers will store, pack, deliver and do customer support as well. And what Thrasio does is Thrasio acquires companies who do FBAs. And the reason why it acquires only FBA companies is because only FBA products get Prime Batch. And we know with Prime Batch, the deliveries timings are very short and the listings are always in the top.
+
+>>Gaurang Shah	01:40
+So Thrasio is an Amazon aggregator and it buys successful small brands selling on Amazon. Now the success criteria to buy a brand boils down to three parameters, right? So first parameter is you need to have good sales amount on Amazon. Second one is the profit margins has to be good. And third is you need to have a good growth potential to grow in different territories where Amazon facilitates deliveries. So this is what Thrasio does today. And this did not work out. And I'll tell why it did not work out in the coming slides. So the industry is retail, headquarters is in Massachusetts, and the company size, right now it says 550. And this has come down from a good number of 2000. So 2000 to 550. And why? Because they went through bankruptcy. So I'm gonna cover that in the coming slides. And it started in 2018. And the funding, yes, it's a billion dollar. It's a $3 .4 billion. And the funding, total nine funding rounds and you can find the details at the bottom, right? So total funding rounds, the total funding and the number of investors. Right, so talking about stakeholders and licenses, there are a couple of them. So Mark is head of IT and he's a CISO. I have never spoken with Mark and he was not in the sales cycle discussions as well. But David, who is the sponsor, champion and Poc, he reports to Mark.
+
+>>Gaurang Shah	03:24
+And he wanted one of the use cases that we support today to be delivered on time. And I'm gonna talk about it in the coming slides. So David is the director of IT. And he is an interesting persona. He is a sponsor, Poc and a champion, all three in one person. David G is the managing partner of Encelia. So Encelia is a company, Thrasio works with primarily for IT related activities. And David G was the champion during the sales cycle and Anthony sold to David G. But I think he has been laid off because David G has become an optional participant And I see a deactivated account for him on Slack. So I think he has been laid off. And Ron Mendoza has come in recently. He facilitates David. And what I feel is he is kind of a project manager because he asked about what use cases we are going to work on, what are the priorities, what are the timelines and stuff like that. And he, along with David, facilitated in filling the addition sheet that I created for them. Last two, Joe is the senior IT automation engineer and he primarily helps with the integrations along with a counterpart in Encelia. Encelia I mentioned is the senior IT automation engineer.
+
+>>Gaurang Shah	04:58
+Is one of the companies, trust your words with variety related activities. And John is a contractor. He is a project manager. And for this guy, I think the access was revoked and he thought he was laid off, but it was a glitch. So he's still there, but he doesn't join calls. John, Joe, Ron and David G report to David Murray and David Murray reports to Mark. This is how the structure is. And about licenses, the ARR is 2070 and they have been our customer from 10th of June on the renewal date is next year. And the customer pulse is fairly satisfied. However, I feel this is some risk. And the reason why I feel this is a risk is because of several factors. The cadence calls, we earlier had two calls in a week, but now it has reduced to one call in a week. And they procured 720 licenses and the true ups is $3 for 720 licenses. The first question that you may ask is here you see 720, but in the first slide, you find 550. The reason why there's a difference is because there are 140 service accounts they have. And they have got licenses even for service accounts and group accounts. And that's why the count of licenses is inflated. We'll just take a pause to see if there are any questions.
+
+>>Saurabh Guru	06:35
+So your primary stakeholder is David right now or Ron?
+
+>>Gaurang Shah	06:41
+It's David, David Murray.
+
+>>Gaurav J Chopra	06:44
+Yeah, I didn't understand the service account well apart.
+
+>>Gaurang Shah	06:47
+Yeah, so there are 140 service accounts on Octa and they procured licenses even for 140 service accounts. So their employee count is 550 and you add 140 to a 550, which is it's 90. And a few group accounts comes to 720 users.
+
+>>Gaurang Shah	07:14
+Any more questions? Okay, fine. So as I mentioned, they filed for bankruptcy and this one came in in February and they came out recently, I guess in June with a fresh capital of 90 million funding by existing investors only. And they also appointed a new CEO, which clearly states that they require a new leadership and a new focus on only high performing brands and high performing brands can be segregated from the low performing brands based on the three parameters I mentioned earlier, which is high sales, high profit margins and high growth potential. And there is a supporting article on Crunchbase. Feel free to look into it for more details. Second one is the focus is on declining value proposition. And as we all know, the decline value proposition is cost optimization because at some point in time, it is going to dry out. The only goal they have is cost optimization and this has been filled up by the customer. I'll just open it and share the tab. So this is the addition sheet and you can see the selection of the use thesis is only for those where you find something related to tangible savings. So SaaS visibility, you find yes and you see the priorities as P0 and for vendor and contract management, you find it because that is one of the goals. I'm going to talk about it in coming slides and for spends and for cost.
+
+>>Gaurang Shah	08:55
+So it's only SMP. There is nothing in access management and access reviews. However, they have not procured access reviews as part of the subscription with us, but access management is part of it. The reason why they do not want to go ahead with this is for a variety of reasons. I'm going to throw it in sometime. Yeah, so the focus is on declining value proposition, which is going to dry out someday. That's second risk. Third risk is I see the product adoption won't be great over the period of time because for access management, they use Okta. And I can tell you, I have not seen any IT team so matured as Traceos because if you see, this is one of the snapshots I took from a call with them. This is their instance on Okta. And it says that they have about a hundred plus automation triggers, not automation triggers, but playbooks.
+
+>>Gaurang Shah	09:58
+Of sorts on Octa that provisions access to various applications. And this is at department level, at role level, at department role level, and at application level as well. So this is very matured. And when I asked him, would you like to move from Octa to us, he said no, because a lot of money and time and energy has gone into building Octa for access provisioning. So they do not want to do it, for sure. Second challenge is access request. So for access request, they have Zendesk, where people come and create tickets. And it is very similar to GSM, where I can go to a portal of mine, create a ticket, and it goes to services team, and later it goes to the IT team for access provisioning. And when I asked him, would you like to change this, then he said that Octa and Zendesk are the tools which are going to stay until password dies. So they are not going to change it, and they do not want to hinder any aspects with Octa and Zendesk. So access management and access request is a no -no. Same is the case with access reviews, because the Ipo that they were planning to do is script, and they do not have any requirements for any compliances.
+
+>>Gaurang Shah	11:38
+I understand access reviews can also be used to provide access to only the relevant folks, but that is not the case for now. So access management request and reviews is out. So I feel product adoption will take a hit. Coming to the fourth risk, which is continuous layoffs, the employee count has reduced, as I mentioned, from 2 ,000 to 550, and it is still going down. So I'm not sure when it is going to stop, but it is still going down for now.
+
+>>Gaurav J Chopra	12:17
+Do you know 2 ,000 to 550 in how much time? Just if you know.
+
+>>Gaurang Shah	12:23
+I'm not sure, Gaurav, but I'm guessing it is after bankruptcy filings, which is Feb this year. And the last one is reduced sales spending. I was totally shocked when he told me that his annual sales spend is $22 million, and he wants to get it down to $12 million. At least $12 million, that's the word he used. At least $12 million. And if optimization dries out at some point in time, slurry can also take a hit, can come into that list where he just says that I do not want this tool now. But so far, he is happy, and he is able to convince Mark, who is the Ciso and the head of IT, that it is helping him out. Any questions before I move to what's completed and what I have planned for the next cycle?
+
+>>Saurabh Guru	13:32
+Sorry, go ahead, Gigi.
+
+>>Gaurav J Chopra	13:34
+No, this is a very good research. The only question is, so this is definitely your gauge, and it looks apt as well. Did the customer also mention directly, indirectly, or did you gauge from their body language or somehow, as in that they might probably, after the optimization is done, they might just run out of slurry as well?
+
+>>Gaurang Shah	13:56
+I don't think so, Gaurav. They will do that. But this is my anticipation of things.
+
+>>Gaurav J Chopra	14:05
+Ok, perfect. That's what I wanted to. I mean, did they convey in any manner? Because the analysis is apt, just wanted to say, I mean, understand if it's the same feeling from their side as well.
+
+>>Gaurang Shah	14:16
+Got it. Yes, Gaurav, I think you had a question.
+
+>>Saurabh Guru	14:23
+I don't have a question. But I do not think that we need to worry about access reviews or access requests for this. Excuse me. Sorry, I'm sneezing. I see this itself is quite a huge window, 22 million to 12 million. It will not happen in a day or a month. It may take you a year or so, basically, to get to that level, to get to that downside.
+
+>>Saurabh Guru	14:57
+If you are able to actually bring it down from 22 to 12, 14, 15 Even if that you know that level and then they want to basically leave. This is a very good exit for us right So get a case study and get a you know video testimonial I am pretty sure if anyone reducing 7 million dollars at 10 million dollars because of Lurie if they are basically They'll be very happy to do that And it's a wonderful exit for us if we are basically saying that You know after this they do not need it We can basically position a Sas management so that you don't get to this dollar value again right, that is one way to basically position after You know, you get to your downsize right saying that hey, why do you really want to get back there? And how do you basically push it to ensure the hey if you don't control it it will continue to go up down the line you and you I mean, you'll have to come back right and The stickiness will have to come basically from the product itself and I understand that access management access request may not be it but Continue to push for other type of automations contract renewal API is coming now this this quarter But we just push for as many books as possible inside the spend management Product itself right more use cases, basically Yeah, that will ensure that we are still you know chasing the moving target Makes sense, but we have to visualize make them visualize that it's not a one -time thing It's a it's a moving target and it is a continuous improvement process
+
+>>Gaurang Shah	16:42
+Hmm Although we consider that as a declining value proposition within within But I can position as if this is a continuous and evolving process journey Basically, you don't want to get back there again, right? I mean make it keep it in maintenance mode. Basically How much are we able to visualize and optimize right now out of that 20 days It's it's slightly different So, let me just go to a next slide if there are any other questions I can take Yeah yeah, I wanted to share my Take no ranks And this is what I've generally noticed right whenever there is a change in leadership They would want to bring in efficiency And want to focus on optimization Overall right And I think cost optimization is Like very obviously tangible because it directly translates into dollar value So you might also want to look at it in that way that it's a directive top -down that hey I want immediate dollar savings And that's why it's a p0 for them But I think one question for you from product side, which I'm not aware of but if you are aware, then do share is Can't we Use the octa. I mean can't we use something to trigger the octa workflows through Lurie directly or when it comes to access requests? Trigger something from Lurie to create a ticket enters and desk because if you do that then this becomes like a Consolidated tool right and centrally managed by T then exactly exactly.
+
+>>Gaurang Shah	18:27
+So I want to leverage The depth of it they have today with the help of groups itself So if I just go to the next steps, right? Or or let me go to this and then probably I'll answer your question of what are things or? So about What's completed so far is the contracts upload which is not in not so common way Why I say this is because they have around 60 to 70 contracts for now I'm sure they have a couple of them But this is what we received and what we did for them is We uploaded all of those with license count as one and The cost per license as the contract cost The reason why we did this is because they do not have the PDFs with them right now. It's there over the emails and as I told you David Wanted to show it with value to mark he was pushing for in your reminders So I I gave them an an idea that hey, we can do it in a week's time If you give me the application name the license cost The end and date And I can get this uploaded in In a week's time and get to the ring of reminders and And once we have those contracts in we can get started
+
+>>Gaurang Shah	19:55
+With only those applications to optimize that are coming up for renewal in the coming quarter or so. Yes, I think someone has a question. Yeah, Yadvarav.
+
+>>Gaurav J Chopra	20:06
+So, is it right to say that currently checking inactive or unprovisioned users is not a priority? Basically, they want to save direct costs from the high -level contract negotiations itself? Yes. Or are you doing it in Okta or somewhere else?
+
+>>Gaurang Shah	20:20
+No, we are not doing this through Okta or rather I would say we are not getting the insights from Okta groups and stuff because I mean, what they do right now for negotiations is they get a contract, they see how many licenses they procured, they go to the system and see how many of them are used. For example, monday .com, they procured around 150 licenses and somewhere around 100 of them were used and now they'll go to Monday and say that hey, I'm looking for only 100 licenses for now. But I'm going to give them another flavor saying that hey, I see you have an Okta group for Monday, you tell me which group is that, I'll associate that with the application and give you the activity information for those 100 users.
+
+>>Gaurav J Chopra	21:09
+That is where I was actually getting it. So, now I think I was already inclined towards what Saurabh was saying but now you already have your phase 2 ready. Once you get these contract negotiations done, again just like Bharat, you validate if from product side I'm right or not But we can then get into the continuous optimization or the optimization reports and all And that can be the phase 2 as well.
+
+>>Gaurang Shah	21:32
+Exactly, exactly.
+
+>>Gaurav J Chopra	21:34
+Awesome, awesome.
+
+>>Gaurang Shah	21:35
+Yeah, so contracts upload and renewal reminders for 50 plus contracts. With that, David has something to prove to Mark that hey, his lure is working for me and we can slot out a budget for the next term as well. Something like that. Coming to the next steps quickly. Sorry, yeah. So, Bharat, to answer your question, yes, we are going to work on Okta groups and this is no surprise. We have 2 ,500 plus Okta groups in Okta and all we need is the right ones for applications and once we have this, then probably we can start talking about removal of users through workflow automation when an application is coming for negotiations. Yes, and the next step further is do an extensive cross -optimization exercise with a new feasibility analysis procedure. So, I dropped an email. I'm not going to get into it But yeah, this will be one of the customers who will go through one of my initiatives for feasibility analysis. I will share more insights as and when I have the details with me. The third one is talk about deploying agents. So, we will start deploying format and Mac and, I'm sorry, Mac and Chrome browsers and see how the activities for the applications where we do not get this, combine this with Okta groups and create a bunch of applications to work on for optimization.
+
+>>Gaurang Shah	23:36
+And lastly is to upload the negotiated contracts with accurate license quantities. Had we uploaded previous contracts, those would be updated anyhow. So, that's the reason why we did not go with the previous contracts and we will only get the license uploaded for the negotiated ones. Yep, so that's all I had for the completed tasks and the next steps. Any questions?
+
+>>Bharath Jagannath	24:18
+No, no questions from me Gaurang but just one thing I saw their employee count on Linkedin and it shows 550. So, I think the layoff must have happened quite some time back because generally LinkedIn you will see quite a bloated number because people move out and then they forget to change their current organization details and so on. So, just my hypothesis at this point in time But yeah, I think we can always get it validated with the customer when you're talking about workflows.
+
+>>Bharath Jagannath	24:54
+To understand if they want to set up off -boarding in some way or the other.
+
+>>Gaurang Shah	25:00
+Got it, got it. Sure, sure, Bharat.
+
+>>Gaurang Shah	25:09
+Any other questions?
+
+>>Gaurang Shah	25:18
+Yes, that's all for now then. I have a call with them. I'll just drop and get into it.
+
+>>Bharath Jagannath	25:25
+Awesome. Thanks. Thanks, Varun.
+
+>>Saurabh Guru	25:26
+Thank you.
+
+>>Eeram Nishat	25:27
+Thank you, Varun.
+
+>>Gaurang Shah	25:28
+Thanks.
+

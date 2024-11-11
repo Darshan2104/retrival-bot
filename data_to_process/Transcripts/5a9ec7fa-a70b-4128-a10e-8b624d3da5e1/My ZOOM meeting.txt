@@ -1,0 +1,522 @@
+>>Jayashree S	00:00
+Okay? Yeah, he's still muted.
+
+>>Adam Kramen	00:06
+No problem.
+
+>>Andrew Dutton - Sumitomo Chemical America	00:38
+Sorry about that, guys. I had a problem getting into the meeting, then I was also on another call, and blah, blah, blah, blah, blah. Anyways.
+
+>>Adam Kramen	00:47
+That's how it goes. Are you guys a Microsoft shop? You guys are usually not on Zoom doing a Teams thing most of the time?
+
+>>Andrew Dutton - Sumitomo Chemical America	00:54
+Yes, but I mean, when I'm with you guys, vendors, you guys decide what to use, right?
+
+>>Adam Kramen	01:00
+Well, next time, we can think about, we have a Teams license. If we meet again, we'll try to make it easier for you.
+
+>>Andrew Dutton - Sumitomo Chemical America	01:06
+Most Teams, I tell you what, Google Meet, ugh, not so much. Chime with AWS guys, ugh, not so much, you know? But yeah, it is what it is.
+
+>>Adam Kramen	01:20
+Yeah, we're a Google shop internally, so we use Google Meets. Well, culturally, we were using Google Meets a lot, but I think we're starting to move to Zoom a little bit more, so it's welcome for me. I like the experience a little bit better on Zoom, so. I got 45 minutes on the calendar still available. Do you have a hard stop I need to be aware of? I'm just curious, I wanna be.
+
+>>Andrew Dutton - Sumitomo Chemical America	01:40
+Hey, you're the one scheduled 45 minutes. That's a hard stop for me.
+
+>>Adam Kramen	01:43
+I hear you, I'm gonna respect that 100%. Let's keep it under 30, come on. I mean, that's the goal, right? Let's see if it makes sense to keep talking. That's kind of the goal. Yes, I'm all about that. I like to take meetings, because we've never talked, right?
+
+>>Andrew Dutton - Sumitomo Chemical America	01:59
+I like to take meetings because to just talk out loud, see if I'm even interested, wanna talk to you more, and then when I talk to you more is the next question. And I already kind of know if I'm interested when I'm gonna talk to you more, but that'll be like, at the end of the discussion, we'll talk about next steps, right? And hey, maybe I wanna talk to you next week, maybe I wanna talk to you next year. You know what I mean? Who knows?
+
+>>Adam Kramen	02:26
+Yeah, absolutely. I mean, I think we're kind of on the same page here when kind of thinking about how I wanna spend the time, right? Just some quick intros, I'll have to give you the floor for a quick minute, and then kind of get into The State Of The Union a bit. I know you all had reached out, and so setting up this call, what's kind of of interest? And I can talk about what's going on with Lurie, right? Kind of from a wide breath, what we do. If there's something in particular, I can go pretty deep, and I have the environment available as well. So if there's like a particular use case, we can do a quick demo, and then as a follow -up, we can set up a deeper dive, if that makes sense. So does that work for you?
+
+>>Andrew Dutton - Sumitomo Chemical America	03:03
+Yeah, Adam, let me ask you something. It sounded to me, did I reach out to you? Did you reach out to me? How did we get together?
+
+>>Adam Kramen	03:09
+Prashanth, Andrew had filled out a form, no? I'm fairly certain, as I look back, I was doing a little research today, is making sure Prashanth, Andrew had filled out a form on our site, no?
+
+>>Andrew Dutton - Sumitomo Chemical America	03:21
+Maybe.
+
+>>Adam Kramen	03:22
+Hey, Prashanth, are you there?
+
+>>Andrew Dutton - Sumitomo Chemical America	03:24
+He's muted.
+
+>>Adam Kramen	03:27
+He's laughing earlier, but. Prashanth?
+
+>>Prasham Jhaveri	03:31
+My net is a little weird. I was speaking on mute also. Hey, Adam, yeah.
+
+>>Adam Kramen	03:39
+So, Andrew, when I looked back, I thought that Andrew had filled out a form. It's inconsequential, really. We can talk a little bit more about that, but I thought that he had filled out a form. Is that right? Because you handle those forms, right? Prashanth?
+
+>>Prasham Jhaveri	03:51
+Let me just quickly double -check, Adam, one second.
+
+>>Andrew Dutton - Sumitomo Chemical America	03:54
+No worries.
+
+>>Adam Kramen	03:54
+No worries.
+
+>>Andrew Dutton - Sumitomo Chemical America	03:55
+It's okay, guys.
+
+>>Adam Kramen	03:56
+I mean, I just wondered, like, did you send me some email?
+
+>>Andrew Dutton - Sumitomo Chemical America	04:01
+And did we meet at Black Hat? Because I know, looking at you, it's something I'm interested in, but I don't want to tell you that because I don't want to get you all excited. So it's very possible that I might have reached out to you in my journey.
+
+>>Adam Kramen	04:22
+Only because Prashanth handles those requests. That's why I'm fairly certain that, I think, in your research, you might have been like, hey, I'm going to fill this out. I don't know. Maybe it was late night vendor searching or something like that. Yeah. No, not late night, Adam.
+
+>>Andrew Dutton - Sumitomo Chemical America	04:34
+Screw that s***. I just am downloading the Gartner Magic Quadrant, Sass Magic Quadrant. I might have done this before. But anyway, let's talk about, and correct me if I'm wrong, slurry.
+
+>>Adam Kramen	04:49
+Slurry. Yeah, it gets stuck in there a little bit. It's a funny story, actually. Our team put it in random name generator. That's actually how they came up with it.
+
+>>Andrew Dutton - Sumitomo Chemical America	04:57
+Shut up. I was thinking.
+
+>>Andrew Dutton - Sumitomo Chemical America	04:58
+I'm thinking you're like fans of 7 -eleven, Slurpee. Yeah.
+
+>>Adam Kramen	05:02
+Somebody said it was like a slurry of your applications. Like a slurry, slurry, like that kind of thing that you can kind of see all your apps. So that's, yeah, I think people, it's, be experimental with kind of where it takes your brain. Cool.
+
+>>Andrew Dutton - Sumitomo Chemical America	05:17
+Cool.
+
+>>Adam Kramen	05:17
+Yeah. So yeah, I mean, if you downloaded the Magic Quadrant, if you're seeing that, parentheses one, I'm sure you did it. And so we're one of the, one of the three leaders in the, in the Magic Quadrant, right? It's a brand new space essentially, right? It's their first one that they've released. And so maybe that's partially where you're doing some of that research, right? Just seeing something new and seeing what we got available that, would that be a good use of time? Or is there some particular initiative that's kind of going on at Sumito that sort of makes sense for, you know, are you guys looking to get better visibility, access reviews, access management, that kind of stuff?
+
+>>Andrew Dutton - Sumitomo Chemical America	05:49
+Yes, yes, yes, yes. And now that you say it, and now that I look at the Magic Quadrant, it's not quite what I think, thought it was. So I do have, so, okay, back up a second. You probably want to know about me, blah, blah, blah, my name may not be on Linkedin, but I work for a company called Sumitomo Chemical, America region. Okay. Sumitomo is a 400 year old company with all these different brands, you know, Sumitomo Banking, Tyres, Pharma. We are Sumitomo Chemical. We're like 20 something billion dollars out of Japan, you know, 20, 30 ,000 people worldwide. But we, I work in the America region, which we're the, really the, we're called the regional headquarters IT department for the America region. And we do regional headquarters IT stuff. Like we're, we're a shared service for what we call group companies. And we have seven of these different group companies. If you go on Sumitomochemicalamerica .com, you can go in, see the different group companies. Not all have Sumitomo in their name, but anyways. So we're a shared resource for all seven of these companies. Okay. Then our job is to put in technology and processes and programs that everyone can enjoy. And then get, obviously did more discounts on licenses. It helps, you know, processes are the same for all the companies and everybody kind of helps each other. It's just a really good kumbaya kind of feeling, you know, everybody loves everything.
+
+>>Andrew Dutton - Sumitomo Chemical America	07:31
+We're also sort of the cybersecurity center of excellence for the rest of Sumitomo. So we'll do things first while they are then going to adopt those things possibly later, depending on our feedback. Right. And some of that feedback sometimes is, you should do this, but maybe you shouldn't do it with a company we did. You know what I mean? Because maybe we're not happy, you know, we had that discussion yesterday about Zscaler. Not that Zscaler is not a great product, right. But I'm not sure. But anyways, you know. Do you guys have a Casb in place or was it just looking to put one in place? Zscaler is a, we're not using the Casb product, we're using the CID product, which is, what is that called? Secure, no, s***, what's the acronym for that? You know, basically sits an agent on your PC and, you know, stops you from going to places, you know.
+
+>>Adam Kramen	08:37
+Doing the active blocking and stuff. Yep. Okay.
+
+>>Andrew Dutton - Sumitomo Chemical America	08:40
+Z -I -A, Zscaler Internet Access, but the technology is called, s***, man, you got me on the spot now. Anyways.
+
+>>Adam Kramen	08:50
+Wasn't going to be a test for you, Andrew. It sounds like you guys aren't going with them, but it, but it sounds like you kind of know we have direction. Oh, you do?
+
+>>Andrew Dutton - Sumitomo Chemical America	08:57
+We use Zscaler. Yeah. We use Zscaler right now. Okay. But the thing is, I'm saying just because I use Zscaler doesn't mean I go to Japan and go, yes.
+
+>>Adam Kramen	09:06
+We need this.
+
+>>Andrew Dutton - Sumitomo Chemical America	09:07
+Buy Zscaler. Got it. Instead, Swig. That's it. Secure Web Gateway. So, so I might go to them and say, yes, I think we need a Saas management platform, but these Zerly guys, man, I've used them for a year, I'm just not happy with them. I would buy them. You know, so that's kind of our, our ability here in the Americas region is sort of like an extended Poc, I guess you'd say, you know what I mean? So anyway, that's kind of what we do here. So having said that, we're in April fiscal year, okay? And we're working on our budgeting for next year now. And one of those projects that I, that we, we are looking to do next year is SaaS security.
+
+>>Andrew Dutton - Sumitomo Chemical America	09:57
+So I thought you guys did more SaaS security, but it looks like when you talk to me about Saas management, that's different than SaaS security because most of these companies in the Saas management quadrant, I'm not even talking to. So what is the difference of SaaS management versus SaaS security?
+
+>>Adam Kramen	10:20
+Makes sense. So when you say SaaS security, what does that mean for you? Looking at the access side, is it security of the applications to be part of your environment?
+
+>>Andrew Dutton - Sumitomo Chemical America	10:34
+That's a good one right there, because I'll tell you, I really see in the Saas security space, two kinds, and some of them do both, okay? I see the Saas vision, not vision, and SaaS inventory people. Those are the people that are gonna, usually you put an agent or a extension in my web browser, and you're telling me, these are all the SaaS apps Userx is doing. And by the way, Userx, did you know, is using his Gmail account to access this. And they usually have access into my O365 online exchange. They'll tell me that X user, they'll see emails coming from SaaS apps, different telemetry to understand what SaaS apps my users are using, then marry that up with what I have in Okta or in Intra to understand my shadow IT and what isn't part of that. But then to go a little bit further, eliminating that risk when Userx leaves the company and SaaS app Y wasn't part of my SSO implementation, I will be able to then through online exchange, send a password reset to said SaaS app and lock that user out from using it when they go home. Okay, that's one side of it. The other side of it is the ones that go, okay, now we're gonna get API access into Salesforce. And we're gonna tell you what your users are provisioned, who's over provisioned, what maybe Salesforce policies you're not using and really get into the security of a SaaS app, in this case, Salesforce or Office 365 or SAP, usually the big ones, that's the other part of SaaS security.
+
+>>Adam Kramen	12:37
+And so you're seeing your solution that you're looking for, you're looking for that one to do both, essentially? You want it to do both? Or what priority wise, if you're thinking about one or the other, is there one? Priority is the first one, visibility. Love to hear that, okay.
+
+>>Andrew Dutton - Sumitomo Chemical America	12:53
+So you cannot secure something you don't know exists, right?
+
+>>Adam Kramen	12:57
+Very fair point, yep. So the first thing I wanna say, right?
+
+>>Andrew Dutton - Sumitomo Chemical America	13:01
+Yeah, I want visibility into what my users are doing. So let's just say this, Okay? Let's just say that to hook up to Salesforce, it costs me $10 ,000, Okay? I'm just making up numbers, right?
+
+>>Adam Kramen	13:14
+All right, let's keep going.
+
+>>Andrew Dutton - Sumitomo Chemical America	13:15
+But what if I'm not using Salesforce or I'm using, who's using Salesforce and what are they using it for? And what's in Salesforce? And what's the risk of Salesforce? Maybe that risk doesn't equal that monetary value, okay? So the next part is, did I know that a bunch of people are using Github? I had no idea, right? But now all of a sudden I see there's a large group of people in this company using Github. Okay, then I go to that company like, who the hell are these people and why are they using Github? And if it's a business reason, and by the way, they're using their Gmail addresses, right? If there's a business reason for that, then we need to convert them over to corporate email and put them in Sso, okay? So therefore that risk, cause I assume if you're using Github, it's something Important, okay? So, and then maybe it isn't, maybe they're like, Oh, we have this open source product that we maintaining and we just, you know, we don't care about. Okay, cool, cool. But again, how do I get that access, that visibility into my risk there? And then from there, I could define the top apps that I want to do. And maybe then I go on to securing the SaaS apps themselves. Late, right? And then, and so when you said, do you want something that does both? I'm not sure yet. I don't know if I'll get to the second part.
+
+>>Adam Kramen	14:55
+Right.
+
+>>Andrew Dutton - Sumitomo Chemical America	14:56
+Maybe I won't get to the second part.
+
+>>Andrew Dutton - Sumitomo Chemical America	14:56
+second part for three years. You know what I'm saying? In three years, dude, you're going to be bought by Slurry. It's going to be part of Prue Point. You know what I'm saying?
+
+>>Adam Kramen	15:07
+It's a fair point. No, it's a fair point. Look, and it's more of what you described. It's almost two separate products and two areas of concentration. So it's really about priority wise. And that's why it was good to hear at least that the first group of functionality was where number one priorities were. Because if it was number two, we wouldn't be the best solution for you. I'll be fair with you. I'm never going to waste your time, Andrew. I want to figure out -
+
+>>Andrew Dutton - Sumitomo Chemical America	15:33
+Hey, that's why we're talking here, man.
+
+>>Adam Kramen	15:34
+Exactly, exactly.
+
+>>Andrew Dutton - Sumitomo Chemical America	15:35
+I'm not going to waste your time either. You say, hey, Adam, this isn't for me. And I'm not going to be chasing you down for two weeks until I tell my sales manager, ah, they just kind of lost steam.
+
+>>Adam Kramen	15:45
+So yeah, I feel like you're saying - So you're saying you are the first thing? Sorry?
+
+>>Andrew Dutton - Sumitomo Chemical America	15:50
+You are the first SaaS security thing?
+
+>>Adam Kramen	15:53
+Yes.
+
+>>Andrew Dutton - Sumitomo Chemical America	15:54
+Yeah, absolutely.
+
+>>Adam Kramen	15:55
+So let me ask you something then. Why isn't the people I'm looking at on this quadrant at all?
+
+>>Andrew Dutton - Sumitomo Chemical America	16:02
+Who are you looking at? I'm curious. I'll tell you. Well, give me a second and I'll tell you. I'm really putting you on the spot here, Andrew. I'm holding you to task here. Now, these are the people that I've sort of put in this kind of bucket. It doesn't mean they're any good at it or not, but I'm looking at people like Obsidian, Savvy Grip, Appomni, Ricoh Ai, Material, Mondu, Adaptive Shield, Push, Safe, Valence, LayerX, and Nudge. And I don't know any of them in that - none of them I mentioned in that quadrant.
+
+>>Adam Kramen	16:34
+So all of those that you mentioned are really in that second bucket, to be honest with you. If you're talking about priority lists and kind of going to - because the grips and the pushes and the nudges, those are the ones that are looking at the security and access of the individual applications. We have some kind of surface level information around SOC 2 compliance and kind of different information around different applications, any sort of publicly released information. You're going to be able to source all of that in Zuri. But it's really to that second piece. That's where those teams are focusing. So it's - it might just be you're looking in the wrong area because you're - if you're talking about Saas security, it's not necessarily that - sorry, go ahead.
+
+>>Andrew Dutton - Sumitomo Chemical America	17:14
+Let me tell you this, Okay? I am not dig - I have not digged - I have not digged into this all the way yet.
+
+>>Adam Kramen	17:23
+Oh, okay.
+
+>>Andrew Dutton - Sumitomo Chemical America	17:24
+Still at this very top level. And these people, I've just had some conversations like I'm having with you because I'm not going to dig into the deep, deep. So basically the way the process works is I get to know you, right? And I put you on my sheet, right? And then I told you that we're next year, right? So once we submit for the budget and then we'll come up with a timeline, right? First of all, first we submit budget doesn't mean it gets approved, right? I mean, that's - yeah. Then the second thing is what timeline? If we do get budget and we do set our timeline for next year, I know it's not going to be Q1. Let's say if it's Q4 next year, you know, that's a year out for me. I'm not going to dig deep into you, right?
+
+>>Adam Kramen	18:09
+Of course not, right.
+
+>>Andrew Dutton - Sumitomo Chemical America	18:09
+I'm going to wait until probably three months before I want to buy the product. And then I'm going to get, I'm going to say, I want an hour meeting with you, sorry. I want an hour meeting, you know, and then we're going to dig way deep. And then I'm going to probably pick three to five vendors to do a POC. And then from that, we'll pick which vendor we want to use. So, so yeah. So interesting though, now that you give me this Gartner chart, I have to, who the hell is Zillow? I've never even heard of Zillow before.
+
+>>Adam Kramen	18:42
+Yeah. Zillow, even I'll help him out. It's pronounced, yeah. It's like Tori.
+
+>>Andrew Dutton - Sumitomo Chemical America	18:47
+Never, is that like the Tor browser?
+
+>>Adam Kramen	18:49
+Dude, I haven't heard of these guys.
+
+>>Andrew Dutton - Sumitomo Chemical America	18:51
+Look, I'm, I'm, I'm somewhat newer to the space.
+
+>>Adam Kramen	18:53
+I've been in SaaS for over eight years, but I, SaaS, SaaS management in this space is really new. That's part of the reason why I joined, because I've sold a bunch of SaaS that people haven't used and that they're upset about it. And I love the idea of being able to actually manage it in a better way and really manage the access and compliance side. Because when, you know, kind of obviously dealing with sensitive information, publicly traded company, when it comes to meeting kind of compliance standards, you know, we have access reviews as well. So I think the why behind this project, I think would help contextualize things and help me sort of, when I'm presenting, I'm kind of, what our offering is, what has gotten you sort of looking from the business side to say, you know, we let's try to, let's put this in place, or are you just kind of being proactive to say, we, we need this or, you know, kind of what's happened?
+
+>>Andrew Dutton - Sumitomo Chemical America	19:43
+So, yes. So it is not a business initiative. It is a, it was, it's a security initiative. And I will tell you.
+
+>>Andrew Dutton - Sumitomo Chemical America	19:55
+Atom is, the number one thing is applications don't exist outside the web browser anymore, right? We are a, I mean, I'm not talking legacy s***, right? But you know what I mean? Most people are moving off prem.
+
+>>Adam Kramen	20:12
+It's not going to be there much longer.
+
+>>Andrew Dutton - Sumitomo Chemical America	20:13
+Yeah. And we are A SaaS forward company. Honestly, five of my companies, or four of my companies, over half of them aren't even in the cloud, don't have Aws Azure, but they're SaaS forward. You know what I mean? Yep.
+
+>>Adam Kramen	20:30
+Okay.
+
+>>Andrew Dutton - Sumitomo Chemical America	20:30
+Salesforce, you know, SAP.
+
+>>Adam Kramen	20:33
+Huge.
+
+>>Andrew Dutton - Sumitomo Chemical America	20:34
+Yeah. I mean, for us, SaaS is a significant investment. It's a significant risk, right? And we just don't have visibility. You mentioned the word CASB. Casb don't tell you s***.
+
+>>Adam Kramen	20:50
+Nope.
+
+>>Andrew Dutton - Sumitomo Chemical America	20:51
+A lot of work.
+
+>>Adam Kramen	20:53
+They give you a lot of info. It's just dumping a bunch of data on you. Yeah.
+
+>>Andrew Dutton - Sumitomo Chemical America	20:56
+But it's only stuff that I've connected into office, or if I'm running an agent on my thing, they're not really giving me real actionable data. That's where it comes down to that SaaS. SaaS applications require a different look. And I think it's one of the major areas of concern. Therefore, our program is looking to mitigate this gap. But if you talk to my business and said, are you worried about SaaS apps? They're like, what do you mean? What's a SaaS app? You know what I mean? You see, you know what I'm saying?
+
+>>Adam Kramen	21:38
+So it's not really a business thing.
+
+>>Andrew Dutton - Sumitomo Chemical America	21:42
+Now, it becomes the business thing when you start talking like you just did about what data is going through those apps. And they're not going to tell me what data is my SaaS apps. No, they're going to come and say like, hey, we need to talk about what's going on in Salesforce because they don't understand it being a SaaS app versus an on -prem app, or they just know it's in their browser and they use it. So when I can't answer the question, I have no idea, dude, not my app. That doesn't go over well.
+
+>>Adam Kramen	22:18
+You know what I'm saying?
+
+>>Andrew Dutton - Sumitomo Chemical America	22:19
+So going back to your question, if I'm a company that's significantly SaaS -based, and I would assume non -government, most non -lockdown places are probably SaaS forward, right? So if I'm a normal company, I guess you'd say, I need to have this on my roadmap. We actually had it on our roadmap last year, and it was cut for budgetary reasons because of a thing going on at corporate. Anyway, that's a longer story, but we're hoping that we can put this in play next year. All right.
+
+>>Adam Kramen	22:59
+So I heard a few things there, and I want you to correct me if I'm wrong.
+
+>>Andrew Dutton - Sumitomo Chemical America	23:02
+I'd say a lot of things, man.
+
+>>Adam Kramen	23:05
+I'm trying to read through the lines a little bit because of what I've heard so far. And I think just from what I've heard, that big risk, I heard risk there. And I think where we can be very functional and helpful is de -risking this sort of digital transformation. So this business why is we're making large investments. If five of the businesses are still somewhat on -prem, there's going to be some investment for moving into the cloud eventually, right? Everyone's going to want to get into this cloud environment. No. Did you say no? Saas, yes.
+
+>>Andrew Dutton - Sumitomo Chemical America	23:40
+Cloud, no.
+
+>>Adam Kramen	23:42
+Okay.
+
+>>Andrew Dutton - Sumitomo Chemical America	23:44
+Saas, absolutely. There are already SaaS apps, but remember, that's not cloud. That's SaaS. Fair point.
+
+>>Adam Kramen	23:50
+So I think as they make this shift, or at least as you continue to make more investments in SaaS applications, there's a hesitation for teams because they've had experiences like I've sold the software before where you kind of buy it and it becomes shelfware, or you're not seeing value, or you don't have the insight into what people are using, what kind of ROI are we getting from this, and how do we make educated decisions for access moving forward? I think that's one big area that we could help with. Do you think that that would resonate with the business, at least with that conversation, or are you kind of hearing whispers about that of like, is this investment making sense for us?
+
+>>Andrew Dutton - Sumitomo Chemical America	24:29
+Well, no, but kind of. Okay. So one of the big things right now, of course, is AI, right? So a lot of that talk is around that, what are we going to do? Well, how are we going to deploy this? What are some of the use cases? And of course, we're using your chat Gpt.
+
+>>Andrew Dutton - Sumitomo Chemical America	24:54
+Which is another SaaS app, right? And we have been talking about like, okay, how do we manage that? We're buying business license of Chatgpt, and there's enterprise, but that's not sustainable, right? So in that aspect, there's a lot of people asking a lot of questions we don't have any answers to right now. We are talking to some AI vendors, security vendors, some have like gateways where they offer multiple models and you can secure those LLMs. But I can see that, but that is also spilling over into other things like you don't know this, but one of the big projects, I said, we're not gonna do a Q1 because the big project we're doing Q1 is we're moving four tenants into one for Office 365. And we're planning on moving to Brazil, okay? Brazil has Latin Ldp, it's basically GDPR for Latin America. How does that work with US? And those are a lot of questions people are asking we don't know yet. So in really Office 365 is a SaaS app. So we're getting more and more of those requests around those SaaS apps and we're getting more and more into that area because people just don't know to ask the question sometimes but the president top down are starting to ask more and more questions.
+
+>>Andrew Dutton - Sumitomo Chemical America	26:37
+And I see that even getting worse next year.
+
+>>Adam Kramen	26:41
+You gotta be able to answer those. And when it gets to, I'm assuming you're in charge of onboarding, offboarding, access reviews, like when were people provisioned? When were they deprovisioned? Yep. Nope. No, okay.
+
+>>Andrew Dutton - Sumitomo Chemical America	26:55
+No, this is a good point. I'm the region. So we will roll out, so the Raci chart, I'm never an operator.
+
+>>Adam Kramen	27:05
+Okay.
+
+>>Andrew Dutton - Sumitomo Chemical America	27:05
+Okay, so that's all each group company. So each group company, all seven different group company handles provisioning, deprovisioning, governance, well, not governance, but compliance and making sure people are compliant. But we had sort of this middleware role. So kind of like we're there to help you with compliance, but it's really your problem. So we sort of sit in this middle area. So we look for ways to help our group companies, but, and I'll give you an example, Okay? We get multiple audits from our parent company in Japan. Okay. One of those says, we need to see your inventory. Okay. Just basic computer inventory. And before last year, these group companies, they had to figure out how to get their inventory dumped out into a spreadsheet or whatever, blah, blah, blah, right? Well, last year we implemented a Rmm tool, a endpoint management tool. Literally, I can tell you right now what PCs people have, where they're at, who's using them. You know, we no longer, we have now a single system of truth, right? So it's significantly saved a lot of hassle for people. It wasn't necessarily my job to create that beginning, but now it's our job to make life easier for our group. In theory, we're saving them money, you know, saving them time, saving them effort and trying to standardize the process thereof.
+
+>>Andrew Dutton - Sumitomo Chemical America	28:51
+And that's just a small vignette idea, right? But you kind of get the idea.
+
+>>Adam Kramen	28:57
+A hundred percent. Absolutely. Yeah. I mean, what would it mean if you could have a full, full, a single pane of glass when it comes to looking at every single employee within the organ, knowing what applications they have access to, what license type they have, how often they've used that license?
+
+>>Andrew Dutton - Sumitomo Chemical America	29:14
+Yeah. Similar to Tanium, what we, the product we bought.
+
+>>Adam Kramen	29:18
+Right.
+
+>>Andrew Dutton - Sumitomo Chemical America	29:19
+It's not just to know how many Visio licenses I have. I want to know who the hell's using the Visio license.
+
+>>Adam Kramen	29:26
+Right, right.
+
+>>Andrew Dutton - Sumitomo Chemical America	29:26
+Because that's going to save me money. And those are things that you couldn't get before. But you're right. I can tell you on the end point, I can't tell you in my SaaS environment, right? I can't tell you in O365 that these people have these licenses. Now, let me say one more thing. Let's talk about a little tricky piece here.
+
+>>Adam Kramen	29:51
+Sure.
+
+>>Andrew Dutton - Sumitomo Chemical America	29:51
+Okay. The tricky piece is that
+
+>>Andrew Dutton - Sumitomo Chemical America	29:53
+That when we deploy technology, we deploy it such that it has a sort of a feel of multi -tenancy. Now, we don't need multi -tenancy, but we usually use tagging because I'm going to want to see everybody, but that group company also only cares about their users. That group company only cares about their users. By the way, everyone has a separate AD structure. It all comes, well, it will after Q1 of next year. It'll all come from the same Microsoft tenant, but today it does not. It's on four separate tenants. But I need to also make sure that it's, do I want everything? Yes, but I also need seven different things at the same time.
+
+>>Adam Kramen	30:43
+Totally. Yeah. Well, you would want the experience for someone in one company to meet what they need to see what's going on in their company, not seeing what's going on in the other works. But for you as an admin, you want that overall view. So we'd be able to do tag. First of all, we can add multiple tenants to one singular instance in Zlurry. So if we got it implemented tomorrow, you'd be able to add all four AD instances to one Zlurry instance. So that wouldn't be an issue on connecting those. Well, I wouldn't buy you until after I know. Sure. I was just giving for example. I'm just giving for example, giving you that flexibility of not just even on the identity side, but even for different Hrms systems. Or you could have multiple applications in that similar vein where you can have multiple data sources coming in. So we just make it pretty seamless for you to do that. Helpful to understand. And also on the admin side, we have different admin levels to support what people can see. So as you have different managers, they'd be only able to see their team or their particular department versus that larger view. So just as you think about it in the future, we can provide that customized experience for all those users. So we got about 10 minutes left. And so I promise we try to keep it relatively quick.
+
+>>Andrew Dutton - Sumitomo Chemical America	32:11
+That's OK, man.
+
+>>Adam Kramen	32:13
+So when looking at just talking a little bit about our story, I think just from an overall perspective, if it makes sense, or at least from what you see so far, happy to schedule maybe another 30 minutes just so you can see the platform in action. And we can kind of talk more about it of when it makes sense for us to reconnect. Does that work, Andrew?
+
+>>Andrew Dutton - Sumitomo Chemical America	32:30
+Yeah, we won't reconnect for a while.
+
+>>Adam Kramen	32:33
+Because remember, I got to wait until I know it's going to be budgeted.
+
+>>Andrew Dutton - Sumitomo Chemical America	32:37
+And then I got to know when I'm going to do it. And then I'll be reconnecting with you.
+
+>>Adam Kramen	32:43
+Ok. Now, well, wait.
+
+>>Andrew Dutton - Sumitomo Chemical America	32:46
+One thing we need to know is for me to reconnect to you, I need to know high -level pricing. Because there are some people in this world that are very expensive that I will never be able to use. I'm just being honest with you.
+
+>>Adam Kramen	32:58
+Yeah. We're based on a per -user per -month pricing. So for the Americas division, how many employees is that?
+
+>>Andrew Dutton - Sumitomo Chemical America	33:03
+1 ,500.
+
+>>Adam Kramen	33:04
+Ok. So you'd be under $50 ,000 a year for sure, depending on what you're doing.
+
+>>Andrew Dutton - Sumitomo Chemical America	33:12
+That's just good to kind of know. That's all I need to know.
+
+>>Adam Kramen	33:15
+Yep. We're not going to be $400 ,000, I know.
+
+>>Andrew Dutton - Sumitomo Chemical America	33:18
+Dude, you would not be surprised at some of the companies I talk to. I'm like, dude, OK, I know I'm not talking. I know.
+
+>>Adam Kramen	33:24
+I know. I'm well aware. I hear it all the time. So we're great for an organization that's really growing and would grow into something like this, where you don't necessarily have a very built -out system as of yet. You can get started quickly, and we're a really powerful system as a leader. We're five years younger than the other two leaders in that magic quadrant. The acceleration of our product is really second to none in the space. And so we'll talk more about that down the line. But our value add, and really where we started, was we know that every company starts with a manageable tech stack, but it becomes kind of madness and turns into chaos relatively quickly. And you're already seeing this within the org, right? As you invest in SaaS applications, what's the spend on tools? Who has access? What apps are being used? You can be able to answer these. And answer them quickly, right? Not necessarily jumping around to the Hrms system, then having to ping the app owner for what's going on with these users. Why are we spending this much? Why has our spend increased by 150 % last quarter? Can't be reactive, right? You want to be proactive and have that pane of glass for your organization to see these signs as they're happening, right? Seeing a former admin, someone who's marked as inactive in your Hrms, they may still have access to an application. How can we prevent some of that from happening? I mean, as you said. I'm totally with you. Yeah, absolutely. So what we've done is really create a system of control where you're.
+
+>>Adam Kramen	34:52
+Around all of your apps, access, and spend. So allowing you to monitor your shadow IT and Ai, optimizing that spend, and then now that you have a foundational information around the monitoring of all the applications that you have, you can now set up automations for provisioning and deprovisioning and for access reviews. Now, Andrew, I understand that your team doesn't necessarily manage them today, but if they're having tough experiences or it's not necessarily a smooth process, we are something that can be implemented, obviously, across the different companies. But when thinking about sort of access and securing access, something like access reviews and doing that on a quarterly basis, setting up IT audits, we can do that relatively seamlessly for you and very different than the manual process that teams have used before, where it's a collection of Excel spreadsheets and screenshots and having to ping HR and the app owner for what's happening in these applications. So one of our secret sauces is how we ingest data. So you spoke to it a little bit around some of those, someone's gonna request you use an agent or through the API. What we've done is create this very powerful discovery engine to connect or use all of these methods. So directly with an API, we have desktop and browser agents to monitor usage with those, if any, on -prem applications, they persist, or if we don't have the direct API integration, we can use our SDK or those agents to monitor usage.
+
+>>Andrew Dutton - Sumitomo Chemical America	36:27
+I like web browser extensions. I don't like agents, man.
+
+>>Adam Kramen	36:34
+So it's a cultural thing, depending upon what makes the most sense. I mean, for the most part, are people using their single sign -on to log into these applications?
+
+>>Andrew Dutton - Sumitomo Chemical America	36:42
+No, I mean, the big ones, yes.
+
+>>Adam Kramen	36:47
+Yeah, okay, but like that shadow IT component.
+
+>>Andrew Dutton - Sumitomo Chemical America	36:50
+Yeah, and there's non -shadow It, like there's probably like a finance app, banking apps that aren't through Sso because three people use it, right? So they don't wanna add Sso to it or something along those lines.
+
+>>Adam Kramen	37:03
+That SSO tax is heavy sometimes, but also with tracking of spend. So we can also integrate with spend platforms as well. So you can monitor applications if they're, you know, you guys aren't, if somebody's using Github and a lot of people are using it, they might be paying for it as well. So you might not have to be told about it. It could be something where, you know, the spend is being picked up within Zlurry as well. So we wanna make sure that we're using all of these data sources to ensure that you kind of have the most up -to -date information. So there's those four things that we're gonna help you do. So we're gonna help you discover, right? This unifies SaaS fabric. So you'll have all of your discovery methods here on the left -hand Side. And as you dig in with Zlurry, and if demonstration makes sense, you'll be able to see all of your applications bucketed into your managed, unmanaged, restricted, and be able to go granular in seeing what kind of employees is this. Are they external? Are they internal? What kind of role do they have? Are they active, right? Do we need to set up an off -boarding playbook? Ask them if they still need access. And is there wastage there? Are people not using the applications or maybe has somebody been, you know, removed from the organization but still has a license provision to them? You know, Okta and some of those IDPs are really good at taking away access, but that license is still kind of hanging out there and you're still paying for it.
+
+>>Andrew Dutton - Sumitomo Chemical America	38:23
+Yep, totally. That's a great, I mean, great operational thing. When people say, oh, you're gonna save me money, not just spend money. You know, it's a really good value proposition.
+
+>>Adam Kramen	38:37
+100%. We wanna be able to pay for most of Zlurry within that first six months. Monday .com is one of our flagship customers. They saved over $100 ,000. In their first six months, just through optimization of licenses and also the consolidation of applications. So Zlurry is gonna monitor your entire environment. And because people can, you know, request access to applications, what Zlurry is mapping is the other apps that are similar to, you know, a certain app. So if you're using Zoom, you know, you might have Skype somewhere, right? It's just a pretty crazy example. But, you know, being able to monitor other applications internally and you can set up customized reports. And actually there's a prebuilt one as well for duplicate applications that will make recommendations for your team to say, hey, you might wanna consolidate these apps or see if there's an opportunity to consolidate.
+
+>>Andrew Dutton - Sumitomo Chemical America	39:32
+Cool.
+
+>>Adam Kramen	39:33
+All right. Sorry, I'm getting a - You got two minutes. Yeah, I got two minutes.
+
+>>Andrew Dutton - Sumitomo Chemical America	39:37
+I was getting a Zoom call.
+
+>>Adam Kramen	39:39
+I was, sorry, a Slack call. So we're gonna discover. Then we're gonna be able to monitor, right? As we're identifying those applications, maybe for unauthorized applications, Gen AI.
+
+>>Adam Kramen	39:51
+Gen Ai applications.
+
+>>Andrew Dutton - Sumitomo Chemical America	39:56
+Man.
+
+>>Adam Kramen	39:56
+Sorry, I heard I've been breaking up during the call. Sorry about that. I want to take that. No, no, you weren't breaking up for me.
+
+>>Andrew Dutton - Sumitomo Chemical America	40:01
+I was there.
+
+>>Adam Kramen	40:02
+All right, so I just got a little feedback from there. And then apps and identities. So you can set up what a privileged account means to your org, external identities, monitoring all of that. And this is the automation side, right? We can automate for provisioning, onboarding, offboarding. What a lot of organizations talk about when they think about access reviews and IT audits, they're typically just initiating a ticket within your system. What we're going to do is have this full circle remediation. So it's not just saying, hey, let's remove access or let's modify access. With the API connections, Lurie can actually do those actions for you and your team isn't going to have to manually do that. So just on the automation side, kind of had to go through this relatively quickly, but once you have this visibility onto what apps people have, the roles that they have and the licenses, you can then do those automations based off of that.
+
+>>Andrew Dutton - Sumitomo Chemical America	40:57
+Oh, cool. Yeah, trust me, I'll dig in more. One thing I didn't, I heard you use the word identity. I didn't hear you use the word non -human identity, Nhi. So that's your API accesses. Are you going to get into that side at all? Or, well, maybe you will by the time I ring back around, but you see my point?
+
+>>Adam Kramen	41:18
+Jay, do you want to comment just on the non -human identities?
+
+>>Jayashree S	41:26
+Hey, I'm sorry, what was the question again? Just a reminder, non -human identities, because we talked a lot about identities for - Like services and bots and, yeah. If that application shares that information via APIs, we pick up typically from Slack, from Salesforce, JIRA applications, we do pick them up.
+
+>>Andrew Dutton - Sumitomo Chemical America	41:49
+Oh, cool, cool. Yeah, that's good. All right, cool. So I already told you, Adam. Next, I didn't throw you out, okay? So we'll be, and you know what? If you want to just tickle me in January, feel free, I probably will know more. Remember, we don't, our - April, right? Yeah, April, yeah. So yeah, I will tell you, I'm not going to do this project in April, because I already got the bigger project going on, but it'll probably be next summer, is my guess. But again, I've got to wait, I've got to get budgeted, I've got to get timing and move forward.
+
+>>Adam Kramen	42:33
+I mean, and look, Andrew, what I'd want to propose, and look, I don't want to take too much time, but what we can do is sort of an unpaid Poc as well, where it's really just connecting some of the Idp and
+
+>>Andrew Dutton - Sumitomo Chemical America	42:45
+Maybe your - Oh no, so Adam, let me ask you this from, let me give you, since we've got a couple of seconds here, but dude, who the hell pays for POCs anymore? Why do you still use the word unpaid?
+
+>>Adam Kramen	42:57
+I'm like, I'm never paying you to try your product, okay?
+
+>>Andrew Dutton - Sumitomo Chemical America	43:03
+Sometimes people go like, but it's normally a paid, but we're going to give it to you for free. I'm like, no, no, no. If you want me to use your product, who's going to buy something I don't try out first, okay? But I mean, I can understand some things, like if I, I also don't want to be able to try out your product and get all the information I need, and then I don't need to buy your product either, right? So, yeah, I kind of see that, but anyway, that's fine. The other thing that's interesting, I was going to ask you about this, but, and I know it's your CRM system, do you use Facebook Marketplace?
+
+>>Adam Kramen	43:38
+What, just like in general?
+
+>>Andrew Dutton - Sumitomo Chemical America	43:39
+Yeah, just like personally, like Facebook. I don't, I've stayed off of Facebook.
+
+>>Adam Kramen	43:44
+It's, I started to get turned off by all the posts.
+
+>>Andrew Dutton - Sumitomo Chemical America	43:47
+When you sell something, usually it's like, I'm not going to respond to, is it still available, right? There's this little button that says, is it still available, right? And the same thing happens when I get these emails from vendors like, oh, are we still on for our meeting today? So wait, you're going to cost me time to read this stupid email about, do I still have you on my calendar? I'm not, I'm like, I got one from you guys today. I'm like, really? I hate that. It's like, are you ready? Like, no, dude, I might show up, I might not. Hopefully I'll be honest with you and like move it or something, but Yeah, that's the other one that was, it bugs my craw sometimes. Like, dude, come on.
+
+>>Adam Kramen	44:32
+No, yeah. Some people are so different in the way they see that, because some people are like, oh, thanks for reaching out. Actually, this time, this time doesn't work. I don't know. Some people don't look at their calendar religiously like I do, I guess. I don't know. But it's good feedback. I appreciate that. Yeah, yeah.
+
+>>Andrew Dutton - Sumitomo Chemical America	44:46
+You know, I'm not that religious about my calendar. You know what I'm religious about?
+
+>>Andrew Dutton - Sumitomo Chemical America	44:50
+Reminders. So my problem is if I'm not in front of my computer and I don't get reminded I'll like literally be going off and doing something and forget like Oh I'm supposed to be working man. Something like that.
+
+>>Adam Kramen	45:07
+Tough reminder to get. I know I hate that one too.
+
+>>Andrew Dutton - Sumitomo Chemical America	45:10
+But no that's just kind of a idiosyncrasy thing. Yeah But so Yeah So Yeah you know tickle me like I said in January. I'm never gonna pay you for PFC. So but and then hopefully I'm thinking January hopefully I'll know a lot more about what this is. Again my guess is that I'll probably start working on it you know probably early summer you know next year and you know for deployment at late summer. But that's just my guess.
+
+>>Adam Kramen	45:45
+Hey look I appreciate the candor. I'll keep on top of you. I'll send you that reminder at the beginning of the year. But are you headed to Octane? No. No Octane. No what's the other one coming up?
+
+>>Andrew Dutton - Sumitomo Chemical America	45:58
+No AWS Ignite. No. Nothing. Nothing But well I'm going to New York But that's for corporate thing. But no conferences till the end of the year.
+
+>>Adam Kramen	46:08
+Hey I'm out in Jersey. I'm in the city a bunch. I love that. When you head out to New York?
+
+>>Andrew Dutton - Sumitomo Chemical America	46:16
+November. This is our first this is my first time visiting corporate headquarters and since I've been employee in three years.
+
+>>Adam Kramen	46:24
+You know it's not really it's a shell office you know.
+
+>>Andrew Dutton - Sumitomo Chemical America	46:28
+First of all the region only has like 25 people and then there's only maybe a couple people in the office any given day right because everyone works virtually. So but we're gonna get together have a big you know Kumbaya And you know training and go you know out to eat you know that kind of thing like that. So it'll be good man.
+
+>>Adam Kramen	46:49
+Enjoy it. Nice. All right well we'll be in touch. Reach out if anything comes up in the meantime. But it was really a pleasure Andrew.
+
+>>Andrew Dutton - Sumitomo Chemical America	46:57
+All right sounds good.
+
+>>Adam Kramen	46:57
+Peace.
+

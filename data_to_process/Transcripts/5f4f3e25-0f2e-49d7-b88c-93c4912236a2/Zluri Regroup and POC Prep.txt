@@ -1,0 +1,330 @@
+>>Austin Cooper	00:00
+Hey, Yo, can you hear me?
+
+>>Austin Cooper	00:16
+There we go. Can you hear me now?
+
+>>Yoav Sror	00:25
+Okay Check sound. Yeah
+
+>>Austin Cooper	00:28
+Yep Awesome. I was afraid kind of show me your emails or something there for a second
+
+>>Yoav Sror	00:35
+It's But Yeah, my camera goes nuts. Yeah If I if I leave the room it try it tracks me so and it can't find my face it stays there, you know Sometimes it gets a little lost Yeah, like where's his face like And it stays on the emails Yeah, uh, well, how's your week gone so far y 'all Good just except I Fell on the train platform. So I kind of like swollen here Got a few bumps, but Yeah, I'm good. Yeah What part of New York do you live in? No, I live in New Jersey, but I work in New York. Yeah Yeah Like Not far from New Brunswick or Princeton if you know, it's like 20 -30 minutes from there. It's like a it's called the Somerset Somerset County, Yeah
+
+>>Austin Cooper	01:27
+One of my colleagues so when I was in New York last week everything was so busy that we actually ended up having to stay and Off Of New York, so I end up staying over in like Secaucus and one of my team members lives in New Jersey So we had we had to commute in every day because there was I guess The it was The Un General Council the same week is the conference and so Like the cheapest hotel we could find was like $1 ,000 a night Well, so one other person is gonna be joining Nicole from our end so quick little bit of back our context for you So Jay is actually taking a little bit of personal time. And so She's not leaving or anything. Just some some personal things So she is actually gonna be handing this off to one of our colleagues Rod. He who's Who's great as well. So he'll be actually the one running the POC Jay shared all of her notes all of the documents We've sent to you and he She's brought him up to speed on everything So it'll be a pretty seamless handoff But I just wanted to make you aware when we actually kick off the Poc that he'll be the one The technical expert on that side. So any questions? Oh, Yeah I don't know.
+
+>>Yoav Sror	02:45
+I appreciate the heads up and yeah, I don't think we we dive deep into yet So yeah, I'm happy. Yeah, everything was shared with on Roger It's gonna be working Us time zone, right?
+
+>>Austin Cooper	02:57
+Correct. Yes. So everyone on Jay's team works us time zone
+
+>>Yoav Sror	03:02
+Okay, yep
+
+>>Austin Cooper	03:05
+We and same for like so just So you're aware for like support all those teams Every customer success all those teams all work us hours if they're not u .s. Based already Okay.
+
+>>Yoav Sror	03:16
+All right.
+
+>>Austin Cooper	03:17
+Yeah
+
+>>Yoav Sror	03:17
+So yeah, let's jump into more talk about the Poc And then
+
+>>Austin Cooper	03:21
+Yeah
+
+>>Yoav Sror	03:23
+Yeah, but you know what go ahead.
+
+>>Austin Cooper	03:24
+I'll let you start yeah, so really kind of what I was thinking we do for today is get a Quickly kind of discuss your success criteria, you know, what are you looking to do during the POC? Like what are the most important things then we'll talk about what is the actual POC process and then? We'll wrap up with kind of a game plan. Like what are the next steps from here? So does that work for you?
+
+>>Yoav Sror	03:48
+It works for me. Yes, I'm gonna open up some documents on my side Sounds good to me Notes And second one so I have a few documents I've prepared for the Poc but nothing like I didn't like took actual notes and Success right here, but definitely can speak to it So and you know together we can bacteria
+
+>>Austin Cooper	04:25
+Yeah, and we can kind of formulate that on this call if we need to But I guess
+
+>>Austin Cooper	04:29
+Let's just open it up to you and hear what you're looking to test in the Poc, like what are your priorities and the team's priorities?
+
+>>Yoav Sror	04:38
+If you remember this call and see you, why don't you join us, right, Rajani?
+
+>>Austin Cooper	04:43
+Yeah. We already introduced yourself.
+
+>>Radheshwar S Modi	04:48
+Thanks, Austin. I apologize for being late. I was running late on another call.
+
+>>Yoav Sror	04:53
+No worries. Nice to meet you. So, Austin, I think first and foremost, we're going to focus on all the yellows, right? Like this is the core needs. The yellow ones, the core needs of a sales platform. This is why. So I think we're going to need to validate. We're talking about success criteria. We need to validate that we're actually getting what we're pursuing, right? Like our needs. So I'm going to focus on that, but on these needs, I'm going to break it down into, all right, what tests we want to do to understand the usage or what tests we need to do to test all the shadow IT and what we're looking at from it. So I built a few test cases. Again, it's not fine -tuned. I mean, I have a few here. I'm still building some more. I'm still focusing with my team on, you know, I joined my, I have two Iam teams, sorry, two Iam people on my team, and I, you know, I'm also looking forward to, how do I say it? You know, governance, identity governance. That's something we don't have today. And I truly believe that this platform, you or the other Poc that we're doing, you're going to give us that. Because we never got the chance to use our governance piece on the Okta side, because it's simply not as mature as we, it's not a right fit for us. I'll say it this way, because they only worked on everything that's in their network versus your platform where whatever we integrate, the governance piece will work there.
+
+>>Yoav Sror	06:34
+So that's going to be that. And again, the list of needs, and I think talking else about success criteria, I think I'm going to also do like a review of what you can and cannot do on the list of, remember the Rfp, the requirements?
+
+>>Austin Cooper	06:54
+Yeah. Yeah.
+
+>>Yoav Sror	06:55
+So I'm going to work on the requirements and just see, you know, what was a Yes? So I think especially a yes, and I was a high priority. I'm going to look into those and check. Yep. Let's see how we see it. Let's see how it works for us with our systems. Is it a good result? Bad result? Yes, no, notes, kind of stuff like that. So hopefully it kind of gave you the picture of the success criteria, which again, I can summarize in simple terms, but this is like a broader explanation regarding the success criteria.
+
+>>Austin Cooper	07:28
+Okay. And so is that document that you just showed us, is that different from the Rfp that we filled out?
+
+>>Yoav Sror	07:35
+The list of needs? Yeah. Yeah. Yeah, because, well, yes and no, and I'll try not to make it complicated, but I went over the list of needs that, sorry, the list of requirements that you and I worked on and broke it down into like categories where things are really critical and start listing them out, which is that list. And I can share that again. And from this list, I then had a call with James and Oren, you know, The Cio Of Epf It, and like, we started to look out like, you know, Oren told me, don't look at other departments right now. The focus right now should be IT, right? What is important for you? You're the one gonna navigate the system, especially at the beginning. What are we looking for from an IT side? What are we missing today? Components or tech stack that we don't have today. We don't have licensed optimization. We don't have shadow IT tool, you see. So it's pretty much anything around optimization, utilization and shadow IT. The blue one is not that critical, but it's something that I added, like, you know, budget threshold, things like, like governance around the vendor themselves, which is something I do many of today. I get an email alert, like, hey, you're out of licenses. Like, oh, really? Already? So you see my point here? So I'm gonna - Yeah, I mean, all that's pretty straightforward, Yoav. Like there's nothing in there that's overly complicated. It's more just, I'm gonna simplify it.
+
+>>Austin Cooper	09:07
+It's just visibility and optimization. That's - Exactly. Yeah.
+
+>>Yoav Sror	09:13
+Exactly, exactly.
+
+>>Austin Cooper	09:15
+Yeah. So, okay. So within the Poc, the most important things is really gonna be having the being able to have visibility into every software and then being able to -
+
+>>Austin Cooper	09:29
+Able to, within each software, drill in a layer deeper, like the users, the licenses, the spend, things like that. Now, in terms of the Poc, one second. I'm actually going to pull up a slide really quick. Ok. So for a Poc, the way that it typically works is we'll connect up to five applications for the Poc.
+
+>>Yoav Sror	09:58
+Now, the applications that we typically recommend connecting from are, these are kind of the most common ones that we connect to in a Poc. So we obviously need to connect to your system of truth.
+
+>>Austin Cooper	10:10
+Now, if I'm not mistaken, you guys are a Google shop, correct?
+
+>>Yoav Sror	10:14
+Yeah.
+
+>>Austin Cooper	10:15
+Ok, and then who are you using for Sso, Okta? Yeah, I remember, because you're using the workflows. So Okta and Google, those two are kind of non -negotiables. We'll need those two. But outside of that, is there any other applications that you see on this list that you think would be that you'd really like to connect into, that are maybe really expensive or difficult to manage?
+
+>>Yoav Sror	10:38
+I think, well, I see fresh service. I'm looking, I'm still looking in my notes and trying to find them, because we're on the call, maybe. But I had a conversation with James in the morning, like, all right, what are the systems we would like to add? Or, sorry, what are the systems we would like to POC? And yes, Google, Okta, and one that came up, it's monday .com. Ok. Do we want to add? Yeah, fresh service. Ok.
+
+>>Austin Cooper	11:15
+And... Let me make some notes really fast.
+
+>>Yoav Sror	11:17
+Yeah, yeah, if you need it, so if you give me, like, maybe 30, 40 seconds, I'm going to find it. No, I can send you this link. I'll send you the slide afterwards as well. Some other really common ones that we see that are big headaches, just to give you maybe a little idea, is like Salesforce oftentimes is really difficult for IT to manage.
+
+>>Austin Cooper	11:38
+We see like Miro and Lucid. Are you guys using Miro or Lucid?
+
+>>Yoav Sror	11:44
+You know what, Lucid, Lucid is a good one, yeah.
+
+>>Austin Cooper	11:47
+Lucid is another one that we see oftentimes is difficult for IT to centrally manage. So, yeah, I guess, you know, do you feel like there's, looking at this list, do you feel like there's five applications that you would want to connect?
+
+>>Yoav Sror	12:03
+Oh, yeah, Yeah, I think we just said the, now, is it going to be concrete or can I change it towards when we get to the Poc? Because I'm still looking at my list.
+
+>>Austin Cooper	12:11
+Yeah, we can always pivot too, so just let us know. But just, what I want you to do here is start kind of thinking about it and determining what you want to do. So while you're looking that up, let me kind of give you a brief timeline of how the Poc works. So basically what we'll do, Yoav, is we will go ahead and have a kickoff call. In that kickoff call, we are just going to connect your systems that we want to connect. We're not going to do any training or anything like that. Then from there, we're going to allow 48 hours to do the initial API call, and then we'll have a training session, Okay? So once we've actually discovered the data and all the users, we've started discovering Shadow IT, things like that, then we'll go ahead and have a session wherein we will actually train you and say, okay, Yoav, here's your Shadow IT, here's how you look at your users, here's how you add a contract. Now, for the sake of a Poc, we don't need to add spend data for every single application, but if you could bring one contract for maybe Google Workspace Or Fresh Service or Monday or something like that, so we can actually upload the contract data, the spend data. I think in order to test optimization, Yoav, we also need spend data. In order for his lawyer to be able to make recommendations, we need to be able to say, hey, these are like free licenses and these are paid licenses. Therefore, these licenses need to be optimized. So it's important that we have that spend piece too. So if you could just pick one of the providers to bring the contract for.
+
+>>Yoav Sror	13:46
+I think maybe either Lucid or Okta will be easier. I tell you why Google Workspace is gonna be complicated because Google Workspace, we utilize it in many, many different aspects, like Google Workspace and Gcp and Looker. And then there's a lot of components around Google. And I feel like in order to get Google to be as accurate as possible on expenses, we're gonna have to do some mapping work. And I don't know if it's gonna be that accurate for the PFC.
+
+>>Austin Cooper	14:19
+It doesn't have to be Google. That was just the one on the top of my list. So that's why I said it. Radhe, did you have something to add?
+
+>>Radheshwar S Modi	14:26
+Yeah, so Yoav, don't worry about.
+
+>>Radheshwar S Modi	14:28
+About getting the actual contract as well. If you just give us the number, that's fine. And in terms of Google Workspace, right now we would be mapping only the Google Workspace licenses. The other aspect, the spend of, let's say the utilities, like let's say Looker and those other things can be done at a later point in time. So it's not mandatory, but we can definitely cover it as well. It should not be an issue.
+
+>>Yoav Sror	14:53
+Okay. Anyway, I was able to get the list from my notes, talking to my leaders. So yeah, Okta, Google Workspace, Monday. So that's three systems. And then we have more than that. If you're saying you're limiting me to five applications, not as a source, five applications in general, right?
+
+>>Austin Cooper	15:15
+Yeah, for a Poc, we try to keep it to five, and that's just because of the amount of data that we ingest and everything.
+
+>>Yoav Sror	15:22
+I'm fine with that. No, no, no, no, no. I respect that. I respect that. But yeah, we'll talk about the timeline because we might need some flexibility because it's only me by myself. But the two other systems, so again, sorry, Google Workspace, Okta, Monday. And I think I would like to do Lucid and PagerDuty.
+
+>>Austin Cooper	15:41
+Okay, let me update my notes.
+
+>>Yoav Sror	15:47
+Oh, and let me update it as well. So applications for Poc, Google Workspace. Okta, Monday, Lucid, PagerDuty.
+
+>>Austin Cooper	16:02
+Okay, so I have that written down on our end. Now, what we'll do from there is once we actually have you connected and we've started our training, typically we want about two weeks from there. So within there, really what we'll do is we'll have your training call where we'll train you where everything is, how to add your spend data, stuff like that. After that, we'll probably check in two times per week. So we'll have that initial call and then we'll check in one more time. And then the second week, we'll have a check -in call And then we'll have a wrap -up call. Now, in one of those calls, we're actually gonna go through and Rodney and I will identify a bunch of savings and say like, hey, in Lucid, we found 24 licenses that were optimizable. In Google Workspace, we found this many. So we'll actually come with suggestions. So maybe James and Oren might want to make sure that they can attend to that call where we actually present some of those findings and they're able to say, Oh yeah, like this is accurate or no, this is not accurate and go from there.
+
+>>Yoav Sror	17:05
+So - That's, I 100 % agree with that. And yeah, it's gonna be tough to find some. Anyway, let's work together on, already try to schedule something on their calendar. And I wanna talk about that timeline. We might need more than two weeks. And again, obviously we're not gonna do months, but I don't, the biggest issue on my side right now, and I won't go into details with my department work right now. I took this project upon myself. Usually I give it to my team. I don't have resources for it. So I might need some flexibility because I'm back to back in meetings. So I might need like a month, a month -ish to, because I'm gonna do POC and you already know that I'm gonna POC you and Lumos. You're the final vendors in Poc, productive dropout of the race. And yeah, that's it.
+
+>>Austin Cooper	17:57
+Okay. And so when are you kicking, so that's the other pieces. We typically don't wanna run the POCs in conjunction. That way you can not be divided between the two. So when are you running the Lumos POC?
+
+>>Yoav Sror	18:09
+Well, luckily, I mean, you guys finished the vendor onboarding really quick. So I'm gonna start with you. So that you're quicker than theirs. They're still catching up.
+
+>>Austin Cooper	18:19
+So we're not there yet. And I cannot start the Poc until they've finished the vendor onboarding.
+
+>>Yoav Sror	18:24
+So we still have some legal and security documents.
+
+>>Austin Cooper	18:26
+Oh yeah. All that website, the site that you said. Graphite.
+
+>>Yoav Sror	18:32
+Graphite, yep.
+
+>>Austin Cooper	18:33
+Yes. Okay. So then for you, is there a day next week that we could kick off the Poc, Yoav, and start the integrations or kind of what is the timeline you're looking at?
+
+>>Yoav Sror	18:46
+We can, but there's only one problem. I have a conference on the week of the 14th. So I'm gonna be out for a full week. I mean, I can then give maybe some of my team to test it, but it's gonna slow me down on the Poc. That's what I'm saying.
+
+>>Austin Cooper	19:01
+So we can adjust our plan accordingly. I'd say, Yoav, if the option is connect sooner and let it run for a week while you're at your conference, I'd honestly rather do that. Because the longer it runs, the more shadow IT will discover.
+
+>>Yoav Sror	19:18
+Let's do it. Let's do it. I'm asking you as a vendor, as your patients, I mean, we're gonna sign with either you or almost end of year.
+
+>>Yoav Sror	19:27
+So the more you give us the ability to focus on the Poc, the better is to make the decision.
+
+>>Austin Cooper	19:33
+So what I'm thinking then is maybe Thursday or Friday and Rod, he let me know if this works for you as well as if this is okay, like process -wise. Maybe Thursday or Friday next week, we have the integrations kickoff call. We set up the integrations and then set up a call for once you're back. If your team wants to dive into it while you're gone, we're more than happy to hold an extra session with them, Yoav, but if we need to wait until you're back, like that's not a big deal. Like we understand that you have other stuff going on. No, no, no, Yeah. I think it will, if we wait that, cause next week there's nothing pretty much planned.
+
+>>Yoav Sror	20:08
+And then, so if you wait two weeks, it's going to push everything two weeks. I want to make sure we sign end of the year. That was my plan. So I can do Thursday next, I can do even Wednesday, but like it's Thursday, I'm available after 1 .30.
+
+>>Austin Cooper	20:24
+Yeah, let me look at Rodney's calendar. All right, so you said you're available after 1 .30?
+
+>>Yoav Sror	20:33
+Yes.
+
+>>Austin Cooper	20:34
+Okay, could we go ahead and just do 1 .30 on Thursday?
+
+>>Yoav Sror	20:38
+Yeah, and it's only me, right? I mean, I don't think we need. Do you have admin rights in all of those applications? Are you able to turn on the API connection? I'm a super admin everywhere, yeah.
+
+>>Austin Cooper	20:51
+Okay, yeah, So just double check that you have the rights. It's like some applications like Adobe are really weird, but the ones you've listed are all pretty straightforward in terms of permission, so.
+
+>>Yoav Sror	21:01
+I'm the owner and super admin on those systems, so no worries there.
+
+>>Austin Cooper	21:04
+So I'm going to block off 45 minutes. We're probably only going to need like 20 or 30, since all we're doing is turning on the APIs. And all those APIs are pretty straightforward. Rodney, is there anything that we like, is there any special API keys we need to pull for any of those platforms he wants to connect?
+
+>>Radheshwar S Modi	21:23
+No, Adam, sorry, Aslan, most of them are straightforward, but if there's anything, what I would do, you always send you a list of instructions, which would help you on what are the API, if there are any API key for any app, we can keep them handy before the call.
+
+>>Yoav Sror	21:40
+Sure, and Aslan, I mean, hopefully this will become a partnership. I'm just saying, you know, I'm not hinting anything. I'm just saying, I'm going to say to Lumos as well, if one of us were to go to PFC, I'm going to need to make sure, so, you know, get like a confirmation that our tenant was purged and data was purged. So, you know, I'm just being transparent. We'll do that right afterwards. For us, honestly, for us, the amount of data we ingest, our data hosting costs are very expensive.
+
+>>Austin Cooper	22:12
+So we don't want to keep your data even after that. Either, yeah,
+
+>>Yoav Sror	22:17
+Yeah, Yeah. But hey, hopefully we're going to partnership And then what we do is we're going to take the Poc tenant and continue it into production, right?
+
+>>Austin Cooper	22:25
+So - Exactly, that's the goal is we just roll whatever you've done within there into it. If you want to start fresh, we can always create you a new account, but the majority of my customers are just like, I just want to continue what I've already done, so.
+
+>>Yoav Sror	22:38
+Yeah, and you know what? I mean, maybe I'll say something about that. So the integration, I might do them with my account just for the Poc. But if we go into production, I would prefer to switch the integration accounts to actual service accounts. So we might just need to change that. Yeah, yeah, Yeah.
+
+>>Austin Cooper	22:55
+Not a problem at all. And then one other thing as well is like, for example, like Google Workspace for the Poc, we're only going to enable read permissions. Typically, most of our customers don't want to enable write permissions during a Poc. Now, if you would like to, Joab, I know one of the things that we've talked about was like playbooks and some automation rules. If you want to be able to test building those out, we would need to enable write permissions. You don't have to actually run any playbooks and test them out. But if you want to test what it's like to build them, if we don't have write permissions, you wouldn't be able to build them with write actions.
+
+>>Yoav Sror	23:34
+I think I do. I mean, that's the whole point. And especially on Monday, especially on Lucid, and especially on PagerDuty. So let's take that. And I think there was something I wanted to say, but okay, all back to me. I wanted to say something and, you know, blew my mind. I'll come back.
+
+>>Austin Cooper	23:59
+So, okay. So then I guess for you, the final question that Rod, he and I have, and then Jay as well, not trying to leave her out, would be for you, Joab, and Oren, and James, let's say you complete the Poc, both POCs go really well. What are going to be the deciding factors in the end? Like what is going to make you say, we prefer Zlurry or we prefer Lumos?
+
+>>Yoav Sror	24:37
+It's tough to say, right? I mean, of course, the price has some weight on it, right?
+
+>>Austin Cooper	24:43
+Of course, yeah.
+
+>>Yoav Sror	24:45
+I think, you know, working with Lumos, I mean, you're already a bit better on the pricing, to be honest, right? I'm just Really?
+
+>>Austin Cooper	24:54
+That's surprising. Normally Lumos, as soon as they hear we're in the conversation, normally, they just undercut us like crazy.
+
+>>Yoav Sror	25:01
+Really? They're a bit expensive, because with Lumos, they have a lot of SKUs. And the more SKUs you get, you get to a higher number. But I mean, price, in general, in a Poc, or in a vendor we pick, price has a huge impact. You know, I would say, yeah, I mean, it's a tough question to say right now.
+
+>>Austin Cooper	25:24
+From like a feature standpoint, is it going to be like the amount of applications we discover? Is it going to be like the depth of the playbooks? Like, for you, let's leave Oren and James out of it. For you personally, Yoav, what is like the most important thing that you need to see in this POC?
+
+>>Yoav Sror	25:44
+I think, you know, the system to be as customizable and agnostic to our needs. I think that's a huge one. And the ease of use. And yeah, obviously, the visibility and the maybe we can stop there. Because, and I remember, I remember what I wanted to say, and maybe we'll just want to say it. Another big differentiator. I mean, you guys, you call it a discovery engine, which Lumos, it's very simple, almost to a point where it freaks me out. I'll be honest here. So they're doing this discovery via email. I'm like parsing emails. Yeah, they look at, you know, you guys do that, too. But you also have a plugin and you have we do not parse emails at all.
+
+>>Austin Cooper	26:35
+Like we don't even look at your emails. That for us is too much. Most of our customers don't feel comfortable with that. That's too much data that they're giving us access to. So our discovery engine does not include email parsing, which the majority of the time is actually a big advantage for us because it's a security mitigation.
+
+>>Yoav Sror	26:55
+So yes, yes. But they said they don't read the body of the email, they read the top, like they're looking for the welcome to gravity, welcome to something, and then they put it as a shadow it. My concern here is how reliable that it's And I think that's getting to another point what I'm looking for from a Poc, reliability and accuracy. I, I really need the data to be as accurate as possible. I don't need like, hey, this user might use in Grammarly. No, I don't, I don't want to be mighty. I need to know if he's using that. And you guys have a more robust discovery engine, which I appreciate. I don't know how much James and Oren do, but I think this is also what I'm going to look into one apples to apples when I compare is how reliable their discovery engine is, if it's just going to discover welcome emails. I kind of so I think I would like to POC, you know, your agent and your browser plugin and understand that.
+
+>>Austin Cooper	27:53
+Yeah, it Yeah, I see. I see. I see Jay's comment. Yeah. So, yeah, so that's one of the things we'll come prepared with because our discovery engine is going to discover quite a bit more than them. Some of it is a little bit of noise. So what we'll do during the Poc job is we're going to teach you how to actually filter through that as well and actually see, but the data is going to be far more reliable because we're not, we're not relying on email or other sources. We're actually just discovering it directly. So we'll talk through some of that when we actually go.
+
+>>Yoav Sror	28:25
+And then I know we're getting to an end. And I want to emphasize again, the accuracy when I talked to a reference call, which I initiated myself, yeah, that guy from Monday. And I took it from him the accuracy. He told me the reason why I picked Lori is accuracy. So I need to be able to prove to my leadership that your platform is more accurate than Lumos. And if you can do and especially Rajvi, if you can do whatever you can to help me prove that I think that's going to be a huge take and it probably can lead to a win. But again, I'm just being transparent.
+
+>>Austin Cooper	29:00
+Now, one expectation I do want to set for you as well, Yoav is in terms of our discovery engine, if a user goes in and logs in with an email and password and does not do Google Workspace or anything like that, or it's not through Okta. So our discovery engine doesn't have a way to actually capture those directly. But what we can do in a production instance, is we can deploy the browser and the desktop agent to
+
+>>Austin Cooper	29:25
+To actually be able to monitor usage of those applications.
+
+>>Yoav Sror	29:29
+Can we do it in POC?
+
+>>Austin Cooper	29:32
+If you want to deploy the agent, we can. We typically just recommend doing it on like three or four devices for you to test it out with.
+
+>>Yoav Sror	29:38
+Exactly.
+
+>>Austin Cooper	29:42
+We're about to kick up, Rod, he and I are about to kick off a Poc with another customer, and they want to give the desktop agent to three users and they want to track on them, and that's the main thing that they want to do. I want to do. Yeah. Just know if there's an application that is not going through one of those discoverable methods, the agent is how we monitor usage of those. I just wanted to make sure you're aware of that process there.
+
+>>Yoav Sror	30:12
+Yeah. I think we need to focus on it in the Poc again, because Discovery Engine is a huge factor of this platform, because this platform is all about discovery. Let's take it. I got to go to my next meeting, but yeah, let's meet on Thursday and let's focus on accuracy.
+
+>>Radheshwar S Modi	30:30
+You are. Just before you go, I'm very sorry. I just had this one question. I mean, you can let us know later also. When you said you tried Octafer Iam, I would like to know where they disappointed you, because I would come prepared if there are some use cases that we can help you with.
+
+>>Yoav Sror	30:46
+You're talking about the governance piece that I said?
+
+>>Radheshwar S Modi	30:49
+Yes.
+
+>>Yoav Sror	30:50
+Well, simply they can only integrate in their governance piece. Well, it was a few months ago when we started testing it. You can only integrate whatever is in your Octa tenant versus your platform where you integrate with all the application in the company, regardless if they're on the Octa tenant or not, and you can show me and you can do governance. They cannot. Again, they only focus on what's on their network, what's integrated with Octa, and also not every application has skimped capabilities or invisibility into the app, which you can because you dive into and you show that. Anyway, we'll take it into our next call. Yeah, sure. Okay. But yeah.
+
+>>Austin Cooper	31:27
+I'll let you run. Thank you. Thank you. I'm sorry for keeping you long.
+
+>>Yoav Sror	31:30
+Bye.
+
+>>Austin Cooper	31:30
+Have a good weekend. Thank you.
+
+>>Jayashree Sankara Subramanian	31:32
+Bye. You too. Bye.
+

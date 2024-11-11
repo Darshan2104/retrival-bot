@@ -1,0 +1,369 @@
+>>Madhu Malaranban N	00:14
+I presume you are not at office today.
+
+>>Gaurav J Chopra	00:18
+I will go in an hour. Usually we don't go to office on Fridays because it's very boring, hardly very few people but today there are a few accounts that Malkit and I wanted to discuss, especially with the solutioning help, which is the only reason so maybe for a couple of hours.
+
+>>Madhu Malaranban N	00:38
+Hi Navya.
+
+>>NavyaSree Pathiwada	00:43
+Hi. Good evening.
+
+>>Madhu Malaranban N	00:45
+How are you?
+
+>>NavyaSree Pathiwada	00:47
+Yeah, I'm good. How are you?
+
+>>Madhu Malaranban N	00:49
+Good Navya. Thank you. Thanks for asking. Right. So it's almost the weekend. We have Malkit as well here. Yes. Hi Malkit.
+
+>>Malkeet Singh	01:05
+Hi. Hi Madhu. Right.
+
+>>Madhu Malaranban N	01:11
+So Navya, I know that we have... Let's start.
+
+>>Madhu Malaranban N	01:26
+Malkit, I'm sorry, I just muted you just to avoid some background noises but if you want to say something you can unmute yourself and say.
+
+>>Gaurav J Chopra	01:41
+No, I guess Madhu you already have the context so we can get going maybe.
+
+>>Madhu Malaranban N	01:47
+Okay, Navya, so I have a couple of things to, you know, share updates with you. Number one is regarding the SDK error that you pointed out. So, I also had posted a message, if you have the org integration ID handy from the previous sync then we can go with that and then start pushing the data via SDK. However, Malik also confirmed that he does not have that and he usually takes the route of getting the integration ID and then using that for initiating the sync and then further pushing the data. So we are working on this one actively. I'm... Our engineering team to have this sorted. So, rest assured I'll keep you posted once there is an update from the team.
+
+>>NavyaSree Pathiwada	02:34
+Hi Kavita. Hello. Right.
+
+>>Madhu Malaranban N	02:41
+Yeah, Navya you had something to say. No, no.
+
+>>NavyaSree Pathiwada	02:47
+So, so I was not much aware of this sync status and that's what we're talking about But I'm sure Malik has communicated to you right now about the org ID and. Yeah, yeah,
+
+>>Madhu Malaranban N	03:03
+Yeah. So, yeah, I saw his message as well. Should not be a problem I connected earlier before we connected Netscope SDK integration with Malik. So he is aware of the process. It is just that this error has come up during the first step of getting the org integration ID But we'll get this sorted. We'll clear this one and we'll find out why this error occurred and then once that's done then we can get going with, you know, sending data for Netscope. So that's one update I wanted to share.
+
+>>NavyaSree Pathiwada	03:35
+Any approximate ETM for this?
+
+>>Madhu Malaranban N	03:38
+I will share the Eta by, I'll try to share the Eta by the end of the day. I am following up with our engineering team on this one, so I should have a timeline by today is what I can say Navya. Okay.
+
+>>NavyaSree Pathiwada	03:56
+And I think the for the ping one activity also the expected Eta is today I guess.
+
+>>Madhu Malaranban N	04:02
+Yeah, so, you know, the, the, it is already on prod. I mean, we are probably have started processing activities from ping one. So it is already on production. What we have done now for Appfire is that we have started to sync last one year's data, which means we are trying to collect all the activity data from ping one for the last one year. So once that is done, you will see the activity data attributed to all application users from ping one. But I'm just keeping you posted and giving you a heads up Navya, this is going to be taking some time because we are pulling in one year data, right?
+
+>>Madhu Malaranban N	04:46
+So, this might take a few days for us to completely have the activity data for all users within the applications that are managed by a ping, right. But this is already on production where we have started processing activities from ping one. That's the update. So, so, is it, is it visible on, on, on our application tabs that, yeah, so it, if you can see whatever activities we have from the 2nd of October, 2nd and the 3rd of October, it is available. The previous activities are not yet. So, one more update is that we did not have any active users for Agencia during the last call that when we checked, right. And then we attributed the user status, user application status from ping and also we tagged the license.
+
+>>NavyaSree Pathiwada	05:41
+Now, if you can see, we have 817 active users.
+
+>>Madhu Malaranban N	05:46
+And if you go to Agencia and users, you will see this here and if you add this column user application status, they are all active because they are all tagged active that are discovered from ping. But we still do not have the license getting assigned. I have raised this, I checked this, this morning, ideally in an ideal scenario, license also should be populated because we have already tagged the ping group here, everyone at Appfair. So, I have raised this one with my back end team, they are working on this. So, once this is sorted, then I think we can go with this approach for almost all the applications that you have in terms of getting the active users and having ping one group. So, you see here, to your earlier question, I am just adding last used all sources and activity columns. Now, if you see, there are for a lot of users, last used is not available. But if you can see here, for this user, Alexandra, there is an activity from ping, you can see here, from ping, and this is from the 3rd of October, 3rd and 2nd of October, we have data. So, which means we have started processing activities from the 2nd of October. So, any activity identified from ping after the 2nd of October is already attributed, it is available on the platform. But any older activities are not available, we have initiated a system sync for the last one year.
+
+>>Madhu Malaranban N	07:28
+Once that is done, you will pretty much have the activity data for all the users, not just within this application, but for any app application users that are you know that whose activities are getting recorded via ping. So, if you if I sort this by last activity, you can see the activity data one day ago and up until probably two days ago, but not beyond that, because see, so, these user these data, this data will be populated once we run this one year sync, which should bring in all the data. And we have already initiated that this should most likely be done by the end of next week is what I anticipate based on the volume of data we might have. However, we'll keep you posted once this is complete Navya. So with this, we'll have activity data coming in from ping, we'll have the users active users coming in from ping, and we'll have the license information mapped via ping groups. And I think we are pretty much sorted, we might not need the SDK approach at all, because we have all the data points that are required to track and optimize the applications that are in phase two.
+
+>>NavyaSree Pathiwada	08:47
+Okay. Okay. So end of next week is probably to pull a one year old data, right? Exactly.
+
+>>Madhu Malaranban N	08:54
+Correct.
+
+>>NavyaSree Pathiwada	08:55
+Okay. Right.
+
+>>Madhu Malaranban N	08:57
+So these were pretty much... Am I audible?
+
+>>Malkeet Singh	09:00
+Yes.
+
+>>Madhu Malaranban N	09:01
+Yes. Yeah.
+
+>>Malkeet Singh	09:02
+Yeah. So Navya, this takes care of applications where we already have ping enabled, but we still have applications where you do not have ping enabled. So that I think, Madhu, we still need an SDK approach for those applications. But I would say Navya, our aim is to reach 10 application at least from that 24 set of list. So if we can find maximum application where we do not need SDK because of these ping features, then I think we are good over there. Yes.
+
+>>NavyaSree Pathiwada	09:37
+Actually, we are in process of determining the license model for these apps. So if it is a multi -tier, we can't even attribute this.
+
+>>NavyaSree Pathiwada	09:45
+This ping mapping, right? So Kavita is in process of identifying if it is a single tier or multi tier. And once we come up with the list of all single tier ping enabled applications, we are good with this approach. Perfect.
+
+>>Malkeet Singh	10:00
+Perfect, perfect.
+
+>>Madhu Malaranban N	10:02
+And from there we can pick up the applications where we can go with this approach and for the remaining ones, we can start implementing the SDK.
+
+>>NavyaSree Pathiwada	10:14
+Yeah, yes.
+
+>>Madhu Malaranban N	10:16
+Okay, wait.
+
+>>Malkeet Singh	10:21
+And I think for this transactions and digital ocean, if like we'll just check after this call, if there are any update, we'll update it to you. But mostly like we have taken time until Monday so that we will definitely look into it.
+
+>>NavyaSree Pathiwada	10:42
+Those are in progress.
+
+>>Madhu Malaranban N	10:44
+I'll keep you posted once there are updates with the transaction issues, Navya.
+
+>>NavyaSree Pathiwada	10:52
+So you mean for the digital ocean one?
+
+>>Madhu Malaranban N	10:54
+Correct, yeah.
+
+>>NavyaSree Pathiwada	10:57
+Okay, so is it not sorted out yet?
+
+>>Madhu Malaranban N	11:03
+That is still being worked on. So no solid update from our end to provide, but yeah.
+
+>>NavyaSree Pathiwada	11:15
+Okay, so I mean, for the digital ocean, I'm sorry, what was the last update?
+
+>>Madhu Malaranban N	11:26
+So for digital ocean.
+
+>>Malkeet Singh	11:29
+I think Madhu, you can pull up that sheet. We have taken time until 8th of October, if I'm not wrong.
+
+>>Kavita Sanapala	11:36
+7th.
+
+>>Malkeet Singh	11:38
+Monday, yeah, sorry, Monday 7th, correct.
+
+>>NavyaSree Pathiwada	11:41
+Yeah, okay, okay. So can we expect by Monday or?
+
+>>Madhu Malaranban N	11:52
+Yeah, there should definitely be an update by Monday. We are pushing the teams internally, Navya, on this, so yeah.
+
+>>NavyaSree Pathiwada	12:02
+Okay. So Madhu, can we open, can we share the issue tracker one so that we will know the issue?
+
+>>Madhu Malaranban N	12:10
+Absolutely.
+
+>>Madhu Malaranban N	12:22
+Okay, so.
+
+>>Malkeet Singh	12:23
+Kavita, please share it once. I don't think Madhu has it right now. Yeah, she has it, but I am yet to reach office. Kavita, if you can share it.
+
+>>Madhu Malaranban N	12:32
+I can share, can you see my screen?
+
+>>Malkeet Singh	12:34
+Okay, perfect, perfect. No, no, I am on my different device. I won't be able to see, but yeah, continue.
+
+>>Madhu Malaranban N	12:40
+Okay, fine. Right, So I'm just. Resolve once. Okay, so digital ocean, what's the latest update?
+
+>>NavyaSree Pathiwada	13:01
+Navya! Navya! Hello. Hello. Okay, okay.
+
+>>Madhu Malaranban N	13:07
+I don't see any latest update on this one, Malkit, but if you have already conveyed that this will be updated by Monday, I think I can add that in today's.
+
+>>Malkeet Singh	13:23
+Yes, yes, yes, Madhu. I think we just need to add another column with current state. Whatever is the update, we just need to give a high level. If not, like I can also update it once I reach office. I have heard everything. I can do that as well.
+
+>>Kavita Sanapala	13:42
+The serial number from 45 to, we can check from 45 to 62.
+
+>>Madhu Malaranban N	13:48
+Okay, one moment. So not this one?
+
+>>Kavita Sanapala	13:53
+No, no.
+
+>>Madhu Malaranban N	13:53
+Okay.
+
+>>Malkeet Singh	13:56
+Yeah. Madhu, only the blue ones? Oh, okay. Priority blue, and then the rest between 45 to 62.
+
+>>Madhu Malaranban N	14:03
+Okay, ping one activity is done.
+
+>>Madhu Malaranban N	14:18
+One year sync, last one year sync is in progress. Tentatively.
+
+>>Madhu Malaranban N	14:49
+next week okay So this is about this we discussed this one inactive user showing in Flurry for Google workspace the status says Appfire team to get back so I'm leaving that the blue one's right is Flurry report for 21 days
+
+>>Malkeet Singh	15:09
+Okay next reported on 9th phase 2 recommended apps Aps are updated in column in under phase 2 need to check Aps for all things I think this is also in progress Malkit correct me if I'm wrong do we have to go over this feasibility check on apps no now we are going with a different method right now we have ping enabled ping working absolutely fine I think we need to figure out which all application those 7 applications so Madhu just to give you a background we have a target to bring in 10 application from that list so we will try to first pull in as many applications via ping wherever ping is working so and then it will be you can leave this column for me next we'll focus on tier licensing so that we can move on to other applications then Okay so from phase 1 I guess now we have 8 applications we identified via ping right sorry phase 2 phase 2
+
+>>NavyaSree Pathiwada	16:20
+Correct
+
+>>Malkeet Singh	16:23
+Yeah I think if we can get an update on how many licenses tiers are there in those 8 we can get a count And then we can move on to the next set okay
+
+>>Malkeet Singh	16:44
+Madhu just tag me on that column I'll update this cell I think by end of today Kavita will be done
+
+>>NavyaSree Pathiwada	16:50
+So maybe we'll update you in the channel itself so that we can Okay
+
+>>Malkeet Singh	16:56
+Okay Okay Perfect
+
+>>Madhu Malaranban N	16:57
+Malkit I'm just tagging you
+
+>>Malkeet Singh	16:58
+Yeah Yeah just tag me wherever I have the information I'll add it in fact you can leave this whole exercise to me
+
+>>Madhu Malaranban N	17:05
+Madhu I will be reaching in five minutes I'll do that five to ten minutes fine that's pretty much it Malkit because you know for digital ocean mapping of unrecognized pens and unrecognized pens again for the digital ocean available only until 2023 September these all are on track now we are just for information And we should give you further updates on and this will be already discussed as Lurie SDK I should provide you an update by end of day if not maximum by Monday for the Monday's call I should have this one sorted and have an update for you what about the Charlie reported the 61 any updates on that Malkit any context on this one query raised by Charlie on the Lurie report I think that's a bug Madhu the blank columns that he cherries receiving
+
+>>Malkeet Singh	18:17
+Okay I guess
+
+>>Madhu Malaranban N	18:20
+Yeah
+
+>>Malkeet Singh	18:22
+That's a bug but cost center I think we are still And Yeah I think we can get an update because Afroz also tried to download that report the second one not the not the cost center one the second one we just need to check if Afroz is also getting blank sheet because here we are not able to replicate that access that issue but cost center one is something that we are looking into
+
+>>Madhu Malaranban N	18:52
+Okay I'll leave it to you Malkit to update this column as well and the status
+
+>>Malkeet Singh	18:57
+Yeah just tag me and Afroz also on that because he tried installing exporting the previous one if he has received then it might be a user issue not the global issue
+
+>>Madhu Malaranban N	19:16
+The cost center report is it cost center report is the problem one the other one
+
+>>Malkeet Singh	19:32
+Okay so which report should I ask Afroz to try reports right one is cost center another one is spend if I'm not wrong
+
+>>Malkeet Singh	19:44
+Okay, I'll leave it to you.
+
+>>Madhu Malaranban N	19:46
+You can tag. Yeah.
+
+>>Malkeet Singh	19:48
+Yeah. Yeah.
+
+>>Madhu Malaranban N	19:49
+Yeah.
+
+>>Malkeet Singh	19:49
+I will just message him right away. I have almost reached.
+
+>>Madhu Malaranban N	19:52
+I'll message him right for this one I'm October here as well. If I have an update by today, then I'll keep you posted Okay Being activity information
+
+>>NavyaSree Pathiwada	20:27
+So we have one concern So we understand that the license information and the activity information is coming from ping But what but how do we determine only provisioned licenses in this case? Because for example, if a user is not voted, he will be marked as inactive on ping But not necessarily the license must have been removed on the application in ping cases. We are getting the license information from ping activating you ping console So there are still chances that the user might still hold a license on the actual application, right?
+
+>>Madhu Malaranban N	21:07
+Correct So Yeah, so Because we get the user application status as well from ping if the user is inactive in ping from where we get the Employment status. We will also have the same status for the user application. So he'll be inactive in both the org and He'll be inactive within the application But I think in that case he might not be identified as undeprovisioned But we can go with the activity data that we get from ping So if you see underused you will still have this user identified under the underused unused licenses This you know the space, right? So he might not be part of the undeprovisioned because he will be both inactive in The org and inactive in the application, but let's say he holds a license But he is inactive for the last 30 days or more than 30 days then he'll be identified here in unused licenses part Let's let's say for example if he is From Bitbucket taking an example For Bitbucket license, you know, he might be inactive in Bitbucket because let's say He has an inactive status in ping as well. Then he'll be identified as unused User whose activity has not been recorded for the last 30 days or last 60 days. However, we have configured it. Does that make sense?
+
+>>NavyaSree Pathiwada	22:44
+Yeah, I understand, but how do we in such cases? How do we differentiate between Active employees and inactive employees? Okay, so then there will be only two cases users who are active in ping and inactive in application and inactive both on ping and application Correct
+
+>>Madhu Malaranban N	23:07
+Yeah, so if they are active in ping then they would be active in the application as well Right because we are getting the status mapped from ping So if that user is identified via ping then he'll be active in that application as well In our case this agentia
+
+>>NavyaSree Pathiwada	23:37
+Correct
+
+>>Madhu Malaranban N	23:41
+Yeah, you you might not have undeprovisioned users coming under undeprovisioned because their status will be same on both ping and this application in this case If they are inactive in ping, then they'll be inactive in agentia if they are active in ping Then they'll be active in agentia So we'll not have a case where they are inactive in ping and then active within this application, right? So yeah, that would be the case How do we exactly identify in such cases the offloaded users?
+
+>>Madhu Malaranban N	24:30
+Okay unused is the only option that I can see for now Navya, but Hmm I don't think we we might have any other way other than looking at you know, Their last active
+
+>>Madhu Malaranban N	24:42
+Activity because if we are getting activities from ping regularly right so if the user is not active for two or three days in this application via ping then it is definitely going to be recorded And we are going to see that you can probably filter out let's say you want to see the users who are not active in the last last week and you can apply a custom filter for example you can go to users add a filter saying last used all sources is before let's say you are interested in seeing the users who have not used agentia via ping for the last in the last week Right so you will get that particular list here and this is particularly because we don't have the activity data populated yet for the last one year that's why then this number is inflated But otherwise you will have only fewer users once we start getting the activities regularly right so let's say you see 10 or 15 users here then those are the users that you might want to check if if they are you know inactive in ping and take further actions you know and understand if they are offloaded
+
+>>NavyaSree Pathiwada	26:09
+Yeah
+
+>>Madhu Malaranban N	26:11
+And also when you are applying this filter you might also have to remove this one user application status because they would probably be inactive I will check internally Navya Definitely this is a valid point because we might not have the undeprovisioned insight at all this is noted I will have this one checked and you know probably we will share more updates the next time we meet
+
+>>NavyaSree Pathiwada	26:58
+Sure
+
+>>Madhu Malaranban N	26:59
+Yeah okay I think that's pretty much we went over this week As well yeah
+
+>>NavyaSree Pathiwada	27:12
+So for the SDK manual for the SDK manual approach so since there is an integration A sync issue that is probably going on so me and Kavitha actually we worked on a few manual applications and we downloaded the user list and we have placed it on the G drive Okay probably we might not see these yet right because of the sync issue
+
+>>Madhu Malaranban N	27:45
+Yeah So I think there is only one SDK integration that's created right for Netscope
+
+>>NavyaSree Pathiwada	27:51
+Yeah
+
+>>Malkeet Singh	27:52
+Right now it's only one I think there is only one only Netscope SDK is connected so
+
+>>Madhu Malaranban N	28:24
+Yeah for once you know this server issue server error that we encountered is sorted I think you can go ahead with that but what was your exact question Navya You had the you said you have the manual user downloaded for applications were there yes
+
+>>NavyaSree Pathiwada	28:46
+So for the SDK manual one that that is the application with neither ping one and nor API available So we picked what we would do with the SDK manual approach Right So we managed to pull out the user list via CSV And we placed it in a G drive because of the sync issue that is in turn up Yeah Maybe we'll have to check But yeah But for few for around five applications I guess the manual one we managed to pull out the user list okay
+
+>>Madhu Malaranban N	29:19
+But you know I guess you are aware of the process Right so we will have to create this connector here and you will have to send those data payload via API's like you will have to create the org integration ID And then you have to initiate sync and then send the actual data payload in JSON format
+
+>>Madhu Malaranban N	29:42
+And then finish sync. I think Malik is aware of this process. So I hope you are coordinating Malik in terms of giving this data payload properly. Malik is only waiting for your input in terms of giving this data. But yeah, So once this is sorted, then I think Malik should be able to create those connectors and then send the data that you have kept in the G drive.
+
+>>NavyaSree Pathiwada	30:04
+Yeah, yeah. I think. Yes, yes. Right.
+
+>>Madhu Malaranban N	30:09
+Okay. No worries Navya, this has worked on top priority. I will keep you posted once we sort the SDK issue and from there, I think we can parallely start pushing the data for the applications where we don't have ping involvement or the applications that are not managed by a ping.
+
+>>NavyaSree Pathiwada	30:39
+Sure, sure.
+
+>>Madhu Malaranban N	30:41
+Okay, fine. Right, so anything else Navya, any other questions you had in mind or Kavitha?
+
+>>NavyaSree Pathiwada	30:54
+Yeah, I think we are good with the executor. Perfect.
+
+>>Madhu Malaranban N	30:59
+Okay, so anything else from your side, Malkit or Gaurav?
+
+>>Malkeet Singh	31:03
+No, I'm good. I've just messaged. So that he knows that what we have done today. So I've just WhatsApp him with all the updates. And I will put this to him on Slack now. Okay.
+
+>>Madhu Malaranban N	31:21
+All right.
+
+>>Malkeet Singh	31:22
+Got it. Thanks. Thanks, man. Thanks, Madhu.
+
+>>NavyaSree Pathiwada	31:24
+Thank you.
+
+>>Madhu Malaranban N	31:25
+Have a good weekend. Bye -bye.
+
+>>NavyaSree Pathiwada	31:27
+Bye.
+

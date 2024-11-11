@@ -1,0 +1,237 @@
+>>Gaurang Shah	00:00
+I'm based in New York, so is Rihanna as well, and then Audra is in Florida. Okay, so all in The East Coast. Yeah, where are you based? I am in India. Okay, how late is it for you right now? Yeah, it's nice, but I just want to inform you that we have our co -founder who is in the US. Okay. Unfortunately, he's not in The East Coast, but he lives in The Bay Area on the West. So, if time permits and if he plans to visit East Coast, then I will definitely let him know to visit you guys.
+
+>>Lara Reuter	00:38
+Yeah, great. Hey, hi Audra.
+
+>>Audra Smith	00:42
+Hi guys, I'm gonna mute myself because we're putting up storm shutters and it's very, very loud. So, I apologize.
+
+>>Gaurang Shah	00:49
+Sure, sure. Hi, hi Rihanna. Hi Victor. Nice to meet you all. I realize I'm on mute.
+
+>>Rhianna Welhous	01:01
+Hello, nice to meet you.
+
+>>Gaurang Shah	01:04
+Awesome, awesome. So, a quick intro about myself, guys. My name's Doran, and I work as a Customer Success Manager at Zillowry. And I work for the customers based in the US, and I have worked with professionals like IT, finance, and HR. And my responsibility at Zillowry is to ensure that the product is well adopted, and the customer education is done right, and the necessary guidance is provided on time. So, this is what I do at Zillowry. And although I've seen all your profiles on Linkedin, but I would still love to hear what you guys do, what are your responsibilities, and who rolls up to whom, and stuff like that.
+
+>>Audra Smith	01:49
+I'll go first. My name is Audra, I'm our People Operations Manager, and I handle kind of the operational side of our people team, getting them onboarded into our Hris system, processing the payrolls, ensuring benefits are good to go. So, more of the backend side of our people team.
+
+>>Gaurang Shah	02:07
+Got it, understood. Thanks, thanks for that.
+
+>>Lara Reuter	02:10
+I can go next. So, I'm Lara, I'm our Associate Manager of People Experience. I work on recruiting, and then onboarding as well, but not really the backend, just kind of the front end, the communication with the new hires. And I report to Rihanna as well.
+
+>>Gaurang Shah	02:29
+Got it, got it, thanks for that as well. And, yes, Rihanna.
+
+>>Rhianna Welhous	02:36
+I'll go, I'll go next. So, yeah, I'm our Director of People. So, I oversee all of the people function slash HR. I built out onboarding three years ago, and then Lara and I have been working together just to continuously make sure it stays best in class. But I was doing a lot of the backend, and then I was working with Victor and Andre when we transferred over to Zlury. So, I'm familiar with the platform. I don't really sit in it as much anymore, because I don't do as much onboarding like in the weeds, but I'm at least familiar with the platform and kind of how it works.
+
+>>Gaurang Shah	03:15
+Got it, got it, yep, thanks for that. And I have met Victor, so I know who he is and what he does. Good to see you, Victor. It's been some time.
+
+>>Victor Noa	03:27
+Yeah.
+
+>>Gaurang Shah	03:28
+Good to see you as well, sir. All right, so a quick context, guys. I happened to meet with Andre a couple of weeks back over a call, and we decided that we need to strengthen the onboarding and offboarding bits with Zlury. So, the idea is to get to a place where we have a policy for Sandbird, where the consolidated knowledge is present. So, right now, what I see is the knowledge is scattered in IT, the finance, and the HR parts. So, the idea is to get to a consolidated document, and it can be passed over to any new hire in the HR team or the IT team, that's the whole idea. So, I feel that this document can start only with the right discovery questions. So, my first question, Rihanna, to you would be to understand, or anyone from this audience, is to understand how does the onboarding at Sandbird happens today? So, let's say an employee has accepted the offer, and he plans to visit, he or she plans to visit next week on Monday. What are the backend stuff that you guys do, and which tools do you use? Do you have any process in place? Stuff like that, if you can help me understand this.
+
+>>Rhianna Welhous	04:45
+Yeah, Lara's driving. So, I'll try to fill in as much as possible, and then, Lara, if I'm missing anything. So, when someone accepts an offer, we submit a ticket to IT.
+
+>>Rhianna Welhous	04:58
+Through, is it JIRA? That's what it is? Yeah. Yes, ma 'am. Yeah, so we submit a ticket through JIRA, and then Victor launches the workflow in Zlurry for us. And then everything should be just automated of marking as complete. But some of the things that we do during onboarding is we're sending out obviously email reminders, like new hire first day, we do like a first day like cheat sheet for them. But we also send communication to the managers about like a 30, 60, 90 onboarding plan. If we have to purchase equipment, I think those are automatic tasks that populate as well. But for like what we do on our end, it's more direct communication with the hiring manager and then the employee themselves. Okay.
+
+>>Gaurang Shah	05:51
+Okay.
+
+>>Lara Reuter	05:53
+No, that sums it up. So it's a lot of just email communication and then reminders from our end.
+
+>>Rhianna Welhous	06:03
+Calendar invites, yeah. Basically just their first one to two weeks in the system so that when they step in, they already feel a little immersed in it. Got it.
+
+>>Gaurang Shah	06:17
+Understood. So if I got this correctly, your handshake with IT happens by creating a ticket and that is on JIRA. And once the ticket is created, do you get an update that the user has got access to so -and -so application?
+
+>>Lara Reuter	06:39
+No, I just get an update. I receive an email that it has been sent to IT to Victor. And then I also get another email saying that the ticket has been resolved. Okay.
+
+>>Rhianna Welhous	06:56
+So Lara doesn't get any communication from Zlurry. It's just from JIRA, it sounds like.
+
+>>Lara Reuter	07:01
+Yeah.
+
+>>Rhianna Welhous	07:02
+But Victor, do you get any communication from Zlurry when that happens? Because maybe it's just more we're not set up to receive those notifications. Yes.
+
+>>Victor Noa	07:11
+I don't believe you guys are set up for it. Okay.
+
+>>Rhianna Welhous	07:18
+There's a lot of tasks, so it would be a lot of - There's a lot of emails that come in for tasks. The other piece too is that I used to be very blurred with IT before Victor really started. I was owning a lot of the process and now we really leave it to Victor to own the process from a backend perspective. And if he needs something from us, he will ask for it. But that's why we're just notified when the ticket has been created and when it's been resolved. Because maybe it would be nice to know that they got access to X, Y, and Z, but that's really Victor's responsibility to ensure that it's happening. And then we're getting the resolve, which tells us, okay, everything has been completed. They're fully onboarded.
+
+>>Gaurang Shah	08:04
+Understood. Just one follow -up question here. So let's say the user joins the engineering team and there's another user who joins in the product team. So the set of application accesses for these two departments are different. So is it like you give the list of applications to Victor that these are the applications for which the user has to be onboarded for?
+
+>>Victor Noa	08:32
+Oh, we reach out to the hiring manager to get that information.
+
+>>Gaurang Shah	08:37
+Okay. Okay.
+
+>>Rhianna Welhous	08:39
+And we've also though kind of built out frameworks for each department because there's some roles where it's very copy and paste of what access they're going to need. So for example, Cx, there's five applications they always need access to. We don't have to ask the hiring managers. We just know what it is, but it depends on if they're a director or a manager, they might have a different level of access. So then that's when the hiring manager steps in for that. Okay.
+
+>>Gaurang Shah	09:08
+So if I got this right, what's the question for you? So these applications are not managed by IT, but are scattered across the department managers. Is that right?
+
+>>Victor Noa	09:23
+Negative, sir. The applications are managed by IT. We do have admin permissions on those applications. It's just we're going to the hiring managers to make sure that they need access to that program. Okay.
+
+>>Gaurang Shah	09:38
+Got it. Got it. And how do you do this today? Is it a verbal chat or do you use approvals in the manual tasks on Zuluri?
+
+>>Victor Noa	09:51
+The easiest way for us is to use Slack, to reach out directly to the hiring manager in order to get that.
+
+>>Victor Noa	09:57
+That information that get that like answer quicker than them having to log in and then open up a slurry then type it in.
+
+>>Gaurang Shah	10:08
+Okay, how about we send out a slack notification that it requires someone's approval? Would that be interesting with them? So right now what you do is you send out a notification to the hiring manager seeking his or her permission. How about slurry does that for you? Because we have that option, we can add approvers when you create a manual task or an automated task and, and the notification goes to the hiring manager for his or her approval. And upon approval, you can proceed with the rest of the items.
+
+>>Victor Noa	10:46
+Um, so the only reason I say no to this is just because we do have different hiring managers for each department. And okay. Um, different people would go under different hiring managers. So there's not really as much as far as I know. I don't know if you guys can tell me otherwise. But mostly we have different hiring managers. So it's easier just to reach out to them directly than to have slurry do it for us.
+
+>>Gaurang Shah	11:15
+And these hiring managers are the department leads, right?
+
+>>Rhianna Welhous	11:19
+Yes, they are. And I mean, if slurry was reaching out via email, it would be a slower response. And sometimes we have faster turnarounds. So unless slurry was reaching out via slack there, it probably wouldn't make a lot of sense because it's very easy for people to, you know, like disregard emails, or if they don't know it's coming. I do think that there is a better way to mainstream it than having Victor have to reach out like I do think that's a great idea. It just needs to, I think we need to think through a little bit more with the effective means of communication would be to get that achieved. Because, like I said, if it's just a task for them, they could think it's like spam, or they might not know. And you know, they might not be checking. And so slack is our commute form of communication on that.
+
+>>Gaurang Shah	12:07
+Makes sense. So this is a very common use case we have seen across IT and HR, where whether approval official approval is required from the department leads, or the hiring manager. So for that, we built a feature where you can add an approver in the manual task or an automated task, and it can be sent on slack as well. So I guess we can reduce the manual job that we do today with the help of that feature.
+
+>>Rhianna Welhous	12:34
+Yeah, if it can be sent through slack, I definitely think it's something we could try and see, I think it would free up some of Victor's time. Yeah. Victor's still having to manage the process, obviously, but he's not having to do the direct communication.
+
+>>Gaurang Shah	12:51
+And a few HR related questions. How many off boardings and onboardings we have in on a monthly basis?
+
+>>Rhianna Welhous	13:00
+Oh, offboarding is very rare. We have a pretty high retention rate. So it's very few and far between. Onboarding, I mean, we probably average maybe like three a month, maybe four, but you know, there's months where we have nobody. And then there's months where we have, you know, six, because everybody's starting at once. So I would say on average, probably about three a month.
+
+>>Gaurang Shah	13:24
+Okay. And what would be the employee count at Sunbird today? Is it around 350?
+
+>>Rhianna Welhous	13:30
+Oh, no, we're like under 200. Probably. Yeah, like 190 or something. No, 180.
+
+>>Lara Reuter	13:39
+Okay, because I see, are you saying something? Oh, no, I just confirmed the 180.
+
+>>Rhianna Welhous	13:48
+Okay, got it. Okay.
+
+>>Gaurang Shah	13:51
+The reason why I'm asking this is because I see around 350 people on Google Workspace. So I guess the people who already left Sunbird today still have license.
+
+>>Victor Noa	14:04
+We do have some group accounts, as well as suspended accounts, because we are keeping them for now, just as a policy, I believe. It's somewhere between 30 to 90 days where we can keep the accounts and then we can delete them just to make sure that all the files and everything have been transferred over to our archive account. And their managers have access to those accounts or to those files.
+
+>>Gaurang Shah	14:35
+Okay, and just one follow up question here, Victor. Do you have a policy to retain any licenses after an employee leaves Sunbird?
+
+>>Victor Noa	14:45
+Let's say yes, that's once we once we offer an employee, then we we remove all their access And then we have their license back.
+
+>>Lara Reuter	14:56
+Okay.
+
+>>Gaurang Shah	14:56
+But then do you move that email address to archive the account on GWS?
+
+>>Victor Noa	15:01
+Ah, we have it suspended first. And then we start to transfer every single file over to our our archive account.
+
+>>Lara Reuter	15:11
+Okay.
+
+>>Gaurang Shah	15:12
+And do you keep that for a certain number of month or it stays for eternity?
+
+>>Victor Noa	15:20
+We do keep it for a little bit, I believe is 30 to 90 days. It's somewhere in that range. We are still kind of figuring out the cybersecurity policies on that. Excuse me. We are we're still trying to kind of put policies in place for this reason.
+
+>>Lara Reuter	15:37
+Understood.
+
+>>Gaurang Shah	15:38
+Understood. Oh, fine. And one question for you, Rihanna, do you have any Hrms tool in Sandbird? I see you raise a ticket for the application access. But I couldn't see any Hrms platform connected with Slurry yet.
+
+>>Rhianna Welhous	15:58
+Hrs? You mean like Rippling? Yes, Rippling or Yeah, we use Rippling for our Hrs. Yeah. It's not connected. What would it be connected for for onboarding?
+
+>>Gaurang Shah	16:13
+Yes, that's right. So a common use case we have seen is when you add a user on Rippling, we can trigger a workflow automatically, thereby reduce the manual job that Vector does today. That's one of the automation steps we can do. But I want to understand, is creating a ticket on Jira really required if you're adding a user on Rippling? Wouldn't that give a notification to Vector that a user is added on Rippling? And now Vector can go ahead with the application access.
+
+>>Rhianna Welhous	16:52
+Sorry, I'm not sure I'm understanding. Can you? Yeah.
+
+>>Victor Noa	16:56
+So the Rippling, Rippling is only under HR. And I am not like IT isn't connected to Rippling. So IT doesn't gain that email saying that there is like a onboarding process in Rippling until we get that Jira ticket. We use Jira just to track our, we just use Jira to track it just because we can add in the hours it takes for, you know, actually processing a ticket, as well as we can see an entire workflow opposite of Rippling, like outside of Rippling. And it's easier for us since we use Jira for every other project as well.
+
+>>Gaurang Shah	17:42
+Understood. Understood. So if I got this right, I guess, when the user accepts an offer, you create a user profile on Rippling. And I guess you mark that user as an active employee once the person joins in, and later, go to Jira and create a ticket for Vector to add that user to different applications based on the role and the department you belong to.
+
+>>Rhianna Welhous	18:13
+Okay.
+
+>>Gaurang Shah	18:13
+Got it. I guess, then we are all sorted. The more work relies with the IT team, and I guess Vector is my POC. But yes, this discussion was really helpful. I was wondering if we would like to leverage Rippling with Zuluri, but I guess that's not the direction we want to get into, right, Rianna? Right.
+
+>>Lara Reuter	18:37
+Okay.
+
+>>Gaurang Shah	18:39
+All right. So I have a few questions for Vector, but I guess I can take that up later. But for now, I guess I am good with my set of questions. And just one last thing. So let's say during employment cycle, he or she requires access to one of the additional applications. Does it come to you, Rianna, or it directly goes to Vector for application access?
+
+>>Rhianna Welhous	19:08
+I'm not sure. Victor, do you know?
+
+>>Victor Noa	19:11
+Um, could you repeat the question, sir? I kind of didn't really understand it that well.
+
+>>Gaurang Shah	19:15
+Yeah. So let's say I belong to product department. And I require access to Fitma. And I have been with Sandport for two months. And I am not added to Fitma today. So how do I go about? Do I go to HR? Do I go to IT team? How is that process?
+
+>>Victor Noa	19:34
+You open up a ticket in Jiro, sir. And it goes straight to IT team. Okay.
+
+>>Gaurang Shah	19:42
+Got it.
+
+>>Rhianna Welhous	19:42
+Got it.
+
+>>Gaurang Shah	19:43
+Understood. I guess then we are all sorted. It has to do more with the IT than HR. But yes, this was a really good discovery. And if there is anything else, Rianna
+
+>>Gaurang Shah	19:56
+I will reach out to you on Slack. And meanwhile, I'll work with vector and. Let's see how things go about.
+
+>>Lara Reuter	20:06
+Perfect, OK, thank you, thank you.
+
+>>Gaurang Shah	20:10
+Thanks, thanks for your time and I'll see you next time.
+
+>>Victor Noa	20:13
+Bye bye bye bye guys.
+

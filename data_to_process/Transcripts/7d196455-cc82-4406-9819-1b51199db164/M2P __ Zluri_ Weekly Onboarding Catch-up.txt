@@ -1,0 +1,489 @@
+>>Madhu Malaranban N	00:29
+I was just changing the dates and the face right for every subtask that is listed down under that. Every task we have to do it manually, it doesn't change that. So let's join the platform today, we'll finalize and we'll share the project plan by this week to them. Yeah.
+
+>>Divya Aphale	00:53
+Sounds good.
+
+>>Divya Aphale	01:12
+Let's wait for two, three minutes. If they don't join, let's drop an email to them, Madhu. Sure. Dalpati has a very professional, fancy photo on Google.
+
+>>Madhu Malaranban N	01:27
+World -class bro.
+
+>>Dalpati Mandal	01:30
+You look like a Raymond's model.
+
+>>Divya Aphale	01:36
+He's posed like a model only.
+
+>>Madhu Malaranban N	01:46
+Was this taken on any occasion or was this intentional?
+
+>>Dalpati Mandal	01:49
+Yeah, yeah, it was at my friend's wedding.
+
+>>Madhu Malaranban N	01:52
+No wonder. We are best dressed in our friend's wedding only, not in ours.
+
+>>Dalpati Mandal	02:00
+Yeah, ours, we cannot take that kind of photo, no.
+
+>>Divya Aphale	02:06
+You're also married, Dalpati?
+
+>>Madhu Malaranban N	02:11
+Yeah, he's married.
+
+>>Divya Aphale	02:12
+Oh, nice. All married folks, glory. Great. Hello, Niti.
+
+>>Neethi Rajan	02:32
+Hi, hi, just a second.
+
+>>Madhu Malaranban N	02:34
+Sure, sure. Niti, are we good to start? I can see that you've raised your hand.
+
+>>Madhu Malaranban N	04:08
+Niti, just let us know when you're, you know, good to get this started so that we'll get going.
+
+>>Madhu Malaranban N	04:26
+Yeah. Sure. Yeah.
+
+>>Neethi Rajan	05:49
+Hello.
+
+>>Divya Aphale	05:58
+Yeah, we can hear you.
+
+>>Neethi Rajan	06:01
+Okay, my phone is not working properly. So we can continue Sure. Madhu you are on mute.
+
+>>Madhu Malaranban N	06:39
+Okay, so we had a collaboration last year where Hari was assisting Vishwa and a few others from the team in terms of connecting the integration getting the instance signed up and there were also few integrations that were connected. So we were just going through the previous instance and we could see that the instance is still live. So we continue with this Lurie instance that we had connected earlier. And let me quickly share my screen, give you an overview. So as first steps, right, we would, we would sign up to the instance and we'll first connect the Sso in your case, Azure AD, right, so we could see that Azure AD is connected and the connection is already up. And it is running, right. So the syncs regular syncs from your Azure AD instance is happening. And we have data fetched from your Azure AD instance that is being populated in Lurie every day. So this is already done and this is up. Right. So in terms of integrations, if you see, we'll start off with the Sso, which is The Azure Ad in your case, and we'll identify the top critical application, let's say the top 10 applications out of your application stack. And we'll identify if we have an integration for those applications in Lurie and we'll start to integrate them. So from the previous engagement, I could see that there were a few applications that were identified to be critical. And a few of them have already been connected, I could see that about 12 applications that were connected earlier, and a few of them are in error state, probably because of credentials, you know, not valid or the correct credentials getting expired or the access tokens that are configured that got expired.
+
+>>Madhu Malaranban N	08:30
+So I just want to understand that we are done with the first step, which is connecting The Azure Ad, we are already there, would like to understand if your top apps are these, or if these are still your critical applications that you look into on a daily basis, day in and day out, or if there are any other applications you can highlight so that we can make a note, we can come up with a plan on integrating them to the platform as well. Or if these still remain, and if you want to top up or add on a few other applications, we can take that up as well. So just need your input here in terms of understanding if these are still your critical applications, and we'll take further actions based on that.
+
+>>Madhu Malaranban N	09:25
+Nitya, I hope you can see my screen.
+
+>>Neethi Rajan	09:28
+Yeah, I can able to see your screen.
+
+>>Neethi Rajan	09:32
+I'm having audio issue on my laptop, I think, so that is fine. We can speak openly in the speaker itself. These are all the applications we already made an integration, right? Okay, this is Opa central and application admin. We can ignore this Bitbucket from here. Which is Bitbucket is not available. We can ignore it. We have a Github application with us. And then what is the major thing? We have AWS thing over here.
+
+>>Madhu Malaranban N	10:14
+So Github, Aws, any other applications that are not in this list?
+
+>>Neethi Rajan	10:21
+Major thing is the Office 365, which is already integrated, which is in error state. That is fine. In this Microsoft 365, we can able to cover this Intune and all. Intune is already connected. Which is a separate part, right? Okay, we can already do it. And in fact, you know, we get all the relevant information. No, no, these are all belongs to our IT department. What I'm asking, which are all the application which was used by finances play a major critical role in this application, right? Connect your financial management systems. Like, what is the application that you use for managing your spends or transactions or finance?
+
+>>Madhu Malaranban N	11:07
+I'll give you the data.
+
+>>Neethi Rajan	11:08
+I'll give you the data regarding this finance application. I'll give you the data. I have called you in this today. We have not connected long back. Yeah. So I just want to connect with you guys and clarify some things regarding this integration and then implementation. Absolutely. Right. So this integration and implementation, I'll myself be the spark to help you fully regarding in technical.
+
+>>Madhu Malaranban N	11:37
+Okay. So maybe just wanted to let you know that you can access the platform.
+
+>>Neethi Rajan	11:42
+You can log into the platform on this post URL, right?
+
+>>Madhu Malaranban N	11:45
+App .zuluri
+
+>>Neethi Rajan	11:46
+.com
+
+>>Madhu Malaranban N	11:46
+I'll quickly post that in.
+
+>>Neethi Rajan	11:50
+So I could see that you're still an admin in Zuluri.
+
+>>Madhu Malaranban N	11:54
+So you should be able to log in.
+
+>>Neethi Rajan	11:58
+We have a URL with us. Just give me a moment.
+
+>>Madhu Malaranban N	12:03
+Okay. Yeah.
+
+>>Neethi Rajan	12:09
+I've already seen this dashboard itself already. Great.
+
+>>Madhu Malaranban N	12:14
+Great. So as next steps, maybe we have taken a note that Github and AWS are the critical applications.
+
+>>Neethi Rajan	12:22
+Google Cloud Platform also we need to integrate. Okay. Gcp, Google Cloud Platform. We have several instances at so many clouds. So we need to map all those instances in a single place to validate this license and costing and all. Okay. So we'll identify the critical applications and we'll try to get them connected in the coming days. What I'm asking Madhu, Azure AD was already integrated with this Zuluri, right? Just give me a moment bro. It's somewhere else. So much noise was coming right from my end. Yeah, but...
+
+>>Madhu Malaranban N	13:07
+Understood.
+
+>>Neethi Rajan	13:08
+Just give me a moment. Okay. Now the voice is clear, right?
+
+>>Madhu Malaranban N	13:30
+It's far better now.
+
+>>Neethi Rajan	13:32
+Yeah. Right.
+
+>>Madhu Malaranban N	13:35
+So if you have access to the platform, Niti, would you like to log into the platform, share your screen? Yeah, yeah. I'll share you my screen.
+
+>>Neethi Rajan	13:43
+Just give me a moment.
+
+>>Madhu Malaranban N	13:44
+You can probably try connecting Github or AWS if possible on this call.
+
+>>Neethi Rajan	13:49
+Okay. Okay, fine.
+
+>>Neethi Rajan	14:01
+Let me know once you're able to see my screen.
+
+>>Madhu Malaranban N	14:03
+Yeah. It has come up now.
+
+>>Madhu Malaranban N	14:26
+Can you probably log out once, Niti, and then try again? Just back...
+
+>>Madhu Malaranban N	14:31
+Backspace the overview and type in log out there, you can.
+
+>>Neethi Rajan	14:34
+Okay, okay.
+
+>>Neethi Rajan	14:44
+Now there is some issue with the browser only.
+
+>>Madhu Malaranban N	15:25
+Can you try an incognito window?
+
+>>Neethi Rajan	15:28
+Yeah, sure.
+
+>>Neethi Rajan	15:40
+Here we can't be able to log in with this Sso, right?
+
+>>Madhu Malaranban N	15:44
+You should be, like, if SAML is configured, then you should be able to.
+
+>>Neethi Rajan	15:51
+I think, which is already configured, but.
+
+>>Madhu Malaranban N	15:57
+If it's configured, then it'll redirect you and land you on the Saml landing page automatically.
+
+>>Neethi Rajan	16:04
+No, which is not yet configured, I think, so just give me a moment, let me repeat the configurations once. We already integrated this thing with Azure AD, right?
+
+>>Madhu Malaranban N	16:13
+Yeah. I don't think SAML is configured within Zuluri, so that, you know, you can just log in with Sso.
+
+>>Neethi Rajan	16:27
+Okay, okay.
+
+>>Madhu Malaranban N	16:27
+If you can do that, I can help you configure Sso within Zuluri as well.
+
+>>Neethi Rajan	16:32
+But for now, you might have to enter your standalone credentials, sorry.
+
+>>Neethi Rajan	16:46
+Appropriate.
+
+>>Neethi Rajan	17:03
+See, in a couple of days, appropriate will put a overpay link to create a new account. So, if you want to log in, you can do that.
+
+>>Neethi Rajan	18:24
+Can you try that in incognito?
+
+>>Madhu Malaranban N	18:30
+Yeah.
+
+>>Neethi Rajan	19:02
+No, bro, which is not working.
+
+>>Madhu Malaranban N	19:07
+I'm not sure if the firewall is blocking.
+
+>>Neethi Rajan	19:11
+No, previously it was working. Last week, I've been able to access it.
+
+>>Madhu Malaranban N	19:20
+Inspect this page. Not able to see this.
+
+>>Madhu Malaranban N	19:35
+I think we are getting a 200 status, I am not sure.
+
+>>Madhu Malaranban N	19:57
+Can you try in a different browser or can you clear all cache and try once, clear cache
+
+>>Neethi Rajan	20:03
+Yeah, yeah, sure, sure, just give me a moment, I will try to download this Firefox etc.
+
+>>Madhu Malaranban N	20:56
+Before, okay, before trying this, I would probably request you to clear cache and try logging in.
+
+>>Neethi Rajan	21:05
+Okay, sure, sure.
+
+>>Neethi Rajan	22:07
+Are there any pop -ups that are getting blocked?
+
+>>Madhu Malaranban N	22:40
+Because it is clearly the application page is getting blocked.
+
+>>Neethi Rajan	22:49
+No bro, I have unlocked everything. Let me verify, let me verify.
+
+>>Neethi Rajan	23:39
+No bro, after login it was not working.
+
+>>Madhu Malaranban N	23:42
+And there is no visible error as well. Can you, I am going to share an IP, can you?
+
+>>Neethi Rajan	23:57
+Yeah, yeah, you can share on your screen.
+
+>>Madhu Malaranban N	24:00
+Can you whitelist this IP?
+
+>>Neethi Rajan	24:02
+Which IP?
+
+>>Madhu Malaranban N	24:06
+I have shared the IP in the chat. This is the Lurie's server IP. Try to whitelist and see if it works.
+
+>>Madhu Malaranban N	24:29
+If there is an option for you to whitelist this
+
+>>Neethi Rajan	24:34
+Yeah, Yeah, I know, I know from my firewall I need to whitelist this IP, right?
+
+>>Madhu Malaranban N	24:39
+Yeah,
+
+>>Neethi Rajan	24:39
+That's what I am saying I will send you the link of that live webcast I will call you in the morning I will be there, I will talk to you I will talk to him, you can talk to me I will call you, I will call you I will see where you are dude, we will open the door for him whether we have any subnet for this IP or I mentioned it as 32 sorry? Whether any subnet is there? Just this one not any subnet it's a static IP so you can just whitelist this it's just done I will call you in the morning just to make sure please send me your phone number I will call you in the morning Sorry no connection coming in from this IP
+
+>>Neethi Rajan	26:43
+Yeah, I can't be able to ping this IP ok But it's responding it's responding while I am checking this the IP was shown different
+
+>>Madhu Malaranban N	27:16
+Ok probably you can just add this one for now this could be the IP for the application interface the one I shared could probably be for the ones from the applications
+
+>>Neethi Rajan	27:31
+Ok so there is a connect between this server and your machine so, can we try in Mozilla sorry, sorry you installed Mozilla Firefox, right? Wait, let me try it on Mozilla can I change this? It's on it's on
+
+>>Neethi Rajan	29:40
+So what is this row ns binding and what and take a screenshot of this maybe this I'll give you the screenshot then if possible can you also share the curl of this error I don't think you can attach to where I can able to attach you can probably email this to us so that you know I can give this checked or if you allow me to take a screenshot
+
+>>Madhu Malaranban N	31:52
+And I can probably take a just take a screenshot
+
+>>Neethi Rajan	31:55
+Bro Yeah No worries okay And if you can I'll try to dig it from my end whether any blockage is there or not sure can you also paste the curl in the chat if possible through where I can able to you can get the curl of this particular error can you click on the response on the right side
+
+>>Neethi Rajan	32:52
+Okay leave it to me I'll get this checked this look like probably a block on your machine or browser Yeah understood understood let me dig it from my end I'll let you know whether any blockage is there or not so I'll continue to share my screen Nidhi
+
+>>Madhu Malaranban N	33:29
+And we'll probably discuss about the plan Yeah
+
+>>Neethi Rajan	33:32
+Sure sure do you see my screen now Okay cool I can able to see first already connected we have in some application and user directly information that's coming already as you can see application section discovered about three applications any application that is discovered by slurry first comes and sits in the needs because it is not it reviewed to be an application that you use or you don't use right
+
+>>Madhu Malaranban N	34:25
+So that needs
+
+>>Madhu Malaranban N	34:27
+Your review and go through these applications and then let's say you have this application managed by certain departments or this is managed overall in your organization, then you can probably select this and get this moved or change the authorization to manage. So once you hit on manage, then it will be moved to the manage section that you see here, right. So for now, I can see there are 27 applications that are marked as managed. So what's managed application probably is an application that you have contracts that you pay for with that vendor and you have active licenses that are being procured.
+
+>>Neethi Rajan	35:08
+We have a complete analysis report regarding this license and cost optimization, right?
+
+>>Madhu Malaranban N	35:13
+Yeah, we can get that right. So once, let's say we have all the applications that you identify as your top or critical applications that are integrated, we'll see if we get the autofetched license information that's coming in. Eventually, we'll fetch the user information from those integrations, we'll also see if all those integrations are giving the autofetched license, that is, if a user is having a license or not, this information is pulled in from API, right? So if that capability is available with that application, then we get that And we report it. And also, we can parallelly upload your contracts, right? So contract is something that you've already paid for. So you would have procured, let's say 100 licenses, or let's say, much of teams or conference. So you have a contract in place where you have procured certain amount of licenses, you have paid certain amount of money for that. And we also get from the API how many of these licenses are actually tagged to a user, or how many of them are assigned to a user. So with this, and the contract that are mapped to the licenses that are autofetched, we have cost per license for the license that are assigned to users, right? So you also have the user list, the license assignment list, along with the cost that is incurred by that license that is tagged to that user, with which, you know, we'll have more insights when we get to know, get to see the current status of the user and the activity of the user, let's say a user who has a pro license in an application has not used the application for about, let's say, 60 days or 90 days, you might want to rethink or repurpose the license, or you might want to remove that license from that user, right?
+
+>>Madhu Malaranban N	37:01
+So these are the optimization insights that we can get. And, you know, the straightforward optimization insights could be an Un -deprovisioned user, where the user who has left the organization who is not active in the organization, which is inferred from Azure AD in your case, right? So Azure AD is your Sso, let's say a user who is inactive in Azure AD, probably is not active in your organization, right? So if that user is having a license in an application, then that is a license that you are basing on a user who has already left your organization. So you have not Un -deprovisioned that license for that particular user in the application. So these are insights that we can get once we have the contracts uploaded after the integrations are connected, right? So as first steps, what we'll do is we have the Sso connected, we'll identify the top 10 applications, let's say, we have already set Github and Aws, what I'll do is, you know, during after today's call, I'll probably share you the documentation that you can go through for connecting Github and AWS, get yourself ready with the preconditions or, you know, getting ready with the user account with the required scopes and permissions. So that on the next call, we'll take up integrating Github and AWS. And also, if you can help identify those 10 applications that we'll take up for this implementation phase, we'll start integrating them as well, right? So once these are integrated, we'll parallelly have the contracts of these applications uploaded, have them mapped, and then start seeing insights, optimization insights that we just talked about, like unregistered user or unregistered licenses, all these insights can be seen once we complete these first two steps of integrating and then uploading the contracts, right?
+
+>>Madhu Malaranban N	38:57
+So we will fix these up for the next few weeks, let's say, two to three weeks, where we complete all integrating all the critical applications that you come up with the Niti. And then if you can share the contracts, respective contracts of those with us, we'll start uploading them as well. We have a dedicated contract. Yeah, Madhu. Madhu, sorry to interrupt.
+
+>>Neethi Rajan	39:19
+I'm aware of this integration and this licensing and costing thing and all. What I'm asking...
+
+>>Neethi Rajan	39:26
+You guys have mentioned one point right automate this on and off board.
+
+>>Madhu Malaranban N	39:30
+Yeah. I just need to know about those things mainly provisioning action access to a user and deprovisioning access for a user from an application, right? We can do that. So, you know, again, that needs a precondition of having the applications integrated, right? So as the first steps, you know, we'll identify the top applications for which you want this access provisioning and deprovisioning to be done, right? Not for all integrations, the APIs provide the capability to provision and deprovision via the API automatically, right?
+
+>>Neethi Rajan	40:09
+My main priority is this Office 365 on and off boarding.
+
+>>Madhu Malaranban N	40:14
+Okay.
+
+>>Neethi Rajan	40:14
+If I do disable ID from here, it should be disabled from Office 365. That is my main concern.
+
+>>Madhu Malaranban N	40:22
+When you say disable a user from here, where do you mean?
+
+>>Neethi Rajan	40:27
+No, Office 365 Azure AD you can see now.
+
+>>Madhu Malaranban N	40:30
+Okay.
+
+>>Neethi Rajan	40:30
+This is already integrated.
+
+>>Madhu Malaranban N	40:32
+Right.
+
+>>Neethi Rajan	40:33
+So what I will do, I'll go to Office 365 portal user portal, where I need to search the user and remove his license and remove his boots and remove everything. The thing should be simple here. Okay. So let's try creating a playbook. I've already tried one, but I'm not sure.
+
+>>Madhu Malaranban N	41:04
+Just allow me for a minute.
+
+>>Neethi Rajan	41:51
+Are we waiting for something?
+
+>>Madhu Malaranban N	41:54
+Just give me one minute. I'm so sorry. I'm just trying to log into the platform. Okay, let me share my screen now.
+
+>>Madhu Malaranban N	43:16
+I'm having some trouble. Just give me a minute.
+
+>>Madhu Malaranban N	44:15
+Okay. I think that we are experiencing an interim issue, Niti. The platform seems to be down.
+
+>>Neethi Rajan	44:25
+Understood, understood Madhu. We'll connect once it has been restored properly.
+
+>>Madhu Malaranban N	44:31
+Sure, sure. Yeah. So we'll just align on the next steps, Nithi. So as we went through the integrations page, once you are able to log in, probably you are also not able to log in because of the time.
+
+>>Neethi Rajan	44:45
+I tried just now also. It was not working.
+
+>>Madhu Malaranban N	44:49
+So it's probably because of that. So you should be able to log in once this is up. We'll keep you informed once this is running. And you already pointed out that Bitbucket is not required, and we can de -prioritize that. So you can go through the integrated app.
+
+>>Neethi Rajan	45:06
+It was actually done one year back, I think so. One year back, we have Bitbucket with us. Right now, we don't have it. We have moved to Github.
+
+>>Madhu Malaranban N	45:16
+Yeah, perfect. So Github, Aws, and a few other applications that I'll leave it to you to come up with the prioritization list. We'll have them integrated, and if you can also help us with the contract. And during the next call, we'll look at setting up workflows as you wanted, right? So based on the user status getting changed, we'll come up with a standard framework for on -boarding.
+
+>>Neethi Rajan	45:45
+And we can also probably configure an automation group.
+
+>>Madhu Malaranban N	45:48
+We can create an automation group, which will automatically take care of on -boarding or off -boarding users based on the status change within Azure AD. Yeah, we'll look at that. We'll configure, and we'll probably have a test user tested on that as well, Yeah?
+
+>>Neethi Rajan	46:01
+Yeah, sure.
+
+>>Madhu Malaranban N	46:03
+Apologies, Nidhi, that the platform is down at the moment. No worries, no worries, Madhu.
+
+>>Neethi Rajan	46:08
+We'll connect. We'll connect. I just need to understand how this on - and off -board thing will work on SQD. Absolutely. Yeah.
+
+>>Madhu Malaranban N	46:19
+We'll probably look at that next week itself, Nidhi, by trying to integrate a few integrations and then we'll come to this. We'll also look at setting up the playbooks for on - and off -boarding, yeah?
+
+>>Neethi Rajan	46:32
+Ok, sure. Right, and if you need anything else, I just need to confirm from my end, because you people are waiting for so many days, right?
+
+>>Madhu Malaranban N	46:44
+Yeah, yeah, so last week.
+
+>>Neethi Rajan	46:45
+I am not available till yesterday.
+
+>>Madhu Malaranban N	46:50
+No problem. That's OK. We understand that, Nidhi.
+
+>>Neethi Rajan	46:52
+So this time slot works for you, right, for a regular caddy?
+
+>>Madhu Malaranban N	46:56
+Yeah, it will work. It will work for you.
+
+>>Neethi Rajan	46:58
+If you connect at 11 .30, it will work better, because we are in the middle of lunch, right? Ok, got it.
+
+>>Madhu Malaranban N	47:07
+Fine, 11 .30 to 12 .30 would work for you?
+
+>>Neethi Rajan	47:10
+Yeah, yeah, it will work for us.
+
+>>Madhu Malaranban N	47:12
+I think we can reschedule the cadence accordingly. So one information, Nidhi, is the application priority list that we are going to take up for the implementation. That's one thing.
+
+>>Neethi Rajan	47:28
+Yeah, what I'll do, I'll just gather all those applications from my end first, and I'll let you know. You analyze it and let me know which are all can be integrated, which are all can be managed, and all this stuff. We can discuss on another call.
+
+>>Madhu Malaranban N	47:44
+Good, yeah, we can do that.
+
+>>Neethi Rajan	47:46
+And I hope you are admin in most of these applications that are managed, right, that we are going to integrate. Would you be the one who will be integrating these applications?
+
+>>Madhu Malaranban N	47:56
+Or do we have any other specific admins for a set of applications that we'll have to send a connection request to and ask them to connect?
+
+>>Neethi Rajan	48:04
+No, actually, most of the applications admin part is covered by me, Magish, and Vishwa only. So no issue, we'll connect. If anything is required for integration team from admin, we'll do that.
+
+>>Madhu Malaranban N	48:17
+Perfect, I think then we can do those integrations on call with you. If required, then we can take help from Vishwa or anyone else from the team.
+
+>>Neethi Rajan	48:27
+Understood.
+
+>>Madhu Malaranban N	48:29
+Right, we are also drafting the project plan that we'll share with you before the end of this week, Nidhi. Myself are working on this so that you have visibility on what are all the scopes that we are working on, what are the tasks that are on us. Or a few might be on you. We might need your dependency. And a few would be on me and Vibhav.
+
+>>Neethi Rajan	48:53
+It's actually a scope of work, right?
+
+>>Madhu Malaranban N	48:56
+Yeah, exactly. So we have this project planned in Rocketlane. We'll share that with you so that you can review that and share your feedback or comments, if any.
+
+>>Neethi Rajan	49:05
+No worries, Madhu. Just send me an email, I'll review it in the same.
+
+>>Madhu Malaranban N	49:10
+Perfect, I think that's it for the day then. It's really unfortunate, right, that the platform is facing a downturn.
+
+>>Neethi Rajan	49:19
+No worries, no worries, Madhu. It happens, it happens.
+
+>>Madhu Malaranban N	49:23
+All right.
+
+>>Madhu Malaranban N	49:24
+Yeah, until next time unity you have a great week week and weekend Yeah, see you next week.
+
+>>Neethi Rajan	49:32
+No. Thank you.
+
+>>Divya Aphale	49:33
+Thanks
+

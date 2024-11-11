@@ -1,0 +1,363 @@
+>>Gaurav | Zluri	00:00
+It was cancelled. Got it. Okay. Madhu should be here. Malkit is not keeping well since last night. Very bad. Viral is not even able to talk. Okay.
+
+>>Kelly Thompson	00:13
+Yeah. Sorry to hear that. No, it's okay.
+
+>>Gaurav | Zluri	00:15
+I mean, it's just the regular trend. So whenever the season changes in India from autumn to spring to winter, that's how usually it is for most of the people.
+
+>>Kelly Thompson	00:27
+Yeah. We have something similar like with allergies and stuff, you know, because everything's b******* and growing. Right, right.
+
+>>Gaurav | Zluri	00:37
+It's very similar. It's just that this one is like more of viral energy or something like that.
+
+>>Kelly Thompson	00:44
+Yeah. Okay.
+
+>>Gaurav | Zluri	00:47
+We have Madhu here. Hey, hi, Kali.
+
+>>Madhu Malaranban N	00:53
+Hi, Gaurav. So sorry for being late.
+
+>>Kelly Thompson	00:55
+How are you?
+
+>>Madhu Malaranban N	00:59
+How are you? Fine.
+
+>>Kelly Thompson	01:01
+Doing good. How's everything? All good.
+
+>>Madhu Malaranban N	01:05
+Great to see you. Good.
+
+>>Kelly Thompson	01:07
+Yeah, same. Yeah. So I've got to do this walkthrough with, was just my CFO, but now there's a few others from our procurement team and also what we call corporate development. They're in charge of like mergers and acquisitions. So they have an interest in knowing like what software we have and licensing and things like that. And I had a few questions that I wanted to ask, and then I'll probably have some more. This meeting isn't until the 16th. And what I'm trying to do is just make sure that, you know, I'm prepared and that what I show in Slurry, you know, has good accurate data. And so I just, you know, as I go through stuff, I can either set up other short touch points or, you know, maybe just a Slack thread with some questions.
+
+>>Madhu Malaranban N	02:11
+But yeah,
+
+>>Kelly Thompson	02:12
+So I guess I'll start with one of the things that I needed to understand is on the integration with Coupa, how often does it fall? And I'm going to just put it in terms of the way that I think it is, but, you know, to correct me, obviously. So I think of like the integration with Coupa and it should be like pulling or being Slurry, right? And I was wondering like, you know, how often does that happen? Is it something that's running consistently or on a schedule? That's a question that I was wanting to get answered. Great.
+
+>>Madhu Malaranban N	03:01
+Cool. So not just Coupa, any integration that you're connected with Slurry runs on a schedule. And we, you know, the data sync happens every 24 hours, right? And it's not on a specific time that it happens, but it is randomly distributed to ensure that the resources are not loaded. Yeah. So let's say you have 10 integrations, one might have the regular things happening at 9am, the other might have it at 11 and the other one at 2 in the afternoon and another one probably 10 at the night, but it happens every 24 hours. And it's consistent on that time that it is designated to, right? Let's say Coupa runs at 10am every day, it happens at 10am every day. So it runs, it is not dynamic, it doesn't happen all the time. The Apa syncs only happen once in 24 hours, and it happens on the designated time that it usually runs. And for a matter of fact, you know, you can also view on when it was last run, I can quickly share my screen and show where you can see that. You can go into the sources integration. Okay, I'm already there. So let's take Coupa. Oh, just allow me a couple of minutes.
+
+>>Gaurav | Zluri	04:30
+Just if you want, if you want, you can also side by side walk through the same navigation that Madhu is doing in case you might want to pull it up when you are presenting. I mean, just a suggestion.
+
+>>Madhu Malaranban N	04:42
+It's a good idea that you pull up the platform.
+
+>>Gaurav | Zluri	04:46
+Usually, Kelly is very high on sharing his own screen. He doesn't want you to do anything. I mean, that's my experience so far. But yeah.
+
+>>Kelly Thompson	04:54
+Do you want to go for it, Kelly?
+
+>>Kelly Thompson	04:59
+I can do that.
+
+>>Madhu Malaranban N	05:01
+Okay, great.
+
+>>Kelly Thompson	05:04
+Login to Slurry.
+
+>>Madhu Malaranban N	05:06
+And while you are pulling it up, I hope I've answered your question, but one more addition to just Coupa, to be specific. You know, today, Coupa, though it has the capability to share both the contract and the spend information, we have refrained from pulling up the transaction information from Coupa. And we only get the contracts and the contracts information from Coupa at the moment, because we already have a Netsuite, which gives us the spend data. So we have done that customization of the backend at the moment. But sooner or later, we'll have an option for you to select between what data you want to pull in from Coupa. That will be available on the UI, but not yet. It's an enhancement that we are already working on.
+
+>>Kelly Thompson	05:57
+Okay. And while you're talking about that, just so I can ensure that I speak correctly on the data, when I think of what's being pulled, I think of things like start, end date, number of licenses, the cost of the contract. Is that all accurate?
+
+>>Madhu Malaranban N	06:22
+Yeah, correct. So basically, you know, let's say there is a line item that's available in Coupa that talks about a contract. We fetch almost all of these data fields that are available right from the start date, end date, the amount and currency and the name of the contract. So these are the basic things that are mandatory for putting up a contract on the platform. So that it becomes insightful for you to look at that information as well. So these are the four major data points, start date, end date, amount, currency, name of the contract, and probably the application, if that's available. Okay. In addition, we also have the capability to pull in the document itself, the contract itself, if that's available as well.
+
+>>Kelly Thompson	07:14
+Okay. All right. So you said to go to Immigrations?
+
+>>Madhu Malaranban N	07:25
+Yeah, Immigrations. And you can click on Connected. You see Recommended, Connected, and Connection Request. Click on Connected. Let's go to Coupa. You can search for Coupa on the search bar. Yeah. Once you click on this, you will see an instance box that gives you details on when it was last synced, right? So last synced was 14 hours.
+
+>>Kelly Thompson	07:52
+Okay. Just under Coupa, you see that.
+
+>>Madhu Malaranban N	07:54
+So probably the maximum time that you see there would be last 23 hours because the next sync runs on the 24th hour, right? And you also have visibility on what scopes you are currently connected. You can click on that Roller Settings on top.
+
+>>Kelly Thompson	08:15
+This one? Yeah.
+
+>>Madhu Malaranban N	08:19
+And you have overview scopes and settings. You can click on Scopes to see what all scopes that are connected. There were four scopes, and all of them are connected. Click on the next tab, Connected one. Yeah. So we read contracts, invoices, purchase orders, and we read the users out from there.
+
+>>Kelly Thompson	08:39
+Okay. Now, let me ask you this. So I noticed that license renewals. We had a recent renewal, and I didn't see an update yet. Let me see how I find it.
+
+>>Madhu Malaranban N	09:11
+Okay. It's called Proof Point.
+
+>>Kelly Thompson	09:15
+If I was looking for an October renewal, would it be here?
+
+>>Madhu Malaranban N	09:22
+So when was that renewal? Was that in September or October?
+
+>>Kelly Thompson	09:27
+This one right here. Okay. Proof Point.
+
+>>Madhu Malaranban N	09:32
+Yeah. That was up for renewal on the 4th of October.
+
+>>Kelly Thompson	09:45
+Yeah. I see where it hasn't updated. It still says.
+
+>>Madhu Malaranban N	09:52
+Do you mean that you have updated this, but this information is not?
+
+>>Madhu Malaranban N	09:58
+Updated and you still see the old contract out there for proof point?
+
+>>Kelly Thompson	10:04
+Yes, so this is saying it's expired and the renewal date started in October 4th 2023 end date and we renewed it recently.
+
+>>Madhu Malaranban N	10:20
+So the only point that's pending probably is you to share the updated contract with us, Kelly, so that our contracts compCH team will have this updated on top of this so that you have the active contract on the platform. So yeah, when a contract is renewed as a best practice, kindly share those contracts with us so that you know we top that up or we update that information and you know so that whatever license information or contract information that you see on the platform is up to date.
+
+>>Kelly Thompson	10:52
+So Coupa is not gonna provide that in this instance?
+
+>>Madhu Malaranban N	11:00
+See, Coupa can give that information but mapping that with the existing contract has to be done manually. So I'll take it up with my team to check if we have the recent proof point contract coming in from Coupa and if that's the case then we'll ensure that it's mapped. But you know that still has a manual intervention there in terms of mapping it. You know the information that's pulled in from Coupa has to be still mapped so that is one point of manual intervention that is still needed. We can quickly that information is already available if you can go to contract and let's search for proof point. Click on license on the left on the blue bar. Yeah. Okay. Let's search for proof point here. Okay, I think we might have to toggle to contracts.
+
+>>Kelly Thompson	12:05
+Yeah, right.
+
+>>Madhu Malaranban N	12:12
+Okay, right. Can you scroll to the right and let's see.
+
+>>Gaurav | Zluri	12:21
+This one looks the same one because I see the same cost.
+
+>>Madhu Malaranban N	12:25
+Okay, but the first one it says the start date is 5th of October 2024, end date is 2027. So that's the new one that we have picked up from Coupa.
+
+>>Kelly Thompson	12:37
+Okay.
+
+>>Madhu Malaranban N	12:38
+So this is an active one and now I think we have.
+
+>>Kelly Thompson	12:46
+It looks like it's in here.
+
+>>Madhu Malaranban N	12:49
+Yeah.
+
+>>Kelly Thompson	12:51
+I guess Yeah That when you look here under renewals.
+
+>>Madhu Malaranban N	12:57
+Yeah, so renewals Kelly gives you visibility on contracts that are up for renewal that are going to end And it just double clicks on what are the contracts that are up for renewal or which are coming up right. So probably you know you might see the first contract or the active contract in 2027 October where it will show up in the renewal calendar as up for renewal.
+
+>>Kelly Thompson	13:24
+Okay, so like this I know for sure like slack is up for renewal And it says October. So that really the proof point one is actually a new one because it's it's not really a renewal. Is that what you're saying?
+
+>>Madhu Malaranban N	13:48
+Like a new purchase?
+
+>>Gaurav | Zluri	13:52
+No, what he's saying is Kelly that under the renewals one we will only show which were due for renewals and which are majorly if you want to check what are the upcoming renewals this is the best way. However, if you have an existing contract the previous place how you saw Yeah That's the that's the best way to see if the contract exists in the system.
+
+>>Kelly Thompson	14:13
+This isn't going to be updated with the new contract like so this is just a bit of view.
+
+>>Gaurav | Zluri	14:20
+It will be technically even this one is is technically even this one is updated but here when you click on October 24 or let's say whatever dates have surpassed we are just telling you this is just a view of what were the latest renewals starting from this month until the next few months. That's the only view this this widget gives you.
+
+>>Kelly Thompson	14:40
+Got it.
+
+>>Madhu Malaranban N	14:41
+This probably does not include all the contracts that you have but the ones that are due for renewal during these timestamps that we have quoted here as months.
+
+>>Kelly Thompson	14:52
+Okay, if I want to see the new contract that go under license
+
+>>Kelly Thompson	14:58
+And then I look for the one like proof point. Yeah.
+
+>>Madhu Malaranban N	15:03
+And then this is the new one.
+
+>>Gaurav | Zluri	15:06
+And this is the old one, OK? So basically this one has a repository of the old and new boot.
+
+>>Kelly Thompson	15:12
+What was that?
+
+>>Gaurav | Zluri	15:13
+This one has this view has repository of the old contract and the new contract boot.
+
+>>Kelly Thompson	15:19
+Got it OK, yeah, it's just a matter of learning where to go and what what I'm looking at. Ok.
+
+>>Gaurav | Zluri	15:28
+Let's see.
+
+>>Kelly Thompson	15:31
+Let me add a couple other questions around. Oh, I know I know, like when I go to applications and I see you know. This large number which.
+
+>>Madhu Malaranban N	15:50
+It has an explanation here.
+
+>>Kelly Thompson	15:53
+Can you kind of elaborate on on this 1649 even though we really, you know, like we're licensed for 1000, we have 906 licenses assigned. Yeah, but we have, you know, this larger number here. Can you kind of explain that to me?
+
+>>Madhu Malaranban N	16:13
+Absolutely so before going into that Kelly, I would insist you to add another column. Can you click on the icon just next to filter? Yeah, select columns. Can you scroll and check for active users from direct integration?
+
+>>Madhu Malaranban N	16:41
+Active scroll a little more.
+
+>>Kelly Thompson	16:47
+This one.
+
+>>Madhu Malaranban N	16:48
+Yeah, right, OK. Fine, so even this number looks a little inflated in terms of the assigned licensed users. Ok, so basically you know we we discover users from direct integrations and also secondary sources like Sso's. Like if you can click on Slack once, you'll see an overview page where we have a summary of how many of these users are from the direct integration and how many of the of them are from all sources. So there might be users coming in only. In addition to users that are, you know, coming in the API response from Slack, there could be users identified from let's say Google. You know they signed up. They signed into Slack with Google or any of their Sso. So we collate that count into active users from all sources, and the first one that you see is the number of users that we get from the direct integration. And now we also get the information on. Who out of these users have a license? This information comes in from the API, right? So not necessarily all the users have a license assigned to them. All the active users in Slack might not have a license assigned to them. For a matter of fact, a single channel guest does not need a license in Slack, right? So you might need a pro license in Slack for a user who is part of multi -channel, you know, who is a multi -channel guest, right?
+
+>>Madhu Malaranban N	18:30
+So the assigned license is the license count that we get from the APIs. For a moment, if you can click on the licenses tab here. So we get pro license. We could see that there are 1 ,000 licenses that are available for Slack, but out of these 1 ,906 of them are consumed. This is the most recent data that we have got from Slack. Slack APIs has passed on this information on, hey, today there are 906 users that are assigned a pro license. So the active user count that you see and the assigned licenses might not always be the same as the point that I'm trying to make.
+
+>>Kelly Thompson	19:16
+Yeah, I think what I should do, like, I don't have, I don't really know what value I have of seeing this number. Do you guys have like a reasoning for it?
+
+>>Madhu Malaranban N	19:34
+Absolutely. So let's say, you know, when you think about an optimization standpoint, right? So let's say there is a lever. There is a user who has left the organization, but still is active on Slack. I understand the point. It might only make sense in terms of.
+
+>>Madhu Malaranban N	19:56
+Having the information of whether or not he has a license. But what is the point in making sure or looking at the data of whether or not he is active in the application even after leaving the organization? It could be a security concern, right? So a person who has left the organization still has an active status in Slack. So that could be a security concern where the person is still not part of the organization, but still is active in this application or has access to this application. Though he does not hold a license, he is active in the application as a security concern that we may have to review and take actions accordingly or remove him from that application. So that definitely is going to help us in terms of making sure that we are secure proof in that sense, Kalei.
+
+>>Kelly Thompson	20:46
+Yeah.
+
+>>Madhu Malaranban N	20:47
+We can probably apply a filter and take a look to see if we have any such users here. So if you can click on filters for, can you go into Slack? We'll just do it for Slack. Yeah. Click on users.
+
+>>Kelly Thompson	21:16
+Thank you. Rose or I froze.
+
+>>Madhu Malaranban N	22:25
+I'm so sorry, Kalei.
+
+>>Kelly Thompson	22:26
+Can you hear me now? Yeah.
+
+>>Madhu Malaranban N	22:29
+Yeah, I can hear you. I'm so sorry. I experienced a low bandwidth issue, network issue on my end. Yeah. So if you can click on filters, add a filter, search filters, click on search filters and search for user employment status. User employment status. Let's say inactive. So which means these users, you know, we are looking for users who have left the organization but are still active in Slack, right? So there are 117 users who are active in Slack. Who probably does not have a license. I could see that none of them have license assigned to them but these users are still active in Slack or they still have access in Slack which could be a security concern, right? So this is an insight that we can action on. That's probably, you know, this insight happens with the fact that, you know, we filter this through user application status being active and user employment status being inactive.
+
+>>Kelly Thompson	23:44
+Okay. I'm gonna export this, so.
+
+>>Madhu Malaranban N	23:52
+Charging. User application status and yeah, user application status and user employment status as well. And if you want to see if they are employees or contractors, you can have that added as user account type.
+
+>>Kelly Thompson	24:11
+Okay.
+
+>>Madhu Malaranban N	24:13
+And if you really wanted to know who the app owner is and send this over to him, then you can add the application owner details as well.
+
+>>Kelly Thompson	24:20
+Yeah, that's cherry.
+
+>>Madhu Malaranban N	24:23
+Great. Okay.
+
+>>Kelly Thompson	24:25
+Okay. Yeah, I'll just export this and send that to him. Take a look. So if I understand correctly, if we went into Slack, we would see these users in the user list of Slack.
+
+>>Madhu Malaranban N	24:41
+Correct.
+
+>>Kelly Thompson	24:43
+Right? Okay. Got it. Okay. Okay. Let me think here.
+
+>>Kelly Thompson	24:56
+Let me look at some other.
+
+>>Gaurav J Chopra	25:04
+Kelly, I have a hard stop in three minutes, but I wanted to suggest something if you don't mind. Sure. Number one is feel free to bug us on Slack as and when you feel like so keep tagging Madhu, Malkit and me for any questions we have any point of time, we don't really have to wait for a call. That is number one. Number two is if you already have a structure in your mind, like what do you really want to present to the leadership CFO and the contract for the commercial team out there? And maybe if you can just give us the topic, we can also give you the steps basically, you can keep that notebook finding on a different screen or separately. Just in case while you're presenting, you can just go to that and take a reference that okay, this is where I hit this is the button I hit. And we can run through the same flow with you one or two times before your actual meeting just to prep you up. So again, these are suggestions, you take a call, whatever is the most convenient way for you.
+
+>>Kelly Thompson	25:58
+Okay. Yeah, I'm still still trying to put together like, what I want to show them, like, questions they might have and what they want to see.
+
+>>Gaurav J Chopra	26:10
+Or if you want, if you want one of us can also be I mean, I this is not my position to probably even ask, but if you want, we can be on standby at that moment, for example, whatever happened, I want to call you have just put a placeholder with us. And if required, we can just pop in on to the call itself and help you around if required. Again, this is just a suggestion we've done with with a few customers where they wanted to present, let's say the entire story to somebody in the leadership in like 15 minutes. Not every
+
+>>Kelly Thompson	26:39
+But you've done it for a few customers. Okay. Yeah. I'll take that under consideration for sure. Since we're almost out of time, one one thing do you do? I think we talked about this before, when it comes to like, you know, you guys don't have benchmarking, but you have a don't you have a service for negotiating contracts or something to that effect?
+
+>>Gaurav J Chopra	27:13
+Yes. Yes. Yes. Yes. We did have that service, Kelly. However, because of multiple reasons, we have kind of halted on that one. Maybe as an exception, if you want it for a couple of contacts, we can try and do something. However, in our board meeting, we decided that the primary agenda for Zuri's vision as a product should be unified access management platform. And when we get into SaaS negotiation, it becomes more of a different service provision altogether. So we decided that from this quarter onwards, which has already begun first October, we would not indulge into SaaS negotiations.
+
+>>Kelly Thompson	27:51
+Okay.
+
+>>Gaurav J Chopra	27:52
+So you stop that service? Okay. Exactly. Yes.
+
+>>Kelly Thompson	27:56
+Okay. Have you have you guys looked at or thought about the benchmarking at least where you kind of have an average of what your customers are paying for, like Slack, Google, as a feature?
+
+>>Gaurav J Chopra	28:15
+That's there. And that's there. But that would be into a long term product roadmap, not immediately, it will at least take two to three quarters.
+
+>>Kelly Thompson	28:24
+Okay.
+
+>>Gaurav J Chopra	28:24
+But I don't I don't have a fixed ET on that one at the moment.
+
+>>Madhu Malaranban N	28:28
+I think I can take that up, Gaurav. Kelly. So, you know, we have had this requirement coming in from multiple other clients as well, you know, in terms of cost benchmarking. So let me give you an idea of how we are showing going to show this information. So it's not going to be on the market stance. Its basis, the data that we we have from other clients, let's say you have a contract for Proofpoint, right? So if we will look at our database of customers on who has those similar contracts in place and what's the price they have in that. And based on that, we come up with an average. And on the platform, we'll show if your, you know, contract, contract value is on par or above the threshold or below the threshold. So we are coming up with a feature where we can show this. And this, disclaimer, Kelly, this is going to be only limited based on the data that we have, not for all the licenses, not all contracts. Yeah. So what I can do is I can probably get a download of the available contracts that you have, or if at all you have a list of contracts for which you want to see that cost benchmarking in the first phase, I can take up, let's say, 10 or 15 licenses or contracts and see if we have that information. And if yes,
+
+>>Madhu Malaranban N	29:53
+I can check with the team on if we can show that on the platform and that said, Kelly, this might be available probably by the end of this quarter or if this is going to be anytime sooner, then I'll keep you posted on the timelines as well.
+
+>>Kelly Thompson	30:12
+Ok, yeah, that would be great. It's something that our procurement team is really pushing for is to have the benchmarking. And really, benchmarking, all it really is is, what's the average over, say you have 100 customers and what are they paying for Slack, right? What's that average price so that we know that we're getting a fair price or we're paying too much or we've done a really good job in negotiating? And having that information is super important and you guys have it in your system, right? So you can go and get, you know, for every Slack customer, you know what they're paying, right, per user. So you should be able to display that information and you say that's a feature that your team's working on and should have available either by the end of Q4 or in the next couple of quarters, right?
+
+>>Madhu Malaranban N	31:19
+Yep.
+
+>>Kelly Thompson	31:20
+Ok. Yeah, all right, let's pass that on to the procurement team. And yeah, I mean, it's easy for me to like provide you like a list of like our, say, top 10 or 15 vendors based on like, you know, number of users and what we're paying. You know, the big ones like Slack, Google Workspace, Salesforce, you know, those are all big contract dollars.
+
+>>Madhu Malaranban N	31:51
+Yeah, that would be great.
+
+>>Kelly Thompson	31:55
+Definitely would go a long ways to, you know, help satisfy what procurement team needs.
+
+>>Madhu Malaranban N	32:06
+Absolutely. Yeah. So you can feel free to drop, if you have that list of 10 or 15 applications that you would want this information for, I'll probably get that checked with my team and keep you posted with any further updates on seeing the cost benchmarking data on the platform.
+
+>>Kelly Thompson	32:23
+Yeah. Ok. Yep. I'll send that over. Perfect. Yeah. Thanks so much. If I have more questions, I'll definitely reach out to you guys.
+
+>>Madhu Malaranban N	32:36
+Absolutely. And please feel free, if you'd like to get on a call with, you have collated your queries, we can definitely hop on an ad hoc call as well, Kelly. But nonetheless, you can feel free to drop whenever you have questions on our Slack channel and we'll get that addressed.
+
+>>Kelly Thompson	32:53
+Yeah. Ok, great.
+
+>>Madhu Malaranban N	32:55
+Thanks so much for your help.
+
+>>Kelly Thompson	32:58
+Thank you so much, Kelly. It was nice talking to you. And you have a good one. Thank you. Take care. Thanks. Bye bye.
+

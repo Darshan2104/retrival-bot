@@ -1,0 +1,210 @@
+>>Roy Baby Thachil	00:00
+Not bad, how are you doing? I'm doing good, I'm doing good. I hope situation in Israel is better now. I just saw the recent events and I pray for everything to be in a good balance. For you, Anirudh. Thank you for your concerns. Yes, everything's okay. Got it. My name is Roy. I handle partnerships in Zuluri. I've been working with Israel market for a while. From my first days in Zuluri, when I was an SDI, I worked in the market, brought in a few names like Optimo, Monactiv, Optibuzz, Guesty and others to our customer list when I was there. And that's when we thought that, hey, this is a very good market. This is a very tech forward market. And this is where we want to invest our partners or we want our local presence to be there. And that's how we started a partnership department or a partnership wing in Zuluri. And we thought to establish our partners in the market. So that's quickly about me. What today's agenda would be to introduce you to Zuluri and its capabilities. What model of partnerships we have. And based on that, the conversation will move forward to a demo and other things. But before that, I would like to know how come you came to interest of Zuluri? Have you ever used us as a management platform before? Or have you heard about it in the past?
+
+>>Oded Moshe	01:12
+Okay, so I'll introduce myself as well. I'm Oded Moshe. I've been at TSAID for 16 years now. Company exists for 22 years. A software company in the IT service management. You may know Servicenow Fresh. You have integrations with some of them, I think. So we have more than 3000 organizations using our solution worldwide. Both SaaS and on -premise. I led the product most of the years here. But for the past few years, I'm working on the strategic partnerships, technology partnerships to try and bring value to our customers. I've done some successful partnerships that we OEMed with our product surrounding BI, analytics, patch management, remote control, wherever we think we can bring value to our customers. And the reason I reached out to Zuluri is I think that in that area, we have a service management and we have asset management as well. Asset management discovery of hardware and software, but more the traditional hardware and software installed in the enterprises. We did not go to the SaaS discovery. It was on our roadmap, but we didn't reach it. Then you see there's companies that exist. Sometimes it's more than a feature, it's a whole product. So I reached out because I think we can bring value to our customers with such an integration or partnership. I am familiar with this.
+
+>>Oded Moshe	02:53
+We are actually users of a competitor, Torii. We use that internally. And while evaluating Torii, I took a look at the market. I saw you in the Gartner Magic Coordinate, which we are also in our area. We are in the Magic Coordinate as well. It service management. So congratulations for you also being there. And I think that our customer segment, we target all segments. We have education, we have healthcare, we have governance, we have manufacturing, everything. We don't focus on a specific segment, but we do have our sweet spot. It's between a couple hundred employees to a couple thousand employees. Let's call it the mid -market. We have larger customers, larger customers, and smaller customers, but that's more or less where we bring the most value. As being that kind of customer, that size of customer is trying to look for a solution which gives them a holistic view of everything. So in my perspective, when someone opens a ticket in the service desk, it's a user. I would like the person that is supporting that user to know everything he needs to know about the user, the phone, the email that I do, anything, any hardware, if it's a Mac or if it's a Windows machine, what's the operating system, what softwares are installed and what other fast solutions this user is using.
+
+>>Oded Moshe	04:34
+So he has all the information that they need in order to solve the issue, because sometimes the customer just says the sales system is not working And you don't know which sales system he's using at all. Okay, so the first immediate value I'm trying to look for is to do the discovery part of the Saas management discovery and bring that information into our system so you don't have to go to...
+
+>>Oded Moshe	04:58
+two different systems. You just enrich our system with that information. We have a Cmdb, asset management, software management, and so on.
+
+>>Roy Baby Thachil	05:07
+Got it. Got it. Got it. But one second. I'm so sorry about that. I'm a bit under the weather. The climate at my place is changing quite often. So a bit under the weather. One question I have is like, you guys are already using Tori. Is there any other Desets apart from the Gmq or Gundam Magic Quadrant to come to Slivery?
+
+>>Oded Moshe	05:32
+Let me take a look, because I looked at them. I'm telling you the truth. I looked at, I see you have them on your website as well. I looked at Lumos. Any reason I went to Slivery specific? Correct.
+
+>>Roy Baby Thachil	05:49
+Other than the Magic Quadrant?
+
+>>Oded Moshe	05:52
+Yes. I think that, at least I would like to think that maybe, I saw that you don't have any integrations with the, now, when I talk about integrations, let me clarify. The integrations that I saw that you do and you talk about these integrations, so you can pull more information to bring value to your customers about the softwares. Now, the integration I'm thinking about is an integration with a side -by -side, where our customer, we can actually offer our 3 ,000 customers, we can offer them an upgrade or a solution and resell that option, or maybe some kind of OEM it, or royalties. It doesn't really matter what the commercial side is, but if we can bring value to our customers through that. I don't know if you have those kinds of integrations.
+
+>>Roy Baby Thachil	06:43
+No, we don't currently have a technological partnership model at this point of time. We don't do that. We primarily focus on reselling and we primarily focus on referral model of partnership. Now, for technological partnership, what I have to do is I have to check with my management about how we are planning to do this, because we have never done this in the past.
+
+>>Oded Moshe	07:04
+So, you asked about the reason. I think the reason is that I saw that, because I saw you didn't do it, I would like to interest you to see if it interests you. Sometimes, it's easier to do stuff for the first time when there's a partner on the other end, where there are more established companies sometimes where they have that. It's just another integration. This could be something, it could become something strategic. So, that's one of the reasons I went out, I reached out to Zlori, because I wanted to check if that could interest you. We need to be creative as well, you know, it's less corporate America company that they say, we just don't do that and that's it. So, that's the main reasons I reached out.
+
+>>Roy Baby Thachil	07:45
+So, in case if we integrate the product, in case if there's a technological partnership alliance that we can do, how would be the data be shown in your platform? Will it be showing us Zlori's data or will it be showing us Ssaid's data? Do you have a platform for Ssaid?
+
+>>Oded Moshe	08:02
+Of course, we have a, let me show you, let me, let me.
+
+>>Roy Baby Thachil	08:05
+Because we don't do white labelling also. So, when we, yeah.
+
+>>Oded Moshe	08:10
+Let me just allow, allow sharing screen. Can I share screen?
+
+>>Roy Baby Thachil	08:16
+Yes, I think you will have access.
+
+>>Oded Moshe	08:19
+Let me see. I don't see the option to share my screen. Wait, let me see.
+
+>>Roy Baby Thachil	08:27
+Here we go. Now I got it.
+
+>>Oded Moshe	08:29
+Okay. Share, allow for one month, then share this window. Here we go. So, you should be able to see my screen now?
+
+>>Roy Baby Thachil	08:43
+One second. Yes. Okay.
+
+>>Oded Moshe	08:47
+So, this is, this is our system, you know, ticketing system. These are tickets, okay, that, that are in the queue. And, you know, and besides having the information on the tickets, whether it's a request or an incident, a change, you have the asset information on the ticket. See, this is the asset I have here. Okay. And I can see, I can see the details of the asset. But you know what, I can even ask something else. I can show you something cooler. Look, I can say, I can, I, we have an, we have an AI co -pilot here. What software does the user, does this user have on their machine?
+
+>>Roy Baby Thachil	09:30
+Okay.
+
+>>Oded Moshe	09:31
+This should work. I don't know if my demo environment is set up to, with all the features on because this is in beta. Okay. Okay, look.
+
+>>Roy Baby Thachil	09:41
+Got it.
+
+>>Oded Moshe	09:42
+So, so it's pulling up all the information and it's connecting the asset management information together with the, with the ticket information. I could go the traditional way and take a look at the asset here. Here you see the asset. It's a, it's a workstation. It's a, it's a
+
+>>Oded Moshe	09:57
+It's a it's a Dell machine. It's our severe machine. You can see here hardware information. You can see all the software Information is called the version of Windows. Okay Any patches so we have all that since we have all this information Already available for our users the way I see it is. Let me just show you if I go to Asset management and I go to software Products. So here you'll see the traditional software Adobe office I just see in the fact that we will see additional software here We can see a how many are using it and so on. We have a Cmt B If I go to the Cmt B, which is our configuration management database, and I pick up for example Adobe so you can see the here Got it Just pick that up my demo environment doesn't have it, but you can see actually a Relational mapping of which was using this software where it's installed on it's less relevant for Sas applications But still who is using the software and so on is relevant. So When you sit when you mean white label or We could we could discuss commercial. Okay discovered by his lawyer or something. That could make sense and and I think that Stop sharing and I think that what could be interesting is is a from my experience with such a partnerships usually use usually you start with something that is Completely seamless to the customer. All he has to do is you he does he enters information the discovery He doesn't have to pay for it or anything we can all we amateur pay for it
+
+>>Oded Moshe	11:40
+And then if he wants more and he wants the full advantage of the software then he can a upgrade or purchase So I could do the initial discovery Let's say for example and show the software used but not show the users that are using the software Or just say there's there are 17 users using a software You want to know who they are upgrade or or go ahead? So we could find a way to create the interest And show the value and and we could combine it in in French packages So there's a lot of I think there's a lot of sense in bringing value to our customers surrounding this Depending on how easy it is to onboard the solution. I saw you have nine different discovery method You know Yes, so that's that's the way when I see of integration That's one way of integration on the asset management. The other way of integration is integrating with the requests and ticketing system So for example, if someone if we have an onboarding request and someone wants it because your solution has both discovery But also right the integrations for onboarding automation
+
+>>Roy Baby Thachil	12:46
+Yes
+
+>>Oded Moshe	12:47
+So so that also we are also of course working on integrating we have Zapier integration work on our integrations We have integration with some of the vendors directly with Azure. So we are also developing that but if you already have a nice set of integrations for you know for Enterprises or small medium businesses which which with a common software and we can automate that Is the request we have a self -service portal for end -users? Hmm Do you use a service management solution in your company when you contact IT? How do you contact them?
+
+>>Roy Baby Thachil	13:20
+So we just directly go. We are somewhere around 200 employees at this point of time. We reach out to Our IT team directly for any requests that we have Okay
+
+>>Oded Moshe	13:30
+So our customers by the way 200 is already the size where you can use a service desk like Cc to something And and you have a self -service portal where the users go and they have a chat bot and they can ask questions and they And so So we and also all this happens also in teams. So we have an integration with teams So if organizations use teams They just go to the IT bot and then they request stuff and that behind the scenes We already have all that processes up and running. So connecting the connecting the dots for additional information plus a plus performing Automations can bring a lot of value to our customers.
+
+>>Roy Baby Thachil	14:05
+That's that's where I got it Before we leave for the day at the check with my manager let me just introduce Lurie's three modules because I think there are some commonalities are in What's Lurie does and what you do because as you do the first part of Lurie is SaaS management where we help you to discover What all applications are there and we have nine different methods of this car to discover this Apart from that we help you to optimize cost and help you to auto reclaim unused licenses that are there in the company Which means that we tell you a how many inactive users are there how many redundant applications are there? How many applications that does the same purpose like there could in companies? We have seen chances that Dropbox and Google Drive being used together and when most of the employees are the most of the employees They don't they just use Google Drive and they don't even know about Dropbox and the company is paying for its renewal So we help you to optimize cost and we help you to manage all the SaaS content
+
+>>Roy Baby Thachil	14:56
+Contracts, vendors and spend in one single dashboard. Now this is the part I think you wanted, you want to integrate with, correct Todd?
+
+>>Oded Moshe	15:04
+I think it's the discovery, the discovery part, less the spend, but yes, the spend is the more advanced.
+
+>>Roy Baby Thachil	15:13
+Correct, it's part of the module. Now the second part is where I think there is some commonalities where access management, as you said, we can do zero -touch onboarding and offboarding. What this means is that tomorrow if Roy is coming to join, it's the same. Instead of giving Roy one applications by one day, asking for a lot of managers, going for it, you can create a workflow that Roy SDR joining in the marketing department, these applications, and on the day he joins, you can just click on this workflow and all the license will be given to him. And it need not be Roy alone, this workflow can be used for any other X number of employees even if 100 people are joining it, just put the workflow and it will be given.
+
+>>Oded Moshe	15:50
+Would you normally target as the workflow users? Is it always someone from IT or can HR also launch a process?
+
+>>Roy Baby Thachil	16:01
+Well, even though we target, so the main focus of our target would be IT teams because at the end of the day, it's the IT teams who are the champions for our tool. Even though HR, so the initial conversations, HR will come in, the finance will come in, the procurement team will come in, but towards the end of the conversation, the champion will be always from the IT department, IT manager, IT director, or Ciso, CTO, because they have to take a decision on the spends over here.
+
+>>Oded Moshe	16:29
+No, that's okay, regarding the buyer persona, I'm talking about the user persona itself. Do you have users that are not IT?
+
+>>Roy Baby Thachil	16:37
+Yeah, it is IT, IT team itself.
+
+>>Oded Moshe	16:39
+Okay, okay.
+
+>>Roy Baby Thachil	16:41
+Now, the second part is where we help in automated access requests. As you said, how do I request for an application? Instead of going to three different managers and going and asking for an application, what I can do is I can go to Lurie's platform. There's a separate platform for users. There's a separate platform for the admins. And once the user gets in, user can request for an application like Canva, and all the immediate managers that need to be reported, his immediate manager, his IT manager, his finance team, will be given a request for approval, and they could approve. This would move a three -day job into more of a -
+
+>>Oded Moshe	17:18
+So this is where, indeed, I see, I agree where you see there's overlapping. I'm just trying to understand in the mind of a customer. Customer has an IT system. Forget it, not Csa.
+
+>>Roy Baby Thachil	17:29
+It's a different system.
+
+>>Oded Moshe	17:30
+They have a self -service portal. The end users need to know an additional software, or do we connect it to the self -service portal? Is the interface, they use two different interfaces, because what we find is customers usually want to keep it very simple for their users, and not say, here's another system to request access.
+
+>>Roy Baby Thachil	17:51
+No, no, it will be the same platform itself. They don't have to join. The interface would be a bit different. It would be easier for the users to log in, because they don't have to see how many applications or how many data - Oh, I understand.
+
+>>Oded Moshe	18:02
+I understand that.
+
+>>Roy Baby Thachil	18:03
+Correct.
+
+>>Oded Moshe	18:04
+So that's what - Is there a common use case where end users, employees, access some kind of, access Glory's portal and request stuff for themselves?
+
+>>Roy Baby Thachil	18:14
+Yes, they can request for themselves.
+
+>>Oded Moshe	18:17
+Yeah, I understand. Technically, I'm saying, is it a use case that is actually deployed and common?
+
+>>Roy Baby Thachil	18:24
+And yeah, this is being deployed. I may be mistaking the question. Can you just repeat it once more?
+
+>>Oded Moshe	18:30
+It's just, I'm saying, technically, I understand that there's a portal that anybody can log in, end users can log in based on permissions and request stuff from themselves. I'm just asking if it's practical in organizations, that employees, that they come and they do that on their own, they remember the URL, how do they access it, and so on.
+
+>>Roy Baby Thachil	18:49
+Yeah, yeah. So everyone will be getting a login. So they could log in through their Sso, because we directly connect with their Sso and other platforms. So they can directly come to the platform and just log in and ask for a request for this application. This is being currently used by our customers also.
+
+>>Oded Moshe	19:07
+Okay. Okay, good.
+
+>>Roy Baby Thachil	19:09
+And the final part of Zuluri's platform is the access review, where we help you to discover, this is for the managers and the IT admins who needs it, where we help you to uncover access risk, telling you who all has access to what all applications in the company. Or compliance. Yes, compliance is correct. And you can get audit -ready reports and you can submit it for your next IT audit.
+
+>>Oded Moshe	19:29
+Do you have any integrations with other tools for supplying them the evidence and so on, like Drata or Vanta or?
+
+>>Roy Baby Thachil	19:38
+I may have to check. So we have an integration catalog where we have, let me just share the tab. Yeah, we have an integration catalog over here and you can check for, we don't have a integration.
+
+>>Oded Moshe	19:52
+Again, these are kind of integrations which are not for discovering users.
+
+>>Oded Moshe	19:55
+In that system. It's for more integrations for business flow of here's providing evidence of compliance.
+
+>>Roy Baby Thachil	20:05
+Okay. No, those kind of integrations we don't have. We don't have direct integration. Okay.
+
+>>Oded Moshe	20:10
+Okay.
+
+>>Roy Baby Thachil	20:11
+Yeah. So this is what Lurie does today. And what you have asked, I have to check with my management about how we can form this technological alliances. Let me just check with my VP of partnerships and sales and get back to you on that on me.
+
+>>Oded Moshe	20:26
+Okay. That's fine. So again, tell him that if he's interested, we're creative. If you're creative, we can think of something that works out. What is the pricing range or the price list for this? What does it range from?
+
+>>Roy Baby Thachil	20:44
+Yeah. That's a bit complicated. Okay. So we do a user -based pricing. It's based on the number of employees in a company. So it could range somewhere between six to $12 based on the number of employees. So each slab of employees - Six to $12 per year, per month, per what? It will be per month.
+
+>>Oded Moshe	21:06
+Per month. Okay. Yes. And that's for the full suite or do you have it modulized?
+
+>>Roy Baby Thachil	21:12
+It would be for the $12, the higher end comes for the full suite. And in case if you want like one module, it would be coming to two.
+
+>>Oded Moshe	21:21
+Okay. Great. So thank you for your time this morning. And if again, if the technology partnership sounds interesting, then let's take it forward and set up another meeting.
+
+>>Roy Baby Thachil	21:36
+Okay. Definitely. Thank you for your time. I'm so sorry. No problem.
+
+>>Oded Moshe	21:41
+Feel better.
+
+>>Roy Baby Thachil	21:42
+Bye.
+

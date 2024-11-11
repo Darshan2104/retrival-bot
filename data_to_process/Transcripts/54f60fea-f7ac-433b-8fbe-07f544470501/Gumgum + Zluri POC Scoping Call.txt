@@ -1,0 +1,474 @@
+>>Radheshwar S Modi	00:00
+He needs to calm down, that's the thing. Okay, he had to turn it up.
+
+>>Adam Kramen	00:04
+Of course.
+
+>>Radheshwar S Modi	00:12
+Okay, before I forget, we have to speak to him about Uar also.
+
+>>Adam Kramen	00:17
+100%. Oh, we need to know use cases for Uar and AM. We need to get the apps for those, depending on what they're gonna actually be using for those. Oh yeah, I have, here, look, let me show you what I got. So.
+
+>>Radheshwar S Modi	00:30
+Oh, this is Jumpcloud Google Workspace and one more, which one, I'm forgetting.
+
+>>Adam Kramen	00:34
+That's all we got right now.
+
+>>Radheshwar S Modi	00:36
+Oh, please. We don't know if there's more. We don't know if there's more.
+
+>>Adam Kramen	00:40
+So he's right here right now, but this is what I got. I got this, got this, so we're good.
+
+>>Radheshwar S Modi	00:45
+Yeah, nice.
+
+>>Adam Kramen	00:56
+Hey, Luis. Hello. Hey, it's been a bit, how are you?
+
+>>Luis Martin	01:04
+Good, how are you?
+
+>>Adam Kramen	01:06
+Doing pretty good. Appreciate you taking some time. I got 45 minutes on the calendar. Does that still work for you?
+
+>>Luis Martin	01:12
+Yeah.
+
+>>Adam Kramen	01:13
+Okay, cool. All right, so look, the team is, we're countersigning internally. They're sending it through to our COO to get that countersigned. So we'll get the fully executed agreement over to you ASAP. All right?
+
+>>Luis Martin	01:29
+Sounds good.
+
+>>Adam Kramen	01:30
+So last time, we kind of just went through some pricing. Last time, I know you were getting down towards selecting the companies you were gonna be doing a POC with. And so just kind of curious what's happened since we last spoke. How are things kind of looking on your side? Any update, anything I need to know?
+
+>>Luis Martin	01:47
+I'm still working through the POCs.
+
+>>Adam Kramen	01:50
+Okay, how many are you guys going to POC with? Just curious, we're one of, how many are you guys doing? Three. Okay, cool. All right, that sounds good. I think, I mean, we have a timeline that we typically go through, but I'm not sure, I'm sure you have your process in place. So I want to align those, I mean, depending on kind of what you're thinking about. So timeline -wise, did you have a timeline in place? Like, are you running the same sort of play? Because I can do some suggestions on what we would say, but you'll have access to the sandbox. And so we want to just know how best to support you. We can suggest best way, but yeah, let me know your thoughts there.
+
+>>Luis Martin	02:27
+I'm doing the POCs one at a time, because there's a few different projects that are happening. There's two additional projects that I'm also, three additional projects that I'm also focusing on. So once I do one, I'm going to take my notes and then move on to the next ones.
+
+>>Adam Kramen	02:43
+Okay, do you have it timelined out? Like, we can get you started pretty quickly. Are you planning on starting with Slurry ASAP? Like, is that the plan? Okay, awesome. All right, so let me share with you, we need to, we just want to scope this out a little bit more. I think when kind of connecting some of those systems, we talked a little bit last time on, you know, what applications are included. So I think that's really what would be helpful, right? We can kind of help get you jumpstarted, right? Get you to value as quick as possible. And then we can kind of set up some touch points as throughout the Poc process. So we typically put together around two weeks. Is that what you were thinking? What did you have in mind?
+
+>>Luis Martin	03:20
+We could start with two weeks and I'll see how that works out once we get rolling.
+
+>>Adam Kramen	03:26
+Okay, all right. I think that's, we can kind of go from there. That works. All righty. So first wanted to kind of just get pretty clear on, from the agenda item side, we got to kind of just knock some of these out when it comes to the applications that are going to be included. So of course we're going to have Jumpcloud and Google Workspace. That's going to capture a lot of those applications through Sso with Google Workspace. But you know, there were certain applications that you might want to be connecting the API directly. So there were others. I know you saw the list. I can actually go to that list really quickly, but were there any others on this list that you were thinking about? We can add these to the list. Rade can send instructions or kind of walking through to make sure those connections are flowing right.
+
+>>Luis Martin	04:12
+Want to try Github Monday, Zoom Creative Cloud, and Atlassian. I'm assuming Atlassian Admin is for the entire Atlassian suite and not just admins, right?
+
+>>Radheshwar S Modi	04:33
+Yeah, so Atlassian Admin will give you the license information of what are the different tiers of licenses you have. But let's say if you want to see which user actually holds which license in which software, and then you'll have to connect that instance as well. So let's say for example.
+
+>>Luis Martin	04:53
+I'd be interested in usage. Okay.
+
+>>Radheshwar S Modi	04:57
+So yeah,
+
+>>Radheshwar S Modi	04:58
+I mean, you'll get the license code, but you said everything has to come in from the individual application.
+
+>>Luis Martin	05:05
+Okay, so it sounds like that's not included, right?
+
+>>Radheshwar S Modi	05:10
+We can take it up on request. Which are the apps that you're looking for?
+
+>>Luis Martin	05:14
+Jira and Confluence.
+
+>>Radheshwar S Modi	05:17
+Should be fine, I'll get it approved. It shouldn't be an issue.
+
+>>Adam Kramen	05:20
+I don't think those should be an issue, but yeah, we can check on that. Okay, So Jira, Confluence, Github, Monday, Atlassian, Zoom. Right?
+
+>>Luis Martin	05:29
+Yeah.
+
+>>Adam Kramen	05:29
+Okay, those are the ones I got. All right, cool. Agenda item, Rodney and I have it. We'll make sure to just get a thumbs up, thumbs down on the Jira Confluence side. I feel pretty solid in that. And so when thinking about kind of success criteria, when it's savings, kind of that's typically the number we're centering around, but is it visibility on certain number of applications? Is it identifying any sort of shadow IT? Anything like that when thinking about what you're looking for?
+
+>>Luis Martin	06:00
+Identifying shadow IT and how granular are the reports that you give as far as the applications where you're telling me which users are active and which users are not and how you're gathering that information?
+
+>>Radheshwar S Modi	06:17
+Yeah, Luis, I just have one question for you here. In terms of user employment at Gungnam, what would be the source of truth? Would it be Jumpcloud? Would it be Google Workspace? Trying to understand. If somebody were to, let's say, leave the organization, where would you disable them first?
+
+>>Luis Martin	06:37
+Jumpcloud.
+
+>>Radheshwar S Modi	06:39
+Understood, yeah. So we can definitely set the source of truth as Jumpcloud. So whenever you're performing Uar or doing a report, you can always have Jumpcloud as a source of truth against any application.
+
+>>Luis Martin	06:54
+Sounds good.
+
+>>Adam Kramen	06:55
+And yeah, perfect transition, Radhe. And so that was, we haven't really talked too much about this. I know you wanted to get a look at the whole application, right? And so being able to see access management and access reviews, we wanna help you with that process, right? Kind of creating some of those playbooks. We have experience in kind of not having, I mean, it's not super challenging, but if you're wanting to do certain items, Radhe and I, we typically set up sessions, so kind of creating playbooks, walking through setting up Jumpcloud as those triggers. So on the access management side, Jumpcloud will be that source of truth to initiate these, but any of these applications, I mean, Google Workspace would probably make sense for running an onboarding, offboarding playbook, but Jira as well, does that make sense too? Yeah. Okay, those two probably, and I mean, I think probably those two would be sufficient, no? Or do you envision anything else?
+
+>>Luis Martin	07:51
+That should be fine for now.
+
+>>Adam Kramen	07:52
+Okay, what we would suggest is setting up an onboarding and offboarding so we can set up those test users and kind of walk them through that life cycle of being onboarded using Jumpcloud as that initiator and kind of going through using the workflow automations and then going through that workflow. So that's something that we can help you set up.
+
+>>Luis Martin	08:14
+Yep. Okay.
+
+>>Adam Kramen	08:16
+Now I know you guys are kind of using some of the Python coding and some of your kind of internal tools today. Is this sort of exploratory or is the team really thinking about pulling that out and inputting some of the automations with a new tool?
+
+>>Luis Martin	08:34
+The idea would be to input this, but I don't think you guys are very, there's still a lot of applications you guys don't support. So we still have to rely on that. So that's another thing I want to see. It's like get a full understanding of what you support and what you don't support.
+
+>>Adam Kramen	08:51
+Gotcha. So for that full circle remediation, obviously that's where our biggest value is going to come in, right? Being able to actually pull and pull those, push and pull those licenses. Yeah, like are we already doing more than you can offer or are you going to offer more than what we're currently doing? Oh, I think we're going to offer way more. And I think kind of going through, we didn't really dive too much into kind of those workflows and going into what you're looking to do. So some of those actions, I think that might be a good use of time of setting up at some point this week of going through access management and access reviews for kind of a deeper demo or kind of going through what setting this up looks like. Rade, I mean, if we have some time, we probably will have some time to actually go into the platform and kind of walk through some of the actions for Google Workspace and for Jira. Like we can walk you through what that would look like, Louis, just to kind of give you a little preview. That work?
+
+>>Luis Martin	09:49
+Yes.
+
+>>Adam Kramen	09:50
+Okay, cool.
+
+>>Adam Kramen	09:57
+Now, last piece was the access reviews. And we talked, you guys are running them twice a year, right, from what I remember. Is that right? Yes. Okay. And so running these access reviews, when looking at, I'm looking at my notes and I didn't have, I thought you guys were kind of running it manually today, right? Is that what I have? That's correct. Okay, just want to confirm all of that. So with that manual process, I think, is part of this desire to get Uar part of what teams are, why they're kind of putting something like Zilleri in places around a compliance piece, whether that's SOC 2 compliance, Iso, something like that. Is that partially what's driving that?
+
+>>Luis Martin	10:39
+Yes.
+
+>>Adam Kramen	10:40
+Is there a certain compliance criteria you guys are? Soc 2. Soc 2, okay. That makes a lot of sense. So would this be, this would be moving to quarterly then at the, for SOC 2, no?
+
+>>Luis Martin	10:54
+My understanding is we're currently fine with the, okay. Twice a year.
+
+>>Adam Kramen	10:59
+Okay. So with those, I'm sure you have those top applications that have to obviously be going through the access review piece. So these are the ones that are included in the Poc. So I'm sure Google Workspace would make sense and Zoom would make sense and Jumpcloud. But are there any others that are maybe not on here that would make sense that you would want maybe part of that process?
+
+>>Luis Martin	11:20
+We could start with Google, Jumpcloud and Salesforce. Okay.
+
+>>Adam Kramen	11:24
+That makes sense. All right. And so for all three of those, that's really where we'll be able to bring in that full circle remediation. So going from not, most other platforms are just gonna be initiating a ticket in another system. Now we can do that, right? Cause you're absolutely right. We're not gonna have the full remediation for all applications, but through Webhooks and through that ability to initiate tickets in something like JIRA, we can kind of keep that flowing and Slurry would then be kind of that single source of truth when it comes to all things compliant. So that SOC 2 reporting becomes a really seamless process versus something that I'm sure would become much more of a headache as you're going towards that compliance piece. So Rade, do you have some time? Maybe we can just pop into the platform. I think, you know, Luis, what I'd like to suggest is as a next step, we will send out info for your sandbox environment and with some initial instructions, we would like to kind of walk you through connecting, you know, Google Workspace and Jumpcloud. We'd wanna set up a session for this week. So do you, before Rade jumps in, do you have some time to put some, you know, half hour, 45 minute, just a couple of touch points over the next couple of weeks so we can kind of go through some of these processes. I can share what my timeline looks like, but that's what I would envision is kind of walking you through setting that up. Then you can have, you know, three or four days to kind of work through some, at least on the SMP side and then going through the workflow.
+
+>>Luis Martin	13:00
+Actually, I'm actually gonna be off starting next week for two weeks. So that might not work out for that timing that you just mentioned, I just realized that.
+
+>>Adam Kramen	13:10
+Gotcha, all right. So with starting something like this, is it going to pause until, you know, you're kind of back online then?
+
+>>Luis Martin	13:18
+Yeah, so I was hoping to kind of get things started this week and then pick them up once I come back.
+
+>>Adam Kramen	13:25
+Gotcha, gotcha. Okay, Rade, did you have something there or no?
+
+>>Radheshwar S Modi	13:30
+We can still do that. I mean, did the Nda and everything go through, Adam? If possible, we can actually do the kickoff today so that it takes two days for us. I guess before the weekends, we can show the initial set of data.
+
+>>Adam Kramen	13:43
+Yeah, Luis, I had no idea that you were heading away. So that's definitely good to know. All right, so I think what we can do, right, Rade, let's do that. Let's get at least this set up and have data flowing. So Luis, at least when you're away, right, you can kind of be tinkering with things and you can obviously shoot over any questions. I don't know how much you're gonna be online or where you're headed. Hopefully you're gonna be totally offline and not looking at Slurry at all, sorry. But yeah, Rade, I think that's probably the best move now. Why don't we send Luis over some sandbox environment info? We can kind of go from there with Connect and Google Workspace.
+
+>>Radheshwar S Modi	14:23
+Sure, I mean, yeah, So no, Yeah. So the new instance here, let me just generate it.
+
+>>Adam Kramen	14:29
+So Luis, it would, yeah, you would be the admin, right?
+
+>>Luis Martin	14:33
+Yes.
+
+>>Radheshwar S Modi	14:34
+Yes, let me just get the invite code ready.
+
+>>Adam Kramen	14:38
+Do you wanna add anybody else, Luis? Just being away, is there another point of contact we would wanna work through with any of the use cases?
+
+>>Luis Martin	14:47
+If I can add somebody, I'll add some of the other admins here, but I don't know if they're gonna be really going in here.
+
+>>Adam Kramen	14:54
+Okay.
+
+>>Adam Kramen	15:04
+Do you, with obviously a little bit of a delay here, is there a target date? We were discussing before the end of the year. Is that still what you're aiming for is in 2024, right? Yes.
+
+>>Luis Martin	15:16
+All right.
+
+>>Adam Kramen	15:16
+Cool. Just working forwards, it's going to be just looking at the calendar here.
+
+>>Radheshwar S Modi	15:32
+Yeah. Meanwhile, Adam is getting that. If you can click on that link and share your screen, I can guide you through the setup.
+
+>>Adam Kramen	15:41
+Are you back the week of the 28th, Luis?
+
+>>Luis Martin	15:45
+Yes. Okay.
+
+>>Adam Kramen	15:52
+It's going to be pretty accelerated once you have to get through those other two as well, but November is going to be a busy one. Okay. But then basically all of December to work through contracting, is that how you're working it backwards? Yeah.
+
+>>Luis Martin	16:04
+Yeah.
+
+>>Adam Kramen	16:05
+Okay. Sounds good.
+
+>>Radheshwar S Modi	16:09
+If you can enter your email here, continue. Yeah. Everything is fine. It's your choice here.
+
+>>Radheshwar S Modi	16:37
+There you go. You can enter your company name. So yeah, we can connect both Google Workspace and Jumpcloud here. So there are no specific order. We can anyways change the socials at any time. So yeah, we can go ahead. So over here, Luis, what you're seeing is the scope that we're connecting to. All of it is read -only. This is for us to fetch the initial set of user information and license information along with shadow IT. But if you're wanting to test the workflow actions, which would require right permissions for your API, you can go ahead and look at scope for workflows. And if you're okay with it, you can add them and then go ahead and connect. We can also connect to the right permission later if required.
+
+>>Luis Martin	17:36
+So if I add this, nothing's gonna happen until I start like trying to add the workflows, right?
+
+>>Radheshwar S Modi	17:43
+Yes.
+
+>>Luis Martin	17:50
+Okay, so I click connect now?
+
+>>Radheshwar S Modi	17:52
+Yes. You might have gotten a pop -up, which you wouldn't be able to see.
+
+>>Luis Martin	18:02
+This app is blocked.
+
+>>Radheshwar S Modi	18:04
+Understood. So let me, could you open your Google Workspace Admin Console? I would give you our Google Workspace App ID that is registered. You can add that over there.
+
+>>Radheshwar S Modi	18:34
+So, yeah, security, I think. Okay, under API, your access control. Yeah, API controls. Yeah, third -party access. You can, yeah, This is the ID. If you can search with this ID.
+
+>>Radheshwar S Modi	19:44
+Yep, there we go. We can click on save. I mean, if you want to give a new connection name, it's up to you. Lovely. We can go ahead and connect Jumpcloud as well.
+
+>>Radheshwar S Modi	20:01
+It's the same, so if you want, you can select all scopes, so that we have access to discovery and workflows as well. Yeah, there you go, connect. Yes. Yeah, this is my API key, so if you can.
+
+>>Luis Martin	20:21
+I'll need to get back to that because I'll need to generate one.
+
+>>Radheshwar S Modi	20:26
+Sure, no problem. You can connect it at your own time as well. You can cancel this for now, which is on the far right, the small x. Yeah, there you go, so you can click on next. We can skip this for now.
+
+>>Adam Kramen	20:51
+I mean, part of the process that we suggest is connecting at least or doing a CSV upload of some spend data, of maybe looking at past spend data if possible, just being able to visualize that in the platform. When looking at budgeting, this can be helpful. Obviously, we're looking at what you budgeted versus what the spends have been. Just another use case that we can help with on the visibility and that single -pane glass for all SMP things.
+
+>>Luis Martin	21:20
+Yeah, understood.
+
+>>Radheshwar S Modi	21:22
+We can go ahead and add Zoom now, Louis. Can you click on sources, please? Browse catalog. The same, you can connect to Zoom. Zoom, I think is again by Oauth, so you don't need an API key there. The first one, you'll connect.
+
+>>Adam Kramen	21:59
+Louis, are you a Dodgers fan?
+
+>>Luis Martin	22:01
+I am.
+
+>>Adam Kramen	22:03
+Yeah, it's been pretty good. I've been watching my Yanks. I'm getting very little sleep these days. Worth it though.
+
+>>Luis Martin	22:12
+They're up, right?
+
+>>Adam Kramen	22:14
+Yeah, they're all right. I'm worried the pitching is just going to crumble, unfortunately, but we'll see. Do I need to approve this for all users?
+
+>>Radheshwar S Modi	22:24
+Yes.
+
+>>Luis Martin	22:26
+Is this going to send him an e -mail?
+
+>>Radheshwar S Modi	22:29
+No, it doesn't usually. Can you share this? I don't see the screen that is there. I mean, that's okay.
+
+>>Luis Martin	22:48
+One second.
+
+>>Radheshwar S Modi	23:04
+Yes, approve. Yes.
+
+>>Luis Martin	23:12
+Then allow?
+
+>>Radheshwar S Modi	23:14
+Yeah. Okay.
+
+>>Adam Kramen	23:31
+Let's do, which one do you want to do? You want to do Github next or Monday?
+
+>>Luis Martin	23:36
+Should this go through?
+
+>>Radheshwar S Modi	23:39
+Yes, because, so if you want to see what all is connected, if you can come back to Zuluri, I mean, you can click on the Zuluri icon on the far left. Sources, connected. Yeah, connected over there on the right -hand side.
+
+>>Adam Kramen	23:58
+Left -hand side. So you can, yeah, connected.
+
+>>Radheshwar S Modi	24:01
+Yes. So we see two instances are connected. So we can go ahead and connect more from Browse Catalog below on the right.
+
+>>Adam Kramen	24:15
+We can do Github next?
+
+>>Radheshwar S Modi	24:22
+Yeah, I'll have to enable it. Just give me one second.
+
+>>Adam Kramen	24:26
+In the meantime, we can probably do, do you want to try Atlassian? Does Atlassian need to be enabled as well? Api key.
+
+>>Radheshwar S Modi	24:36
+No, it's enabled already. They'll have to generate an API key in the now. Api key.
+
+>>Adam Kramen	24:41
+All right. Yes. Yep. All right. So we need API keys.
+
+>>Radheshwar S Modi	24:54
+What are the
+
+>>Radheshwar S Modi	24:54
+What are the other apps, Adam?
+
+>>Adam Kramen	24:57
+We have Monday as well.
+
+>>Radheshwar S Modi	24:59
+You can check Monday. I think Monday's a lot. Same thing in Google Scopes. Yes, also API key.
+
+>>Adam Kramen	25:17
+So we have Atlassian, Jumpcloud, Monday for API keys. We have follow -up items on Jira and Confluence. We should have an answer to you by tomorrow, Luis. We're gonna send out a note tonight and our team will get back to you ASAP on that. Rade, those are pretty straightforward ones. I don't see any issue with that. Yeah, we can. Yeah, I feel that's resolved there.
+
+>>Radheshwar S Modi	25:40
+Yeah, just a heads up, Luis, for Atlassian, for any of the Atlassian tools, they do not provide role information by API, so you might not be able to see them. So that's because that's a limitation from their end in terms of fetching roles. So we can still - The role I'm not too concerned about are not Atlassian right now. Understood.
+
+>>Luis Martin	26:01
+I just - Usage. Yeah.
+
+>>Radheshwar S Modi	26:07
+No, usage we do get. So the way we get usage is from different sources, Luis. So let's say, for example, if you've connected to Atlassian admin, we do get usage information from there. But if not, let's say we also get usage information from Google if they're logging in via Sso. So even that becomes a source of your usage information or activity information. I also quickly show it to you once all the data flows in of how we capture that. And also you can see timestamps with IP addresses of when they've accessed the tool also as well. Okay.
+
+>>Luis Martin	26:44
+Cool.
+
+>>Radheshwar S Modi	26:44
+So, I mean, you can connect to these apps at your time, Luis, shouldn't be an issue. But if you do run into any issues, do let Adam and me know as well. Do you use Slack, Luis? We do.
+
+>>Luis Martin	26:59
+Understood.
+
+>>Radheshwar S Modi	26:59
+So we can also set up a channel. I mean, Adam can help us, yeah.
+
+>>Adam Kramen	27:04
+Yeah, we're going to do that. I'll send you one to set that up, Luis. It's just easier than email going back and forth. Rod, I'll be able to answer it super quick for you. And also looping in any of the other team members on your side, if they did want to get into the platform and poking around, like we have, I know you don't necessarily want to delay things for a couple of weeks. And if they can, if there's anybody else who's managing onboarding, offboarding, or somebody else who's dealing with access reviews, things like that, we can work through different use cases in this time. So it doesn't necessarily feel like we need to take a pause. But yeah, just an offer there. And the Slack channel typically makes that a little bit easier and less daunting, right? Once they're in there, they can just ask quick questions and we can answer back pretty quickly. So it's a pretty good experience for them if they want to pop in there. We want to give a little time, obviously, for you to generate those API keys and for Google Workspaces to start generating information. So we want to check in with you this week, right? We want to get into the platform with you to kind of walk through what you're seeing and just give you a little guided tour there. So is there a good time on Wednesday or Thursday that works for you?
+
+>>Radheshwar S Modi	28:09
+Adam, I'd suggest Thursday because - Thursday, okay. Give a little extra time. Yeah, 24th.
+
+>>Adam Kramen	28:14
+Yeah. So does Thursday at like 9 .30 your time, Luis, or a little later in the morning or early afternoon work for you?
+
+>>Luis Martin	28:24
+Thursday at 10 a .m. Pacific time works.
+
+>>Adam Kramen	28:27
+Perfect. All right. Awesome. All right, I'll send that over. We'll probably only need a half hour. I'll put 45 minutes for now, but just know we'll probably only need a half hour on that one.
+
+>>Luis Martin	28:39
+Now, Luke - For the Netsuite information, how long do you recommend getting the export?
+
+>>Adam Kramen	28:47
+So it depends. 30 days is what I've seen usually, but it can flex, right? Did you, I mean, that's typically what I've recommended in the past is 30 days.
+
+>>Radheshwar S Modi	28:57
+Sure. So the Netsuite is for transactions?
+
+>>Luis Martin	29:00
+The Netsuite, I'm interested to find any - Yeah, I'm interested to find anything that we're not aware of.
+
+>>Radheshwar S Modi	29:07
+Understood. So, I mean, we can do a connection. We can also backdate it accordingly. So again, it's based on request because then I'll have... So the connection with Netsuite is custom to every user. So we usually take some time to do it. I'll tell you the reason why. So let's say if you want to process only certain cost codes for us to process that information, we'll have to take into account and then get that vetted by engineering and then go ahead and do the connection. Right.
+
+>>Adam Kramen	29:35
+We're not going to connect. I think connecting Netsuite for this Poc, Luis, you were just asking around how far to backdate just a manual upload, right?
+
+>>Luis Martin	29:44
+Yeah.
+
+>>Radheshwar S Modi	29:46
+That's your choice. That's fine.
+
+>>Adam Kramen	29:47
+We typically suggest 30 days. Just dependent upon... I mean, some teams just want to look back further.
+
+>>Adam Kramen	29:53
+And just have more information, but 30 days is sufficient for you.
+
+>>Luis Martin	29:59
+Okay.
+
+>>Adam Kramen	30:02
+Look, I appreciate you taking the time. I will send the calendar invite for Thursday, but when thinking about next steps and anybody else who would need to be part of this sort of decision process, is there anyone else? I mean, as like an executive sponsor for somebody who'd be signing off on this, obviously, are they part of this process at all? Are they part of this evaluation at all?
+
+>>Luis Martin	30:26
+Yeah, they'll also be, we're going to an offsite together.
+
+>>Adam Kramen	30:31
+Oh, nice. Okay, cool. All right, gotcha. Well, I mean, obviously, they are welcome, obviously, to get into the platform and part of the Slack channel, but that's what we can kind of do once you're back online. I'll send the invite for Thursday. I'll send a tentative invite for that week of the 28th, probably for like Wednesday or Thursday of that week, because I can't imagine what your email's gonna look like at that point. But yeah, I think let's just keep in touch. I think the Slack channel will make it easier as well if there are any questions or things you're trying to work through, even when you're kind of at an offsite. It sounds like it's not necessarily a vacation, but a team offsite, is that what it is? Where are you guys going? Anything more cool?
+
+>>Luis Martin	31:08
+Well, it's kind of, we're going to someone's wedding.
+
+>>Adam Kramen	31:12
+Oh, okay, so it's a mix. All right, very cool, nice. You got anywhere, you gotta fly somewhere?
+
+>>Luis Martin	31:19
+Yeah, we're going to Spain.
+
+>>Adam Kramen	31:21
+That's a hefty one for you too. My goodness, you gotta stop over or you're going direct?
+
+>>Luis Martin	31:26
+Direct.
+
+>>Adam Kramen	31:28
+Good for you, wow. The meals will be good on that one, an La to Spain, nice. Well, good, splurge for it. Enjoy, I hope you have a great time. Okay, I'll send you the invite for Thursday. We'll talk then, but any other questions that we can discuss before we hop off?
+
+>>Radheshwar S Modi	31:46
+Yeah, just a quick update, Luis. So it takes about 24 to 48 hours for the data to come in. So once the data comes in, I'll also update you on Slack once it's come in. And that's when, on Thursday, I'll do a data validation with you and then do a small run through of the platform as well. Then we can go about, continue once you rejoin from your vacation.
+
+>>Luis Martin	32:11
+You bet.
+
+>>Adam Kramen	32:11
+Yeah, Luis, on Thursday, if there's any workflows that you have in mind or like ones that you have internally, if you've built out any of those sort of models, it would be helpful to have those because we can also help with building out some of those. That's part of the partnership with Slurry is like we know that it's a big shift for teams to go from not having a system in place to having these automations as well in our system. And so we help with that transition as well. So building out some of those, if you have some documentation, we can be helpful in kind of getting some of that done while you're offline as well.
+
+>>Luis Martin	32:41
+All right, sounds good.
+
+>>Adam Kramen	32:44
+Thanks. All right, we'll talk soon. Have a good one.
+
+>>Luis Martin	32:46
+Bye.
+

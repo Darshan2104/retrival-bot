@@ -1,0 +1,456 @@
+>>Vinny Curley	00:00
+Well, I'll sign up now.
+
+>>Ciaran	00:25
+Cool, and then.
+
+>>Radheshwar S Modi	00:28
+You'll have to quickly verify.
+
+>>Ciaran	00:31
+There you go, and confirm.
+
+>>Ciaran	00:51
+So I'll fill, this I probably don't know, would it matter?
+
+>>Radheshwar S Modi	00:59
+I mean, you can select for now, and if you would require to change, we can change it as a one -time effort next time.
+
+>>Vinny Curley	01:06
+I'll put it as you're now.
+
+>>Ciaran	01:08
+Yeah, you can.
+
+>>Vinny Curley	01:09
+It's dollar, it would be dollars, because it's.
+
+>>Ciaran	01:11
+Oh, thank you, thank you.
+
+>>Vinny Curley	01:13
+Yeah, so that's what we're gonna do. That's what we're trying to do.
+
+>>Ciaran	01:17
+Yeah, just keep it as January for now. Yep, there you go, Azure AD.
+
+>>Radheshwar S Modi	01:25
+Click next. So all these are your read -only scopes. This is for discovery, but if let's say you want to go ahead and perform the actions, like we discussed, if you want to go ahead and perform any workflow -related actions, you can add in those scopes for workflow as well. But for now, you can do the read -only and scopes for discovery.
+
+>>Ciaran	01:46
+Yeah, that's good. I think it's set for the read -only there, isn't it?
+
+>>Radheshwar S Modi	01:50
+Yeah, so scope for discovery, can you just click view all first? So right now, the group member API is both read and write. There's no separate one, but I mean, if it's okay, you can go ahead and do that. If not, you can remove it.
+
+>>Ciaran	02:07
+Yeah. Just to be safe.
+
+>>Radheshwar S Modi	02:09
+Yeah, that's it. So you have all your read -only actions, and then you can go ahead and click connect. In this case, you can send to a coworker because in this case, Vinny will be approving it.
+
+>>Ciaran	02:19
+What, is global admin permissions needed, is it? Or could it be like user access admin?
+
+>>Radheshwar S Modi	02:24
+No, it's either report reader, a security reader, global reader, or a global admin.
+
+>>Vinny Curley	02:32
+So any of this - Just go for it there, Kiran, and just see what happens.
+
+>>Ciaran	02:37
+Yeah, I'll just try and see. Probably not, but we'll see.
+
+>>Radheshwar S Modi	02:41
+Yeah, that's fine.
+
+>>Ciaran	02:49
+So then this accept, yeah? Yep. All right, we'll see now.
+
+>>Radheshwar S Modi	03:18
+Oh. Super.
+
+>>Ciaran	03:19
+Super.
+
+>>Vinny Curley	03:20
+Super.
+
+>>Radheshwar S Modi	03:20
+There you go. So you can click on save for now. Yeah, so in this case, next, have you decided what are the other apps that you would like to connect?
+
+>>Vinny Curley	03:35
+I think we just picked some for random ones here, didn't we? Yeah, Ken, Ken.
+
+>>Ciaran	03:41
+He just chatted to me just a bit before. I need to look to do service now, Office 365 licenses.
+
+>>Radheshwar S Modi	03:47
+Yeah, so Office 365 is something we can do. So click on next, I'll show you the catalog we can pick from there. So we can go scroll down and select next. Skip. Two -step is something that you can skip and go next. It's fine.
+
+>>Ciaran	04:11
+Pop a block there. Well, I just, oh, I think - That's fine.
+
+>>Radheshwar S Modi	04:15
+That's okay. So if you can go to sources, please.
+
+>>Ciaran	04:21
+What did - There you go.
+
+>>Radheshwar S Modi	04:22
+Yeah, browse catalog. So over here, you can search for Microsoft Office 365. No, it has to be - Sorry, Yeah.
+
+>>Vinny Curley	04:35
+Guys, sorry. Is this call being recorded by any chance? Yep. Oh, great. Thanks.
+
+>>Radheshwar S Modi	04:42
+There's M365, Yeah. You can go ahead and connect that.
+
+>>Ciaran	04:47
+It's the same as before.
+
+>>Radheshwar S Modi	04:48
+It's the same.
+
+>>Ciaran	04:48
+Add discovery, then remove the right, yeah?
+
+>>Radheshwar S Modi	04:50
+Yes. Yeah. I think it's doing the same thing.
+
+>>Ciaran	04:56
+Yep. So I'll save this.
+
+>>Ciaran	04:58
+Maybe it might get flagged, but we'll see.
+
+>>Vinny Curley	05:05
+Why is there no option for read -only on the groups?
+
+>>Radheshwar S Modi	05:09
+I mean, the API is designed like that. So it does both write and read action, and it's not right on our part to say, hey, it's read -only. So we say that it's a group API.
+
+>>Vinny Curley	05:21
+Got you.
+
+>>Radheshwar S Modi	05:24
+You can click Save. Yep, there you go. And the next, you can browse it from here. Some will be on demand because those are not a part of the Eoc, but you can still go ahead and check.
+
+>>Ciaran	05:36
+So try another one, yeah? So I'll try service now.
+
+>>Radheshwar S Modi	05:39
+I don't think we have service now. You can search.
+
+>>Ciaran	05:42
+Oh, that's fine. Oh, it's locked.
+
+>>Radheshwar S Modi	05:47
+Oh, we do. Oh, it's locked. Let me check if I can enable and see.
+
+>>Ciaran	05:53
+I can check the event. Oh, we found the next one we want to do, which is Slack. So I can check that one. Yep. We'll do that next, yeah?
+
+>>Radheshwar S Modi	06:02
+Same, there you go.
+
+>>Ciaran	06:03
+We only need this though, right? Access to it.
+
+>>Radheshwar S Modi	06:07
+Yeah, the thing is, if you have to, that's a mandatory scope for discovery as well.
+
+>>Ciaran	06:12
+It is, from I recall doing a previous one. To administer a workspace. I think it should be fine.
+
+>>Radheshwar S Modi	06:24
+Yeah.
+
+>>Ciaran	06:26
+Yeah, like the only thing is you're just going to need to read.
+
+>>Radheshwar S Modi	06:29
+Yeah, I mean, see the first 24 to 48 hours, it's only going to read. You're not going to configure any workflow actions. So there's not going to be any right APIs that are going to be called.
+
+>>Vinny Curley	06:39
+So you should be fine. If you hit the dropdown arrow beside that, what does it say there, Kiril?
+
+>>Ciaran	06:52
+I won't be too sure on that one. Is it like to read the business plan or something?
+
+>>Radheshwar S Modi	06:57
+It's for getting user activity data and audit logs as well, so that you can see the usage information.
+
+>>Vinny Curley	07:05
+I'd say that's okay, Kiril.
+
+>>Ciaran	07:07
+Yeah, okay, Yeah. Well, let's do it at that for now. Yeah, what I'll do is just connect.
+
+>>Radheshwar S Modi	07:15
+You can check scopes for discovery also and see if there are any, you don't need to have them alone.
+
+>>Vinny Curley	07:20
+Just check that again, Kiril, down in all the scopes for discovery, yeah.
+
+>>Radheshwar S Modi	07:24
+Yeah, you can say view all, yeah. So there you go. You can remove that one if you want. Yeah. Yep, there you go.
+
+>>Ciaran	07:31
+Great. Cool. I think I'm a primary owner in Slack, so I think I should have enough.
+
+>>Vinny Curley	07:37
+Yeah, you should, yeah.
+
+>>Ciaran	07:38
+Yeah. This app is not approved by Slack, I suppose.
+
+>>Radheshwar S Modi	07:45
+Yeah, then the admin will have to go ahead and do it. Okay.
+
+>>Ciaran	07:50
+Yeah, I think that's my stuff. I'll allow it now.
+
+>>Ciaran	08:04
+Okay. And then another one he said, because the service name is blocked off its grounds, but I can check through the available for Poc. We can do Monday, I think he said.
+
+>>Avirup Banerjee	08:21
+Yeah, we do have Monday. You can search for Atlassian as well. Sorry?
+
+>>Ciaran	08:26
+The confluence, yeah, Yeah.
+
+>>Radheshwar S Modi	08:30
+Yeah, you can do Monday, that's fine.
+
+>>Ciaran	08:33
+Yeah, same as before, but I'll add that. This adds the reads. I think it's going to do the same thing. I think I should be admin for this as well. So I'll connect.
+
+>>Radheshwar S Modi	08:44
+Yeah, this is by API, so you might have to give an API key.
+
+>>Ciaran	08:50
+Yeah, I can get that. Yeah, okay.
+
+>>Avirup Banerjee	09:15
+Team, as we are doing this, I have sent you guys an invite for Slack channel. I mean, it will just ease the way that we're doing it.
+
+>>Ciaran	09:29
+So, copy. Okay, I have that key there. And it's just actually, sorry, just two seconds. I'm just getting the - That's fine.
+
+>>Ciaran	10:24
+Sorry, it moved where it used to be. Sorry, just two seconds. Used to be in a different spot, but they've switched where it is.
+
+>>Ciaran	10:37
+Oh, it's a Graphql, okay. So it must be, Grant, I don't think we need to separate the board. Yeah, those are all optional.
+
+>>Radheshwar S Modi	10:52
+Yeah, you can try connecting.
+
+>>Ciaran	11:03
+Save. Okay, so, and the last one was Atlassian.
+
+>>Radheshwar S Modi	11:10
+Yeah, so for Atlassian, so I'll tell you how Atlassian works. Atlassian admin gives you the license information, but if you want individual application level information, let's say you connect Atlassian admin, then you'll get all the licenses available. But let's say if you want to individually see how it's mapped to every application, then you'll have to connect those as well. So Atlassian admin, then you'll have to connect Jira, Confluence, so on and so forth.
+
+>>Ciaran	11:37
+Okay, so maybe we might just do the Confluence then.
+
+>>Radheshwar S Modi	11:40
+No, you'll have to connect admin in order to fetch the license information, yeah.
+
+>>Ciaran	11:44
+Confluence, okay. Yeah, so you'll do admin and Confluence. Would that count as part of the amount or?
+
+>>Radheshwar S Modi	11:51
+I mean, that's fine, I'll increase it for now because I understand in the case where, yeah, that's fine. Cool.
+
+>>Ciaran	12:00
+That's Grand Connect. I think it might request something. Api key. Let's see if I can get, sorry, I just have to set it up. I'll set it up by the end of November. Just for time.
+
+>>Ciaran	13:40
+You just need the API key to claim the users. This is Grand. I think I know what this is. I'll pack this one for now because I know what the situation is with this one. It's something that's not related to Slurry. So leave that one with me. Well, I still have access to this. I guess I can jump in there later, Yeah?
+
+>>Radheshwar S Modi	14:20
+Yeah, you can do any time. It's pretty straightforward with integrations. We tell you how to do it as well. So if you go to any integration, there's a how -to tab which tells you the steps if you're lost. So that's there. We can definitely help you if you're stuck somewhere. You can always ping us on Slack.
+
+>>Vinny Curley	14:37
+Are we able to add servers now? Sorry? Are we able to add servers now?
+
+>>Radheshwar S Modi	14:44
+Servers now, let me check. Give me a couple of minutes, please, to bear with me. Yeah, you're good.
+
+>>Avirup Banerjee	14:51
+Because I think that would be - The reason that some applications are approved for the Poc some are not is -
+
+>>Avirup Banerjee	14:56
+Is because most of these applications we have subscriptions for. So we can enable it in the Poc. So that's just the reason. It's all available in the production. It's just that some are not for.
+
+>>Vinny Curley	15:09
+Yeah.
+
+>>Ciaran	15:10
+That's not a problem.
+
+>>Vinny Curley	15:10
+We just happened to pick one that wasn't in the Poc.
+
+>>Ciaran	15:13
+Yeah.
+
+>>Radheshwar S Modi	15:14
+That's fine.
+
+>>Vinny Curley	15:16
+We have to make sure, you know, we're quick to make sure to make you guys work, you know. Yeah.
+
+>>Ciaran	15:25
+This is grand. So what I can do then is we'll show this. It actually, and everything as well is for me to, let's say if I was to invite other people in like Vinny, how many people can we invite in the POC?
+
+>>Radheshwar S Modi	15:38
+You can invite as many as you want. That's not an issue, but just wait until 24 to 48 hours for all of your data to come in and then you can start adding. We don't put a restriction on the number of users.
+
+>>Ciaran	15:50
+Yeah, that's grand. What I'll do is I'm just gonna actually bookmark this while it's here.
+
+>>Avirup Banerjee	15:54
+Yeah. So Kiran, Vinny, I have sent you guys an invite to a Slack workspace. If you could just join in, that would be great because I mean, Rathe can just send you a ping saying that, hey, the data is updated. We can get on a call for the next steps, whatever. You can also post your queries.
+
+>>Vinny Curley	16:10
+Yeah, no problem. Just join in there. Join in there as well.
+
+>>Ciaran	16:15
+But this is grand. What we'll do is, yeah, we'll just wait for, so we've added to confirm Office 365, Slack and monday .com are the three that we've added.
+
+>>Radheshwar S Modi	16:30
+Yeah. Mine, I'm just quickly checking for Servicenow just give me a minute.
+
+>>Ciaran	16:50
+I'll just say Servicenow would be quite a key one, I would say. And so we'll just like to see about that one. Add to Slack channel.
+
+>>Radheshwar S Modi	17:15
+So we do get, we do, okay. So we do have integration with Servicenow and just enabling it. We do get usage information, but however, I don't think Servicenow gives us the license information. Kiran, I hope that's okay.
+
+>>Ciaran	17:30
+It won't give the license information, it'll give the user information. Is that what you said, sorry?
+
+>>Radheshwar S Modi	17:34
+So it'll give the user information and the usage when they've accessed the application, et cetera, all that information will come in, except for if they hold a Servicenow license or not. Currently, we don't get that information from their API.
+
+>>Ciaran	17:49
+Oh, at all? Like even if it was like not part of the trial, you don't get that information at all?
+
+>>Radheshwar S Modi	17:55
+Yeah.
+
+>>Ciaran	17:57
+Oh, okay.
+
+>>Radheshwar S Modi	17:58
+I mean, if you want, I'll enable it either ways, but I just wanted to quickly set expectations as well.
+
+>>Ciaran	18:03
+No, no, it's grand, because we can get the list of the users as well. It's just the license part is quite key with that, to be honest. That's grand. What we'll do is we'll have a look and see. So just to confirm, you can't pull the subscriptions? You can only pull the users, you can't pull?
+
+>>Radheshwar S Modi	18:25
+Yeah.
+
+>>Vinny Curley	18:25
+Can you pull?
+
+>>Ciaran	18:26
+I don't know if you know much about, like, can you pull what roles they have?
+
+>>Radheshwar S Modi	18:31
+Let me check.
+
+>>Ciaran	18:32
+Sorry, that's it. I'm putting you on the spot. Sorry, you can come back to me. It's no problem. Yeah, I'll check the entire information and come back.
+
+>>Radheshwar S Modi	18:39
+If you can give me some time on it, I'll check and get back.
+
+>>Ciaran	18:40
+That's fine. Yeah, sorry. I don't want to put you in pressure. What you can do is organize a column myself. I'm hopefully a bit knowledgeable on service now, and me and you can have a chat about this happening, where you can see exactly what information you can pull from, sorry. Yeah.
+
+>>Radheshwar S Modi	18:57
+I'll give you the answer. We have it. We fetch either their admins or users. We get their own information, yes.
+
+>>Ciaran	19:05
+Yeah. Yeah, what we'll do is me and you will have a call about that separately if you want.
+
+>>Radheshwar S Modi	19:09
+Yeah, sure.
+
+>>Ciaran	19:10
+Yeah, super. Grant, so I think then from now, we'll just wait for your message, and we'll sign in. Vinny, I can send you an invite to this, and I'll send one to Ken as well.
+
+>>Vinny Curley	19:22
+Sure.
+
+>>Ciaran	19:23
+And if you think of other apps to do, we'll do them ourselves here. Is that okay if we think of others? Can we just do them if they're in the POC?
+
+>>Radheshwar S Modi	19:32
+Um, I mean, the Poc environment will allow only up like until five integrations. Oh, okay.
+
+>>Ciaran	19:40
+I think we don't have to. Yeah, I'm pretty sure.
+
+>>Avirup Banerjee	19:41
+No, but either way, Kiran, if it's like something that you need to, you know, to evaluate and present a business case, I'm sure me can take an approval. It's not gonna be a problem as long as it's like within a reasonable amount.
+
+>>Ciaran	19:57
+Yeah, yeah, Yeah.
+
+>>Vinny Curley	19:58
+I think live apps is plenty. Yeah. Here on the pink.
+
+>>Radheshwar S Modi	20:03
+Yeah.
+
+>>Ciaran	20:03
+The service now would be huge though. So, yeah, but other than that, this is great. Vinny, I'll add you and I'll add Ken as well into this. Perfect. And I think I'll find a way how to add. There's probably some thing here I'll figure it out. I think it's like directory users. There it is. Super. Yeah.
+
+>>Radheshwar S Modi	20:22
+So, yeah, everything will start flowing in one source. Sync is complete.
+
+>>Vinny Curley	20:28
+Cool. Yeah. Yeah. I think he said to wait.
+
+>>Radheshwar S Modi	20:33
+Yeah.
+
+>>Ciaran	20:34
+Yeah.
+
+>>Vinny Curley	20:35
+Yeah.
+
+>>Radheshwar S Modi	20:35
+Yeah. If you wait, you know, Vinny's name will just pop up.
+
+>>Ciaran	20:41
+Okay. Yeah.
+
+>>Vinny Curley	20:43
+Once you see my name pop up, you know that it's synced. Yeah.
+
+>>Ciaran	20:47
+Super.
+
+>>Avirup Banerjee	20:47
+Yeah. Yeah. Absolutely.
+
+>>Vinny Curley	20:50
+Okay. Thank you, gentlemen. That's great.
+
+>>Ciaran	20:52
+Thanks for the call.
+
+>>Radheshwar S Modi	20:53
+Thanks.
+
+>>Vinny Curley	20:54
+Appreciate it. Thank you. Bye -bye.
+

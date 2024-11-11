@@ -1,0 +1,267 @@
+>>Taia [Tay-uh] Kvitek	00:00
+Awesome. Yeah. How's it going? How has the week started for you? Sorry, my dog's drinking water right next to the camera, so you'll probably hear her laughing at the water.
+
+>>Eeram Nishat	00:13
+Not a problem, not a problem at all. Completely understandable.
+
+>>Taia [Tay-uh] Kvitek	00:18
+Okay, bye. Hi, Veronica.
+
+>>Eeram Nishat	00:25
+Hello.
+
+>>Veronica Rivera	00:27
+How are you? Well, how are you? All good.
+
+>>Eeram Nishat	00:32
+All good over here.
+
+>>Eeram Nishat	00:44
+We'll just wait for Michelle to join as well. But apart from that, I just wanted to give an update. So all the transactions are now have flown into Zuluri. So we would need to check on the transaction rule mapping as to what's the latest on that. And if you were able to create all the rules that were required as well. Hey, I'm again.
+
+>>Megan Hansen	01:10
+Hello, how are you doing?
+
+>>Eeram Nishat	01:12
+I'm doing good. Hi, Michelle.
+
+>>Michelle Yung	01:14
+Hey, everyone.
+
+>>Eeram Nishat	01:16
+Doing good. Yeah, so Megan, I was just talking about the spend bit coming in from the integration. So all the transactions should be there in Zuluri now. We would just need to make sure that we are creating the right transaction mapping rules so that they can be mapped accordingly. Okay, perfect.
+
+>>Megan Hansen	01:39
+Don't be confused with the other Megan. She's the finance one.
+
+>>Eeram Nishat	01:47
+Sorry about that.
+
+>>Michelle Yung	01:51
+So did you communicate with her over our Slack channel? She knows what to do.
+
+>>Eeram Nishat	01:58
+So I this was something that was completed on Friday. So I thought we'll discuss it on the call today. But I'll send a message on the group as well. Let me ping her.
+
+>>Michelle Yung	02:10
+See, she looks offline.
+
+>>Eeram Nishat	02:13
+Not a problem. So I'll share a message in the group as well. Okay.
+
+>>Michelle Yung	02:20
+Okay.
+
+>>Eeram Nishat	02:21
+I'll add the action items as well. So what we'll need to do in that is we'll need to check if all the transactions that are coming in are like the total count is actually correct. So we need to check recognize plus unrecognized. So I'll add all of those details in the message as well. And we will need to complete the work on the rule mapping. So that's something that I will check with Megan as well.
+
+>>Michelle Yung	02:47
+Okay.
+
+>>Eeram Nishat	02:49
+And now that we are good with user categorization as well. I just wanted to check if there were any discrepancies that you saw in any of the employee count that you're getting is all the data that's showing up now. Correct.
+
+>>Megan Hansen	03:10
+I think. Sorry, Veronica has more insight. I think tools were getting pulled in that were like not the correct name. I think Clearpoint strategy was one. That's right.
+
+>>Michelle Yung	03:27
+You all thought it could have been dbt or something like that.
+
+>>Veronica Rivera	03:34
+So the last conversation in the slack channel was I had reached out to me and asked if we are utilizing dbt cloud, which I told him yes. But he's trying to understand the connection or the correlation between dbt cloud and potentially Clearpoint strategy.
+
+>>Michelle Yung	03:57
+Okay.
+
+>>Veronica Rivera	03:58
+So I haven't heard back yet. He said he's still looking into this. And this was on Wednesday.
+
+>>Eeram Nishat	04:04
+I don't know. But let me follow up with him on this. This is for your point.
+
+>>Veronica Rivera	04:12
+Your point strategy. Correct.
+
+>>Eeram Nishat	04:15
+Yeah.
+
+>>Michelle Yung	04:20
+And again, I'm sorry I'm late. It's all good. I think your room has an update for you and possibly some action items.
+
+>>Megan Hildreth	04:33
+Yeah.
+
+>>Eeram Nishat	04:34
+So again, if you could log in now, you'd be able to see that all the transactions are flowing in. We have everything that we could fetch from the integration. We just wanted your confirmation on whether whatever you see in record.
+
+>>Eeram Nishat	04:50
+Unrecognized and if there are any No there's nothing archived so recognized and unrecognized if the total count that you see is in fact correct if you could just verify that as well as on the automation rules so if you were able to create some of those automatic mapping rules on the platform
+
+>>Megan Hildreth	05:11
+Yes I've got like about halfway through my list just because I'm trying to add a unique rule for every single tool that we have within our toolset so it's pretty manuals about halfway through But I definitely can finish in the next day or so and see how many unrecognized transactions that leaves us
+
+>>Eeram Nishat	05:39
+Yeah That should be fine and one of the things that we had discussed in the last call was those two applications that were coming in one was Mac OS and one was iOS so what the team had mentioned that it could be the applications that are getting installed when anyone is logging through their mobile app so there might be an authenticator or something that the system could be recognizing however I've asked I've created a ticket and I've tried to check what exactly could be so they said that these could be possibilities but they're checking in other instances we have recognized something similar Yeah sorry just to recap that statement work can you rephrase that there you know it could be pulling items that users are authenticating with is that what you said yes so for example if users are using some sort of an authenticator app to log into the applications right like a 2FA some some of those Microsoft or Google Authenticator apps it could be picking up on those is what the team has suggested but they don't know exactly what those applications are that's something that they are still checking
+
+>>Veronica Rivera	06:53
+So I think that last week Megan and I were able to do some review here for the Mac OS the Android OS I believe is due to the Mdm that we have that I enabled on Google so that might actually be the original cause for those specifically but as for the biggest the biggest item here I think that we need an answer for is the needs review section has thousands of apps Yes and we're trying to determine whether or not these are coming from users bookmarks and how it's being sourced so I know we brought this up a few times is there any sort of way we can understand where those apps are coming from like did we just did we have time to decipher whether or not it was a you know bookmark that they're bookmarking on their Okta or you know what the case is there Yeah
+
+>>Eeram Nishat	07:55
+So see basically it would be bookmarks so we would in the bookmarks when we say those needs to be created that as applications in Okta right those are the ones we would recognize now whatever it is that you're getting from Okta or Google Workspace beyond that are things that the users are using to log into those applications right So they're using those Okta credentials or they're using those Google credentials to log into that there wouldn't be when you say bookmarks I'm assuming these are the bookmarks that the users are creating or these are bookmarks specifically in Okta that that can be created I think bookmark can be created by either party correct so unless so even with Google Workspace right until and unless the user is not you know like there is if we haven't recognized at some point those applications being accessed we wouldn't recognize them so it is only when the users are hitting on those URLs or if it is Google Workspace then logging into that application Okta again if they're using those credentials so that's the only way we'd be able to recognize and that's why for a lot of them sometimes you're not getting those URLs as well because these are being accessed directly from their Google Workspace credentials and they're not like going to a different application and logging in
+
+>>Veronica Rivera	09:16
+So I'm sorry I just need to confirm here what you're saying So like if it's so it if it's coming from a source of Okta Right hmm they wouldn't be utilizing their Okta credentials to log into an application that we have not integrated with Okta Michelle let me know if I said that correctly I don't know if I'm saying that correctly could it be that they're using that
+
+>>Michelle Yung	09:48
+The Taskrabbit email address to sign up for stuff And then that's what it's picking up? Even if it's not like the same password or?
+
+>>Eeram Nishat	10:01
+So if you look at Reddit as one of the examples, right, we are discovering this both from Okta, right, as well as Google Workspace. So there are users who have, okay, so, okay, so for most of the users, we are picking up Google as the source, as well as Okta, as well as the source. So there must be some login via Okta as well as what I'm assuming.
+
+>>Michelle Yung	10:29
+I don't believe we have that.
+
+>>Veronica Rivera	10:33
+We do not have Reddit behind Okta, no.
+
+>>Michelle Yung	10:43
+Okay, so I guess our ask still is, can we get any metadata on these applications that we don't see now in the console?
+
+>>Eeram Nishat	10:58
+So yeah, Michelle, that's again, right, like the information that we're able to capture on the application is limited to, it's all based on how the users are logging in, right? We're able to capture who is the user who's logged in and what those details are. But in terms of metadata, we're not capturing anything else as such. And everything that is getting captured is being displayed on the platform. So what I would want to understand is, is there something specific that we should be adding here which will help you understand what those applications are?
+
+>>Michelle Yung	11:37
+Because - Yeah, so here's our challenge. Our challenge is we don't know what to do with these applications. We don't know if this is something that Taskrabbit is managing because they're just popping up out of nowhere. So just from a surface area standpoint, I think we just need to get clear on what are the apps we can safely disregard and what are the apps we actively need to manage? And without those answers, it's gonna be very difficult for us to move forward.
+
+>>Eeram Nishat	12:11
+And that's right. So one of the things that we can look at in that case, and this is the report that I'm working on, Michelle. So if, okay, if I go to Needs Review, there are a lot of applications that are there that are just extensions of other applications. If I see, if you just look at this here, in your Manage section, you have already added Atlassian, I believe, but Jira is something that is still a part of your Needs Review section, right? So if you see here, I have added another column here, which is Vendor. And even in your Manage application, you'll be able to see, if I search for Atlassian, yeah, if you see Atlassian as well, I've added Jira as the vendor over there. This will make it easier for you to understand, okay, even if there are several applications being discovered from the same vendor, what those are, you'd be able to see it in one place. So what I did was, since there was no contract for Jira that we had, we are just getting the spend information right now. What I've done is I've taken a base contract, then an approximate number of licensed users, and what will be the annual cost total, right? So the idea is, and this is something that the team is working on. So the idea is for most of these applications, we'll attach a vendor, like where is the application coming from? You can call it a parent app, you can call it a vendor. From like managing application, it makes a lot of sense to have vendors. So once we have that list, right, whatever is left are the ones that we don't know what these could be, right? So we'll have a much smaller list to work with.
+
+>>Eeram Nishat	13:55
+Now, when it comes to understanding what these applications are, that's something that we're checking with the team as to what we can do, how can we safely assume that these are applications that are not real ones, and we can, you know, not, like maybe archive them or not manage them, and which ones are the ones that we should be managing? Because that's a challenge, I completely understand that you're not able to see how is it getting access today, if even if it is through opt -out, even if it is through Google Workspace, is there a specific application activity that you would want to understand, right? So if you see for 30 % of applications we're capturing, like based on the URL, you'll be able to see what those applications are. So that other set is something, a lot of that would get emptied from here as well, because some of them will be Microsoft, some of them will be a lot of.
+
+>>Eeram Nishat	14:47
+Of extensions that we're capturing are from Zendesk, right? So those would be merged as well. So give us time till this week, you would have a lot smaller list to work with. And based on our discussion last week as well, I have raised these questions to the team also. Since in our next release, we have a feature where we'd be able to automatically from the start itself merge some of those applications, but we're still working on a logic for that. And that's why this is taking a little bit of time.
+
+>>Michelle Yung	15:18
+I'm fine with manually reviewing what needs to be merged. Is there that list or did you say it was end of this week that you would provide that?
+
+>>Eeram Nishat	15:30
+Yeah, so by end of this week, you would have a complete mapping of the vendor list, right? So if you see here, there's a lot of them which are coming from the same application. So you will have like a understanding of what those vendors and then only for the applications where we're not able to find what's the parent application. Those are the only ones we would need to look at them. So you'll have a much smaller list. And in that, it will be much easier to understand which one of these are just extensions that we can disregard, archive or merge with the parent app.
+
+>>Michelle Yung	16:01
+Okay, so you're rolling up the, you're rolling up the, whatever you call it, list needs merge list with this benchmark report.
+
+>>Eeram Nishat	16:13
+Exactly, exactly. So for some of them, for example, for Zendesk as well, we don't have a contract yet. So what I could see was there are about, spend information is something that we're getting now. There are 393 active users. So those is what I've kept as a benchmark for the licensed user as well. The approximate cost that we see most of the organizations paying is $89. So based on that, that's the contract value per month and per year. So these values could be inflated today, Michelle, but this is the benchmarking data now. We haven't accounted for any sort of discounting that can be done for organization or even the license number could be inflated because these might not be the actual licensed users that you might have. These could just be the active users that we are getting, right? So those details might lower or increase the cost, but what we can maybe look at is the cost per license approximately, what is it that's being paid in the other organizations and then you can benchmark it with what you are paying today.
+
+>>Michelle Yung	17:21
+Okay. That would be super useful.
+
+>>Eeram Nishat	17:24
+Yeah. So you'll have this report by the end of this week. It's a very large data set that we're working with, it's taking some time. For some of that, some of them we have populated, for some of them we're still working on. Just one more thing that I wanted to check you.
+
+>>Eeram Nishat	17:58
+Okay. So in your needs review section, from the Netsuite, we are getting these four applications as well, right? So Doordash again will not be a SaaS, this pen that you'll be accounting with. So this is something that maybe you can consider moving into unmanaged section because this wouldn't be a part of your SaaS pen. Similarly for PayPal as well, you can move it across. I'm guessing, I'm wondering if Customer Alliance and Linkedin Sales Navigator is something that you would want to keep it separate. Reason being LinkedIn Sales Navigator might be a part of your overall Linkedin contract and Customer Alliance might be a part of your Zendesk contract. So that's something that we would need to check on.
+
+>>Michelle Yung	18:45
+Okay.
+
+>>Eeram Nishat	18:46
+Right. So would you be the right person for this mission for Linkedin Navigator and Customer Alliance maybe?
+
+>>Michelle Yung	18:59
+Let's see. I think I would need to dig in more. But what is it about these four things in particular?
+
+>>Eeram Nishat	19:10
+So these are still in your needs review section. These application are still in your needs review section, but there are some costs that are being attached to these applications, right? Because the source that's coming up for these application is through Netsuite. That's when there are some transactions happening. Ideally, what we recommend is anything that has a cost attached to it should be in your managed section unless it's a non -SaaS application, which could be your Doordash, PayPal. So Doordash and PayPal can go to your unmanaged section and then Linkedin Sales Navigator and Customer Alliance, based on the contract, we can upload those...
+
+>>Eeram Nishat	19:46
+Contracts as well and move it to the manage section. So I wanted to understand if these are already part of your larger contract with Linkedin And Zendesk, these two applications.
+
+>>Michelle Yung	19:57
+Because customer alliance and business. I don't have any context on that, on these things except for PayPal. So we'll need to dig in further to understand what the right course of action is.
+
+>>Eeram Nishat	20:11
+All right, I'll list these out as action items and I'll share it with you on the Slack channel. So we'll have a view of it. So we'll finish up the report, Michelle, and share it with you. I think that will be helpful. Apart from that, just let me know if, Megan, just let me know if there are any issues that comes in with the spend mapping as well. Apart from this, from Ayush, I just had one update, which is with respect to the optimization report. So since the spend data is something that we got recent as in like by Friday, he said that he'll work on the optimization report and share it by the end of this week or early next week, because he would be on off most of this week. So once he's back, he will be sharing the optimization report as well with you.
+
+>>Michelle Yung	21:03
+Okay. Okay, sounds good. Are we going by the, there's like a Rocket Lane project tracker. Is that what we're using from now on?
+
+>>Eeram Nishat	21:19
+Yes, yes. You should have access to it, right?
+
+>>Michelle Yung	21:24
+Yes, I have access to it. There were some questions and comments left in the SOW, and I don't know who to direct it to.
+
+>>Eeram Nishat	21:43
+Maybe Michelle, we can discuss it now as well. If there are any specific questions, I can help you out with those. Because this Rocket Lane access is something that Ayush has. So maybe you can let me know the questions and I can answer those.
+
+>>Michelle Yung	22:04
+Okay, let's see. There's an old scheduled go live date. I mean, we're well past September 15th. Wanted to know from your standpoint, what the new target would be.
+
+>>Eeram Nishat	22:19
+So what the new target we had thought about, Michelle, was either like the third week of October. Reason being, we wanted to complete the optimization as well. So next week, if you're working on the optimization report, I think 21st of October, that week, right, would be a good go live date. Because by then we would have all the spend information, all the details on the transactions would be mapped by then as well as we'll have a cost optimization and the benchmarking report. So I think 21st of October should be a good date, 21st or 22nd.
+
+>>Michelle Yung	22:57
+Okay, and there's a list of applications in the document. It's not mirroring the original list. However, that's okay. I think there's some replacement apps that I would like to get in there. I took some out just keeping the number of apps like pretty much the same. But there's some apps that we could not integrate like Lucidchart because it was in beta. Tried a few times, but I think what we're gonna do is we're gonna wait until it comes out of beta.
+
+>>Eeram Nishat	23:37
+Okay.
+
+>>Michelle Yung	23:38
+Do you happen, maybe you don't know off the top of your head.
+
+>>Eeram Nishat	23:43
+Sorry, Michelle, go ahead.
+
+>>Michelle Yung	23:45
+Can you check to see when it might come out of beta?
+
+>>Eeram Nishat	23:50
+Okay, yeah, I will check that because even with beta, you should be able to integrate it. Let me check with the team as to why it wasn't available.
+
+>>Michelle Yung	24:08
+And then, so Blurry has revealed that there's some more high target applications that we would like to substitute. Let me just, I think it'd be easier if I share my screen here. Okay, so we removed Hackerone, Solarwinds, Lucidchart, Cloudflare. Lucidchart was removed because we couldn't integrate it after many attempts. And it was in beta, so we're not gonna do that. It was in beta, so we're replacing it with these, which.
+
+>>Eeram Nishat	24:46
+Openai, Crowdstrike, Jamf, Atlassian, and Taskrabbit Admin, okay.
+
+>>Michelle Yung	24:54
+And so this would make up our list of applications to integrate with. There's also this one, which I did mention in the intake form, but it never made it into any plan on your guys' documents, which is this internal app called Tradmin.
+
+>>Eeram Nishat	25:15
+I think it's already created on the platform, right? If I'm not wrong. So this is an internal app, right? And do you maintain like a user list for this?
+
+>>Michelle Yung	25:31
+We would like to know more about that because there are some questions about what manual effort is needed, because if there is manual effort, we'll have to kind of discuss internally, because the point of this tool is to reduce some of the maintenance in managing vendors. And, you know, if the ROI isn't worth it, we'll, you know, reconsider like what is within scope. But there were some questions about what manual efforts here. I don't know where that would be.
+
+>>Eeram Nishat	26:08
+The manual effort would be one, which is creating the app for the first time, right? We will need to create it. Since it's not getting recognized automatically, we'll have to create it separately as a manual app. Now, when it comes to updating the user list, one thing is if today, if you're adding those users in the application through an Okta group or something of that sort, then in that case, we can do that mapping and the user list will get updated automatically, right? So in that case, you wouldn't have to update the user list. Now, if that's not happening today, then in that case, on a monthly basis, we'll have to do a manual upload where we'll have the user name and the user and the user role. If there are specific roles for that application, I will have to do a manual upload on month on month or whatever is the frequency that you want. It can be week on week as well. So it depends on how today the application is being managed internally.
+
+>>Michelle Yung	27:04
+Yeah, so for Tr Admin in particular, it's going to be integrated with with Okta. The team that was responsible for it had implemented it for a subset of users a few months ago and then our peak season hit. So they paused on that and will continue the migration effort. They should be able to complete that, I believe, this and you check on timing, but it would likely be this quarter.
+
+>>Eeram Nishat	27:43
+Got it. Got it. So, yeah, if that could be one very easy way to maintain it right. And now we have a feature through which. So, for example, if you have groups in Google Workspace as well and you can make use of a Google Workspace groups for applications where we are not pulling in license information through integration. Right. What happens or even for Okta for that matter, you can use Okta groups for that. So what will happen is we have a feature wherein a group can be mapped to a specific license. So, for example, for Grammarly, if you have a paid and a non -paid license, you can while you can have one group to manage Grammarly license over a Grammarly application overall for license assignment as well. You can have a group and you can map the same group to that license in Zluri. So every time a user is added to that Okta group or that Google Workspace group, that license will get attached to that user in Zluri. So that will also reduce a lot of your manual effort when you're managing licenses. And this is especially helpful for applications where we don't have integration. Like Lucidchart, if you're not pulling in license information, then this is an approach we can take to get the license mapping in Zluri. So, yeah, that's also something we can look at maybe in the span of the next two to three weeks whenever this is ready.
+
+>>Michelle Yung	29:03
+Ok, I think I need more details on that because we're going to we're going to get on an annual plan with PagerDuty, which is one of the apps listed here. And they have different license types. So there's a read -only license called Stakeholder License that's priced at a lower cost. And so there will be different different license types. I think also for for Snowflake, there's also a similar, Snowflake And Looker, there's also similar different types of users at different price points.
+
+>>Michelle Yung	29:44
+Okay, so we're at time, but does anybody have any burning questions? And Eram, do you think you can, I will go through the questions addressed to me, but do you think you could have Varun take a look at this document and, you know, respond to some of these?
+
+>>Eeram Nishat	30:12
+Yes, absolutely, Michelle. I didn't have a purview of this. Just let me go ahead and get this sorted out as soon as possible. Yeah, I will, what I'll do is I'll try to get access to it and get the questions answered and get it done by tomorrow or day after at the Max, made a run out of it.
+
+>>Michelle Yung	30:33
+Okay. Great. Sounds good. All right. Thanks, everybody.
+
+>>Eeram Nishat	30:39
+Yeah. Thank you so much, everyone. Have a great week. Bye -bye.
+
+>>Megan Hildreth	30:42
+Thanks.
+
+>>Taia [Tay-uh] Kvitek	30:43
+Bye.
+

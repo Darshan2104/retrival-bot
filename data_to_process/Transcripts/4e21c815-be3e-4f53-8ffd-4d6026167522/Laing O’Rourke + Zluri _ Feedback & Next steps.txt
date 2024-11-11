@@ -1,0 +1,225 @@
+>>Harsha K	00:03
+Good afternoon. Can you hear me?
+
+>>Harsha K	00:12
+You're on mute if you're speaking. Can you hear me now? I can hear you now.
+
+>>BHughes	00:18
+Okay. I still don't have you, which is pretty common. Hang on a Sec. There we go.
+
+>>Harsha K	00:36
+I can't see you still, but I can hear you.
+
+>>BHughes	00:39
+No, I need to get a background on before I open up my camera. Okay. Blue will do.
+
+>>BHughes	01:17
+All right. I think, okay, Steph's joining. Hello.
+
+>>Harsha K	01:30
+I see Steph has joined in. How are you guys doing? It's been a while.
+
+>>BHughes	01:36
+Yes, it has, and most of that's my fault because I have been busy And I do in fact actually have conflicting meeting that I'm supposed to be in right now, so I'm going to be a little rude and make my excuses very early, have a quick chat, and then I'm going to have to bail out. Okay.
+
+>>Harsha K	02:01
+Thank you for taking the time, but yes, I'd love to hear the feedback and any thoughts that you have.
+
+>>BHughes	02:10
+So, feedback perspective, Steph and Kia will be far more malleable to you anyway. My side of things is pretty much just from the decision -making point of view, which I guess I can probably cover some of this off while we're waiting for Steph and Kia to finish getting Zoom installed and whatever else. Having spoken to our cyber security folks, we are committed to needing all of our data to be housed in Australian data centers. Yep. So, that's a must -have from our point of view, and I believe that was not possible for you guys?
+
+>>Harsha K	03:02
+I mean, it's not out of the box, but we do have a function. I mean, we do have the provision for it where you can host all your data in your private cloud within the region that you want to. It would be a separate cost element for it, but we do have that option to provision. Zuri doesn't have a data center in Australia, but we can facilitate for you to have the data in Australia at an additional price point.
+
+>>BHughes	03:35
+Okay. So, from my point of view, what I would need to understand then, and I will leave you and Steph and Kia to talk about the application, the capabilities, et cetera. From my point of view, what I would need to understand is some pricing. And I guess the first question is, how is your pricing structure created? I know you have a per user pricing, but that is based on a user. What's a user?
+
+>>Harsha K	04:09
+So, it's an employee in the organization who we are tracking. So, basically, I think you use so when we integrate all the active users that we pull from that integration is considered as an employee. Of course, I remember we spoke about a different set of employees, but again, let's say across the organization, there are 2000 employees that you would want to track. That's the number that we would go with. And depending on what you would want to take from the platform, because we have Saas management offering, access management and access review offering. So, understanding that, that would basically define the per month dollar amount. So, it's the employee count into the dollar amount into 12 months. So, that's that one year contract.
+
+>>BHughes	05:07
+Yeah. All right. So, what I would need to understand then is what some examples of what that would look like based on, let's sort of say 3000 users, which is our Australian contingent. What does and I'll let the girls talk to you about what kind of functionality they would want to see as a couple of options. One of which I think is, basically, tracking usage of specific licenses on a per user basis and reporting on that. Mm -hmm. And not including the SaaS component. And then, what then the SaaS component added onto that would look like. And any other kind of configuration options that may make sense to them that would assist them in their roles. So, basically, what I need is a price list, a shopping list to see what what we would be looking at per user per month for the product, depending upon two or three different variations in the capabilities purchased.
+
+>>Harsha K	06:30
+Yeah. Just a couple of questions, clarifications. You mentioned, was it 3000 employees within Australia?
+
+>>BHughes	06:38
+Approximately, yeah. And there's still qualifications to be made there as well, because we have internal employees. We have people in our Active Directory who are BYOD users and bring their own devices. And then we have client accounts that we give no software to whatsoever, but who do still have an Active Directory account in our environment so that they can do things like book meeting rooms and things like that. So, we would need to understand what exactly qualifies in your books as a user. Is it someone who is assigned and issued software by us? Because that then would mean that the BYOD users, the client users would not be part of that.
+
+>>Harsha K	07:30
+Mm hmm.
+
+>>BHughes	07:32
+Yes.
+
+>>Harsha K	07:34
+Yes, that would be how I mean, that would be the ones that you would want us to track like in terms of like, what is what are the apps they're using, the usage, all of that. So, that's what I mean that these would be the employees that you'd want us to track. And again, you mentioned that there's a few folks who just started, they have an ID, but they don't have the software assigned to them. So, if they have, let's say, a different domain, it's easier for us to just segregate them and say these are all external. No, they don't.
+
+>>BHughes	08:02
+They're all given accounts in the Langerhof domain, but with different levels of access and different levels of visibility and no actual software assigned to them or installed on their machines from us. Okay.
+
+>>Harsha K	08:20
+I mean, yeah, like you said, I think I'll just need to understand from a technical standpoint on how we eliminate these users and not track them or not charge for them. It is possible, just need to kind of get to how we'll exactly implement that. But one, before that one, taking a step back, one other question was, you mentioned the Australia users. So, again, do you have a different instance in Entra where all these users within Australia are a part of a different instance or are all the global users a part of the same instance of Entra?
+
+>>BHughes	09:00
+No, it's a global company. So, it's a single tenancy with all of the users in it. We have historically used Ous to manage the difference in old school Active Directory, and that's still the way we divide users and access. So, we definitely need to make sure that we can negate the Uk component, but that should be okay because their SSIDs are .com rather than .com .au like ours. So, that should be okay. I'm not too concerned about that one. It's more the Byod and the client users who we don't give software to. So, we need to understand exactly how that user count is technically arrived at and how we manage that. But from a pricing point of view, so I can get an understanding of approximately what we're looking at, let's just work on 3000 users because I just need some ballpark pricing to know whether this is even on the radar or if it's just not there.
+
+>>Harsha K	10:30
+Got it. I mean, I'll just need to work this out. I don't have an answer on this call, but let me... Sorry.
+
+>>BHughes	10:41
+No, no, I wouldn't expect you to, but I will just let the girls go. Anything that they, any questions you have, I think Keir and Steph can probably answer And I'll leave you there. If there are any kind of semi -technical questions that come out of your discussions, well actually Keir and Steph can pop them into a chat while I'm on this other meeting and I'll try and answer them while you're still talking. But otherwise, we'll sort those out and maybe have a bit of an email back and forth regarding the rest of that. But if you've got a rough idea of approximately what I'm trying to get, which is just some conceptual pricing, so that I can make some very basic budget decisions and work out A, whether we're even in the ballpark or B, whether this is something that we look at now or wait for the next financial year so that we can budget for it.
+
+>>Harsha K	11:44
+Got it.
+
+>>BHughes	11:45
+I will leave you then. Assuming Steph and Keir are online, we can see them, but there we go. I'll leave you guys to continue the chat unless you've got any other immediate questions, Tasha.
+
+>>Harsha K	12:04
+I know you're doubly booked, but I'll check with Stephanie. I just want to make sure that the modules that you're looking at is what I have it right in terms of what you need. And this is again from a pricing standpoint, I would need to know.
+
+>>BHughes	12:18
+What we need will be very much Keir and Steph will be able to advise you on that more so than myself. You can figure or you price up what they want And then I'll be the Grinch and tell them they can't have it.
+
+>>Kia Wakeham	12:36
+All right.
+
+>>BHughes	12:37
+Thank you, guys. I've got to scoot. As I said, Keir, Steph, pop any questions into the chat and while I'm on my other exciting meeting, I will try to answer if I can.
+
+>>Kia Wakeham	12:49
+No worries. Thanks, Brad. We'll ping you if required.
+
+>>BHughes	12:55
+Yep. Nice to see you again, Tasha. We will no doubt talk soon. Yeah.
+
+>>Harsha K	13:00
+Thank you. Bye. Okay.
+
+>>Kia Wakeham	13:07
+Okay. How are we going? Sorry. Sorry that I was a little late to the call. Had a few technical issues as I was coming in. So apologies for that.
+
+>>Harsha K	13:22
+Okay.
+
+>>Kia Wakeham	13:25
+So yeah. So pretty much I know that jumping straight into it previously, we sort of talked about some of the visibility, like offerings and options and that sort of stuff that's possible. We'd sort of briefly touched on cost optimization, but we were also looking quite a bit at operational efficiency and that sort of thing as well. I think we touched on briefly. So from memory, I think when we spoke last, we did kind of have an idea of what areas that you'd shown us that we were looking at. I think we'd sort of verbalize that to you at that point. So I think, yeah, if we wanted to crack on going forwards with that, what do you need from us to be able to provide Brad with an estimate sort of pricing that he can do what he needs to do? Okay.
+
+>>Harsha K	14:43
+So one is, let me just share my screen because it's been a while. Just want to kind of walk you through all the features that we have in these specific plans and just want to get your thoughts on what is it that is required for you. I know from my notes, I do have, I mean, we spoke about like the whole software visibility allocation, understanding license assignment, usage optimization, management, vendor management, all of that. And you had mentioned that access management is something which is maybe a good to have. And West is also something that we kind of touched upon, but I'm not sure if those are something that you are looking at at this point. So just if you're okay, I can just share my screen and just walk you through what we have in specific plans and add -ons. And if I can nail that down of like, what is the exact requirement that would be. Yeah, sure.
+
+>>Kia Wakeham	15:43
+I know that Stefan, I don't have too much leeway outside of the meeting time today, but yeah, let's crack on and see what we can get her.
+
+>>Harsha K	15:58
+Okay. Yeah, I'll keep it quick. So within the Saas management offering, we have two plans, scale and enterprise, and you can see the features that each of them have. So there's all the discovery methods that we have. It's common for both the plans, which is where the outcome of visibility is solved for. And you have all the complete directories, user department groups, all of that is common, complete admin controls. So users spend, user activity, understanding similar applications, all of that. And this is where it slightly changes. So we complete spend management, but going deeper into spend versus cost analysis, your spend forecasting, all of that is a part of the enterprise plan. And complete contract management, vendor management, license management, and alerts on renewables payments, all of that is a part of the enterprise plan. And this is something that you would need, right? Like correct me if I'm wrong in this.
+
+>>Kia Wakeham	17:03
+Yeah. Contract management would be something that we would be interested in. Yeah. Whilst I would certainly be interested in scale pricing, because quite a lot of the at the top is things that we are after as well. I think that, yeah, probably actually getting pricing across both, seeing as there is that variation in some of the things that come through the vendor management and what have you that comes with the enterprise. That would certainly be something that we would probably want to look at and consider a bit deeper internally when we're having these budget chats.
+
+>>Harsha K	17:50
+Okay. Understood. So yeah, just calling that difference out. So everything from a cost optimization standpoint is what you would have in the enterprise aspect. In this, you also will have the automation around optimization. So that's another thing that you wouldn't see mentioned here. And security module. So understanding risk, threat, compliance, details, things like that. And analytics and custom reports. All of that is something that you would have in each of those plans. And I would say this is still the same for even if it's scale or enterprise, you will have that complete onboarding implementation and support included in either of the plans. So that's the difference. I'll also share this link with you so you know exactly what features you would have within each of this. But this covers the Saas management offering. And I'm clear, I know you want to see prices for both these plans. So that's something I'll work on.
+
+>>Kia Wakeham	18:57
+Thank you. Yes.
+
+>>Harsha K	18:59
+And then there is access management. So within this, these are again, common across what you would get initially. But this is where you have onboarding, offboarding, automation. So access, provisioning, deprovisioning, automating that entire process for joiners, movers, leavers. That's the part of the lifecycle management of access. And access request where employees can request for any license or access on application. And you can set up an approval flow and make sure that they are auto -provisioning Once it's approved. So these are the two things that you would get within the access management add -on. So is this of an interest?
+
+>>Kia Wakeham	19:45
+Yeah, I think that this would probably be worthwhile. I mean, we do have service now at the moment. However, yeah, I think we like to keep options open. And whilst we are doing some things in that space, yeah, I think it would be worthwhile including it.
+
+>>Harsha K	20:12
+Okay. And I'm not sure if we spoke about access reviews last time, but this is another add -on where you have the entire, I mean, you can set up the entire access reviews of any application. And then the reviewers can review if all the users within that application have, should have the access, do they have the right level of access or they shouldn't have an access. So that entire review can be automated in Slury and the remediation of it. So once the reviewers have reviewed it, if they say, hey, this person should not have access. So we go ahead and remove the access. So the entire remediation of it and detailed report, which can be useful for your compliance, external audits, things like that. So this is the other add -on.
+
+>>Kia Wakeham	20:59
+Yeah. Okay. So, sorry, could you scroll up a touch?
+
+>>Harsha K	21:06
+Yep. Yep.
+
+>>Kia Wakeham	21:08
+Thank you. So where it's got, sorry, I know that we're tight on time, but with the auto revoke and auto modify of access in the remediation there, is, is that, that's also therefore managed or linked in by Entra, is it?
+
+>>Harsha K	21:33
+Entra and also directly with the applications. So, okay.
+
+>>Kia Wakeham	21:39
+Yeah. Yeah.
+
+>>Harsha K	21:40
+Yeah. We have definitions where we can automate the process. Okay.
+
+>>Kia Wakeham	21:45
+That's pretty cool. Okay. I think that the access reviews is probably more of a nice to have, you know, maybe something to work towards. I am not sure that we would necessarily be able to implement all of this all at once to great effect. So I think perhaps if we focus on the Sas management and access management, that that's probably going to be our sweet spot. I think. Yeah. Sounds good.
+
+>>Harsha K	22:28
+I'll, I'll work on giving you all those options for the 3 ,000 employees that we mentioned and maybe a ballpark number in terms of having the data in Australia, what, what that would look like. So, because that's a main requirement. I just want to understand also from you in what, what would be the kind of like the evaluation process? I know Brad mentioned that it could move to the next financial year. When is the next financial year and how does it look like in terms of evaluation if it needs to happen now? Yeah.
+
+>>Kia Wakeham	23:07
+So as Brad sort of touched on we're a global business and we sort of link into our Uk hubs financial year. We, we work off that. So our financial year will be ending in March and starting again from April. So at the moment Brad's sort of process would be that he would need some ballpark pricing. That then, because we haven't had that in our budget previously, there would need to be a, he would have to do up a business case and submit that for inclusion, which would go through review. It, it may, sorry, I'm just a little unclear about the exact approval tracks that it has to go through. But there is usually a couple of layers of that. And then sometimes it's not impossible that our budget review will actually exceed past March. So it may not finish until say, end of April, that sort of thing. So generally I would say that by February, we might have a vague idea of, and this is entirely dependent on our executive team and how they're operating through some of this.
+
+>>Kia Wakeham	24:57
+So a degree of it is outside of our hands, but it's quite a process. And yeah, I hope that kind of answers your question a little bit in a bit of a roundabout way.
+
+>>Harsha K	25:11
+Right. I mean, like, I think if the pricing is kind of, it works out to be added to this year's budget, then the business case needs to be built and gone through, go through the reviews and that couple of approval layers. And then we could move on to like actually probably fitting that into within before the March end kind of a timeframe. Else it will be pushed to like review or budget approval in April month. And then the whole process will start then is my understanding. Correct.
+
+>>Kia Wakeham	25:48
+Yeah. Yeah. So there'll be an initial. Yeah. Yeah. Yes. You have it. Correct. Yes.
+
+>>Harsha K	25:59
+Presence on me. I'll make sure that I have to share with you. Yeah.
+
+>>Kia Wakeham	26:04
+No, no worries. Like there is a degree of flexibility. A lot of thing is a lot of this is going to be prep on our side in the lead up to the end of the year. We'd like to have everything as together as we can before end of year. So that, you know, when we hit January, February, some of those reviews could start happening in earnest and that sort of thing. So, yeah. Okay.
+
+>>Harsha K	26:31
+I understood. But I'm happy to help with like building a business case and like whatever you need from our end, I'll make sure I provide that support. And first thing is to come up with some good options for you in combination of like scale enterprise. So those add ons as well. So I'll put that together and I'll share that with you. Happy to jump on a call to discuss more in detail once I have that in place. Or would you like to like me to set up another call to run through the numbers and the options over a call? Would you prefer that?
+
+>>Kia Wakeham	27:08
+I think what we might do is that way there's no pressure on you. If you start organizing some of that pricing, send it through. And then from that point, we can organize a meeting to then discuss it because we'll have a chance to have looked at it. We can have a chat and sort of be like, okay, so was there anything that we needed to get clarification on any of that? So that that way we're a little bit more prepared when we come to you and we can have a meaningful conversation. Okay.
+
+>>Harsha K	27:41
+Got it. Sorry, I know we're over time, but I just have one last question. Thanks. I know Brad mentioned that the entire global team, which I think is around 10 ,000 employees, are all in the single instance of Entra, but the email ID domains are different for the Australian team and Uk team. Is my understanding correct there?
+
+>>Kia Wakeham	28:06
+Correct. I don't think that we're quite at 10 ,000, but yeah, the domains are different when we can use that to highlight it in Entra. Yes. Okay.
+
+>>Harsha K	28:20
+But there are no other segregation of like a different organization unit or like definitely not.
+
+>>Kia Wakeham	28:27
+It's a joint tenant. Yeah.
+
+>>Harsha K	28:30
+Okay.
+
+>>Kia Wakeham	28:31
+Okay. Got it.
+
+>>Harsha K	28:32
+That's because technically I need to check that as well because the way we have built our integrations, we process all the employees and then the filtering can happen in the front end. So I just need to check how that would work out for us, but I'll come back with the feedback that I have from the tech team as well around that Or how we would technically solve for it. Okay.
+
+>>Kia Wakeham	28:57
+Sure. No worries. Appreciate you looking into that and look forward to hearing how it goes.
+
+>>Harsha K	29:03
+Absolutely. Thank you so much for your time. I'll come back to you.
+
+>>Kia Wakeham	29:06
+No worries.
+
+>>Harsha K	29:07
+Thank you so much.
+
+>>Kia Wakeham	29:09
+Thank you so much. Hope you have a great day and look forward to talking to you again soon.
+
+>>Harsha K	29:14
+Same here. Thank you so much. Thanks.
+
+>>Kia Wakeham	29:17
+See ya.
+

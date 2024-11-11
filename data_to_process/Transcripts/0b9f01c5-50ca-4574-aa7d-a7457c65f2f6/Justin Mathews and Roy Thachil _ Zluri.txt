@@ -1,0 +1,102 @@
+>>Roy Baby Thachil	00:00
+My name is Roy, I have been in partnerships in Zuludi, been working with the company for the past three years, I was an Sdr, worked in US and India markets. And currently, we thought that we need presence in the market and that's how we formed the partnership department a year back. And currently I'm running it with my management above me. So that's a bit, a quick intro about me. I would love if you could give me a quick intro and how you came to know about Zuludi and what type of partnership are you looking for?
+
+>>Justin Mathews	00:32
+So before me, I, you know, so I lead the partnerships team at CookyS. And what CookyS is basically, we are a global leader in the consent management platform category. So we are present in close to 170 countries and the offering that we have or the product that we have, it is basically to manage cookie compliance and privacy data compliance in respect to, you know, like say various like data privacy regulations like Gdpr, Ccp, et cetera. So we are very strong presence in the Europe and North American markets. And to how I came to know about Zuludi, I think this is through one of my friends within the company. So he was doing a research. So he came across, you know, your brand and he mentioned that to give us a chance to explore. So when I went through Zuludi, I figured, you know, the technology integration partnership that Zuludi has, I think that is something that we were keen with because mainly the Icp, you know, from what I could understand from, you know, like your brand, it is very similar to our brand. And also the fact that cookie compliance software is a must have compliance metric, you know, or a software by websites across, you know, so it would really fit with, you know, with the Icp of Zuludi as well, because every, no matter what industry you are in, if you have a website, if you're collecting your customer data, you need a cookie compliance in place.
+
+>>Roy Baby Thachil	02:05
+Got it, got it, got it. Shahid, so I just have a few questions on the technological partnerships because we technically, we don't do, we don't promote technological partnership like that. So what is your intention of this partnership? Do you want data from Zuludi or what kind of partnership are you looking for in technology?
+
+>>Justin Mathews	02:29
+So basically, you know, from what I could read about it, this is basically, you know, like we would be integrating into your marketplace, you know, and our product would be, you know, like out there towards the customers visiting the Zuludi marketplace. I hope I'm correct on this.
+
+>>Roy Baby Thachil	02:47
+Yeah, I think there, most of the, when most of the partnership teams come, I think they get confused with our integration catalog for the marketplace. So let me just introduce Zuludi to you. Zuludi is a Saas management platform where we help companies to gather information about what all applications are being used in a company to understand how many users are there, how many licenses are there, how many softwares are there. And we discover all in all with nine discovery methods, which includes your Sso, connecting your cabs, MDMS, and we could directly integrate to those applications. So as I said, one of the discovery methods is integrations. We have a catalog of integrations where we can connect into, let me just share my screen, and we get data from those applications. So, yeah. Is my screen visible to you, Justin?
+
+>>Justin Mathews	03:47
+Yes, yes, it is.
+
+>>Roy Baby Thachil	03:49
+This is our integration catalog. And when we put something over here, what it means is that we are not selling the product or we are not giving any data to them, but more of we are taking the data from them to understand how many users, licenses, or how many applications are there over there. So, yeah. This is our model of integration. Is this the same thing, is this the same thought you have in your mind?
+
+>>Justin Mathews	04:19
+No, so mine was like, you know, so when I saw it, so I assumed it was a marketplace listing.
+
+>>Roy Baby Thachil	04:25
+Got it.
+
+>>Justin Mathews	04:26
+Be integrated to your platform, you know, and then your customers, partners would be, you know, viewing our product.
+
+>>Roy Baby Thachil	04:33
+Got it, got it. We don't have that at this point of time, but there are more requests coming like this, we will be planning to do something like that. Let me just check with my management on the timelines for it and get back to you on May.
+
+>>Justin Mathews	04:47
+Got it. So then currently, what are the partnerships that you're examining? I mean, so one you mentioned, so when you mentioned technology partner, this is something where it is your customers.
+
+>>Justin Mathews	04:58
+Is what you have listed. These are the brands that you're working with.
+
+>>Roy Baby Thachil	05:02
+Yes, so what it means is that tomorrow if a customer comes in and they want to connect to cookie or they want to connect their Salesforce CRM to Zuri to get the complete list of active users, inactive users, they want to do some actions like onboarding, onboarding all these applications. All these can be done through these integrations. So that's what we do.
+
+>>Justin Mathews	05:25
+Okay.
+
+>>Roy Baby Thachil	05:26
+Yes. So besides this, what we do is we do more of a reseller and a referral model of partnership where you bring us a customer, we take it in, we will work together to close it and we pay a commission back to you.
+
+>>Justin Mathews	05:41
+Got it, got it, understood. I'm so sorry, your voice is not audible. Hello?
+
+>>Roy Baby Thachil	05:51
+Yeah, are you from Cochin?
+
+>>Justin Mathews	05:53
+Yes, yes, I am from Cochin. So our office, our office is based in Cochin.
+
+>>Roy Baby Thachil	05:58
+Got it, got it.
+
+>>Justin Mathews	06:00
+My office is in the Uk side.
+
+>>Roy Baby Thachil	06:01
+Understood. I am also from Kerala. My native is Trishul. So I want to say hi.
+
+>>Justin Mathews	06:09
+So I think I got the clarity, but Yeah, So like you mentioned, if you're going to let me know if you'll have something in the pipeline regarding your technology partner. So we are looking, you know, so at least like I look at the strategic side of it. So I'm looking at brands with a similar Icp where we can go to market together.
+
+>>Roy Baby Thachil	06:26
+Got it.
+
+>>Justin Mathews	06:27
+You know, and so just out of curiosity, who is your Icp?
+
+>>Roy Baby Thachil	06:33
+Yeah, so delivery is a universal tool, but if I have to say that who would be the person who would be signing the papers, it would be purely IT department, IT directors, CIOs, CTOs and others.
+
+>>Justin Mathews	06:46
+Okay, so by organization category, this would be mainly your enterprises, if you have a CIO.
+
+>>Roy Baby Thachil	06:52
+We do cater mid -market to enterprise, but there are customers in SMB also for us. So any companies that are more than 100, 150 employees is where Zuluri comes in at its highest potential.
+
+>>Justin Mathews	07:04
+Okay, so there is no, as in, do you have any strategic partnership in play with any brand so far, which is not on your marketplace, but you know, we are promoting other brands offering and they promote yours or you know some sort of...
+
+>>Roy Baby Thachil	07:18
+Yeah, so Zuluri is like, this is the fourth year we are gonna complete and we are like too young to promote other brands at this point of time. So most of our partnerships what we have are majorly focused on one -way selling where they sell our product in the market.
+
+>>Justin Mathews	07:36
+Okay, got it.
+
+>>Roy Baby Thachil	07:37
+So we have few brands like Softchoice, Softcat and others, but we don't sell any other products for them, but they just sell Zuluri for us.
+
+>>Justin Mathews	07:48
+I think this makes sense. Yeah, so I think, you know, I'll wait for your word, you know, like when it opens up.
+
+>>Roy Baby Thachil	07:54
+Definitely. Thank you, have a nice day, bye.
+

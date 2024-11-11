@@ -1,0 +1,450 @@
+>>Vignesh Raghunathan	00:00
+So here is exactly 12. So you guys are in the end of the, are in the end of the, Yeah, yeah. We are waiting for Daniel, right? Yeah, that's right. Yeah. Yeah.
+
+>>Ricardo Navalho	00:28
+Hey, Daniel.
+
+>>Vignesh Raghunathan	00:29
+Hi, Daniel.
+
+>>Vignesh Raghunathan	00:42
+Hello. Hey, Daniel.
+
+>>Ricardo Navalho	00:49
+Okay.
+
+>>Daniel Beckett	00:50
+Do you want to start?
+
+>>Ricardo Navalho	00:55
+Sure.
+
+>>Vignesh Raghunathan	00:56
+So, Daniel, I saw your email just about five minutes back, I sent you a copy of the sheet across. So you should, you should have it in your email now, whenever you can, you can quickly have a look at it. And I think post which Avirup also said that he wants to have a conversation with you. He'd want to speak about if that is satisfactory and understand from you as well. So that that would be the part on that conversation. And apart from that, within the application, I mean, the application integration, there is one other approach called the SDK based approach. So what that can actually help us, it allows you to push data into Zuri, basically the data around the licenses data around the users data around other parts, basically in terms of spends in terms of all other whatever data that the integration fetches from these applications that is pushable to Zuri via the SDK based approach. So that is another approach that's available. But that said, this list should have the entire list of all the applications and what is possible, right? So I'll wait for your report on it. And Avirup can have a conversation around you with you around that. Yeah, okay.
+
+>>Daniel Beckett	02:14
+I've got the list. Now. Yeah, I can see it. Yeah, I need to have a read through. I mean, you've got a lot of stuff in here about the various data fields and things that are in there, which isn't really what I was interested in at the moment. But I can see that you've got the integration available. Yes. No. So this is where I need to match this then against what Avirup originally sent me because he said for a lot of this stuff that we could do it. So this is like the annoying thing, right? I'm sure you understand you say that you can, you approach a company and say, hey, you know, can you integrate with this stuff? They say, you know, we can do this. Okay, great. Let's sign up. And then when we come to actually do the integration, you say, actually, no, we can only do a third of what we've said. So we then need to make a decision. You know, how do we proceed? Do we cancel this whole thing? You give us some money back and we close the whole contract and that's it. Or do we talk about some discount to say that, okay, well, we'll continue to use the services because we can see there is a benefit for this and we understand that maybe over time we'll be able to add these integrations and that's fine. But then, you know, the whole reason to use this was it's going to be a time saver for us. Obviously, it comes at a cost. But if we're going to pay that cost, which was originally going to support, you know, the, whatever it was, 35 apps that we originally said, and now you're saying, oh, we can only do a third of that, then, you know, then we need to look at, again, at what refund or whatever we need to get or some services for free, because it doesn't make sense. You know, I had to go and get approval for the pricing going on that it was going to do this task. And now it's only a third of what we're expecting. So Ricardo, you're making a lot of background noise.
+
+>>Ricardo Navalho	03:50
+Thanks.
+
+>>Vignesh Raghunathan	03:51
+Okay, so Daniel, just to help you understand, while I was discussing the sheet yesterday with Aviroop, I had a conversation with Aviroop on the same lines, see, while the commitment from the sales side could have been different, I think it's very important for us to try and honor as much as possible. So I think, which is why Aviroop is also open to having that conversation with you in terms of what your actual expectations in terms of us being able to help you, assist you with this entire contract. So if there are any...
+
+>>Daniel Beckett	04:21
+The expectation is that Aviroop gave us a list and said, yeah, we can work with all these different apps. And then now you've said, oh, actually, no, we can't. So the expectation is to meet what you said you can do as, you know, as Lurie, when I say you. Yeah, so that's the bit that's, you know, kind of annoying me. And this is dragging on now, you know, you said that initially, it was going to take Aviroop said initially that within one month, we'd have the core app set up. Well, maybe eight out of those 10 core apps we've now set up. I know that we've got, was it 10 or 12? But the I mean, even the 12, you know, there's a few duplicates there, right? You know, if you talk about Atlassian and Jira and Confluence, they're all the same thing.
+
+>>Daniel Beckett	04:58
+Thing. So yeah, the numbers need to be taken with a pinch of salt. But yeah, the kind of annoying thing is that we're not there after one month. So what he said isn't true. All this workloads, sorry, not workloads, the workbooks or playbooks, runbooks, whatever you call it, this stuff hasn't been configured. Maybe we were a little slow initially to add it to AD. Okay, sure. But you know, we're still what, six weeks on now, and we're not using it yet. So for Sven, and for Alexandra, who I'm not sure whether maybe you met or not. So she's our head of legal and is interested to use this for the contract management. But you know, she doesn't want to spend the time loading in all of our contract information if we decide actually, after a month, this isn't working. And then, you know, two weeks ago, right, we had your meeting with Avirup and with somebody else from your side, some business person, I can't remember what their name was. And they said, yeah, Okay, let's sort this out. Let's put something in place. And we're two weeks now, nothing's happened, right? All you've done is give me a list of apps that we already know you can't work with. So yeah, I'm not not particularly happy at the moment. I mean, maybe you're the wrong person for me to tell this to. I mean, you know, that's fine. I understand you. You're here to help us with the integration and to try and get us set up. But you know, you can feed this information on.
+
+>>Vignesh Raghunathan	06:18
+Absolutely, I will do that. I'll definitely do that and ask Avirup to have a conversation with you at the latest possible time, so that he can also talk to you about what what can be done from his end, right? I understand your expectations at this point in time have not been met. We're not close to it as as yet. And still, there is a lot more work to be done, right? One thing I can guarantee from our end is that we can fast track some of the time that we've lost. We've basically catch up much more quickly than we did. I mean, much more quickly in terms of the time that is, I mean, that has been lost. And in this case, we can definitely offer to help you with that one time effort of setting up these playbooks, right? There is going to be a considerable amount of effort which could be involved in terms of Ricardo understanding the system, setting it up. So we can get on calls, very happy to do that right up front, sit on calls with Ricardo, configure all of these playbooks in under a week and take you live with these workbooks basically. So that's something I can guarantee from my end, without any approvals required from Aviroop. That is something I'm really committed to getting done for you, Tansu.
+
+>>Daniel Beckett	07:29
+Okay.
+
+>>Ramana Reddy	07:33
+And also about the contracts piece, I think if you could provide the contracts which you want to manage, I think we can ask.
+
+>>Vignesh Raghunathan	07:39
+So there is a specific team, a services team, which helps the contracts concierge. They help upload all contracts. So let's say there is a bulk of about 20, 30 contracts, or let's say much more, right?
+
+>>Daniel Beckett	07:52
+Well, that's every application that we've got. And that's not just in this list. There's another 50, however many we've got. I can't remember, 80 contracts. I mean, there's not contracts for every single thing in this context, but there's a certain amount of important ones that need to get put there. But yeah, that's good to know there's someone else that can help them specialize in that.
+
+>>Vignesh Raghunathan	08:12
+Absolutely. And there is no need for someone from your end to upload each of these contracts. We'll upload these contracts, create the respective licenses required for it and associate it with the right application. So that piece will be taken care of. Okay.
+
+>>Ramana Reddy	08:31
+And also, I have a call with your Umb team today, second half of the day to check on that agent's installation. So I'll be joining a call and troubleshooting that thing along with them.
+
+>>Daniel Beckett	08:48
+So that is scheduled for today. You'll schedule it or it is scheduled?
+
+>>Ramana Reddy	08:52
+I have shared my calendar with them and they picked the time. I think that works for me. We have a call today, second half of the day.
+
+>>Daniel Beckett	09:00
+Okay. Yeah. So Umb, so there's Marius and Dean, I think. One of them's a Windows engineer, one of them's a Mac engineer and they develop those packages. I think the Mac one got deployed and got installed, but then it doesn't seem to report properly or something. And then on the Windows one, the package just fails to install. And we can see that the package that you guys provided, it tries to put the logs directly on the C drive. It doesn't have a folder structure for saving the information, saving the application, saving the plugin, saving the logs, which is a bit r******. I mean, that's not really good practice to put logs on a C drive, on the direct, on the local hard disk, just as like permissions on drives. This is like really basic stuff. I'm really surprised that it's configured that way. But anyway, yeah, you work this out with Dean, I guess. So yeah, you have a lot of permissions with the drives.
+
+>>Ramana Reddy	09:54
+So as far as I see, the conversation says that they're trying to...
+
+>>Ramana Reddy	09:57
+To deploy the browser agents through Ms Intune, I think.
+
+>>Daniel Beckett	10:01
+Yeah, that's right. I mean, they just followed the instructions that you had, but I know that one of the instructions didn't make sense, which I think is why you just wanted to talk to someone to figure out, you know, what do we need to do? What do they need to do to deploy it? Yeah, I mean, I don't know what time the meeting is going to be scheduled, but probably they can ping me because I've got test devices I can help with testing on deployment and logging as well. And we haven't done it yet, but we can probably set them up with an admin account in Zuluri if we need to, to help with this configuration, just to get it running. We'll just delete their users afterwards. I don't mind to have admin accounts during this configuration phase.
+
+>>Ramana Reddy	10:43
+Got it.
+
+>>Vignesh Raghunathan	10:44
+Thank you.
+
+>>Daniel Beckett	10:45
+So on the integrations then, you know, we've integrated the apps that we can, and now we're stuck, right? So the next task or ongoing task at the moment, Ricardo said that he spent some time with you last week already to go through this, this workload thing. He said he got stuck with the permissions on one part, which I'll try and help him out with. Other than that, so other than setting up these workflows, is there something else that we should be looking at?
+
+>>Vignesh Raghunathan	11:11
+So I think when we started, right, there were three things that actually came up during our conversations. The first one was around the getting an understanding of whatever applications are being used inside your organization, which the agents will help solve for, right? The second point being, being able to onboard and off -board users. So that was one ask from your end. And the third one was around access requests. I mean, sorry, access reviews, right? User access reviews. So I understand that there is a quarterly user access review that is scheduled sometime in October, mid -November, if I'm not wrong. So I think that is also something we should start the conversations on, Daniel, if I...
+
+>>Daniel Beckett	11:59
+I don't think that we're anywhere near using this for access reviews, probably this year, right? We need to have all the applications built in. They need to have all the data owners. These configurations need to be there to trigger that. So I think that's going to be the third thing to look at at the minute. I think it's more important that we get these applications set up and understand what applications we can actually integrate here. Okay.
+
+>>Vignesh Raghunathan	12:23
+If I may suggest, right, I'm sure we have about eight or 10 of these integrations connected at this point. I'm just looking at it. We have about... 13. Yeah, 13 integrations connected, out of which I'm definitely sure we'd be able to pick at least one or two to run this access review process. Would you be comfortable doing that for this quarter, Daniel? Because it's not going to be a lot of learning curve.
+
+>>Daniel Beckett	12:51
+No, that's fine. Because this is, of course, one of the things that we want to use Lurie for. The quarterly access reviews that we need to do are for our client data relevant apps. So the apps where we hold client data. And none of these apps hold client data. So they're not relevant for our quarterly review. They're only relevant for our annual review, but that's being handled separately this year. So there's no pressure at the moment to set that up. But it's probably not necessarily access review, but more the workflow for getting approvals on the apps, right? That was one of the things that we talked about before was that when someone joins a week before, that it kicks off asking for the approvals for the various applications. Presumably this is part of Ricardo's workflow.
+
+>>Ricardo Navalho	13:38
+Yeah, yeah, Yeah. But for starting that, we saw last week on the workflow for creating users, we need that permission on Azure to create the user. There are a couple of actions that are already allowed, but creating a user, it's one of them that is still not allowed. And that is the first thing to happen. But that's on our side, Daniel, to enable that permission. The rest of the workflows can move at least as far as we saw last week. Assigning a user to groups is available. But the approval, we saw how it is done. But in fact, we didn't test it. But it is an option that is there on the workflows. So I think the approval is functioning.
+
+>>Daniel Beckett	14:32
+Okay, that's cool.
+
+>>Ricardo Navalho	14:34
+Somewhere in the future, probably there will be the need to create, someone create a user in Personio with a date. After you guys, Roman and Vignesh, told us that we are okay to test it, somewhere in the future, we will need to set up a user, a new user in Personio with a date. So we can see that it is triggerable.
+
+>>Ricardo Navalho	14:56
+On the correct time and if the approvals go to the right persons and so on.
+
+>>Ramana Reddy	15:04
+Yeah, we are in the process of setting up that in the back end. I have already communicated to my engineering and they said, OK, in one or two days, we should be able to say that we are ready to go for it.
+
+>>Ricardo Navalho	15:18
+That Baker, the back office integration that you mentioned. Yeah.
+
+>>Vignesh Raghunathan	15:23
+And I think in the meantime, one thing we can get started with Ricardo and Ramana is that we can start building these playbooks, right, rather than waiting for that. I mean, while that process is happening, we can spend some time later in the day, today or tomorrow for us to set one playbook up just So you know what this is going to look like. And once that is ready, we can run it on a dummy user and have it ready in, let's say, the next three, four days. So we can think of it in such a way that by end of this week or, let's say, latest by Monday, we want to run one workflow for one user to check that this is running in a much in a seamless fashion without any intervention required.
+
+>>Ricardo Navalho	16:02
+We are not able to create users on Azure.
+
+>>Vignesh Raghunathan	16:05
+Remember, that's one of the actions that is not allowed yet. Exactly. So while we can have that action added and create a playbook, once that permission is granted, we will run it. That's what I'm suggesting. Okay. That playbook, it can still be in the draft stage. And once we are good to go, we can make that change. We can get the other 11 scopes of Azure AD connected, validated, and then we'll be good to go ahead. Okay.
+
+>>Ricardo Navalho	16:35
+Yeah.
+
+>>Ramana Reddy	16:35
+That would be a good plan, Vignesh, because these are not the blockers to create a playbook. This will not stop us to create a playbook. So we can start working on playbooks. Yeah. Good.
+
+>>Vignesh Raghunathan	16:48
+Ricardo, I can share across our calendar.
+
+>>Ricardo Navalho	16:53
+Yeah, we can see that later. We can find a time later on. Sure.
+
+>>Daniel Beckett	17:00
+So can we look at this permissions problem then that you've got? Yeah. I've just logged in.
+
+>>Vignesh Raghunathan	17:10
+I can share my screen real quick. I have it open.
+
+>>Daniel Beckett	17:13
+Well, I need to provide the permissions, right? So what do you want me to do, Ricardo?
+
+>>Ricardo Navalho	17:18
+You need to go to integration?
+
+>>Vignesh Raghunathan	17:23
+Yeah. It's a little bit small. Connect more. And you'll basically need to provide permissions for the yet to be connected.
+
+>>Ricardo Navalho	17:32
+There is one that says user creation with email. There are a lot of them.
+
+>>Ricardo Navalho	17:49
+It's called, let me check. I think it's exactly called user creation with email. And this one is it user, sorry, it user with work email. That's the action.
+
+>>Vignesh Raghunathan	18:09
+Are you going to the action, the workflow action? So just one thing, Ricardo, the workflow actions are not directly related to the permissions, right? Ok, OK, OK. That's the name of the action.
+
+>>Ricardo Navalho	18:24
+The permission is different. There's a different name.
+
+>>Vignesh Raghunathan	18:26
+Exactly. Exactly. So these permissions will allow us to connect to a set of actions out of which I mean, one of those actions basically gets executed.
+
+>>Ricardo Navalho	18:36
+I think it's it's a source, right? Azure is a source.
+
+>>Vignesh Raghunathan	18:40
+Yeah. Azure is a source.
+
+>>Ricardo Navalho	18:43
+So you have to go to just I did have it here. No, I think, yeah, you need to change it. But it should it should be there on integrations. Unconnected. Where is Azure, guys? It should be here.
+
+>>Vignesh Raghunathan	19:01
+Yeah.
+
+>>Vignesh Raghunathan	19:09
+There it is. Ok, I think this has been authenticated.
+
+>>Ricardo Navalho	19:14
+Oh, yeah. Yeah. Everything is connected. Ok.
+
+>>Daniel Beckett	19:18
+Well, I've just done it now.
+
+>>Ricardo Navalho	19:20
+Ok, OK.
+
+>>Daniel Beckett	19:20
+Well, you're messing around. I've just gone and done it. So it says it's going to take up to 48 hours to sync.
+
+>>Vignesh Raghunathan	19:27
+Yeah, it's going to take 48 hours to sync. That said, we can go ahead, create these playbooks, can spend some time and we can actually go over. Creating this.
+
+>>Ricardo Navalho	19:40
+Ok, now the action is user add user.
+
+>>Vignesh Raghunathan	19:43
+Yeah, basically, it's going to ask for certain parameters.
+
+>>Ricardo Navalho	19:47
+Ok, now it's now it's up here.
+
+>>Vignesh Raghunathan	19:50
+Ok, exactly. So this is not this. This should be doable.
+
+>>Ricardo Navalho	19:55
+Ok.
+
+>>Ricardo Navalho	19:56
+There is still one thing is for user creation. We are going to use the name right the names that are on person you
+
+>>Vignesh Raghunathan	20:04
+Yeah
+
+>>Ricardo Navalho	20:06
+But but the person is already connected, Right so So how we are going to How we are going to to get that name of the user to create that is one thing that I still don't I'm not sure
+
+>>Vignesh Raghunathan	20:22
+Okay I think it's not very guys before you discuss it later.
+
+>>Ricardo Navalho	20:27
+Yeah.
+
+>>Daniel Beckett	20:27
+Yeah before you go too far into the details on this particular part And This is the ongoing thing though, right?
+
+>>Ricardo Navalho	20:33
+Yes. They're cars now that you need to look at.
+
+>>Daniel Beckett	20:35
+All right Um, so I think I'm done with this call today What's going to happen then regarding my concerns around the amount of apps?
+
+>>Vignesh Raghunathan	20:46
+So Daniel I've spoken to I mean I've already texted the Aviro He's going to Give you a quick message and he He'll have a conversation with you. So I Told him and he's asked me to tell you that I've passed it to him and he'll get back to you on this Okay. Yeah, thank you. You should get a response real quick Yeah, because he's he's trying to see if he can talk to the sales leaders Try to see what is possible if there can be a discount offer There can be something done for you, right basically to cater to what whatever's happened is happened. We just want to start moving ahead All right Okay.
+
+>>Daniel Beckett	21:27
+Um, but I mean if you want to carry on talking to Karen working through this stuff, then please feel free Otherwise, I'm sure we'll catch up with Ricardo soon.
+
+>>Ricardo Navalho	21:33
+Yeah, but I still have a minute guys if you have five minutes I have a couple of minutes. Yeah.
+
+>>Daniel Beckett	21:38
+All right. I'm gonna drop off then. So yeah, thank you gentlemen Thank you, Daniel,
+
+>>Ricardo Navalho	21:42
+Right, thank you Daniel, you take care Sure, so just about because we can create users now I didn't understand one thing from the last hour last call was we are going to create a user With email. In fact, I think it was not the action that Daniel was showing because I think we spoken about the ad user with email Yeah, I think it is the action that we saw that we needed right? You you want me to go and edit this playbook Or create a new one if you want whatever There is one that is that says is it user with email or knowing on azure. You were right you were okay
+
+>>Vignesh Raghunathan	22:29
+Yeah,
+
+>>Ricardo Navalho	22:31
+So Yeah, there it is azure ads Now we saw one last last which was ad user with the email I think that is the one that we need to Yeah, it's a weird work email. Yeah
+
+>>Vignesh Raghunathan	22:48
+Okay. Yeah, So I like for the time being I just delete all the Usually it comes as a package Which yeah,
+
+>>Ricardo Navalho	22:57
+I know I know you heard they explain me.
+
+>>Vignesh Raghunathan	22:59
+We just edit this Useful was a specific format.
+
+>>Ricardo Navalho	23:03
+Okay. So the question is here We are creating a user or we are creating a user and the email. I don't know exactly what we are Are we creating both or we are creating a user that already has an email?
+
+>>Vignesh Raghunathan	23:18
+This will be a user whose detail is coming from person you So this is ideally going to be a new user
+
+>>Ricardo Navalho	23:25
+Okay, so if it is a new user the work email does not exist There is no email that is okay. Okay.
+
+>>Vignesh Raghunathan	23:33
+So basically there is no identity that exists for this user Okay, and this will actually first you're going to add I think this is going to be okay,
+
+>>Ricardo Navalho	23:43
+Okay
+
+>>Vignesh Raghunathan	23:45
+Okay Yep, did that help?
+
+>>Ricardo Navalho	23:51
+Yeah, but but now imagine if I'm creating a user now I need to know the name, you know, like the the composition of the of the user right like the first name and the family name How do I get that?
+
+>>Vignesh Raghunathan	24:03
+Okay But I'm not usually I think my understanding is that this comes from person you're the first person No separator,
+
+>>Ricardo Navalho	24:14
+Okay in this case we use a separator we use a comma
+
+>>Vignesh Raghunathan	24:17
+Yeah, so you use a comma? Okay.
+
+>>Ricardo Navalho	24:20
+Yeah. No, this is the fallback. This is the fallback It's on on the other one on the yeah on that one. We use it Usually that's our name. Okay.
+
+>>Vignesh Raghunathan	24:30
+Okay, so it's it's given you an example as well here. Yeah
+
+>>Ricardo Navalho	24:33
+Yeah, John week There can be a fallback as well, yeah, that is that can that can also that can also happen In fact the ones that we only had we only had one case or
+
+>>Ricardo Navalho	24:54
+Of that, basically two persons that have the same first name and the same family name, last name, they are not related, but they share the same name. And we basically, I think what we did was used on the second part, we also used the second name, you know, like the first name, the second name, and then the last name. So, but we can, maybe we can use another fallback. That's not, I think that's not a problem. We are not using any of those fallback schemes that you have. We use a different one. But I think that's not exactly a problem, you know.
+
+>>Vignesh Raghunathan	25:39
+That's not exactly a problem. So, in that case, would you not want a fallback?
+
+>>Ricardo Navalho	25:42
+No, no, no. We want a fallback. But what I'm saying is that the fallback that we currently have is none of those. But we can use a different one, okay? We can use a different one. You are, the fallback that we use right now is if the email, the entity, the user entity already exists, then we are using as fallback is put the first name, then a comma, a comma, no, a dot, sorry, a dot, exactly like this, and then the second name and the final name without any separation. And this is one of the fallbacks that you don't have there.
+
+>>Vignesh Raghunathan	26:19
+Oh, okay. Don't worry.
+
+>>Ricardo Navalho	26:21
+What I was saying is that the fallback that we are currently using, you don't have it, but we can change to a different fallback. We use that because, whatever, we decided to use that. We can use a different one. Maybe just first letter of last name, no, but whatever. Well, it is not important. At this point, Vignesh, it is not important.
+
+>>Vignesh Raghunathan	26:42
+Got it. Okay.
+
+>>Ricardo Navalho	26:43
+All right. Okay. We are using a set, we use a set, a custom name. That's not a problem also. Okay. So basically that action will create a user.
+
+>>Vignesh Raghunathan	26:59
+Yeah, that is right. This will create a user. Okay. So it's basically going to create a user And then you're going to, I think this also caters to. Yeah.
+
+>>Ricardo Navalho	27:13
+Yeah.
+
+>>Vignesh Raghunathan	27:14
+Both these cater to the same thing. Only thing is that this has a work email along.
+
+>>Ricardo Navalho	27:18
+So maybe this is the one that you want.
+
+>>Ramana Reddy	27:20
+I mean, in the past one, you already have a work email that has been created. So make use of the same one here.
+
+>>Ricardo Navalho	27:26
+Ah, okay. So we can create the user and the email, right?
+
+>>Vignesh Raghunathan	27:36
+Yeah, that is right. We can go with this, right?
+
+>>Ricardo Navalho	27:40
+Sorry. Okay. Okay. Okay. This is the same stuff. Create user.
+
+>>Ramana Reddy	27:51
+I think if you have the work email already created with Personia, we can choose the first option, add user directly, not with the email.
+
+>>Vignesh Raghunathan	27:58
+Okay. Okay. So can you confirm if this is going to be already created with Personia? Personia.
+
+>>Ramana Reddy	28:06
+I mean, something like Ricardo .n at Reticon .com. Something is already created in the Personia and can be used the same for the Azure as well.
+
+>>Ricardo Navalho	28:17
+Yeah. So he will get from Personia, we'll get to the, let's say the name of the email. The name of the email is a strange thing. Okay. The string to use as an email. Okay. But this will add directly to the exchange, not to exchange to Azure, right? We do not need to create the email, right? This action create the user and the email. This is the part that I'm still, I still have doubts on it.
+
+>>Vignesh Raghunathan	28:45
+Okay.
+
+>>Ricardo Navalho	28:49
+Well, that's all with this.
+
+>>Ramana Reddy	28:50
+What I'm thinking is the work email is already created. We can directly add the user. So we have the email address already. If you don't have the work email, then add user with work email.
+
+>>Ricardo Navalho	29:03
+Okay. But I think it's not created because when you put it in Personia, it will not create an email inside our exchange. I'm pretty sure that it doesn't.
+
+>>Vignesh Raghunathan	29:13
+Okay. Okay. So in that case, we'll need to use this.
+
+>>Ramana Reddy	29:16
+We'll need to use this.
+
+>>Ricardo Navalho	29:17
+We have both options here. My doubt was, because this is all integrated with Azure, if when we run this action, he will create the user, like the member, a member of The Azure Ad, and then we'll create an email for this user or no. That is my doubt. Okay. That I still don't, I still don't know.
+
+>>Vignesh Raghunathan	29:37
+Okay. So, okay. I can, we can get you a clear answer on that.
+
+>>Ricardo Navalho	29:42
+Or if there is a, maybe there is another action, which is specifically create an email. I don't know. I haven't checked all the, all the, all the things there. I saw there are a lot of groups and.
+
+>>Ricardo Navalho	29:53
+Not of things. The only one with email is this one. That's why I was saying to use this one.
+
+>>Vignesh Raghunathan	29:59
+Yep, yep. That's right. So yeah, this is going to be it in that case.
+
+>>Ricardo Navalho	30:05
+Okay.
+
+>>Vignesh Raghunathan	30:05
+That is going to be the only one. Probably what we'll do is we'll double check within the organization. We'll just double check with the product. Exactly what he does.
+
+>>Ricardo Navalho	30:14
+Yeah.
+
+>>Vignesh Raghunathan	30:14
+Yeah. And do you think we can schedule a call sometime? Sure, sure.
+
+>>Ricardo Navalho	30:17
+Sometime to the end of the week. Yeah. On Friday or Thursday. Yeah. We can. Sure.
+
+>>Vignesh Raghunathan	30:23
+So I'm guessing if we can do it between tomorrow and day after, I think that'd be good. Sure.
+
+>>Ricardo Navalho	30:29
+If you have the time to clear the doubt for me, that's not an issue.
+
+>>Vignesh Raghunathan	30:33
+Absolutely. Maybe not tomorrow.
+
+>>Ricardo Navalho	30:35
+Tomorrow I have already a couple of things, but on the next day, on Thursday, I'm available.
+
+>>Vignesh Raghunathan	30:39
+Okay. Got it. We'll share our calendar with you. Sure, sure.
+
+>>Ricardo Navalho	30:42
+And I will pick a date during the morning. I already promised you guys during the morning, my morning, your afternoon.
+
+>>Vignesh Raghunathan	30:51
+Got it. That works. We'll send you some more time slots.
+
+>>Ricardo Navalho	30:55
+Okay. Okay, guys. So that's it.
+
+>>Vignesh Raghunathan	30:58
+Okay.
+
+>>Ricardo Navalho	30:58
+Thank you. Thank you for your time.
+
+>>Vignesh Raghunathan	31:00
+Thank you, guys.
+
+>>Ricardo Navalho	31:01
+Bye -bye. See you later.
+
+>>Vignesh Raghunathan	31:02
+Thank you. Thank you.
+

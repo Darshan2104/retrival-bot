@@ -1,0 +1,750 @@
+>>Shrikaant Iyer	00:00
+I know. Do you want to kick off?
+
+>>Anugraha R	00:03
+Yeah, I can do that.
+
+>>Anugraha R	00:15
+I'm on mute if you're trying to talk.
+
+>>Mohammed Khan	00:21
+Hey, how are you? I'm good.
+
+>>Anugraha R	00:24
+How are you? I'm doing good.
+
+>>Mohammed Khan	00:26
+Good. Hi.
+
+>>Shrikaant Iyer	00:31
+Good morning. Good morning.
+
+>>Anugraha R	00:36
+Oh, hi.
+
+>>Mohammed Khan	00:38
+I'm sorry. Yeah, so just a couple of minutes. And also said, just give me two minutes.
+
+>>Anugraha R	01:40
+Hi, good morning.
+
+>>Syed	01:43
+Well, guys, how's it going?
+
+>>Shrikaant Iyer	01:46
+Good morning.
+
+>>Syed	01:47
+Good. How are you? All right, I see Muhammad is there. Perfect. So we have a quorum from Arctic Wolf. Do you guys are you guys waiting on someone else or you guys are good to go? Good to go. Yes.
+
+>>Shrikaant Iyer	02:03
+Yeah, I think we're good to go. I see the audience accepted the invite. Will he be joining?
+
+>>Syed	02:09
+Yeah, we can start off. And if he joins, he can kind of piggyback. So that's. Oh, there he is.
+
+>>Gaurav J Chopra	02:18
+Hi, Rod.
+
+>>Syed	02:26
+Just give me a few minutes. Let me. You want us to share our screen, right? And then kind of go through the settings.
+
+>>Anugraha R	02:33
+Yeah, we just want to look into what's happening because all the setting looks fine. We just want to understand where this error or what is this exact issue that you're facing so that we'll be able to help you out. And that's why we have Anirudh from our team. He's the expert who's going to help us out.
+
+>>Syed	02:50
+Okay, just one minute. I think some system preferences is not allowing me.
+
+>>Mohammed Khan	02:56
+So you want me to share?
+
+>>Syed	02:58
+Sure, if we can share. It's giving me system preference options.
+
+>>Mohammed Khan	03:03
+Oh, probably because.
+
+>>Syed	03:06
+I have to. Okay.
+
+>>Mohammed Khan	03:31
+Let me see.
+
+>>Mohammed Khan	03:41
+How do I select this?
+
+>>Syed	03:43
+Yeah, I'm trying to.
+
+>>Mohammed Khan	03:49
+Okay, one second.
+
+>>Syed	03:54
+Can you see my screen? Yes. Yep.
+
+>>Shrikaant Iyer	04:00
+Yep.
+
+>>Mohammed Khan	04:00
+So.
+
+>>Syed	04:01
+Log on.
+
+>>Mohammed Khan	04:07
+So that's me on Zuri. Log in. It takes me to sign in because I just authenticated. It's giving audience invalid. And that's the message you're getting.
+
+>>Syed	04:28
+So for you, even the login is failing now?
+
+>>Mohammed Khan	04:32
+Now it's basically the Sso is set up, I think.
+
+>>Mohammed Khan	04:34
+I think it's redirecting me to do it as a self.
+
+>>Anirudh Hindupur	04:41
+Just to add this up, right? When you try to like save the Saml configuration right when you did it for the first time it got saved and when you clicked on the second time we see that the error message that you are facing right. The SAML SSO setup got an error.
+
+>>Syed	05:02
+Yeah, you're talking about this morning, right?
+
+>>Anirudh Hindupur	05:04
+So yes, this morning when you save that button for the first time, since the domain was selected, you were able to save it and it got saved.
+
+>>Syed	05:12
+Yeah, I did uploaded it And then I when I refreshed I thought it failed again. So that's why now when I try to log in, it's it gives me log in field. Same as Mohammed, so it looks like the salmon handshake. Is it tries to do a salmon handshake, but it's failing.
+
+>>Anirudh Hindupur	05:30
+Yeah, here this is with that. The audience URL that is present right with us in Zuluri that needs to be configured in the Octa of your.
+
+>>Syed	05:44
+Samil page, can you pass that to us and we will configure it right now?
+
+>>Anirudh Hindupur	05:48
+Yeah, I'm sending that to you.
+
+>>Mohammed Khan	05:59
+Why is it not taking like this word?
+
+>>Mohammed Khan	06:30
+I did a password reset, doesn't it go? Does it go to? Minecast or something like that? Like filter, let me just double check.
+
+>>Syed	06:50
+Ok, so you want me to put this into the real estate?
+
+>>Anirudh Hindupur	06:54
+Yeah, this is the ACS URL and also passing you the entity ID. Please make sure that these two are. Correct in your settings of the Octa page.
+
+>>Mohammed Khan	07:25
+Said can you share my screen?
+
+>>Shubham Goel	07:35
+Said would be great if you can do this over like your screen sharing.
+
+>>Syed	07:38
+Yeah, I'm trying to screen share my. Let me try it again. Google Chrome might not have a screen recording permission on your computer.
+
+>>Mohammed Khan	07:51
+Oh yeah, system preference and render it.
+
+>>Syed	07:55
+System preference here, but Google Chrome is enabled. System recording, let me see. Probably in. Application Google open. Yeah, it says I have to quit all my browser sessions And then it will allow me.
+
+>>Mohammed Khan	08:25
+Yeah, you need to drop and rejoin.
+
+>>Syed	08:32
+Mama, do you mind sharing if I?
+
+>>Mohammed Khan	08:35
+Yeah, but I'm not able to log in.
+
+>>Syed	08:37
+None of your just log into Octa Sandbox. The the URLs they gave us. Ok, we just need to update that fine.
+
+>>Mohammed Khan	08:47
+That's fine.
+
+>>Mohammed Khan	08:56
+Can you see my screen? Is it updating now?
+
+>>Syed	09:00
+Yes.
+
+>>Mohammed Khan	09:09
+So is that the complete URL? An error? Yeah, that is the complete URL.
+
+>>Syed	09:18
+No, the bottom one is audience Uri Mohammed. The URN colon one. The top one is the URL.
+
+>>Mohammed Khan	09:41
+This one you're saying this one. Single sign on URL. I need to update.
+
+>>Syed	09:49
+Yeah. It looks like it is already.
+
+>>Mohammed Khan	09:55
+Yeah, it's the same one right?
+
+>>Syed	09:57
+Yeah.
+
+>>Mohammed Khan	10:00
+You are in. Why is it saying here?
+
+>>Anirudh Hindupur	10:20
+Because it's pointing to our slurry prod tenant from Auth0. So that gives us a slurry prod. Those two are correct only. I'm just checking the logs right now.
+
+>>Mohammed Khan	10:39
+This is the custom application that we created. We do have another I mean like a slurry which is right out of the box. So we also have this one. Is it happening because of this or what?
+
+>>Syed	10:57
+Yeah, this is the metadata that we saved in Mohammed.
+
+>>Mohammed Khan	11:03
+Did you save this metadata or did you add this metadata? Oh, we should save this metadata. There's a reason.
+
+>>Syed	11:09
+Okay. So just pass that metadata to just disable that application then.
+
+>>Mohammed Khan	11:15
+Yeah, I'm just going to disable.
+
+>>Syed	11:17
+Yeah, disable that application. Then pass that metadata to me. Yeah.
+
+>>Mohammed Khan	11:31
+Okay. Let me I'm going to email you the metadata. The cert X 509.
+
+>>Anirudh Hindupur	11:48
+And the sign on URL is the same, right? Or that also will change from your end.
+
+>>Syed	11:54
+No, no, no. Sorry, who was that? Was it? Was that?
+
+>>Anirudh Hindupur	11:59
+Yeah, I was asking will change since the application is changed. No, correct.
+
+>>Syed	12:05
+Yeah. So the one which Mohammed is going to send to you just update the sign on URL and the cert. Because the application which the metadata we saved on slurry we disable that because that was out of the box versus a custom sample to.
+
+>>Anirudh Hindupur	12:25
+Okay.
+
+>>Mohammed Khan	12:28
+I'm just sending it to AWS supported slurry. If you can just look at it.
+
+>>Shrikaant Iyer	12:35
+Yeah, sure.
+
+>>Mohammed Khan	12:37
+Send that. I'm just sending the sign on URL in this chat. I'm here for you.
+
+>>Anirudh Hindupur	12:47
+Okay.
+
+>>Mohammed Khan	12:48
+And also I'm sending the second link that you will be getting is the identity provider. And I'm just pasting the email again with the metadata. One is certificate that you're receiving and now the one you're going to receive is XML format, right? This is XML. Yeah.
+
+>>Syed	13:32
+All right.
+
+>>Mohammed Khan	13:42
+And then you should see the team.
+
+>>Syed	13:47
+You will see the XML coming with the metadata sent.
+
+>>Mohammed Khan	14:08
+You receive. You should have two emails.
+
+>>Anirudh Hindupur	14:18
+Yeah, I'm looking into that.
+
+>>Anirudh Hindupur	14:49
+Ok, just give us a few minutes.
+
+>>Mohammed Khan	15:31
+So once we have the SAML assertion set up on like this Mlsso set up, is it going to overwrite the password too? That means I cannot log in. I'm using my username password.
+
+>>Anirudh Hindupur	15:48
+Yes, basically SAML login enforces you to log in via Saml. Since it's org level setting that we have enabled by that org.
+
+>>Mohammed Khan	15:55
+Ok, so question like for the like in a case like our SAML stuff is down. Let's say our Octa is down. And we need to. Login to get something done. How does that work in that case? Like a break glass fix. Something like that.
+
+>>Anirudh Hindupur	16:19
+Yeah, in that case, probably we need to like say disable the Saml and then username password will again work, but to that system of when the Octa is down we have to disable the SAML for that org level to log in.
+
+>>Mohammed Khan	16:32
+So we need to communicate with you guys. Is that right?
+
+>>Anirudh Hindupur	16:36
+Yes.
+
+>>Mohammed Khan	16:36
+Ok, yeah, looks like I'm not able to do it from my support portal.
+
+>>Anirudh Hindupur	17:33
+If I can disable the SAML for you guys, you'll be able to update it from your end.
+
+>>Mohammed Khan	17:39
+Yeah, that should be fine.
+
+>>Anirudh Hindupur	17:41
+That would work right?
+
+>>Mohammed Khan	18:08
+Ok, I mean I'm gonna go ahead and update that. Let me just share my screen. You guys can see my screen now.
+
+>>Shrikaant Iyer	18:26
+No, yeah, it's up.
+
+>>Mohammed Khan	18:30
+Ok, so enable SAML.
+
+>>Anirudh Hindupur	18:34
+So you updated that?
+
+>>Mohammed Khan	18:37
+Probably. Is this Oh OK, allow login via last month. Yeah, right at Rticwolf .com Ok. Uh, does what happen?
+
+>>Anirudh Hindupur	18:56
+Yeah, it basically logs you out once you enable the Saml since the authentication type is changed now so.
+
+>>Mohammed Khan	19:09
+How do I log in now?
+
+>>Anirudh Hindupur	19:13
+Yes, it's app dot.
+
+>>Anugraha R	19:17
+Yeah, I'm not sorry.
+
+>>Anirudh Hindupur	19:21
+I think the SES URL was still rticwolfsandbox .octapreview .com I guess moment.
+
+>>Anirudh Hindupur	19:45
+You can have to go to backward. You can edit the email in the previous screen.
+
+>>Mohammed Khan	20:18
+Last time when we did that, I had no issue logging in with via Zluri, I mean like a Zluri app and also this one. We don't have to create a separate Zluri app for SAML. This time it's a complete different flow that we are coming across. And Anugrah, you were on the call last time, right? I mean like POC. We didn't set up any SAML and all. We just had like a Zluri app set up and if the account exists, the user was able to log in directly, correct?
+
+>>Anugraha R	20:52
+Yes, that's right. We made some recent changes on the process, Mohamed. The UI is also different if you see, right? The checkboxes and all of this are recent additions to the platform.
+
+>>Mohammed Khan	21:04
+Okay, so if I log in here, it's taking me to Octologin. So - Yeah, this URL which you have saved earlier, right?
+
+>>Anirudh Hindupur	21:16
+This is not found basically. The SAML configuration didn't get saved with the new URL which you want us to use.
+
+>>Mohammed Khan	21:24
+So how do I update that now? As you just mentioned that when we do SAML, it will log me out. And if I have to update that, correct? I need to be logged in in order to update that. If I'm not able to log in, then how would I update it? So basically, either ways, I'm not able to get into the system to get the job done. And you're not able to update on your end. So I don't know how that's done.
+
+>>Anugraha R	21:51
+Anirudh, do we have to clear the Saml and then set it up again?
+
+>>Syed	21:56
+No, not required.
+
+>>Anirudh Hindupur	21:58
+Mohamed, you can just log in now and please see that Sso settings page. You'll be able to update that URL there and the certificate there.
+
+>>Mohammed Khan	22:24
+Okay.
+
+>>Anirudh Hindupur	22:26
+Please click on this SAML here. Okay. Yeah, we're going to have to change the sign -on URL And then the certificate at the third row. There's a fourth row called sign -on URL, right? You need to change that with the new one which you want us to use.
+
+>>Mohammed Khan	22:48
+Okay. The rest of the stuff remains the same?
+
+>>Anirudh Hindupur	22:51
+The certificate also needs to be updated.
+
+>>Syed	22:55
+I think Mohamed's certificate is going to be the same, but you can update that. It's the same tenant, right? Sandbox.
+
+>>Mohammed Khan	23:02
+That's it, right?
+
+>>Syed	23:04
+Yeah.
+
+>>Mohammed Khan	23:04
+Let me enable it now. Seth, can you try now?
+
+>>Syed	23:09
+Logging in.
+
+>>Mohammed Khan	23:15
+And Rod, can you also try?
+
+>>Syed	23:21
+Let me try first and then...
+
+>>Mohammed Khan	23:26
+Okay, now it works.
+
+>>Syed	23:29
+Looks like, yeah, I'm in now. Oh, no. No, I'm getting that forbidden authorized field.
+
+>>Mohammed Khan	23:37
+Which application are you trying to click on?
+
+>>Syed	23:41
+There's only one. But let me try from my incognito. It may be a previous session token.
+
+>>Mohammed Khan	23:46
+No, no, Seth, can you go to your dashboard and do you see Zloori with the Zloori name or do you see what?
+
+>>Syed	23:53
+Yeah, so we deactivated the other one. This is Zloori Sandbox, the one which is enabled. Hold on, hold on.
+
+>>Mohammed Khan	24:04
+You're hitting the right, wrong one probably. This is so confusing. Hold on, give me one minute, please.
+
+>>Syed	24:12
+No, I'm in. It works, it works. Okay. It works? Yeah, it was my previous session. Yeah, it works.
+
+>>Mohammed Khan	24:20
+Let me just make sure Rod is in.
+
+>>Syed	24:23
+Yeah, I added the group. Everyone should be there. But double check it, cross check it.
+
+>>Syed	24:36
+Yeah. Yeah.
+
+>>Mohammed Khan	24:36
+Rod, you're in. Can you try this one, please?
+
+>>Roderick Kaleho	24:47
+Yes, trying now.
+
+>>Syed	24:48
+You're in now.
+
+>>Mohammed Khan	24:49
+Perfect.
+
+>>Roderick Kaleho	24:50
+I'm trying working right now.
+
+>>Mohammed Khan	25:15
+I have to sit down with the rest of the compliance. Okay, this is sandbox, right? So, sandbox should be okay for to be on. I don't see an issue with that. Yeah. Okay. Looks like this. This is working inside. Yeah. Once Rod confirmed if he's able to log in or not. Rod, you should have a sandbox access, right? After sandbox.
+
+>>Syed	25:53
+Yeah. Muhammad B. Yeah. Last time. Yeah. It's all torque. So, we did that.
+
+>>Mohammed Khan	25:59
+Yeah. So, under your Octa dashboard, like main Octa, you should see Octa Sandbox.
+
+>>Roderick Kaleho	26:06
+So, just click on that. It should Okay.
+
+>>Syed	26:29
+Probably it's hidden.
+
+>>Mohammed Khan	26:30
+Let me double check. So, I'm just going to stop this question for a bit. Okay. While we're looking into this, Srikanth, I emailed with a request for training documentation and all.
+
+>>Shrikaant Iyer	26:45
+Right.
+
+>>Mohammed Khan	26:47
+So, we're just looking into that.
+
+>>Shrikaant Iyer	26:49
+We'll, I'll get back to you on that soon. Maybe by end of day tomorrow, we should have that with you. I just want to quickly check with you also, just so that, you know, we don't keep running into these issues. What is the kind of objective for the sandbox instance and the sandbox exercise that we're doing right now? You should just maybe let us know what we're trying to achieve here.
+
+>>Mohammed Khan	27:15
+Good question. And the answer is that we want to connect our sandboxes and before, like, we have a practice of change management board. That whatever we do, like, any development, like, you know, testing, like, you know, to train our internal team members or reviewers or approvers of, like, what does it look like? The behavior prospective, right? To give them a run. Whatever they want to do in the sandbox, they can do, if anything, breaks inside the sandbox, not in the production. So, we don't want to impact any production access or production data or anything corresponding to that. That's the reason we use sandbox and it's kind of a standard practice that we have been not only here, but across the board, like, many companies, like, MNCs do follow, like, basically there are three environments. One is development, one is testing, and then one is the production. So, development, whatever they want to do, they bring into the test where they have kind of a resemblance of the data that resembles is from the production. It's kind of like mimicking the same data. So, we behavior the test behaviors and everything looks good, then we move into the production after the change management board approval. So, yeah. So, we will be mostly any sandbox that we will have inside Awn will be connected to this sandbox so that we can perform our certain testing, validation and everything. For an example, you guys are working on workday integration and service now, right? The feature enhancement. So, what you do is, like, we cannot give you the production right out of the box and anything that impacts the production data. So, workday sandbox will be connected to this. We will test everything inside the sandbox and when we are satisfied, yes, all the check marks are met.
+
+>>Mohammed Khan	28:57
+Then go to the change management board upon internal approval and the external, like, the global approval, then it will be moved to the production. That's how it is.
+
+>>Shrikaant Iyer	29:07
+Understood. Understood. Fair enough. That makes sense. And one more thing. I sent out an email also for this, but I thought if we can also set this up on the call today itself. Can we have, like, a weekly check -in or a weekly get -in scheduled for any day that you choose? I mean, we can start off with doing twice a week check -in as well.
+
+>>Shrikaant Iyer	29:29
+Just to make sure that everything is going on smoothly. If you have nothing for the call, that's okay, but at least we have something on the calendar to connect and troubleshoot if there's anything that needs to be done.
+
+>>Mohammed Khan	29:40
+Yes, please. We definitely would like for us to initial stages as we start doing it. And also, Srikant, feel free to set up like something like Monday to Friday, like a Monday and then a Friday. Monday we will start what we are doing that week And then we can have a sync on Friday where we can update you guys, okay, these are the challenges or something like that. So probably, even you can do Thursday. Do Thursday.
+
+>>Shrikaant Iyer	30:06
+Yeah, I think Thursday might be better so that we have another day to kind of work on that.
+
+>>Mohammed Khan	30:10
+Exactly, anything, and then on Monday, you can give us an update. So at least you get some time.
+
+>>Shrikaant Iyer	30:14
+Right, right, right.
+
+>>Mohammed Khan	30:16
+Let's do Monday and then Thursday. And then one more ask is, can you, like you guys already have like a, Anthony is not on the call, sorry. I'm used to call Anthony. But you guys, Srikant, you should have like our five pilot applications that we are working on.
+
+>>Shrikaant Iyer	30:32
+Right, right, right.
+
+>>Mohammed Khan	30:33
+Please ship out the integration documents for those, like the steps, because we have to provide that tomorrow to our stakeholders, the application, that they can start gathering that information And then we can move forward. That's the point number one. Sorry, point number one is training documentation. Point number two is integration documents corresponding to that. And then the point number three that we want to is, we want to set up the production instance as well. Basically, we have to go to the change management board and we need to at least get the approvals. So when can we set that up? How soon can we get it up?
+
+>>Shrikaant Iyer	31:17
+On the production instance, I will have to just check back with the tech team and get back to you. I've got over three points. Give me till the end of the day to get back to you on these things and let you know how soon we can have it up.
+
+>>Mohammed Khan	31:34
+Yeah, because I have to go ahead and create the change management board ticket and we have like a kind of a process of approval. So I just want to make sure the timelines I'm meeting, like if you're saying tomorrow, then I have to rush for the approvals today so that I get it from Rod, then I get like from other team members. We need to have a service account, certain permission sets and everything. So everything is done as per our standards and processes. So.
+
+>>Shrikaant Iyer	32:02
+Yeah, so let me just get back to you by the end of the day on these three points.
+
+>>Mohammed Khan	32:08
+We actually want to get this production instance set up this week because some of the applications, sorry, Saeed, you raised your hand. One 30 seconds, I'll wrap it up. So basically we will be, the five applications that we sent, right? The five top applications. For some of them, we do not have any sandbox. So we cannot connect that to sandbox because it's a production one. And we have to have a change board for that as well. So in order to do that and all, right? To make things right and controlled, that's the reason we want to get it done this week because our time has started here and we want to get things straightened up and show myself as well. So this week is something of a target. So just let's start. Understood, understood. Saeed, you wanted to say something? Yeah, Shrikant, so two things. One is just an FYI, we are meeting with our Workday team today and then Thursday again. So once we have kind of fine -tuned our timelines of what to do internally, Shrikant, probably we need to set up a meeting between us, our Workday team and Zuluri so we can plan things for integration. What are the requirements? What are the questions? So we can work on the actual integration piece. Second is we emailed Sachin regarding the Itsm integration and some improvements on that. So that is, we haven't got a response yet and he did tag Gaurav and yourself, if possible. Can you follow up on that as well? Because that is a fresh ask and we want to ensure it's kind of coupled.
+
+>>Mohammed Khan	33:52
+Got it. Fair enough, yeah. I'll do that. I'll check on that. You can let us know when you want that joint call with Workday and we can have that set up as well. Sure, you will hear from myself or Mohammad. So we are just waiting for our internal meeting And then I just wanted to give you a heads up. Thank you. Sure, thanks, Saeed. Yeah, Mohammad. No, I think Gaurav, you had your hand raised, so go ahead. Yes, yes. So Mohammad, I mean, just to make sure that we don't run into any sort of troubleshooting errors, which is what happened here, but otherwise creating the production instance this week shouldn't be a problem. It usually doesn't take that long, that is one.
+
+>>Gaurav J Chopra	34:28
+And I was also wanting to check whenever you have an update on the allowance of we integrating you with on the Slack instance, that would also be a great help. Because what happens is, otherwise, on the current internal channels, we're doing a lot of discussions. And I understand that, you know, some things are taking up time, but just to resolve that, if that's there, that will help. Otherwise, you already have our DL, which is which is being used.
+
+>>Mohammed Khan	34:57
+Yeah, so one of the updates, we cannot use our production Slack instance for that's our security policy that we cannot do it. So we do have our sandbox, not sandbox, our own instance, separate instance, like a team instance. We can definitely try to leverage that. It's just, you know, how Slack works. We need to keep switching and checking for stuff like because there's no notification coming from that specific organization. So we'll look into it. I need to work with Rod. We need to have Rod blessing and like security already said, like we cannot, I think Rod had the policy.
+
+>>Roderick Kaleho	35:35
+Yeah, I think we can, I think we can leverage that one that I indicated. Yeah. Yeah.
+
+>>Mohammed Khan	35:43
+So basically, Rod, before we connect, you know, Zuluri, invite Zuluri to it, what I'm going to do is like I have to actually clean that up because Sam has the admin set up for that. So I'll try to ask him to walk through or probably share the access so that I can actually connect to the our Octa sandbox, Zuluri sandbox, everything, you know, I want all the details to be structured properly. And then what I'm going to do, I'm going to, Srikant, send me the list of emails who should be the part of that group. Then I'll send an invite once I create the channel inside that one. Myself and Syed will start inviting folks from your team. So send me an email with all the list of users, list of your team members so that I can add. Another thing, just Shubham, just one second. One thing Syed said about the workday. So we are going to, like they already got the requirement doc that we asked them, like we asked you guys. So we'll go over that today. Once we wrap that up, like we have questions, we will jot down. That will be the agenda we will be setting up for our meeting. So we will send that details to you so you can set agenda so we can go over and clear things out because we do have some internal requirements from there. So that can be sorted out. So that is something we will be dealing. Second piece with the Itsm. So we need to have anything that's, just want to set one thing, anything that's going to hit till December. All of those requirements, like you have that listed. Can you please make that and share with us as well, saying that, OK, these are the items that we need to do within the 15 weeks period so that we want you guys to start from now, like, you know, all the works initiate now so that tomorrow we don't have any dependency saying that, hey, you didn't help us here, you didn't help us here.
+
+>>Mohammed Khan	37:33
+We will try to be as transparent as between you and our stakeholders and try to create that bridge so everything is right. So 15 weeks, anything in the 15 weeks period of time, list out the items, what are the things that you need to do, share it with us. We will find out who is the right resource to work And then we will have a call with the respective team. So you are on the track, we are on the track and they are on the track and nobody is surprised tomorrow. Is that OK? Makes sense. Makes sense. We'll do that. That'll definitely help both the teams to kind of be on track there. And yeah, I'll have that set up. Shubham, I'm sorry, you had something to say. Nothing much. I think you folks have already summarized it pretty well. Ashukanth, a request to you, if you can loop me in as well in that weekly invite mail, I would love to play the part so that we can fast track such debugging or like anything which might disrupt the flow, at least for the first, like, maybe three, four meetings. Once we have everything set up and running on production, I think you folks can take it up from there. Our second request to everyone on the call, if we can accommodate the second meeting of the week on Thursdays so that the team also gets at least one day to go deeper into the issue, do a bit of to and fro and give the week a proper closure so that next week we are looking at the next set of items. We agreed on Monday and Thursday, so that should be OK. Does the same thing work for everyone? 10 .30 a .m.? Let me double check my calendar. So can we avoid 10 .30 because we have our internal team stand up and since we're starting our work, there'll be some updates or questions coming from the team.
+
+>>Mohammed Khan	39:16
+So let's do 11 .00 a .m. I mean, right now, whatever the time is right now, I think that should work for us. Right, Seth? Because I just want to, because team will definitely have some things in
+
+>>Mohammed Khan	39:27
+The stand up and that's the reason I think regularly let's do 11 to 1130 of the cadence. Yeah you can put 1145 at least like 15 minutes if you want to drop 15 minutes early that's fine if you have nothing we can just um you know say that no updates for this week or something like that or just join and quickly drop so at least there's like kind of like a transparency across the board and uh Shubham very good to call out that you know um the things that happened just saying we were kind of disappointed with like the way the login flow wasn't working and team was really excited to have the experience it's it's kind of like you know first expression uh impression is the best impression right kind of like um uh kind of felt very you know I know I know I get that Yeah I get that But yeah understood completely understood Yeah Hence I'm trying to uh get into these issues a bit early then the team would have to escalate and then we have to step into picture maybe if we get to know about them a little early we would love to bridge for uh for this experience gap for you Folks Yeah Yeah That's exactly please if you could look into that because here experience matters a lot whether it's Okta or Lurie or any other tool um it's about like customer service is very key to the success no matter how good the product or bad the product could be or either ways customer service is very important because if you know what we are feeling and acknowledging to it and working on that particularly things is very is considered to be the highest priority here so just just letting you know um we had very no risk with other vendors
+
+>>Mohammed Khan	41:15
+But we just don't want that to happen again But you know just want to let you know I know it's a very unfortunate it's a technology uh something went right or wrong from our side as well But Yeah I just like having if there's something that we need to jump on a call let's jump on a call we we our priority is to get things set up as it needs to be and myself and said around the stake here So um you know what I mean Right so anything comes it will hammer us now I completely get that moment and you can rest assured that uh you know we're we're all working here for your success So um we're always there for any troubleshooting um just one more thing to just to make sure you know we're all aligned uh there's that uh business objective sheet that was shared with you uh just want to check in if you had a chance to uh you know go through that to fill in that or if you need us to get on a call to help you through that um because that will kind of also help us align our teams internally as to you know what your objectives are And you know we can we can just kind of make this process a little better and smoother for you I can say one thing to that we haven't started and the reason is basically okay So there are a few things we are solving a puzzle right now Okay right So the puzzle we know how to solve it But we haven't started that puzzle solution Yet okay we didn't start solving it So we are trying to put things together and see where it because Iga running a Iga program having a tool is good but running a program is kind of very challenging because you have to look from um microscope for all the needy greedy stuff and also you need to get aligned with the business and business requirements and at the end business drives it in simple words
+
+>>Mohammed Khan	42:57
+Right so that's what we trying to figure it out So we have a kickoff internally tomorrow And that's the reason I wanted those documentation if you could prioritize that And you know send those documentation because tomorrow they will what what do you mean we can say that hey they go boom period quiet no noise Right we we just want to be pre -prepared for any of those questions and that's the reason And you can ask Anugraha that we are always ahead of things like one step forward And she she might have noticed on that I'm not sure but we always come prepared with what we want what what our our objectives and all and try to stand on that because we know what our stakeholder will ask so we just want to have that ready in hand that tomorrow they ask we'll say there you go that's done that's that's one platform completed so once that this week give us a week time once we are done we will sit down and then review it and then probably start documenting as the business documentation that you shared Okay So just give us some time we we are just trying to you know that we receive from Zuluri this week.
+
+>>Shrikaant Iyer	44:06
+I completely get where you are and you know you can get completely lost into the puzzle when you're so involved but sometimes it just helps to take a step back and you know just look at the larger picture put that plan in place And then you know everything starts falling in place. Exactly. I know that can be that can be difficult when you're so involved into it right now But yeah no problem.
+
+>>Mohammed Khan	44:25
+We are so involved.
+
+>>Mohammed Khan	44:26
+We know what to do and how to do everything we know the only thing is that we need the leadership to say that okay do this one or do this or do that we know what are the things that we have to deliver but it comes from the leadership because they are the one who's who are talking to the hair above and all and they are the one who's going to talk we have to take the leads but we know what to do we also know how to do we also know what the business should do But we we have a our role is still here we cannot step out of our right
+
+>>Shrikaant Iyer	44:55
+So that's the piece you know makes complete sense just that you know these last minute requests can be avoided if we all you know have that plan in place and like like we promised you're also going to have your project plan created on rocket lane And we're going to guide you through that soon Yeah But you know just having that that information from you will also help us align internally no no 100
+
+>>Mohammed Khan	45:13
+And that's that's the reason i said right whatever is in your list of 15 weeks jot it down So at least right we know what are the things that we need to provide you so that can be a starting point
+
+>>Shrikaant Iyer	45:24
+Yeah
+
+>>Mohammed Khan	45:24
+Yes i don't want us to be in a place that we you guys say that we said 15 weeks but because of you guys it went to 20 weeks we don't want that to happen right that either you don't want that
+
+>>Shrikaant Iyer	45:36
+Either so um So Yeah We'll we'll send that across to you and uh i'm going to set up the next call for this thursday does that work for you yes
+
+>>Mohammed Khan	45:44
+And then it follows she can't um um one last question i I know we are exceeding the time or something like that But one last question very important regarding the training do you guys provide training to our like we so our im team needs training So we are going to give them a walkthrough like what are the objectives or So And then we want like you know to host a training session so that you know Anu Graha did a fantastic job and when we started the Poc she gave a complete deep dive like this is how you do this this this this is all right and all so having that would be an amazing um uh forever and also like for applications reviewing piece because access reviews our first piece so doing something for access review training for reviewers So it's it's going to be we want to record this and that as well and try to keep it internally for references in future how like you know just refer to this video this is how you do reviews this is how you do uh request approval this is how you request things kind of like different things make sense Make sense Yeah I'm going to be able to take that uh Yeah so uh Mamad all in plan uh so once you see the uh onboarding plan on the rocket lane tool or you will have all these things so what we've thought is And then you can tell us if that works for you uh we will do a one full round of training uh between the core people majorly you and syed
+
+>>Gaurav J Chopra	47:05
+And then maybe you can give us an idea on how many pieces do you want to break this into so there could be one major audience who could be on the requester part and there could be a few people who would be on the approver part and depending on which teams what roles they are into we can do it in like two three four Uh everybody's convenient so what we'll do is we'll do one full round with just these people here on the call And then we will decide how how do you want us to break it because it doesn't make sense uh to kind of do the entire training with all the users that you might have just for everybody's ease
+
+>>Mohammed Khan	47:33
+Yeah one thing just to add over there very important thing just in a fire Shrikhan our access request will not be available unless until we reach a threshold of application integrated Okay a certain threshold we won't be opening the doors for end user to come and request things till we reach that threshold so there's a boundary site so we want the training when the when we know that we will be hitting that boundary at that time at that time we need that okay because i don't want them to start now training And then they're like okay tomorrow after one or two months we do refresher training again for that and being in dilemma but what we would like is like access review is certainly an important key aspect and administrative training is important so admin admin training for internal team and also the application team because they will be definitely involved and working very closely of integration and integration from application side and admin team that's our team who will be setting up reviews who will be setting up onboarding automation onboarding automation and more workflow and everything so myself and say they're putting efforts on doing a complete architecture diagram of like how each segment needs to work and everything that based on our internal resource like requirements so there's plenty to be honest that's that's a lot to be honest it's it's very hard to explain
+
+>>Shrikaant Iyer	48:54
+But Yeah no I get that and that makes sense so we'll we'll basically uh factor in the access review part into the plan right now and maybe once we're closer to the threshold we can then plan the training for the access requests as well right
+
+>>Mohammed Khan	49:08
+Oh yeah perfect Yeah access review top priority And then admin is the first first training that we want Okay
+
+>>Syed	49:16
+I have a quick question regarding regarding the production tenant um right now we go to app dot slurry dot com right And then that kind of routes to our
+
+>>Syed	49:25
+Sandbox, how it's going to work with production. Because my understanding is production should be the same. App .zluri .com, right?
+
+>>Shrikaant Iyer	49:36
+Shyam GOLLAKOTA, do you guys want to take that?
+
+>>Gaurav J Chopra	49:43
+I don't think it would be the same. I do see Shyam is here on the call. But yeah, Anirudh is also here.
+
+>>Mohammed Khan	49:49
+Very good call out. I actually had that question. Thank you for bringing it up. So basically, app .zluri .com, we enter our email address at Article .com. Our domain is differentiating. Basically, the way your login works is domain is differentiating between the sandbox and the production. But our domain is constant and same for our sandbox as well as the production. How are you going to differentiate that?
+
+>>Anirudh Hindupur	50:15
+With the SAML configuration that you guys have is what you're saying?
+
+>>Mohammed Khan	50:22
+So SAML 1, yes, the URL will speak to it, saying that Article -sandbox .octopreview .com?
+
+>>Anirudh Hindupur	50:31
+Yes.
+
+>>Mohammed Khan	50:32
+Ok. But now, when you send us an invite link, right, there's a question for you. You send an invite link, we enter our email and a password. How are you going to say that this is not going to do changes to the sandbox instance? And also, I'm not able to differentiate whether I'm in a sandbox instance versus a production instance.
+
+>>Anirudh Hindupur	50:55
+For Zluri, the thing which matters is the URL which you have connected in the SAML. So that's how we can identify where the user is coming from and where the user is pointed to, basically. True point.
+
+>>Mohammed Khan	51:08
+What I'm challenging you with, that's a very true point that you said. My question now to you is, that's important for us to log in, right? When I come and enter on the app .com, I enter muhammad .muhammad .article .com and enter.
+
+>>Anirudh Hindupur	51:28
+Yeah.
+
+>>Mohammed Khan	51:29
+You say that the SAML assertion will play a role. I'm not logging to the sandbox file. I'm logging in via directly Sp initiated flow. I'm entering my email. So now, it will see two instances with the same email address. So which will be dominated? Which is the priority? And how do I differentiate between a SAML, sorry, a sandbox versus a production? I know the SAML one, how it works. But when I'm doing an Sp initiated, definitely, it's going to fire off the concern here that it kind of is split. There's a split in two. Because the domain.
+
+>>Syed	52:09
+I think the simple question is, how do you differentiate when we go to app .zlori .com and Muhammad .muhammad .article .com? How would it know to route to sandbox? Because this is an Sp initiated call. How would your backend know? Because the domain is same. How would it know where to route?
+
+>>Anirudh Hindupur	52:38
+Basically, if I'm trying to understand this question correct, you're trying to enter your email at app .zlori .com, right? And you want to understand how this is being navigated to the Okta page and like, say, how you're going to identify it, where it's going to redirect to.
+
+>>Syed	52:58
+Not exactly. So basically, there are two flows, right? One is Sp initiated. One is Idp initiated. Idp is the one which we will log into Okta .com And then we will click on Zlori tab and it will go to Zlori sandbox. We understand that. There is another flow. I know Muhammad is sharing the screen. If he goes to app .zlori .com and types his email address, it will, today, it's going to take him to the sandbox, Zlori. But when we have two environments and we are using the same username, because our domains are same, same username, how would the Sp route the call to sandbox versus production?
+
+>>Shrikaant Iyer	53:42
+Great. So basically, you guys, I mean, let me know if I got this right. You guys want your sandbox and your production instance running at the same time and you want to know what the domain or that login URL is going to be for the sandbox versus the production.
+
+>>Syed	53:57
+Well, not necessarily. We just want to understand from technical perspective. We are trying to get our heads clear that how it's going to route, how it's going to differentiate between sandbox and production. If you go through Sp initiated call. Idp, yes, because there are two different routing, sign on URLs, but Sp, how would it know? Because Sp is a common page, app .zlori .com. And it's one username, Saya .bacha .article .com.
+
+>>Syed	54:25
+And as soon as I put it, how would it know where to go, right?
+
+>>Anirudh Hindupur	54:29
+See, we do save the ACS URL which we have, right? It's going to be a different ACS URL for your Sandbox And it's going to be a different URL for your AWN prod, right? So the moment you enter your e -mail and for that particular org we can only have one ACS URL at a time. So that's how we can identify that whether it's going to be related to the prod or the Sandbox account.
+
+>>Syed	54:57
+But that ACS URL is going to be at the time when Idp makes a call, right? Then this, Sp is making a call. So the configuration is Sp tries to go and identify, oh, which Idp should I call? Should I call production? Should I call Sandbox?
+
+>>Anirudh Hindupur	55:13
+Yeah.
+
+>>Syed	55:14
+How is that decision being made? If that's being made by the domain, the domain is same for both.
+
+>>Anirudh Hindupur	55:20
+Not for the domain, like I said. The ACS URL is the thing which we use it for. The ACS URL is different for Sandbox and prod, right? In our Lurie setting space, there's going to be only one ACS URL.
+
+>>Syed	55:35
+Okay. So that means when we go to prod, then how are we going to use our Sandbox? It's a very good answer.
+
+>>Shrikaant Iyer	55:48
+You know what? Let me take this back to the team and let's figure this out, and I'll get back to you maybe on our next call on this. Maybe Shubham is the right person to answer this, but unfortunately he's traveling right now, so he's not able to respond on the call. Okay.
+
+>>Mohammed Khan	56:05
+Srikant, can you take a look at this one? This is what we wanted, is that when I come to app .lurie, that's what I mentioned here. We have like an AWS Sandbox, and also we have an AWS prod. I got my email, which is at article .com and at article .com. There's an Idp here, which is Idp prod, okay? Idp prod and Idp Sandbox.
+
+>>Shrikaant Iyer	56:29
+Right.
+
+>>Mohammed Khan	56:31
+How... I think we got your question, Mohammed and Syed.
+
+>>Gaurav J Chopra	56:33
+I'm very sure we got the question, and probably we do not have a response right away. Give us... like sometimes we will internally circle back and get back to you. I think we got the question.
+
+>>Shubham Goel	56:44
+Okay. Folks, I'll just give it a brief try. Sorry, I'm in slightly better network for two minutes. The diagram, if I can see it clearly, if we have the same email for two instances set up, basically two organizations, whereas our instance is a separate organization, we have our intermediate step or input box, which asks for the org slug. Right, Anirudh?
+
+>>Anirudh Hindupur	57:10
+Yeah, this is basically... They are basically talking about having the same organization and trying to use their prod instead of sandbox account. What we'll do is, since you have a sandbox as octa -configured, right? If you want to use your AWN prod, you'll have to create another org with slurry, and then, like, they configure the prod... And while prompting your email address, like Mohammed .mohammed .techpulp .com, it's going to ask for this slug, which we can identify for, whether it's going to be your sandbox or the prod one. That's how we can identify, and we'll reroute that user to that particular instance.
+
+>>Shubham Goel	57:56
+So you are saying that there will be a slug there where it will say that you have prod or sandbox? Yes, yes.
+
+>>Mohammed Khan	58:03
+Okay, yeah. If that is the thing, then that's fine, because, you know, we just wanted... Because that was our concern, but still, like, you know, if you can just write up or a small...
+
+>>Shubham Goel	58:12
+Sure.
+
+>>Mohammed Khan	58:12
+That will help.
+
+>>Shubham Goel	58:13
+So just to clarify, we already handle the cases where the same email is part of multiple instances, or let's say multiple orgs. Yes. Those cases to identify. Which organization do we need to pick? I think which was the original question you asked.
+
+>>Mohammed Khan	58:29
+Yes.
+
+>>Shubham Goel	58:30
+We request for an intermediate input, which is the org slug. Okay. Which is going to be unique, based on your sandbox or production environment.
+
+>>Mohammed Khan	58:38
+Makes sense. Makes sense.
+
+>>Shubham Goel	58:40
+And that will help us determine where to route to. Just as in the similar flow, which is Idp -initiated. In this case, in Sp -initiated, we request that slug. Cool?
+
+>>Mohammed Khan	58:51
+Yes. Now I got it.
+
+>>Shubham Goel	58:54
+Clarity is now that
+
+>>Mohammed Khan	58:55
+We... Perfect.
+
+>>Shubham Goel	58:57
+We will document it out for you, no worries.
+
+>>Mohammed Khan	59:00
+Yeah, I do see what you're saying, because, like, when you go to Okta support, right? When you go to Okta support, and I believe you guys are using Auth0, correct? Right? And Okta does use the customer identity. And when you try to log in here, it will ask you, like, which Snog you want to, like, continue with Okta Workforce, right? And then it's going to ask you like this, something like this, correct?
+
+>>Mohammed Khan	59:23
+If you can see my screen.
+
+>>Syed	59:26
+Yes, yes, and then as long as as long as you guys support both environments.
+
+>>Mohammed Khan	59:33
+Yeah, so say the flow is when we learn.
+
+>>Syed	59:37
+Understand my only concern was as long as it's not one or the other, it should be both.
+
+>>Mohammed Khan	59:43
+Yeah, it's going to give us a prompt to select which one you want to log in via symbolizer.
+
+>>Shubham Goel	59:49
+Yes, perfectly similar to what we are displaying on the screen.
+
+>>Syed	59:53
+Thank you.
+
+>>Mohammed Khan	59:54
+Yeah, thank you. Thank you.
+
+>>Shrikaant Iyer	59:58
+Thanks a lot.
+
+>>Mohammed Khan	01:00:00
+The summary of the call, so I just I will send it out. Thank you.
+
+>>Syed	01:00:07
+Thanks a lot.
+
+>>Shubham Goel	01:00:11
+Thanks team. Thanks a lot.
+

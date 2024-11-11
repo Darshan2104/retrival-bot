@@ -1,0 +1,270 @@
+>>Anupam Acharya	00:01
+We're just trying to see if we can connect with this.
+
+>>Anupam Acharya	02:54
+Yeah, I'll do that.
+
+>>Anupam Acharya	03:17
+He just said he sent a Dm saying running late, joining in five minutes.
+
+>>Divya Aphale	03:22
+That's all. Just came.
+
+>>Zluri	06:22
+Basically, I'm connected to the organizer. Can you hear it in here now?
+
+>>Divya Aphale	06:29
+Yes, I can hear you. Yeah.
+
+>>Zluri	06:34
+So, from here, it's connected to the organizer. I think that light is not working. Supposedly, it is. You have to press. We pressed it a long time ago. I just pressed it. I did as well.
+
+>>Zluri	09:23
+You pressed it as well, right?
+
+>>Zluri	11:23
+Hello Rajeevji, how are you? Hi Rajeev.
+
+>>Rajeev Mishra	11:31
+Hello. Hello.
+
+>>Zluri	11:33
+Yes, I am here.
+
+>>Rajeev Mishra	11:33
+Hi, how are you, all of you?
+
+>>Zluri	11:38
+All good Rajeev, thank you.
+
+>>Divya Aphale	11:40
+How are you doing?
+
+>>Rajeev Mishra	11:42
+All good, all good.
+
+>>Zluri	11:45
+Fantastic Rajeev.
+
+>>Rajeev Mishra	11:48
+Really sorry for joining late actually, I was in a call and that got extended.
+
+>>Zluri	11:53
+No worries at all. No worries. So today Rajeevji, firstly we would like to thank you for placing your trust in us to continue the association. And this time around we are very committed to make sure that we align your goals.
+
+>>Rajeev Mishra	12:12
+Anupam, your voice is not too clear for me. Oh, is it?
+
+>>Zluri	12:16
+Just give me a second. Am I audible now? Yes, this is better. Yeah, it's better.
+
+>>Rajeev Mishra	12:27
+Fantastic.
+
+>>Zluri	12:28
+So I was just saying that, you know, firstly we thank you for placing your trust in us and this time around we will make sure that we are able to align with your objectives and give you the value that you are looking for from Lurie. And, you know, there's a whole plan that has been charted out Rajeevji And we'd like to share that plan with you, get your alignment on that and also make sure that we are, you know, keeping the entire plan on track from both ends. So as part of the renewal commitment, we have also, we have Salpati, who has not met before, but Salpati is, you know, a recent solution engineering expert and he works critically with clients to ensure that he has a decade -year -old experience. Clients are able to use the platform and he will be working closely with the Agilent team to ensure that the goals are achieved. And we've also split down the goals based on our discussion in the past. The four criteria which we had spoken about on our Slack huddle, we've, you know, kind of broken that down and we are keeping that as part of the highlight to ensure that we are able to achieve the milestone in 60 days. So Rajeevji here, we have a small plan that we'd like to share with you. You know, it's an entire project plan that you've built and how in the next 60 days we're going to achieve that is what we'd like to walk you through. So primarily what I'd like to do is I'd like to hand over, you know, the call to Salpati.
+
+>>Zluri	14:11
+But before that, also Saurabh, you know, thank you for being part of this. Saurabh was very, you know, he's taken this hands -on and he has said that we have to make it work and he'll be overseeing the entire project very closely. So basically, Saurabh, anything you'd like to add? No, nothing. I mean, thanking on my behalf as well, Rajeev, for the partnership. Working with you basically helped me open up a lot of very good Itsm pain points and use cases for our other customers as well. I derived a lot of insight and it has helped us basically take the right direction working with IT and Itsm teams on spot pick point, pain point.
+
+>>Zluri	14:56
+Identity access management actually is right and we are working with a lot of customers now on similar space, right? This is important for us Atlantis will be at the center of this Movement that we are having in order to become, you know I am centric right that identity access management centric, right? So a lot is counting on us us for us as well. So we are deeply invested, right? I have brought you here as a dedicated solution engineer for Atlantis. We will work on this through and through With your team to set up all things, right once we do have a few questions and other things But I'll let Dalpati take you through the plan on how do we want to basically run this next 30 to 60 days of this basically full life With priority apps and then we'll go from there, right on how to basically do some of the things that we need on the Jira side as well Yeah in fact sort of during our call Rajesh was very kind to also mention that he's going to keep sharing his inputs. Yeah, and he's keen on seeing our growth as well So thank you for that. We'll be banking on that. We're going to call that upon Thanks, thanks Yes Thank you so much Anupam and Saurabh for introducing me and I'm glad to be onboarded on this project at this stage So I had a no understanding of the current challenges with Anupam and Saurabh also And based upon that I have created a plan for you Allow me to present my screen I'll take you through all the activities that we are going to do in the next couple of days What are we covering?
+
+>>Zluri	16:46
+And also then I'll update you know, share those queries or the questionnaires that we need your help around Right Let me know once my screen is visible Yeah Right, so I have divided the complete, you know, this implementation in couple of phases As of now we are sitting at kick -off call where we are talking about, you know, how the project is going around What are the activities and after that we will spend next couple of days. We have tomorrow, day after tomorrow or by this week We would like to have couple of more conversation understanding the full requirement, the scope in detail You know for every application that we are going to automate. What is the flow that you are following? What are the intermediate steps? What and all we should be covering? All those details We will capture And then you know we will align on that and then the next phases are basically implementation and testing that we will be doing parallelly So we will take one by one application. We will work on that solution and parallelly you know, I am going to do for you to check test whether the flow is working as per your expectations. On the similar implementation and testing we would need your help in figuring out, you know, if there are certain, you know, test users from your end who is going to start this whole journey. So as per current understanding I have listed out the applications that we understood is to be automated. There is Slack, Github, Jira Service Management, Jita Platform, Notion, Hubspot Google Workspace, Zoom and apart from that there are two more concerns that is about the accuracy of Netsheet data, which is certain Gn code has to be filtered out in the visibility.
+
+>>Zluri	18:36
+Also, we will have, we will cover, you know, contract mapping as well as the hierarchy setup organizational hierarchy setup So these all activities have been, you know, considered into the implementation We will deep dive into each of these activities, understand more around what is the, you know, exact challenge that needs to be solved and then we will work upon that and parallelly you will be able to test each of these steps one by one and this whole activity we will do for another month and by way of normal we should be able to cover all of this testing. After that we have kept, you know, couple of days, you know, to align whether we have completed all the tasks, if there are any kind of minor modifications that you see has to be done on the setup that we have done and finally we will, you know, align that things are complete and what are our next set of goals that we are looking at. So this is the whole plan and as per this plan, we will start working upon and then we will come around, you know, the next setup. So as a next step, I would say it would be a requirement gathering something. If you want to continue on that right away, you can answer all of those questions right away. We can start with that or otherwise, if you know, you feel that somehow
+
+>>Zluri	19:55
+The other team members are required to share their inputs, we can plan another session with them as well. Right. I would just give you a, you know, detail around what in all detail initially you would be required. Right. So for automating each of these applications, you know, in terms of like, I understand one of the major pain point is That automating JIRA tasks and the tickets that is raised. Right. So in terms of that, in the current solution, we will have to write certain automations within JIRA as well. So if there is going to be a, you know, admin with Jira, admin from your side, we can guide them and then we can, you know, work on those actions or another option is that you can enable admin access for us and then we can configure those automations from our side. So whichever way you prefer, we would like to know your thoughts on that accordingly. And also if we are going to get the access, you know, how much time it can take from your side to enable the access for us so that we can log in and take those actions. That is one of the thing. Similarly, for other tasks, you know, again, for if there is going to be any custom fields that you had created in JIRA that we also need to support along, you know, what are those fields we would like to understand. This is around the workflow automation. Around net -geo issues, you know, what are the, so I think there are, as of now, all the accounting entries, Gl codes are being pulled and what are the actual Gl codes that we need to look at, whether we need to filter out those details is something that is required. In terms of contract management, again, you would like to know how many contracts are there, what are the details on different types of contracts are there so that we can ensure, you know, we are capturing those details properly and then we will enable a person from our side to have all those contracts inserted into the system.
+
+>>Zluri	21:50
+So these are a couple of high level understanding we would like to know to begin with. If you can help us with that, we can quickly start, otherwise, if other members are required, we can again do that as well. So Rajat Ji, primarily, you know, there are four goals that we have taken post our discussion. Goal number one being, you know, first is the Jira automation that was critical for you. So we are going to be taking that up. In this, there is, again, like Talpati mentioned, would you want us to build it for you, Rajat Ji, or would you want someone to build it at your end and us to basically have a working session? What would you prefer, Rajat ji?
+
+>>Rajeev Mishra	22:34
+Cool. So I think here we have to set a right prioritization against the each task. That is the one which I'm thinking. So let's start with the things like what currently I have on top of my mind. So one thing like I'm just going to arrange a Jsm access management of our sandbox environment to you folks. Like you will have the full access kind of the things and you can play around there, whatever you want to do that in the one things. But before moving on a Jira, I would suggest if we can do the X for the contract management, especially from the application cost visibility point of view, like which we were struggling a lot in a past, right? So if I give you the number, like as of now, Atlan is using around the 160 something SASH tool where the 70 tool is based on the yearly contracts and the rest is the monthly contracts. So when you are saying contract, like for us, it's not a contract, I can say, like it's a kind of the, you can say the payment term, which we are using as of now, like if we are releasing a payment for the annual list, we are considering like it's an example for us. Otherwise, if the payment is detecting on a monthly basing based on the credit card or something, this company would like that's the consideration. But priority wise, the first thing is just we can sort it out the contract mapping, license mapping, and the annual calendar for these, these three things, especially because why I'm saying this one, because if we are going to automate the Jira task in terms of the access management, in terms of the access, like it's belong to all these two, and if we don't have the information in the security itself about these two, like it's a little bit hard for you even like to get that automated.
+
+>>Rajeev Mishra	24:40
+So, priority wise, let's start with the contract management timing, the cost visibility about the at least for the annual tools, which we have in our case, right, monthly I'm still trying to get the management.
+
+>>Zluri	24:54
+About 70.
+
+>>Rajeev Mishra	24:56
+About 70. I will say on the list.
+
+>>Zluri	24:58
+I want you to understand here, these contracts, you know, do we have, like the contracts or do we have invoices for them? Because what happens is, Lurie will rate that as the source of truth. And basis that, your team will basically update the entire details for all, all the contracts. So what we will request you is, if we can have money, we will try to send across the contracts to us. Our team will start setting it up till April 21st. We will also fill in the details, start date, end date, contract value, licenses, license cost, everything will get mapped and that can become a parallel activity running. So while, what we would also request is, if we could assign, maybe if Gopal is going to be the point of contact, let him own the piece from your end to send all the contracts first.
+
+>>Rajeev Mishra	25:50
+And definitely you will get all those information from a central place. So let me sing with the team, like where all these are restored and let me share the link with you. So let's, let's think like we will have the invoice only in a place, like if you are asking any contracts, the agreement, something like might be, we don't have, but the invoice portion like we have the, and we have to play around with that one. Okay.
+
+>>Rajeev Mishra	26:23
+Sorry to interrupt, but just wanted to understand the breakup of contracts and subscriptions once Rajeev, I lost the count. I couldn't hear you properly. So breakup of the contract, you mean like, Contracts with annual payment. I mean, yeah. And it's around 70 tool, which we have on our annual payment as of now. Okay.
+
+>>Divya Aphale	26:48
+And monthly?
+
+>>Rajeev Mishra	26:50
+Monthly rest, like 160 minus 70, you can calculate like rest is the monthly tool.
+
+>>Divya Aphale	26:55
+160 minus 70. Understood.
+
+>>Rajeev Mishra	26:57
+Yeah.
+
+>>Divya Aphale	26:58
+Thank you. Yeah.
+
+>>Rajeev Mishra	27:00
+Okay.
+
+>>Zluri	27:00
+And second, like we can play around with the access management, either we can run both So Rajeev, we can run it parallelly, so while the contract, we receive it and we are uploading it as a separate team, which is doing that for you, and we can parallelly run the access management along with it side by side, so that we can get to the vitamins faster.
+
+>>Rajeev Mishra	27:40
+Yeah, that's fine.
+
+>>Zluri	27:40
+I have also looked in Madhu here. Madhu has a lot of basically experience in here for more than two years now, in basically the spend management and SaaS spend management and optimization parts of our product, right? So he will be trying that side of requirements and use cases and optimization metrics with you.
+
+>>Rajeev Mishra	28:07
+Got it. Yeah. Makes sense.
+
+>>Madhu Malaranban N	28:08
+Hi Rajeev. Nice. Rajeevji, nice to meet you.
+
+>>Zluri	28:12
+Sorry, I didn't introduce Madhu. I'm sorry. I thought you would have met, because as old as Ankit is, Madhu is just as old as well. Sorry. My bad, Madhu. No problem. No problem. Finally, I got to meet Rajeevji.
+
+>>Madhu Malaranban N	28:27
+Yeah, Rajeevji, so I work with Saurabh and I closely work with Saurabh Dalpati, part of the solutions team. I lead the rest of the world solutions engineering team here. So we are completely aligned on the value that we are looking at. So there are four major value delivery points that we're looking at, and I'm here to chime in wherever I can, in terms of, you know, connecting the Netsuite integration, pulling only the required information of the Gl codes that you require to, I'll, you know, I'll be completely involved and be the go to person in terms of getting this connected and pulling the right information that support on the platform. And also in terms of having the contracts uploaded, as Anupam said, now, if you can enable us with a folder or A Google Drive where you can upload all these contracts and probably the subscriptions, right. So we can take that face by face and we have a dedicated contracts concierge team that can take that activity parallelly as well. And I'll also be involved with the access management, the Jsm automation activity, along with Dalpati to have this done seamlessly for you. And, you know, looking forward and we're very happy and it's a pleasure to collaborate with Atlan Rajivji in terms of delivering this project, probably making it a success.
+
+>>Rajeev Mishra	29:53
+Great.
+
+>>Rajeev Mishra	29:53
+Great, great, thanks, mother, thanks. Cool, so that's what the plan for the unform, like what I'm noting down as an action item at my end, so I'll sync with the team as of now, the two action item, one like the need to earn the access for our sandbox environment of the Jira, that's the one thing which I'm figuring out how I can get them. In the meanwhile, like if you can just pass the email ID like to whom we can grant the access, by the way, we will be ending up a solution like we can say at the one at an email ID with you for instead of granting on your domain, I think that would be fine for you, right?
+
+>>Zluri	30:35
+Yes, absolutely, absolutely, that should work, right? Yeah, that also, Rajivji, maybe a couple of test accounts for the applications that we will integrate with, because we'll be adding them, going them to test the access management, right?
+
+>>Rajeev Mishra	30:52
+Yeah, yeah, we can do that, we can do, that's not the problem, okay? So that's the one thing, second, like a central folder for the contract one, like second, which I'm noting down as an action item at my end, let me know, apart from this, like if anything else you are expecting from my side.
+
+>>Zluri	31:15
+Access for folders for contracts, so we'll treat basically the sandbox as our way to make two things that are needed, right? For example, Rajivji, we may need to add a categorization field, basically, right? What type of access request is this? Unless it is, it already exists, right? Because we'll have to bifurcate which playbook to call based on types of requests.
+
+>>Rajeev Mishra	31:41
+Got it, so in that case, like if I can share the team -wise, the onboarding docs, where we have the granular level of the, hey, this is the X application and they are looking to have the, these are the channels, these are the roles, kind of the things, I think that will help, right?
+
+>>Zluri	31:59
+Yes, yes, definitely. Another question on there was basically, what about workflows, right? For example, are there certain onboarding or access requests where it needs an approval from someone before it is provisioned? So, because we'll have to set that up also, they'll put that approval through also in the workflow.
+
+>>Rajeev Mishra	32:20
+Okay, so here, I think we have to break down into the two parts. One is like the onboarding or boarding, and the second is the regular access management. So I think first, let's sort out the onboarding and onboarding, and after that, like once it's in a place, at least the half of the things, like we can go for the access management, which is coming. Because access management, it's a kind of the, you can call out very dynamic in nature, like in some cases, like we are looking for approval in some cases, might be the IT is the approval in some cases, might be the reporting manager or the director, kind of the things, they are approvals. So I have to figure out, like it's not handy with me as of now, that's why I'm saying. Let's break this down into the two parts, and let's first target to close the onboarding one. After that, like once this is done, like I can work with the team together with this information and we'll share with you for the long run.
+
+>>Zluri	33:20
+Sounds good, sounds good, Rajeev. We also have Chaitanya here.
+
+>>Chaithanya Yambari	33:25
+Hi, Rajeev. Oh, sorry, I had another call until three, so I just wanted to join post three o 'clock. Everything, Rajeev, is the implementation plan according to what you're thinking for?
+
+>>Rajeev Mishra	33:37
+Yeah, as of now, like it's good, like I'm also excited. Let's see like how it's gonna finish as soon as possible.
+
+>>Chaithanya Yambari	33:45
+Yeah, and I've also asked the team to kind of, again, work with you on this project plan. I've also asked the team to share this particular project plan with you so that at any point in time, when you want to actually check the status of where we are, what's currently happening, and so you can just open the link and you can ask the team directly on any sort of these particular ticket items. Again, it's very similar to Jira's set of things as well. Maybe add a comment or something, hey, why is this getting delayed? Or what's the update on these particular things? So that it's very simple and easy for us to work, collaborate in one single place.
+
+>>Rajeev Mishra	34:16
+Yeah, that makes sense. Thank you so much.
+
+>>Zluri	34:18
+The visibility for this is also with Saurabh and Chaitanya on YouTube. So it's going to be looked through from a microscopic lens. So it'll all be on track, it'll be delivered, right?
+
+>>Chaithanya Yambari	34:33
+And the other thing, one other thing from my end, Azulrati, is that especially for Atran, I've set up, let's say, a biweekly cadence with the team to look into this particular implementation plan, understand if there are any blockers, if there are any blockers on different, again, different teams as well, right? So for this, we need some sort of, let's say, a small feature to be completed right now. For this, we might need some...
+
+>>Chaithanya Yambari	34:53
+Let's say, an action to be built or something else, I can prioritize those scenarios itself to ensure that we are actually keeping time. I'll also be closely monitoring this particular thing along with the team as well on this.
+
+>>Rajeev Mishra	35:02
+Great. Happy to hear this.
+
+>>Zluri	35:09
+Absolutely. What we'd also appreciate here is, if you can also assign from your team for each part. Obviously, for The Jira Service Management, while the team is building it, I think it would be nice if you can oversee this but for the other operational works which are there whom we need to collaborate with, you can just dedicate some person for each of these four pieces. That'd be very helpful. Communication becomes easier in case there is an issue less related to you, in case we are not getting the right support less related to you.
+
+>>Rajeev Mishra	35:44
+Yeah. Let me discuss with the team and expect the reply from my side by the end of this week, mostly on a Friday. I think it's a holiday, so mostly early Monday, you can expect from the reply from my side. But most probably, I'll come with all the detailed documentation which you are looking for, so that once we are setting and coming, we can have the right execution plan in a Monday.
+
+>>Zluri	36:18
+Perfect. That works, Rajeev. Also, just like I told you on the last call, for Netsuite, we want to just pull the Gl by 6500, which directly holds all the Sas pins. There is a process where currently, how we are working with all our global clients also is, that integration which first fetches the data, but within minutes, the entire data is first and only the 6500 GL code data is showing on the platform. Nothing else will show on the platform and that is something I also wanted Chaitanya to be here to give you that assurance, that no other data other than the Sas pins are going to be shown on the platform at any point.
+
+>>Chaithanya Yambari	37:06
+Rajeev, just getting a little bit more technical as well. We did implement a queryable filter itself directly, which can query on Netsuite data to get only the transactions which are filtered with Gl. But for Netsuite itself right now, on REST APIs, they are migrating to REST APIs right now. Their APIs itself are giving us the information, but when we tally this information right now, there are certain transactions that are currently getting missed. We've raised this particular issue with Netsuite. This is happening with, let's say, out of six customers right now with whom we've tested this particular thing as one, it has happened with four other customers over there. For all of these particular customers until Netsuite fixes this particular issue, so it's an issue with Netsuite itself, so because our customers have raised this, we've also raised this with Netsuite. Until Netsuite fixes this particular issue, what we've done is, the way that we usually do, especially for financial transactions, is that we're fetching all the data without any filters. On top of this data, we are applying the filter. Once we extract the data, we put all the raw data within 15 minutes of processing that information. So this data, there are two important things that we've taken up. One is the bucket that it actually lands as well is encrypted separately with every single tenant. So what we also internally do is that every single tenant will be created a key on AWS. So all the information is essentially encrypted with that particular key. This also separates that tenant by separation right now in this scenario. So A, this data will not be seen directly by anyone else because it's not free text or something else because it's not even in S3.
+
+>>Chaithanya Yambari	38:46
+And B, within 15 minutes of processing this data, this data is automatically purged. The raw data, the rest of all the data that we've actually got. So there will not be any particular scenario right now where someone can actually log in and check out this information over there. So this is the one that we've actually worked, are working with other clients as well on how we've built Netsuite integration. Again, because of certain limitations that are coming up on the REST APIs for Netsuite.
+
+>>Rajeev Mishra	39:10
+And is there any ETL like they have shared like by when?
+
+>>Chaithanya Yambari	39:14
+We are trying to push these particular things. Unfortunately, so last time when I met you, Rajeev, that's when I mentioned that, hey, this is sorted right now. You remember? So we did sort this out. We did roll this out for other clients and about a month and a half ago itself is when we found this issue with Netsuite. Some of the clients who we've actually gone live right now with this implementation came back saying, hey, we see certain transaction that's currently missing. So we thought there could be some implementation. We've tried it out. We were in contact with the Netsuite API team as well. But because Netsuite is such a large company as well, right now, the getting, let's say, feedback or constant responses from them has been a little bit of.
+
+>>Chaithanya Yambari	39:52
+Challenge. So we're expecting that we should close this out by the end of this quarter, but that's an internal target that we've actually put up. But again, it all depends on how much push that Netsuite team is able to close it out and fix their particular issues as well.
+
+>>Rajeev Mishra	40:10
+Got it. Yeah, makes sense. That's not the goal.
+
+>>Chaithanya Yambari	40:15
+So I've also mentioned again, mentioned this to Anupam as well saying, if you wanted this process documented on email so that I can send that across to you so that you have this. Yeah, definitely.
+
+>>Rajeev Mishra	40:25
+Might be we can end up with some kind of the Nsa agreement. So I'm not so like I have to check with the legal team for that, like how they could be processed, but might be we can end up with some of the documents to sign with the both parties.
+
+>>Chaithanya Yambari	40:40
+Because of this complication right now, I think we can sign the process document and along with affirmations on things like who's going to have access itself right now, when it's going to get this particular things, sign this up and then you can take this.
+
+>>Rajeev Mishra	40:52
+Got it. Okay.
+
+>>Zluri	40:56
+Okay, cool.
+
+>>Rajeev Mishra	40:57
+I think then we are all set here for the next journey. Let's see. Let's connect on a Monday. I'll share the calendar link with you like when we can connect on a Monday and we can just keep off this from the Monday itself. But I'm pretty sure most of the which we are looking like it's readily available at my end. So let me get the information from the team and come back to you.
+
+>>Zluri	41:22
+Fantastic. And there's just one more thing. You could just have a look at the confirmation email, because the team requires that to proceed with the paperwork on this. So if you can just share the confirmation email, it will be very helpful if you can share it today. Accordingly, the team and everything will work accordingly once we get your confirmation email. So we are awaiting that.
+
+>>Rajeev Mishra	41:50
+Yeah. Yeah. Allow me the two day time. I'll most probably ping you by morning, tomorrow morning.
+
+>>Zluri	41:57
+Sure. Sure. Absolutely.
+
+>>Rajeev Mishra	41:59
+Okay.
+
+>>Zluri	41:59
+Thank you. Thank you so much.
+
+>>Rajeev Mishra	42:01
+Cool.
+
+>>Zluri	42:02
+All right. All right. Thank you so much. Excited. Thank you.
+
+>>Madhu Malaranban N	42:08
+Thank you, Rajiv.
+
+>>Rajeev Mishra	42:12
+Thanks for waiting.
+
+>>Zluri	42:14
+Thanks, Jeff.
+

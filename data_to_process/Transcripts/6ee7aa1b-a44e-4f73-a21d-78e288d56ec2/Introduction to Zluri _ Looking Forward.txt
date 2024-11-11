@@ -1,0 +1,219 @@
+>>Prasham Jhaveri	00:01
+Hey Mauro. Hey, how are you? I'm doing great. How are you? Doing OK, doing OK. That's great. Thank you so much for joining. Really appreciate you removing time on Monday. I'll just quickly introduce myself. My name is Prasham and I work as a client consultant at Zillowry. Before we start off, I just want to maybe set the agenda for today's call. So, you know, we'll be mainly focusing on the use case challenge, definitely what made you reach out to Zillowry in the first place. And I have some questions for you around the topic, which will really help us to personalize the demo for the next call. That's a 45 minutes call. I would maybe, you know, take some time just from your end and my product expert can exactly show you how the tool really works and answer any of the technical questions that you have for us. So does it sound good to you?
+
+>>Mauro Cardarelli	00:49
+Yes, sounds fine.
+
+>>Prasham Jhaveri	00:51
+Perfect, perfect. So can I just give you a round of introduction? Definitely, you know, what's your role and what made you reach out to us?
+
+>>Mauro Cardarelli	01:00
+Sure. I work for a company called Converge Direct Llc. We've just become a new company as of March of this year. We merged with two different companies just prior to that. So that's the reason for the ask for management right now. What I'm being asked is to create a software application catalog, if you will, so that we can better manage the licensing, the budgeting, the shadow IT, you know, on and on and on. So we have two different platforms that got merged and we're working off of our main platform, which is Microsoft 365. We're completely online. We have no physical server infrastructure to speak about. We have a firewall and a couple of circuits going out. But for the most part, we're working on all SaaS based applications. With that being said, we have applications from the older company, the newer company, you know, and we'd like to get an understanding of where we stand, what applications are being used, how often are they being used, by whom, so that we can start getting everything collectively together. Now, the other aspect of it is we'd like to be able to tie in or integrate with our core applications, project management, we're leveraging Atlassian JIRA.
+
+>>Mauro Cardarelli	02:45
+From the financials, we'll be using Sage and Tac. And from HR, we have a product called Extensys HR. That's our HR product. And what we'd like to do is be able to look at our assets, if you will, our SaaS based assets and determine all of what I just described for you. And, you know, the reporting capability, the ability to look into, you know, from a financial perspective, from an actual management perspective, administrative perspective, you know, that's what we're looking to engage upon. And what brought us to you was me doing a search, in all honesty, because, you know, I wasn't familiar with this specific ask, I have used a product called Bettercloud, which is a product which, from my last company that I worked for. But Bettercloud is a much bigger platform. And it's more of an administrative platform on steroids for either Microsoft or Google. But it also has the ability to go out and, you know, find what applications are being used. And I believe it has the capability of doing what we're asking to do from a Saas management platform. But that's overkill for the ask right now. We're looking strictly to manage our, you know, vendors associated with applications, SaaS management. And if it does devices, that's great too.
+
+>>Prasham Jhaveri	04:28
+If it doesn't, it's not a deal breaker. Got it. Understood. Fine. Thanks. Thanks, Mauro. Thanks. That was explicitly very much brief enough for us to understand how your requirements can be fulfilled. And this is something that's really can help you out. I don't think it's any aspects that we cannot apply out. But the device part, I'm not sure if we can cater to that need itself. But apart from that, we can definitely help you to manage your vendors, your licenses, you know, your SaaS applications, a lot more.
+
+>>Prasham Jhaveri	04:58
+Respect to you know one of the others tomorrow what are the total number of maybe Sas applications in the ballpark number that you all will currently have no idea well that's the whole point of this exercise is trying to get our arms around what we have got it definitely and I do believe since you know this merger and acquisition is taking place right there will be new people getting on boarded and you would be having more employees already occurred
+
+>>Mauro Cardarelli	05:25
+But Yeah we will be getting new people on boarded And I'm sorry to interrupt But you're bringing up a good point because with those integrations we'd like to know if your product has you know some sort of workflow capability to assist with onboarding offboarding and at what level does it assist does it tie in to Adobe to Microsoft to Google and when you click release it a license will it automatically release it or do I have to do it manually these are the kinds of things I'd like to understand from your platform perfect perfect
+
+>>Prasham Jhaveri	05:58
+Yes I think you're at the right place for sure I would say I think you found the right bingo tool for you But yeah keeping that aside I would want to definitely help you to understand what's Lurie's right just one last minute for that one understand maybe right now right since there is a merger happening what are the total number of no
+
+>>Mauro Cardarelli	06:16
+No it happened already we're a brand new company now we March of this year we are converged direct Llc there is no merger everything's been cleaned up done they don't even exist anymore understood Okay So what are the total number of maybe employees y 'all would be currently having right now it's around 85 but that can go you know 85 to 100 it all depends on what which avenues we're gonna be taking moving forward what management plans on doing got it got it the reason to ask you right
+
+>>Prasham Jhaveri	06:54
+Is I'll come to that itself So first let me just give you a quick introduction about Lurie right so Lurie we are basically a software management tool you know definitely a SaaS management tool but not limited to only SaaS Right we have been working with 250 plus customers across the globe some of them are money .com Tripathi who blog where you have definitely have been received on the SaaS spending and SaaS cost now if I have to me just put in one -liner we basically help companies moving from SaaS chaos to SaaS governance now after speaking to a lot of IT leaders right we have understood that there are three modules that you know which Lurie tends to really focus and really help companies with respect to the problem statement that is there currently running in the market right firstly I would say is the IT cost management piece that is the Saas management piece where we definitely help you to give you visibility of your applications and tech stack definitely understanding what is the spending happening what is the usage you know how much access to these applications do the employees have depending department wise role wise how we want to take it forward along with that we also help you to manage your contracts your licenses you know the vendors that you're working with when your renewals are coming up and a lot more now one question definitely a lot of IT leaders and a lot of companies have been asking me that how do you do it right So Lurie we have an 800 plus API integration so we are the only tool by the way just we are the only tool in the market that is able to do a nine -step discovery method a discovery engine is very much more fabricated on a stronger basis in terms of integrating with your Sso your IDPs your Hrms agents you know your accounting systems your credit card management tool your Mdm in -house apps you know a lot more this would help us get granular level of information of you
+
+>>Prasham Jhaveri	08:40
+Know applications that you are really looking in terms of you know the real -time data which helps company to make decisions on a real -time basis so this is in terms of helping you to manage your applications you know bucketing them down you know unmanaged restrict applications especially when you know employees are not supposed to use these applications in the company and also you know help you to allocate the right budget of the applications department wise role wise how we want to take it home So it's a lot that I've speaking But it's would love for you to see exactly how the tool works in action secondly is the faster growth that is helping you automate on -boarding and off -boarding of employees or applications it's a zero -touch on -boarding and off -boarding you do not need to worry when employees are getting on -boarded the access is basically done through a platform and especially when they're getting off -boarded that is a time also we take revoke the access to maintain the security and confidentiality to be in place thirdly is improving security and compliance that is helping you with your access review piece your audit reports that may be compliance certifications that you are maybe in terms of looking to solve it so we help you to automate that also and help you to create a report through our platform itself so slurry is like a 360 degree visibility helping you to manage and make your tech stack on an easy level itself you know easy order them on
+
+>>Prasham Jhaveri	09:57
+Much better way
+
+>>Mauro Cardarelli	09:58
+And I would say we help you to automate it there is nothing manual as such depending also we do some of the feasibility checks of the applications but with respect that's something which my product expert can deep dive into deep dive into the next demo call that's there. Any questions? No Margo? Not at this point based on what you said can you give me a little background on you on your company how long you've been around we are also just to give you some insight we are in the advertising marketing branding sector so be interesting to know if you have anybody you know that is in the same business as clients that would be nice to know
+
+>>Prasham Jhaveri	10:43
+But if can you give me a little background on your company? Sure I mean we started off it's been It's just been around like three to four years that we have been starting this been in this market space right And we have been working with a lot of major clients in the US specifically we have been working with some of the advertising companies But I'm not able to recall the names right now But I can share it with you maybe right after this call also if that's okay with you or maybe Yeah take it on the next one But Yeah we have been working with one of the companies that I know is Vodfix that's a digital adoption company they have been you know helping companies adopt especially over the tools so we have been working with them they have been using our platform extensively and you know there have been a happy client to us
+
+>>Mauro Cardarelli	11:25
+That's that's one of them I can remember right now But yeah I can share the list with you maybe after this call. Excellent excellent Okay
+
+>>Prasham Jhaveri	11:32
+So you've been around for roughly about three forty years now? Yes that's right Yeah. And you were just as you haven't you know bought anybody this is your product from the ground up it was built by Zlury? It's built by Zlury Yes it's our own discovery engine you know it's fabricated in a much more stronger basis we have not you know in partnered or you know integrated with anyone for the discovery part itself
+
+>>Mauro Cardarelli	11:59
+Or maybe you know helping you understand how the tech stack works this is our own creation I would say and we have been recently you know featured in Gartner Mq 2024 report so it's a proud moment for us too that's the thing Yeah.
+
+>>Prasham Jhaveri	12:11
+Okay let me just check one other thing here before. Also I just wanted to you know clear one thing if that's okay with you Maro? Yes go ahead. So we have a minimum base price that we start off with and I definitely speak with you know with the eye a lot of leaders in the start of the call itself to be very much more respectful of time and the bandwidth they're spending with us so our minimum base price you know it starts from $12 ,000 for a year which would be including the Saas management piece and the access management. Now SaaS management would be you know helping you manage your applications in terms of visibility spend management you know helping you manage your contracts your vendors You know your licenses that you have and also the access management piece that would be you know helping you automate onboarding and offboarding of employees or applications.
+
+>>Mauro Cardarelli	13:00
+If you're definitely also looking to consider the access review piece that would be $3 ,000 more so all three of them would be costing you like for a minimum of $15 ,000 for a year so And
+
+>>Prasham Jhaveri	13:13
+Yeah that's what all three. And that would be based on the 100 is it based on let me step back is it based on user licenses or is it based on employees that are there in the company that's what the number of employees so these numbers are based on the fact that we have a hundred employees. Yeah so this is the minimum base price that's dead up to 150 after that it would be for employee pricing that's something which my product expert can be tell you in the next call but this is what I mentioned the pricing that I mentioned is still 150 so you don't need to worry till the time it's 150 employees you don't have to pay any single penny more than that But after that it would be like a poor employee pricing that's that's something which my product expert can deep down in the next call.
+
+>>Mauro Cardarelli	13:59
+Okay so yearly we're looking at what roughly about $15 ,000 you're saying?
+
+>>Prasham Jhaveri	14:06
+Yeah $15 ,000 all three modules if you're considering. Yeah all three modules Yeah And and from what I described we would require those three modules correct?
+
+>>Mauro Cardarelli	14:17
+Yeah the Saas management piece and access management is something that you would be requiring when it comes to access review I was going to come to that is that something so manually is that also challenge area you know how are you managing your audit reports that's because many companies do it yearly many companies do it quarterly depending on how struggling factors is we can definitely consider that point also Okay Excellent Okay So I'm not going to discard or disregard because of cost at this point I'd like to see the product I can't just say you know without actually looking at it and experiencing
+
+>>Prasham Jhaveri	14:56
+It.
+
+>>Mauro Cardarelli	14:56
+I mean it may be something that will blow me out of the water, you know, and I can bring it to management.
+
+>>Prasham Jhaveri	15:03
+Is it a little pricey? Yeah, you tend to be pricey. Okay. So that I completely understand, but you know, I'm not completely throwing the potential out at this point. I'd like to see what's offered. Definitely. I mean, I just, we're not one of the cheapest tools for sure, but we have providing the right value in terms of the ROI that companies have been looking for.
+
+>>Mauro Cardarelli	15:25
+That's the reason we have been a prize at this level. But yeah, I would want you to just clear this and start the call. Be very much more respectful of your time. That's, that's one of the reasons, But yeah, we'd love to show you the tool on the next call itself. That's okay. So you guys basically, if from my research and write me if I'm wrong, but your competition basically is Tory and Zylo. Is that correct?
+
+>>Prasham Jhaveri	15:51
+Yes, they are.
+
+>>Mauro Cardarelli	15:52
+Or maybe service desk now. I don't know. There's a bunch of them out there. Settle is another one. Are these all your competitors that I'm speaking of right now? Or do you, do you present yourselves at different levels?
+
+>>Prasham Jhaveri	16:12
+For instance, you know, maybe a settle, maybe they just do this stuff and they're very inexpensive, but you know, us, we do this stuff And we're at this level, you know, so we really don't compete with settle. You know, I'd like to know who your competitors are at this point. So yeah, definitely. The competitors that you mentioned, the Tories, Zylo, Productive, Lumos, they are our competitors, no doubt about it. Right. So one of the reason or what one slowly really differentiates from these other vendors is we basically specialize not only in SaaS management, not only in access management, not only in access review, we are strongly much more helping you out in all three areas itself. Now, a lot of other tools would be maybe, you know, stronger only in maybe the, you know, helping you with access management piece, they will be much more stronger. One tool would maybe just be stronger in the Saas management piece. So they just maybe specialize in specific areas. But Lurie as a tool, we specialize in all three modules itself. So you don't have to maybe go out of this tool to, you know, solve any of the challenges that you're facing, because these are the three major challenges that we have been speaking and trying to understand what is it exactly. But we help you to solve it under one umbrella, I would say. So that's that's one of the reason. Plus, we are, as I mentioned, Discovery Engine is too fabricated and we are doing a nine step discovery method.
+
+>>Mauro Cardarelli	17:38
+It's a deeper level of discovery, which no other vendor is able to do at this moment. But yeah, it's in a stronger area and we are having an 800 plus API integration. So, yeah.
+
+>>Prasham Jhaveri	17:49
+So your discovery tool, you have an applet that we can push through from our Mdm, for instance. How does that work? How do you discover the applications across all of the staff's devices? So we basically, for example, now I was going to come to that, you know, what is the what are you using a Google workspace on Microsoft? Do you have an Octa or a Jump cloud? Right. What is the you already mentioned about the Hrms tool that you are working with? So these tools, Zuri would be integrating with them. And through that, we will be able to grab the tech, the applications that you're working with. And accordingly, what is the tech stack within your company? So this is we are totally doing an API. We have a direct API integration basis that we work on.
+
+>>Mauro Cardarelli	18:33
+Apart from that, if there is, you know, applications that we are not able to integrate, we do a feasibility check, definitely on a back end. But there is a way out for that as well. And that's something which my product expert can tell you in the next call.
+
+>>Prasham Jhaveri	18:47
+Ok, fair enough. I didn't mean to go into depth right now, but OK, yeah, definitely. Let's set up a call and let's look at the product.
+
+>>Mauro Cardarelli	18:56
+And, you know, that'll give me a better idea how to, you know. Just one to two things I want to know, Mauro, from your end, if you don't mind. What is the ideal timeline that maybe you're looking to solve this challenge?
+
+>>Prasham Jhaveri	19:08
+Well, I have to tell you, it's as soon as possible because we're in the budgeting phase right now.
+
+>>Mauro Cardarelli	19:13
+We have to get numbers aligned for compliance before the end of the year. So this is something of a timely issue. So I believe the budget is still not set. You will be setting a budget for this project, I believe, right? Well, no, no, No.
+
+>>Prasham Jhaveri	19:26
+This will be purchased in order so that we can get a better fix on what we need to budget on from a SaaS applications management.
+
+>>Mauro Cardarelli	19:35
+This is outside of the budgeting. This is something that we need. So, have you allocated any separate budget for this project right now? Or if it was.
+
+>>Prasham Jhaveri	19:45
+No, I was just asked to look into it at this point. And that's I'm going to go back. I'm investigating right now and I have to bring back the information. So as soon as I do, I'll get.
+
+>>Prasham Jhaveri	19:55
+A better insight as to what we're looking at as far as the spend. I understand. I understand.
+
+>>Mauro Cardarelli	20:01
+And, Mauro, I do believe you are one of an important point of contact for, you know, procuring a tool maybe like Lurie or any other tool for sure, but is there any other stakeholder that would be also involved or is it majorly going to be you who's going to make the decision for this tool? Well, I'm, well, I'm the person involved, I'm the IT person here. So, and I report into the COO who requested this. I would be solely the party that the contact and the person working on getting this up and running. As far as decision -making, it would be me and my COO. Okay. So, he really has, you know, the final decision based on what I tell him, you know, and he'll financially justify, you know, or de -justify the fact that, you know, too much, too little, you know, but we have to show them the substance.
+
+>>Prasham Jhaveri	20:53
+Definitely. Definitely. I can't tell him it's going to be 15th at, well, what does it do?
+
+>>Mauro Cardarelli	21:00
+For sure. For sure. Also, if I may understand, you know, like I do believe you would be maybe evaluating other vendors, are there any other vendors that you're looking at the moment apart from Lurie? Well, I mean, again, we're looking at, like I said, I, this is my first foray into looking at products like this. So, I just did a web search. I'm looking at Gartner.
+
+>>Prasham Jhaveri	21:21
+I'm looking at this. I do whatever, you know, needs to be done.
+
+>>Mauro Cardarelli	21:25
+I looked at something called Ovix, something called Settle. I'm looking at you guys. I'm looking at Zylo. And I don't want to look into any more, to be honest with you, because now I'm getting overwhelmed. But I do see the differences in that there's more potential in certain products than others You know, there are certain products that are just focused on this and this is all they do.
+
+>>Prasham Jhaveri	21:53
+You know, and even within their tool, they don't have onboarding, offboarding figured out yet.
+
+>>Mauro Cardarelli	21:59
+So, again, I'm looking at various options to see what fits better with us. Definitely. Definitely. I just want to understand that maybe if you have looked at tools already, you know, some things that you would expect the gap to be filled by Lurie, that's one of the prime reasons for me to ask.
+
+>>Prasham Jhaveri	22:13
+Yeah. Yeah. And I'm still in the midst of looking. I mean, this is just in the past week, you know, and there was a weekend involved.
+
+>>Mauro Cardarelli	22:21
+So I haven't really hit the ground running yet, you know, so to speak. Definitely.
+
+>>Prasham Jhaveri	22:27
+Definitely.
+
+>>Mauro Cardarelli	22:28
+For sure. One thing is, Mauro, sorry. Sorry for that. Yeah. Just last thing. Are you Google Space or Microsoft right now? We're Microsoft predominantly. That's our main platform. We have a Google platform that, you know, I don't want to call it legacy, but because we're in the advertising world, there are tools that Google offers on their platform, which we need to function.
+
+>>Prasham Jhaveri	22:54
+Ok.
+
+>>Mauro Cardarelli	22:55
+So that's why we have both platforms.
+
+>>Prasham Jhaveri	22:58
+But the Microsoft one is our platform of authenticity. Got it. Fine. I think I'm done with my set of questions. Any questions, Mauro, before I maybe take your time, sir, from your end for the demo call? No, no.
+
+>>Mauro Cardarelli	23:09
+I'll have them for when we have our next meeting.
+
+>>Prasham Jhaveri	23:12
+Sure. Definitely.
+
+>>Mauro Cardarelli	23:13
+Can I maybe... Can you help me out with some time slots? I can, you know, shoot the meeting invite after this call.
+
+>>Prasham Jhaveri	23:19
+Maybe 45 minutes would be preferable. How much time do you think we'll need?
+
+>>Mauro Cardarelli	23:25
+45 minutes. 45 minutes. So if we look at tomorrow, will tomorrow work for you? Let's see.
+
+>>Prasham Jhaveri	23:31
+Tomorrow, maybe I have back -to -back calls. Any other day apart from that you don't mind?
+
+>>Mauro Cardarelli	23:37
+Let's see. Let's see. Wednesday.
+
+>>Prasham Jhaveri	23:41
+Is Wednesday open for you, pretty much, or? Sure. Just one second.
+
+>>Mauro Cardarelli	23:46
+I'll just check.
+
+>>Prasham Jhaveri	23:48
+Where are you based out of? Sorry, which... New York. Eastern time slot. Company's also based in New York, sir? I'm sorry?
+
+>>Mauro Cardarelli	23:57
+Your company's based in New York? Our company's based in New York, yes. Ok. Ok. Got it. Fine. Just one second. Yeah. When is there any particular time slot, you know?
+
+>>Prasham Jhaveri	24:11
+I have for Wednesday, the 9th, I have 10 .30.
+
+>>Mauro Cardarelli	24:20
+I'm available between 10 .30 and 12 right now.
+
+>>Prasham Jhaveri	24:26
+10 .30 to 12. Ok. Sure. And any other time slot? And I have anywhere from one to three. One to three. Ok.
+
+>>Mauro Cardarelli	24:41
+And any other day, just in case something is clashing tomorrow, I can go ahead and reschedule it in case. I would also love to invite, you know, another stakeholder who's evaluating the project.
+
+>>Prasham Jhaveri	24:54
+This too. I would love to invite him as well. Yeah, on the 10th, I have 10 o 'clock And I have 1 .30 to 3. Perfect. Perfect. Fine. I think that should work. I will shoot the meeting invite right away for this call.
+
+>>Mauro Cardarelli	25:12
+I am really sorry to take five to six minutes extra of your time past the meeting schedule, but thank you once again for joining. Really appreciate it. It was great conversation. Looking forward to the demo call and yes, thank you. Thank you once again. Thank you, sir. I appreciate it. Thank you, Mauro. Have a great day. Bye -bye.
+
